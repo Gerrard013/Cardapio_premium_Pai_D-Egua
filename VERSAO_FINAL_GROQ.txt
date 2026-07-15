@@ -1,0 +1,5 @@
+PAI D'ÉGUA CARDÁPIO PREMIUM — ULTRA FINAL GROQ DEPLOY
+Versão: 7.0.0
+IA: Groq via Netlify Function
+Segurança: chave somente em variável de ambiente
+Fallback: recomendação local quando a API não responder

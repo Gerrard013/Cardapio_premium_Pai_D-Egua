@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cardapio-premium-g-tech.netlify.app/sitemap.xml

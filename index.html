@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#5a0c15">
+  <meta name="color-scheme" content="light">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="author" content="G Tech | Innovation & Solutions">
+  <meta name="description" content="Conheça o cardápio da Pai D'Égua, escolha sua unidade e faça seu pedido de forma rápida pelo canal oficial.">
+  <link rel="canonical" href="https://cardapio-premium-g-tech.netlify.app/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Pai D'Égua">
+  <meta property="og:title" content="Pai D'Égua | Cardápio Digital e Pedidos">
+  <meta property="og:description" content="Pizzas artesanais, entradas, massas, combos, sobremesas e bebidas. Peça pelo canal oficial.">
+  <meta property="og:url" content="https://cardapio-premium-g-tech.netlify.app/">
+  <meta property="og:image" content="https://cardapio-premium-g-tech.netlify.app/assets/img/social/og-paidegua.webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Pai D'Égua — Cardápio Digital e Pedidos">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pai D'Égua | Cardápio Digital e Pedidos">
+  <meta name="twitter:description" content="Explore o cardápio e faça seu pedido pelo canal oficial.">
+  <meta name="twitter:image" content="https://cardapio-premium-g-tech.netlify.app/assets/img/social/og-paidegua.webp">
+
+  <title>Pai D'Égua | Cardápio Digital e Pedidos</title>
+  <link rel="icon" href="icons/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preload" as="image" href="assets/img/hero/hero-pizza.webp" type="image/webp" fetchpriority="high">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/modelo-2.css">
+  <link rel="stylesheet" href="assets/css/ultra-final.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Pai D'Égua — Pizzas Artesanais",
+    "url": "https://cardapio-premium-g-tech.netlify.app/",
+    "image": "https://cardapio-premium-g-tech.netlify.app/assets/img/social/og-paidegua.webp",
+    "servesCuisine": ["Pizza artesanal", "Culinária paraense"],
+    "menu": "https://cardapio-premium-g-tech.netlify.app/#cardapio",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. dos Mundurucus, 1427",
+      "addressLocality": "Belém",
+      "addressRegion": "PA",
+      "postalCode": "66033-716",
+      "addressCountry": "BR"
+    }
+  }
+  </script>
+</head>
+<body class="modelo-2">
+  <div class="scroll-progress" aria-hidden="true"><span id="scrollProgressBar"></span></div>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <svg class="svg-sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.8 12 3l9 7.8v9.7a.5.5 0 0 1-.5.5H15v-6H9v6H3.5a.5.5 0 0 1-.5-.5v-9.7Z"/><path d="m1.5 12 10.5-9 10.5 9"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><path d="M6 8h12l1 13H5L6 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M20.5 11.6a8.5 8.5 0 0 1-12.6 7.5L3 20.5l1.4-4.7A8.5 8.5 0 1 1 20.5 11.6Z"/><path d="M8.1 7.5c.2-.5.4-.5.8-.5h.5c.2 0 .4.1.5.4l.7 1.7c.1.3.1.5-.1.7l-.6.8c-.2.2-.2.4-.1.7.4.8 1 1.5 1.8 2.1.7.5 1.4.8 1.8 1 .3.1.5.1.7-.1l.9-1c.2-.3.5-.3.8-.2l1.7.8c.3.1.5.2.5.4.1.2.1 1-.2 1.7-.3.8-1.7 1.5-2.4 1.6-.6.1-1.5.2-3.9-.8-3.2-1.4-5.2-4.7-5.4-4.9-.2-.2-1.3-1.8-1.3-3.4 0-1.6.8-2.4 1.1-2.8Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="18" r="3"/><circle cx="18" cy="6" r="3"/><path d="M8.5 16.5c2-1.5 1-4 3-5.5s3.5-.5 4.5-2.5"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19"/></symbol>
+    <symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="m15 5-7 7 7 7"/></symbol>
+    <symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-minus" viewBox="0 0 24 24"><path d="M5 12h14"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.7 10.7 6.6-4.4M8.7 13.3l6.6 4.4"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-chevron-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  </svg>
+
+  <header class="site-header" id="inicio">
+    <div class="shell header-inner">
+      <button class="brand-button" type="button" data-scroll-target="inicio" aria-label="Voltar ao início">
+        <span class="brand-mark" aria-hidden="true"><img src="assets/img/brand/logo-paidegua-oficial.png" alt=""></span>
+        <span class="brand-copy"><strong>Pai D'Égua</strong><small>Pizzas Artesanais</small></span>
+      </button>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <button type="button" data-scroll-target="experiencias">Experiências</button>
+        <button type="button" data-scroll-target="promocoes-delivery">Promoções</button>
+        <button class="nav-extra" type="button" data-scroll-target="eventos">Eventos</button>
+        <button class="nav-compact" type="button" data-scroll-target="cardapio">Cardápio</button>
+        <button type="button" data-scroll-target="unidade">Unidades</button>
+        <a class="nav-order" data-order-link href="https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=" target="_blank" rel="noopener noreferrer">Pedir agora</a>
+      </nav>
+      <button class="icon-button header-share" id="shareButton" type="button" aria-label="Compartilhar cardápio">
+        <svg><use href="#i-share"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="shell hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Cardápio digital oficial</p>
+          <h1 id="hero-title">Pai D'Égua: sabor artesanal em cada experiência</h1>
+          <p class="hero-subtitle">Escolha entre delivery, retirada express ou salão, descubra as promoções da semana, entre no Grupo VIP e acompanhe também o universo Pai D'Égua Burger Artesanal pelos canais oficiais.</p>
+          <div class="hero-mode-line" aria-label="Formas de aproveitar a Pai D'Égua">
+            <span>Delivery</span><span>Pizza Express</span><span>Salão</span><span>Eventos</span><span>Burger Artesanal</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-primary" data-order-link href="https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=" target="_blank" rel="noopener noreferrer">
+              <svg><use href="#i-bag"/></svg> Pedir agora
+            </a>
+            <button class="button button-secondary" type="button" data-scroll-target="cardapio">
+              <svg><use href="#i-menu"/></svg> Ver cardápio
+            </button>
+          </div>
+          <div class="quick-actions" aria-label="Ações rápidas">
+            <a class="quick-link" data-whatsapp-link data-whatsapp-context="hero" href="https://wa.me/5591982486925?text=Ol%C3%A1%21%20Vim%20pelo%20Card%C3%A1pio%20Digital%20da%20Pai%20D%27%C3%89gua%20e%20gostaria%20de%20fazer%20um%20pedido.%20Minha%20unidade%20selecionada%20%C3%A9%20Coqueiro." target="_blank" rel="noopener noreferrer">
+              <svg><use href="#i-whatsapp"/></svg><span>WhatsApp</span>
+            </a>
+            <a class="quick-link" data-maps-link href="https://maps.google.com/maps?vet=10CAAQoqAOahcKEwjI_IGIjMmVAxUAAAAAHQAAAAAQCQ..i&rlz=1C5GCEA_enBR1160BR1161&fvr=1&pvq=Cg0vZy8xMWM2X2I1ajZtIhoKFHBpenphcmlhIHBhaSBkJ8OpZ3VhEAIYAw&lqi=ChRwaXp6YXJpYSBwYWkgZCfDqWd1YUjTgYv1m6uAgAhaJhAAEAEQAhADGAAYARgCGAMiFHBpenphcmlhIHBhaSBkIMOpZ3VhkgEQcGl6emFfcmVzdGF1cmFudA&cs=1&um=1&ie=UTF-8&fb=1&gl=br&sa=X&ftid=0x92a461a9e865c1f1:0x785d681e5b5c481f" target="_blank" rel="noopener noreferrer">
+              <svg><use href="#i-pin"/></svg><span>Localização</span>
+            </a>
+            <a class="quick-link" data-instagram-link href="https://www.instagram.com/pizzariapaidegua16?igsh=cHdudzI5cGl3NWEw" target="_blank" rel="noopener noreferrer">
+              <svg><use href="#i-instagram"/></svg><span>Instagram</span>
+            </a>
+            <a class="quick-link" data-bio-link href="https://bio.site/paidegua" target="_blank" rel="noopener noreferrer">
+              <svg><use href="#i-share"/></svg><span>Canais oficiais</span>
+            </a>
+            <a class="quick-link" href="https://chat.whatsapp.com/7Zkzl1HbS2N4WjpePXoYbW" target="_blank" rel="noopener noreferrer">
+              <svg><use href="#i-whatsapp"/></svg><span>Grupo VIP</span>
+            </a>
+          </div>
+          <div class="selected-unit-mini" id="selectedUnitMini" aria-live="polite">
+            <svg><use href="#i-pin"/></svg>
+            <span><small>Unidade selecionada</small><strong>Coqueiro</strong></span>
+            <button type="button" data-scroll-target="unidade">Trocar</button>
+          </div>
+        </div>
+        <div class="hero-visual reveal" aria-label="Pizza artesanal da Pai D'Égua">
+          <img src="assets/img/hero/hero-pizza.webp" alt="Pizza artesanal da Pai D'Égua" width="1600" height="1000" fetchpriority="high" decoding="async">
+          <div class="hero-badge"><span>Produção</span><strong>artesanal</strong></div>
+          <div class="hero-caption"><strong>Sabor paraense</strong><span>feito para compartilhar</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Vantagens do cardápio digital">
+      <div class="shell trust-grid">
+        <div><svg><use href="#i-check"/></svg><span>Pedido pelo canal oficial</span></div>
+        <div><svg><use href="#i-check"/></svg><span>Localização direta no Maps</span></div>
+        <div><svg><use href="#i-check"/></svg><span>Experiência rápida no celular</span></div>
+        <div><svg><use href="#i-check"/></svg><span>Grupo VIP com promos exclusivas</span></div>
+      </div>
+    </section>
+
+
+    <section class="section brand-universe-section" id="universo-paidegua" aria-labelledby="universe-title">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Universo Pai D'Égua</p>
+            <h2 id="universe-title">Mais do que uma pizzaria: uma marca que cresce com experiência.</h2>
+          </div>
+          <p>A marca reúne a tradicional <strong>Pai D'Égua Pizzas Artesanais</strong> e também a frente <strong>Pai D'Égua Burger Artesanal</strong>, fortalecendo presença, comunidade e canais oficiais.</p>
+        </div>
+        <div class="brand-universe-grid">
+          <article class="brand-universe-card">
+            <span class="pill">Pizzaria</span>
+            <h3>Pai D'Égua Pizzas Artesanais</h3>
+            <p>Delivery, retirada express, salão, eventos, promoções da semana e links diretos para pedido oficial.</p>
+            <div class="brand-universe-actions">
+              <a class="button button-primary" data-order-link href="https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=" target="_blank" rel="noopener noreferrer">Pedir pizza</a>
+              <a class="button button-secondary" href="https://chat.whatsapp.com/7Zkzl1HbS2N4WjpePXoYbW" target="_blank" rel="noopener noreferrer">Entrar no Grupo VIP</a>
+            </div>
+          </article>
+          <article class="brand-universe-card">
+            <span class="pill">Burger</span>
+            <h3>Pai D'Égua Burger Artesanal</h3>
+            <p>Frente de hambúrguer artesanal conectada ao ecossistema da marca. O acesso às novidades e canais oficiais fica centralizado no Bio Site.</p>
+            <div class="brand-universe-actions">
+              <a class="button button-primary" data-bio-link href="https://bio.site/paidegua" target="_blank" rel="noopener noreferrer">Ver canais oficiais</a>
+              <a class="button button-secondary" data-instagram-link href="https://www.instagram.com/pizzariapaidegua16?igsh=cHdudzI5cGl3NWEw" target="_blank" rel="noopener noreferrer">Acompanhar Instagram</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ultra-section experience-section" id="experiencias" aria-labelledby="experience-title">
+      <div class="shell">
+        <div class="ultra-heading ultra-reveal">
+          <div>
+            <p class="ultra-kicker">Escolha sua experiência</p>
+            <h2 id="experience-title">Três caminhos. O mesmo sabor artesanal.</h2>
+          </div>
+          <p>Delivery, retirada rápida ou salão: a navegação se adapta ao que o cliente quer fazer agora.</p>
+        </div>
+        <div class="experience-shell ultra-reveal">
+          <div class="experience-tabs" id="experienceTabs" role="tablist" aria-label="Formas de atendimento"></div>
+          <div class="experience-panel" id="experiencePanel" role="tabpanel" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ultra-section promo-section" id="promocoes-delivery" aria-labelledby="promo-title">
+      <div class="shell">
+        <div class="ultra-heading ultra-reveal">
+          <div>
+            <p class="ultra-kicker">Exclusivas do delivery</p>
+            <h2 id="promo-title">Cada dia, um motivo novo para pedir.</h2>
+          </div>
+          <p>As campanhas ficam separadas do salão e ganham destaque para facilitar a decisão e acelerar o pedido.</p>
+        </div>
+        <div class="promo-scroller" id="promotionScroller" aria-label="Promoções da semana"></div>
+        <p class="promo-note ultra-reveal"><strong>Atenção:</strong> promoções válidas exclusivamente no delivery, nos dias indicados e conforme regras, disponibilidade e área de atendimento da unidade.</p>
+      </div>
+    </section>
+
+    <section class="section ultra-section signature-section" id="carro-chefe" aria-labelledby="signature-title">
+      <div class="shell signature-grid">
+        <div class="signature-media ultra-reveal">
+          <img src="assets/img/produtos/pizzas-especiais/pizza-sabor-buteco.webp" alt="Pizza Sabor de Boteco da Pai D'Égua" loading="lazy" decoding="async">
+          <span class="signature-number">01</span>
+        </div>
+        <div class="signature-copy ultra-reveal">
+          <p class="ultra-kicker">Carro-chefe em destaque</p>
+          <h2 id="signature-title">Sabor de Boteco</h2>
+          <p>Uma pizza de identidade paraense, com combinação marcante e presença de destaque no cardápio Pai D'Égua.</p>
+          <div class="signature-ingredients" aria-label="Principais ingredientes"><span>Charque desfiado</span><span>Macaxeira frita</span><span>Cebola roxa</span><span>Muçarela</span></div>
+          <div class="signature-actions">
+            <a class="button button-primary touch-feedback" href="https://pedido.anota.ai/product/63d96e925b52008112c710d8/0/paideguapizzasartesanais?o=a" target="_blank" rel="noopener noreferrer"><svg><use href="#i-bag"/></svg>Pedir esta pizza</a>
+            <button class="button button-secondary touch-feedback" type="button" data-ultra-scroll="mais-pedidas"><svg><use href="#i-chevron-right"/></svg>Ver mais pedidas</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ultra-section express-section" id="pizza-express" aria-labelledby="express-title">
+      <div class="shell">
+        <div class="express-card ultra-reveal">
+          <div class="express-content">
+            <p class="ultra-kicker">Retirada rápida</p>
+            <h2 id="express-title">Pizza Express Pai D'Égua</h2>
+            <p>Sabores fixos, pizzas inteiras e uma operação organizada para levar o pedido ao forno assim que ele é confirmado.</p>
+            <div class="express-timer"><svg><use href="#i-clock"/></svg><span><strong>Retirada estimada em cerca de 5 minutos</strong><small>após confirmação da unidade</small></span></div>
+            <small class="express-note">Tempo sujeito ao movimento, à disponibilidade dos sabores e à confirmação pelo atendimento.</small>
+            <a class="button button-whatsapp touch-feedback" data-ultra-whatsapp data-message="Olá! Vim pelo Cardápio Premium e quero confirmar os sabores e a disponibilidade da Pizza Express." href="#" target="_blank" rel="noopener noreferrer"><svg><use href="#i-whatsapp"/></svg>Confirmar Pizza Express</a>
+          </div>
+          <div class="express-media">
+            <img src="assets/img/hero/hero-pizza.webp" alt="Pizza artesanal pronta para retirada express" loading="lazy" decoding="async">
+            <div class="express-stamp">Rápida na retirada. Artesanal no sabor.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ultra-section top-ten-section" id="mais-pedidas" aria-labelledby="top-ten-title">
+      <div class="shell">
+        <div class="ultra-heading ultra-reveal">
+          <div>
+            <p class="ultra-kicker">As escolhas que chamam atenção</p>
+            <h2 id="top-ten-title">10 mais pedidas</h2>
+          </div>
+          <p>Uma vitrine rápida para quem quer decidir com confiança e ir direto ao pedido.</p>
+        </div>
+        <div class="top-ten-grid" id="topTenGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section unit-section" id="unidade" aria-labelledby="unit-title">
+      <div class="shell">
+        <div class="section-heading compact">
+          <div>
+            <p class="eyebrow">Escolha onde pedir</p>
+            <h2 id="unit-title">Sua unidade Pai D'Égua</h2>
+          </div>
+          <p>A escolha fica salva neste aparelho e acompanha os botões de pedido e contato.</p>
+        </div>
+        <div class="unit-layout">
+          <div class="unit-picker-card">
+            <label for="unitSelect">Unidade disponível</label>
+            <div class="select-wrap">
+              <select id="unitSelect" aria-describedby="unitHelp"></select>
+              <svg aria-hidden="true"><use href="#i-chevron-down"/></svg>
+            </div>
+            <p id="unitHelp" class="field-help">A unidade escolhida atualiza os botões de pedido, WhatsApp e localização automaticamente.</p>
+          </div>
+          <article class="unit-details-card" id="unitDetails" aria-live="polite">
+            <div class="unit-icon"><svg><use href="#i-pin"/></svg></div>
+            <div class="unit-main">
+              <span class="pill">Unidade confirmada</span>
+              <h3 id="unitName">Pai D'Égua — Coqueiro</h3>
+              <p id="unitAddress">Coqueiro, Belém - PA · toque para abrir a localização oficial no Google Maps.</p>
+              <p class="unit-hours"><svg><use href="#i-clock"/></svg><span id="unitHours">Consulte o horário no canal oficial de pedidos.</span></p>
+              <div class="unit-actions">
+                <a class="button button-dark" id="unitOrder" href="https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=" target="_blank" rel="noopener noreferrer"><svg><use href="#i-bag"/></svg>Pedir nesta unidade</a>
+                <a class="button button-whatsapp" id="unitWhatsApp" data-whatsapp-link data-whatsapp-context="unit" href="https://wa.me/5591982486925?text=Ol%C3%A1%21%20Vim%20pelo%20Card%C3%A1pio%20Digital%20da%20Pai%20D%27%C3%89gua%20e%20gostaria%20de%20fazer%20um%20pedido.%20Minha%20unidade%20selecionada%20%C3%A9%20Coqueiro." target="_blank" rel="noopener noreferrer"><svg><use href="#i-whatsapp"/></svg>WhatsApp da unidade</a>
+                <a class="button button-ghost" id="unitMaps" href="https://maps.google.com/maps?vet=10CAAQoqAOahcKEwjI_IGIjMmVAxUAAAAAHQAAAAAQCQ..i&rlz=1C5GCEA_enBR1160BR1161&fvr=1&pvq=Cg0vZy8xMWM2X2I1ajZtIhoKFHBpenphcmlhIHBhaSBkJ8OpZ3VhEAIYAw&lqi=ChRwaXp6YXJpYSBwYWkgZCfDqWd1YUjTgYv1m6uAgAhaJhAAEAEQAhADGAAYARgCGAMiFHBpenphcmlhIHBhaSBkIMOpZ3VhkgEQcGl6emFfcmVzdGF1cmFudA&cs=1&um=1&ie=UTF-8&fb=1&gl=br&sa=X&ftid=0x92a461a9e865c1f1:0x785d681e5b5c481f" target="_blank" rel="noopener noreferrer"><svg><use href="#i-pin"/></svg>Ver localização</a>
+                <a class="button button-ghost" id="unitRoute" href="https://maps.google.com/maps?vet=10CAAQoqAOahcKEwjI_IGIjMmVAxUAAAAAHQAAAAAQCQ..i&rlz=1C5GCEA_enBR1160BR1161&fvr=1&pvq=Cg0vZy8xMWM2X2I1ajZtIhoKFHBpenphcmlhIHBhaSBkJ8OpZ3VhEAIYAw&lqi=ChRwaXp6YXJpYSBwYWkgZCfDqWd1YUjTgYv1m6uAgAhaJhAAEAEQAhADGAAYARgCGAMiFHBpenphcmlhIHBhaSBkIMOpZ3VhkgEQcGl6emFfcmVzdGF1cmFudA&cs=1&um=1&ie=UTF-8&fb=1&gl=br&sa=X&ftid=0x92a461a9e865c1f1:0x785d681e5b5c481f" target="_blank" rel="noopener noreferrer"><svg><use href="#i-route"/></svg>Como chegar</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section ultra-section event-section" id="eventos" aria-labelledby="event-title">
+      <div class="shell event-grid">
+        <div class="event-copy ultra-reveal">
+          <p class="ultra-kicker">Kit Festa Pai D'Égua</p>
+          <h2 id="event-title">Seu rodízio em casa</h2>
+          <p>Uma experiência para aniversários, confraternizações e encontros, com variedade pensada para todo mundo provar.</p>
+          <div class="event-metrics" aria-label="Composição estimada do Kit Festa">
+            <div class="event-metric"><strong>5</strong><span>pizzas G</span></div>
+            <div class="event-metric"><strong>80</strong><span>fatias</span></div>
+            <div class="event-metric"><strong>5</strong><span>sabores</span></div>
+            <div class="event-metric"><strong>≈15</strong><span>pessoas</span></div>
+          </div>
+          <p class="event-detail">Aproximadamente 15 pessoas podem provar os sabores, com média de até 5 fatias por pessoa. Composição, bebidas, valores, sabores e disponibilidade devem ser confirmados no atendimento.</p>
+          <a class="button button-primary touch-feedback" data-ultra-whatsapp data-message="Olá! Vim pelo Cardápio Premium e quero organizar uma festa ou confraternização com o Kit Festa / Seu rodízio em casa." href="#" target="_blank" rel="noopener noreferrer"><svg><use href="#i-whatsapp"/></svg>Quero organizar meu evento</a>
+        </div>
+        <div class="event-media ultra-reveal">
+          <img src="assets/img/ultra/aniversario-paidegua.webp" alt="Celebração de aniversário na Pai D'Égua" loading="lazy" decoding="async">
+          <div class="event-overlay"><small>Para celebrar</small><strong>Pizza, encontro e memória.</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ultra-section assistant-section" id="assistente" aria-labelledby="assistant-title">
+      <div class="shell assistant-shell ultra-reveal">
+        <div class="assistant-intro">
+          <span class="assistant-chip">IA G Tech • Groq</span>
+          <h2 id="assistant-title">Assistente de sabores com IA</h2>
+          <p>Responda três escolhas rápidas. A IA analisa seu momento, sua preferência, o canal e a unidade para indicar uma opção real do cardápio.</p>
+          <div class="assistant-mini-steps"><span><b>1</b> Conte a ocasião</span><span><b>2</b> Escolha seu estilo</span><span><b>3</b> Diga como quer receber</span></div>
+        </div>
+        <div class="assistant-form" id="assistantForm">
+          <div class="assistant-progress" aria-label="Progresso da ajuda inteligente"><span></span><span></span><span></span></div>
+          <div class="assistant-step" data-step="0">
+            <small>Passo 1 de 3</small><h3>Para quem é o pedido?</h3><div class="assistant-options"></div>
+          </div>
+          <div class="assistant-step" data-step="1" hidden>
+            <small>Passo 2 de 3</small><h3>Que tipo de sabor combina com você?</h3><div class="assistant-options"></div>
+          </div>
+          <div class="assistant-step" data-step="2" hidden>
+            <small>Passo 3 de 3</small><h3>Como você quer aproveitar?</h3><div class="assistant-options"></div>
+            <label class="assistant-notes" for="assistantNotes">
+              <span>Quer deixar a sugestão ainda mais certeira? <small>Opcional</small></span>
+              <textarea id="assistantNotes" maxlength="180" rows="3" placeholder="Ex.: quero algo marcante para compartilhar e também uma opção doce."></textarea>
+              <em><span id="assistantNotesCount">0</span>/180</em>
+            </label>
+          </div>
+          <div class="assistant-nav"><button class="button button-ghost touch-feedback" id="assistantBack" type="button">Voltar</button><button class="button button-primary touch-feedback" id="assistantNext" type="button" disabled>Continuar</button></div>
+          <div class="assistant-result" id="assistantResult" hidden></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="cardapio" aria-labelledby="menu-title">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Escolha pelo sabor</p>
+            <h2 id="menu-title">Cardápio em destaque</h2>
+          </div>
+          <p>Busque pelo nome, ingrediente ou categoria. Os preços exibidos foram retirados do material visual fornecido.</p>
+        </div>
+
+        <div class="catalog-toolbar" id="catalogToolbar">
+          <div class="search-box">
+            <svg aria-hidden="true"><use href="#i-search"/></svg>
+            <label class="sr-only" for="productSearch">Buscar no cardápio</label>
+            <input id="productSearch" type="search" inputmode="search" autocomplete="off" placeholder="Buscar pizza, camarão, combo..." aria-controls="productGrid">
+            <button id="clearSearch" class="clear-search" type="button" aria-label="Limpar busca" hidden><svg><use href="#i-x"/></svg></button>
+          </div>
+          <div class="category-scroller" id="categoryFilters" role="group" aria-label="Filtrar produtos por categoria"></div>
+        </div>
+
+        <div class="catalog-meta">
+          <p id="resultsCount" aria-live="polite">Carregando itens…</p>
+          <button class="text-button" type="button" id="resetFilters">Limpar filtros</button>
+        </div>
+
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+        <div class="empty-state" id="emptyState" hidden>
+          <div class="empty-icon"><svg><use href="#i-search"/></svg></div>
+          <h3>Nenhum item encontrado</h3>
+          <p>Tente outro termo ou limpe os filtros.</p>
+          <button class="button button-primary" type="button" id="emptyReset">Ver todos os itens</button>
+        </div>
+
+        <div class="menu-cta">
+          <div><span>Quer ver todos os sabores e tamanhos?</span><strong>Abra o cardápio visual completo.</strong></div>
+          <button class="button button-secondary light" type="button" data-scroll-target="cardapio-visual"><svg><use href="#i-expand"/></svg>Abrir cardápio completo</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section visual-menu-section" id="cardapio-visual" aria-labelledby="visual-menu-title">
+      <div class="shell">
+        <div class="section-heading inverse">
+          <div>
+            <p class="eyebrow">12 páginas oficiais</p>
+            <h2 id="visual-menu-title">Cardápio visual completo</h2>
+          </div>
+          <p>Deslize no celular, toque para ampliar e use as setas para navegar.</p>
+        </div>
+        <div class="visual-menu-controls">
+          <p><strong id="visualCurrent">1</strong> de <span id="visualTotal">12</span></p>
+          <div>
+            <button class="icon-button inverse" type="button" id="galleryPrev" aria-label="Página anterior"><svg><use href="#i-chevron-left"/></svg></button>
+            <button class="icon-button inverse" type="button" id="galleryNext" aria-label="Próxima página"><svg><use href="#i-chevron-right"/></svg></button>
+          </div>
+        </div>
+        <div class="visual-gallery" id="visualGallery" tabindex="0" aria-label="Galeria do cardápio visual"></div>
+        <div class="gallery-dots" id="galleryDots" aria-label="Indicador de páginas"></div>
+      </div>
+    </section>
+
+
+    <section class="section ultra-section story-section" id="nossa-historia" aria-labelledby="story-title">
+      <div class="shell story-grid">
+        <div class="story-media ultra-reveal">
+          <img src="assets/img/ultra/rute-cley-historia.webp" alt="Rute e Cley, responsáveis pela história da Pai D'Égua" loading="lazy" decoding="async">
+          <div class="story-year"><strong>10 anos</strong><span>de uma história que começou em casa</span></div>
+        </div>
+        <div class="story-copy ultra-reveal">
+          <p class="ultra-kicker">Quem faz a Pai D'Égua</p>
+          <h2 id="story-title">Uma história feita por Rute e Cley</h2>
+          <p class="story-lead">A Pai D'Égua começou na cozinha de casa e cresceu com trabalho, carinho e a confiança de cada cliente.</p>
+          <p>Hoje, a marca celebra sua trajetória, o espaço físico e uma comunidade que participa de cada melhoria. Esta homenagem apresenta quem está por trás das receitas e da vontade de entregar sempre o melhor.</p>
+          <blockquote class="story-quote">“Muito obrigada a todos vocês que fazem parte da nossa história. Estamos sempre buscando melhorar com cada feedback.”</blockquote>
+          <div class="story-gallery" aria-label="Momentos da história Pai D'Égua">
+            <img src="assets/img/ultra/momento-pizza.webp" alt="Momento com pizza artesanal Pai D'Égua" loading="lazy" decoding="async">
+            <img src="assets/img/ultra/dois-anos-salao.webp" alt="Celebração de dois anos do salão Pai D'Égua" loading="lazy" decoding="async">
+            <img src="assets/img/ultra/momento-massa.webp" alt="Momento gastronômico Pai D'Égua" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato" aria-labelledby="contact-title">
+      <div class="shell contact-grid">
+        <div class="contact-content">
+          <p class="eyebrow">Pedido e localização</p>
+          <h2 id="contact-title">Do cardápio para sua mesa</h2>
+          <p>Faça o pedido pelo Anota AI, encontre a unidade no Google Maps, entre no Grupo VIP ou acompanhe as novidades no Instagram e no Bio Site.</p>
+          <div class="contact-actions">
+            <a class="button button-primary" data-order-link href="https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=" target="_blank" rel="noopener noreferrer"><svg><use href="#i-bag"/></svg>Pedir agora</a>
+            <a class="button button-secondary" data-route-link href="https://maps.google.com/maps?vet=10CAAQoqAOahcKEwjI_IGIjMmVAxUAAAAAHQAAAAAQCQ..i&rlz=1C5GCEA_enBR1160BR1161&fvr=1&pvq=Cg0vZy8xMWM2X2I1ajZtIhoKFHBpenphcmlhIHBhaSBkJ8OpZ3VhEAIYAw&lqi=ChRwaXp6YXJpYSBwYWkgZCfDqWd1YUjTgYv1m6uAgAhaJhAAEAEQAhADGAAYARgCGAMiFHBpenphcmlhIHBhaSBkIMOpZ3VhkgEQcGl6emFfcmVzdGF1cmFudA&cs=1&um=1&ie=UTF-8&fb=1&gl=br&sa=X&ftid=0x92a461a9e865c1f1:0x785d681e5b5c481f" target="_blank" rel="noopener noreferrer"><svg><use href="#i-route"/></svg>Como chegar</a>
+          </div>
+          <div class="social-row">
+            <a data-instagram-link href="https://www.instagram.com/pizzariapaidegua16?igsh=cHdudzI5cGl3NWEw" target="_blank" rel="noopener noreferrer"><svg><use href="#i-instagram"/></svg><span>Instagram</span></a>
+            <a data-bio-link href="https://bio.site/paidegua" target="_blank" rel="noopener noreferrer"><svg><use href="#i-share"/></svg><span>Bio Site</span></a>
+            <a data-whatsapp-link data-whatsapp-context="contact" href="https://wa.me/5591982486925?text=Ol%C3%A1%21%20Vim%20pelo%20Card%C3%A1pio%20Digital%20da%20Pai%20D%27%C3%89gua%20e%20gostaria%20de%20fazer%20um%20pedido.%20Minha%20unidade%20selecionada%20%C3%A9%20Coqueiro." target="_blank" rel="noopener noreferrer"><svg><use href="#i-whatsapp"/></svg><span>WhatsApp</span></a>
+            <a href="https://chat.whatsapp.com/7Zkzl1HbS2N4WjpePXoYbW" target="_blank" rel="noopener noreferrer"><svg><use href="#i-whatsapp"/></svg><span>Grupo VIP</span></a>
+          </div>
+        </div>
+        <aside class="location-card">
+          <div class="location-map-pattern" aria-hidden="true"><svg><use href="#i-pin"/></svg></div>
+          <div class="location-info">
+            <span class="pill" id="locationHighlightPill">Coqueiro</span>
+            <h3 id="locationHighlightTitle">Pai D'Égua — Coqueiro</h3>
+            <p id="locationHighlightBody">Coqueiro, Belém - PA · abra a localização oficial para ver a rota desta unidade.</p>
+            <div class="location-buttons">
+              <a data-maps-link href="https://maps.google.com/maps?vet=10CAAQoqAOahcKEwjI_IGIjMmVAxUAAAAAHQAAAAAQCQ..i&rlz=1C5GCEA_enBR1160BR1161&fvr=1&pvq=Cg0vZy8xMWM2X2I1ajZtIhoKFHBpenphcmlhIHBhaSBkJ8OpZ3VhEAIYAw&lqi=ChRwaXp6YXJpYSBwYWkgZCfDqWd1YUjTgYv1m6uAgAhaJhAAEAEQAhADGAAYARgCGAMiFHBpenphcmlhIHBhaSBkIMOpZ3VhkgEQcGl6emFfcmVzdGF1cmFudA&cs=1&um=1&ie=UTF-8&fb=1&gl=br&sa=X&ftid=0x92a461a9e865c1f1:0x785d681e5b5c481f" target="_blank" rel="noopener noreferrer">Ver no Google Maps <svg><use href="#i-chevron-right"/></svg></a>
+              <a data-route-link href="https://maps.google.com/maps?vet=10CAAQoqAOahcKEwjI_IGIjMmVAxUAAAAAHQAAAAAQCQ..i&rlz=1C5GCEA_enBR1160BR1161&fvr=1&pvq=Cg0vZy8xMWM2X2I1ajZtIhoKFHBpenphcmlhIHBhaSBkJ8OpZ3VhEAIYAw&lqi=ChRwaXp6YXJpYSBwYWkgZCfDqWd1YUjTgYv1m6uAgAhaJhAAEAEQAhADGAAYARgCGAMiFHBpenphcmlhIHBhaSBkIMOpZ3VhkgEQcGl6emFfcmVzdGF1cmFudA&cs=1&um=1&ie=UTF-8&fb=1&gl=br&sa=X&ftid=0x92a461a9e865c1f1:0x785d681e5b5c481f" target="_blank" rel="noopener noreferrer">Iniciar rota <svg><use href="#i-route"/></svg></a>
+            </div>
+          </div>
+          <img class="qr-code" src="assets/img/brand/qr-cardapio.png" width="300" height="300" loading="lazy" decoding="async" alt="QR Code para abrir o cardápio digital Pai D'Égua">
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true"><img src="assets/img/brand/logo-paidegua-oficial.png" alt=""></span>
+        <div><strong>Pai D'Égua</strong><span>Pizzas Artesanais &amp; Burger Artesanal</span></div>
+      </div>
+      <div class="footer-links">
+        <a data-order-link href="https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=" target="_blank" rel="noopener noreferrer">Pedido oficial</a>
+        <a data-instagram-link href="https://www.instagram.com/pizzariapaidegua16?igsh=cHdudzI5cGl3NWEw" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a data-whatsapp-link data-whatsapp-context="footer" href="https://wa.me/5591982486925?text=Ol%C3%A1%21%20Vim%20pelo%20Card%C3%A1pio%20Digital%20da%20Pai%20D%27%C3%89gua%20e%20gostaria%20de%20fazer%20um%20pedido.%20Minha%20unidade%20selecionada%20%C3%A9%20Coqueiro." target="_blank" rel="noopener noreferrer">WhatsApp Coqueiro</a>
+        <a href="https://api.whatsapp.com/send?phone=5591988424248" target="_blank" rel="noopener noreferrer">WhatsApp Batista Campos</a>
+        <a data-bio-link href="https://bio.site/paidegua" target="_blank" rel="noopener noreferrer">Canais oficiais</a>
+        <a href="https://chat.whatsapp.com/7Zkzl1HbS2N4WjpePXoYbW" target="_blank" rel="noopener noreferrer">Grupo VIP</a>
+        <a data-maps-link href="https://maps.google.com/maps?vet=10CAAQoqAOahcKEwjI_IGIjMmVAxUAAAAAHQAAAAAQCQ..i&rlz=1C5GCEA_enBR1160BR1161&fvr=1&pvq=Cg0vZy8xMWM2X2I1ajZtIhoKFHBpenphcmlhIHBhaSBkJ8OpZ3VhEAIYAw&lqi=ChRwaXp6YXJpYSBwYWkgZCfDqWd1YUjTgYv1m6uAgAhaJhAAEAEQAhADGAAYARgCGAMiFHBpenphcmlhIHBhaSBkIMOpZ3VhkgEQcGl6emFfcmVzdGF1cmFudA&cs=1&um=1&ie=UTF-8&fb=1&gl=br&sa=X&ftid=0x92a461a9e865c1f1:0x785d681e5b5c481f" target="_blank" rel="noopener noreferrer">Localização</a>
+      </div>
+      <div class="footer-credit">
+        <span>Desenvolvido por</span>
+        <strong>G Tech | Innovation &amp; Solutions</strong>
+      </div>
+    </div>
+    <div class="shell footer-bottom"><small>© <span id="currentYear"></span> Pai D'Égua. Imagens ilustrativas do material oficial fornecido.</small></div>
+  </footer>
+
+  <nav class="mobile-bottom-nav" aria-label="Navegação rápida">
+    <button type="button" data-scroll-target="inicio" data-nav-section="inicio"><svg><use href="#i-home"/></svg><span>Início</span></button>
+    <button type="button" data-scroll-target="promocoes-delivery"><svg><use href="#i-menu"/></svg><span>Promoções</span></button>
+    <a class="mobile-order" data-order-link href="https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=" target="_blank" rel="noopener noreferrer"><span class="order-fab"><svg><use href="#i-bag"/></svg></span><span>Pedir</span></a>
+    <a data-whatsapp-link data-whatsapp-context="mobile" href="https://wa.me/5591982486925?text=Ol%C3%A1%21%20Vim%20pelo%20Card%C3%A1pio%20Digital%20da%20Pai%20D%27%C3%89gua%20e%20gostaria%20de%20fazer%20um%20pedido.%20Minha%20unidade%20selecionada%20%C3%A9%20Coqueiro." target="_blank" rel="noopener noreferrer"><svg><use href="#i-whatsapp"/></svg><span>WhatsApp</span></a>
+    <a data-maps-link href="https://maps.google.com/maps?vet=10CAAQoqAOahcKEwjI_IGIjMmVAxUAAAAAHQAAAAAQCQ..i&rlz=1C5GCEA_enBR1160BR1161&fvr=1&pvq=Cg0vZy8xMWM2X2I1ajZtIhoKFHBpenphcmlhIHBhaSBkJ8OpZ3VhEAIYAw&lqi=ChRwaXp6YXJpYSBwYWkgZCfDqWd1YUjTgYv1m6uAgAhaJhAAEAEQAhADGAAYARgCGAMiFHBpenphcmlhIHBhaSBkIMOpZ3VhkgEQcGl6emFfcmVzdGF1cmFudA&cs=1&um=1&ie=UTF-8&fb=1&gl=br&sa=X&ftid=0x92a461a9e865c1f1:0x785d681e5b5c481f" target="_blank" rel="noopener noreferrer"><svg><use href="#i-pin"/></svg><span>Local</span></a>
+  </nav>
+
+  <dialog class="menu-modal" id="menuModal" aria-labelledby="modalTitle">
+    <div class="modal-toolbar">
+      <div><small>Página <span id="modalPageNumber">1</span> de <span id="modalPageTotal">12</span></small><strong id="modalTitle">Cardápio Pai D'Égua</strong></div>
+      <div class="modal-actions">
+        <button class="icon-button inverse" type="button" id="zoomOut" aria-label="Diminuir imagem"><svg><use href="#i-minus"/></svg></button>
+        <button class="icon-button inverse" type="button" id="zoomIn" aria-label="Ampliar imagem"><svg><use href="#i-plus"/></svg></button>
+        <button class="icon-button inverse" type="button" id="modalClose" aria-label="Fechar cardápio ampliado"><svg><use href="#i-x"/></svg></button>
+      </div>
+    </div>
+    <div class="modal-stage" id="modalStage">
+      <button class="modal-arrow prev" type="button" id="modalPrev" aria-label="Página anterior"><svg><use href="#i-chevron-left"/></svg></button>
+      <div class="modal-image-wrap" id="modalImageWrap"><img id="modalImage" alt="" draggable="false"></div>
+      <button class="modal-arrow next" type="button" id="modalNext" aria-label="Próxima página"><svg><use href="#i-chevron-right"/></svg></button>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <div id="installPrompt" class="install-prompt" hidden>
+    <div><strong>Instalar cardápio</strong><span>Acesso rápido na tela inicial.</span></div>
+    <button class="button button-primary small" type="button" id="installButton">Instalar</button>
+    <button class="icon-button" type="button" id="dismissInstall" aria-label="Fechar sugestão de instalação"><svg><use href="#i-x"/></svg></button>
+  </div>
+
+  <noscript>
+    <div class="noscript-message">Ative o JavaScript para usar busca, filtros e galeria. O pedido oficial continua disponível: <a href="https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=" target="_blank" rel="noopener noreferrer">Pedir agora</a>.</div>
+  </noscript>
+
+  <script src="assets/js/store-config.js" defer></script>
+  <script src="assets/js/ultra-data.js" defer></script>
+  <script src="assets/js/units.js" defer></script>
+  <script src="assets/js/menu.js" defer></script>
+  <script src="assets/js/pwa.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+  <script src="assets/js/modelo-2.js" defer></script>
+  <script src="assets/js/ultra-final.js" defer></script>
+</body>
+</html>

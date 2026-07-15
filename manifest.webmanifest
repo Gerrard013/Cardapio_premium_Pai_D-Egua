@@ -1,0 +1,32 @@
+{
+  "id": "/",
+  "name": "Pai D'Égua — Cardápio Digital",
+  "short_name": "Pai D'Égua",
+  "description": "Cardápio digital, localização e acesso ao pedido oficial da Pai D'Égua.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fffaf1",
+  "theme_color": "#5a0c15",
+  "categories": ["food", "shopping", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Ver cardápio",
+      "short_name": "Cardápio",
+      "url": "/#cardapio",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Pedir agora",
+      "short_name": "Pedir",
+      "url": "https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode="
+    }
+  ]
+}
