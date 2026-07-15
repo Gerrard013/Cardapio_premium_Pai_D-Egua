@@ -3,7 +3,7 @@
  * Camada de experiência: delivery, express, salão, promoções, eventos,
  * assistente guiado e história dos fundadores.
  */
-:root {
+ :root {
   --ultra-gold: #f0b648;
   --ultra-gold-soft: #ffe2a0;
   --ultra-wine: #5a0c15;
@@ -615,4 +615,180 @@ body.modelo-2::before {
 @media (max-width:560px){
   .assistant-notes{padding:15px;border-radius:18px;}
   .assistant-loading{align-items:flex-start;padding:19px;}
+}
+
+/* =========================================================
+   HOTFIX MOBILE FINAL — VITRINE DO CARDÁPIO
+   Corrige apenas busca, filtros e cards no celular.
+   ========================================================= */
+@media (max-width: 640px) {
+  /* No iPhone, a barra sticky cobria os produtos durante a rolagem. */
+  .modelo-2 .catalog-toolbar,
+  .catalog-toolbar {
+    position: relative !important;
+    top: auto !important;
+    z-index: 2 !important;
+    margin-inline: 0 !important;
+    padding: 10px !important;
+    border-radius: 22px !important;
+  }
+
+  .search-box,
+  .search-box input {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .search-box input {
+    min-height: 50px !important;
+    font-size: 16px !important;
+  }
+
+  .category-scroller {
+    display: flex !important;
+    gap: 8px !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    padding: 10px 1px 2px !important;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .category-scroller::-webkit-scrollbar {
+    display: none;
+  }
+
+  .category-scroller .filter-chip {
+    flex: 0 0 auto !important;
+    white-space: nowrap !important;
+  }
+
+  .product-grid,
+  #productGrid {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 18px !important;
+  }
+
+  .modelo-2 .product-card,
+  .product-card {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    height: auto !important;
+    overflow: hidden !important;
+    border-radius: 24px !important;
+  }
+
+  .modelo-2 .product-media,
+  .product-media {
+    width: 100% !important;
+    min-width: 0 !important;
+    min-height: 0 !important;
+    height: auto !important;
+    aspect-ratio: 16 / 10 !important;
+    border-radius: 0 !important;
+    overflow: hidden !important;
+  }
+
+  .modelo-2 .product-media img,
+  .product-media img {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 0 !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    transform: none !important;
+  }
+
+  .modelo-2 .product-body,
+  .product-body {
+    display: flex !important;
+    flex: 1 1 auto !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    padding: 17px !important;
+  }
+
+  .product-card h3 {
+    margin: 0 !important;
+    font-size: clamp(24px, 7vw, 31px) !important;
+    line-height: 1.05 !important;
+    overflow-wrap: anywhere;
+  }
+
+  .product-description {
+    display: block !important;
+    margin-top: 9px !important;
+    overflow: visible !important;
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+    -webkit-line-clamp: unset !important;
+    -webkit-box-orient: initial !important;
+  }
+
+  .product-sizes,
+  .product-note {
+    display: block !important;
+  }
+
+  .product-footer {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 12px !important;
+    align-items: stretch !important;
+    width: 100% !important;
+    margin-top: 14px !important;
+    padding-top: 0 !important;
+  }
+
+  .product-price {
+    width: 100% !important;
+  }
+
+  .product-price strong {
+    font-size: 20px !important;
+  }
+
+  .modelo-2 .product-actions,
+  .product-actions {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 10px !important;
+    width: 100% !important;
+  }
+
+  .modelo-2 .product-order,
+  .modelo-2 .product-whatsapp,
+  .product-order,
+  .product-whatsapp {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    min-height: 48px !important;
+    padding: 10px 12px !important;
+    white-space: nowrap !important;
+  }
+
+  .product-order span,
+  .product-whatsapp span {
+    display: inline !important;
+  }
+
+  .catalog-meta {
+    margin-top: 8px !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .modelo-2 .product-actions,
+  .product-actions {
+    grid-template-columns: 1fr !important;
+  }
 }
