@@ -91,3 +91,33 @@
   .product-dialog__orders .button{width:100%}
 }
 @keyframes intro-logo-official{0%{opacity:0;transform:perspective(900px) translateZ(-140px) rotateY(-8deg) scale(.8);filter:blur(12px) drop-shadow(0 28px 40px rgba(0,0,0,.5))}58%{opacity:1;filter:blur(0) drop-shadow(0 28px 40px rgba(0,0,0,.5))}100%{transform:perspective(900px) translateZ(0) rotateY(0) scale(1)}}
+
+/* ENTREGA DEFINITIVA — fluxos confirmados pela cliente */
+.service-paths{background:radial-gradient(circle at 50% 0,rgba(214,170,87,.12),transparent 38%),#0d0708}
+.service-grid{display:grid;gap:16px}
+.service-card{position:relative;min-height:390px;padding:28px;border:1px solid rgba(255,255,255,.1);border-radius:30px;overflow:hidden;background:linear-gradient(145deg,rgba(255,255,255,.055),rgba(255,255,255,.018));box-shadow:0 28px 70px rgba(0,0,0,.28);display:flex;flex-direction:column;align-items:flex-start}
+.service-card::before{content:"";position:absolute;right:-65px;top:-65px;width:190px;aspect-ratio:1;border-radius:50%;border:1px solid rgba(214,170,87,.18);box-shadow:0 0 80px rgba(214,170,87,.08)}
+.service-card>span{position:relative;color:var(--gold);font-size:11px;letter-spacing:.22em}
+.service-card .eyebrow{position:relative;margin-top:72px}
+.service-card h3{position:relative;margin:0;font-family:var(--display);font-size:clamp(32px,8vw,45px);line-height:1}
+.service-card>p:not(.eyebrow){position:relative;color:var(--muted);line-height:1.65;margin:16px 0 24px}
+.service-card .button{position:relative;margin-top:auto;width:100%}
+.service-card--delivery{background:radial-gradient(circle at 100% 0,rgba(141,34,49,.34),transparent 48%),linear-gradient(145deg,#291015,#13090b)}
+.service-card--express{background:radial-gradient(circle at 100% 0,rgba(214,170,87,.23),transparent 48%),linear-gradient(145deg,#24170d,#110b08)}
+.service-card--salon{background:radial-gradient(circle at 100% 0,rgba(119,34,22,.28),transparent 48%),linear-gradient(145deg,#25100e,#120807)}
+.promo-subheading{margin:40px 0 20px;padding-top:28px;border-top:1px solid rgba(255,255,255,.1)}
+.promo-subheading h3{margin:0;font-family:var(--display);font-size:clamp(32px,8vw,50px);line-height:1}
+.promo-subheading>p:last-child{max-width:680px;color:var(--muted);line-height:1.65}
+.channel-badge{display:inline-flex;margin-bottom:18px;padding:9px 13px;border:1px solid rgba(255,225,168,.28);border-radius:999px;background:rgba(214,170,87,.1);color:var(--gold-soft);font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.16em}
+.happy-hour{perspective:1200px}
+.happy-hour__media{isolation:isolate;box-shadow:0 28px 70px rgba(0,0,0,.42)}
+.happy-hour__media::before{content:"";position:absolute;z-index:2;inset:-35% -70%;background:linear-gradient(110deg,transparent 42%,rgba(255,235,190,.18) 49%,transparent 56%);transform:translateX(-45%) rotate(6deg);animation:happy-light 6.5s ease-in-out infinite;pointer-events:none}
+.happy-hour__media::after{content:"";position:absolute;z-index:1;inset:auto 8% 2% 8%;height:12%;border-radius:50%;background:rgba(214,133,29,.26);filter:blur(30px);pointer-events:none}
+.happy-hour__media picture{display:block;width:100%;height:100%}
+.happy-hour__media img{transform:translate3d(0,24px,0) scale(1.04);opacity:.84;transition:transform 1.25s cubic-bezier(.16,1,.3,1),opacity .9s ease,filter .9s ease;filter:saturate(.95) contrast(1.02)}
+.happy-hour.is-visible .happy-hour__media img{transform:translate3d(0,0,55px) scale(1.015);opacity:1;filter:saturate(1.08) contrast(1.05)}
+@media (hover:hover){.happy-hour:hover .happy-hour__media img{transform:translate3d(0,-6px,75px) scale(1.045)}}
+@keyframes happy-light{0%,22%{transform:translateX(-55%) rotate(6deg);opacity:0}38%{opacity:1}58%,100%{transform:translateX(55%) rotate(6deg);opacity:0}}
+@media (min-width:700px){.service-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.service-card{min-height:500px}.service-card .button{width:auto}.promo-subheading{margin-top:54px}}
+@media (max-width:699px){.happy-hour__media{min-height:580px}.happy-hour__media img{object-position:center top}.service-card{min-height:360px}}
+@media (prefers-reduced-motion:reduce){.happy-hour__media::before{animation:none}.happy-hour__media img,.happy-hour.is-visible .happy-hour__media img{transform:none;transition:none}}

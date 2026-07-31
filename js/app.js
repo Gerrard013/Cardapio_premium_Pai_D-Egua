@@ -105,9 +105,10 @@
     const add=(text,type)=>{const div=document.createElement('div');div.className=`assistant-message assistant-message--${type}`;div.innerHTML=text;messages.append(div);messages.scrollTop=messages.scrollHeight;};
     const answer=q=>{
       const s=q.toLowerCase();
-      if(/promo|segunda|terça|terca|quarta|quinta|sexta/.test(s)) return 'As promoções semanais estão na seção <a href="#promocoes">Promoções</a>. Confirme unidade, disponibilidade e regras no WhatsApp.';
+      if(/delivery|retirada normal|tempo de preparo|fila/.test(s)) return 'No delivery e na retirada normal, você encontra o cardápio completo e as promoções exclusivas. A retirada normal tem preparo médio de 20 a 30 minutos e entra na fila de produção. Vá para <a href="#pedido">Pedido oficial</a>.';
+      if(/promo|segunda|terça|terca|quarta|quinta|sexta|happy hour/.test(s)) return 'As promoções de delivery e retirada e o Happy Hour exclusivo do salão estão na seção <a href="#promocoes">Promoções</a>. Confirme unidade, disponibilidade e regras antes de finalizar.';
       if(/unidade|onde|endereço|endereco|mapa|coqueiro|batista/.test(s)) return 'Temos as unidades Coqueiro e Batista Campos. Abra a seção <a href="#unidades">Unidades</a> para iniciar a rota no Google Maps.';
-      if(/pizza express|express|rápida|rapida/.test(s)) return 'A Pizza Express é a opção de retirada rápida. Sabores, horário e disponibilidade devem ser confirmados com a equipe pelo WhatsApp.';
+      if(/pizza express|express|rápida|rapida/.test(s)) return 'A Pizza Express é a retirada em 5 minutos, com um sabor exclusivo por dia. Consulte o sabor e a disponibilidade com a equipe pelo WhatsApp antes de sair.';
       if(/evento|anivers|confratern|família|familia/.test(s)) return 'Há opções para encontros em família, confraternizações e celebrações premium. Veja <a href="#eventos">Eventos</a> ou fale com a equipe para planejar.';
       if(/burger|hamb|smash/.test(s)) return 'Veja a vitrine de <a href="#burgers">Burgers</a>: assinaturas paraenses, artesanais e smash.';
       if(/pizza|sabor/.test(s)) return 'A seção <a href="#pizzas">Pizzas</a> reúne todos os sabores disponíveis nesta vitrine. Toque em qualquer produto para vê-lo de perto.';
