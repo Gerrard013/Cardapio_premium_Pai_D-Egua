@@ -1,15 +1,19 @@
-# Relatório de validação final
+# Relatório de validação — Final 00
 
-- Viewports testadas: 390 × 844 (mobile) e 1440 × 1000 (desktop).
-- Seções dinâmicas renderizadas: 7.
-- Produtos renderizados: 72.
-- Assets finais utilizados: 75 de 75.
-- Navegação “Bebidas”: destino `#bebidas` validado.
-- Navegação “Burgers”: independente de `#bebidas`.
-- Vinho Italiano: presente na seção Vinhos & chopp.
-- Assistente: abre e responde no mobile e desktop.
-- Modal de produto: abre e fecha corretamente.
-- Erros de JavaScript durante a validação: nenhum.
-- Referências de imagens ausentes: nenhuma.
+## Aprovado por validação automática local
 
-As imagens de produto iniciam com `loading="lazy"`, o site não usa frameworks ou bibliotecas pesadas, e há tratamento para `prefers-reduced-motion`.
+- Sintaxe de `js/menu.js` e `js/app.js` validada com Node.
+- `manifest.webmanifest` validado como JSON.
+- 72 produtos possuem imagem, preço ou orientação oficial, e descrição.
+- Todas as imagens referenciadas pelo HTML e catálogo existem no pacote.
+- Links internos apontam para IDs estáticos ou seções geradas pelo catálogo.
+- Não existem IDs duplicados.
+- Links oficiais do Anota Aí das duas unidades presentes.
+- Instagram da Pai D’Égua e da G Tech presentes.
+- Promoção de Happy Hour presente com texto de 50% OFF e horário de 17h às 20h.
+- Logo e Smash Burger possuem transparência real.
+- Site estático servido localmente com resposta HTTP 200.
+
+## Verificação visual final recomendada após o deploy
+
+O navegador automatizado deste ambiente foi bloqueado por política administrativa. Após o Netlify indicar `Published`, conferir no celular: intro, menu, Smash Burger, preços, Happy Hour, pedido por unidade, Instagram e rodapé.

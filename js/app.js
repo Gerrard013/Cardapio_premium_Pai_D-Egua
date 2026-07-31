@@ -3,6 +3,8 @@
   const $ = (sel, root=document) => root.querySelector(sel);
   const $$ = (sel, root=document) => [...root.querySelectorAll(sel)];
   const PHONE = '5591982064743';
+  const FALLBACK_PRICE = 'Consulte no pedido oficial';
+  const FALLBACK_DESCRIPTION = 'Confira os detalhes e a disponibilidade no pedido oficial.';
 
   function renderMenuSections(){
     const host=$('#menu-sections');
@@ -23,8 +25,9 @@
         const isContain=section.contain || /vinho|chopp|água|fanta|guaraná|sprite|heineken|red bull|h2oh|ice/i.test(item.name);
         card.className=`product-card reveal${isContain?' product-card--contain':''}`;
         card.dataset.openProduct=''; card.dataset.name=item.name; card.dataset.image=item.image;
+        card.dataset.price=item.price||FALLBACK_PRICE; card.dataset.description=item.description||FALLBACK_DESCRIPTION;
         if(index>=section.initial) card.hidden=true;
-        card.innerHTML=`<div class="product-card__media"><img src="${item.image}" alt="${item.name}" loading="lazy" decoding="async"></div><div class="product-card__content"><small>${section.title}</small><h3>${item.name}</h3><span class="product-card__action">Ver de perto</span></div>`;
+        card.innerHTML=`<div class="product-card__media"><img src="${item.image}" alt="${item.name}" loading="lazy" decoding="async"></div><div class="product-card__content"><small>${section.title}</small><h3>${item.name}</h3><strong class="product-card__price">${item.price||FALLBACK_PRICE}</strong><span class="product-card__action">Ver detalhes</span></div>`;
         grid.append(card);
       });
       frag.append(el);
@@ -79,12 +82,13 @@
 
   function initProductDialog(){
     const dialog=$('#product-dialog'); if(!dialog) return;
-    const image=$('img',dialog),title=$('h2',dialog),link=$('a.button',dialog);
+    const image=$('img',dialog),title=$('h2',dialog),price=$('[data-dialog-price]',dialog),description=$('[data-dialog-description]',dialog);
     document.addEventListener('click',e=>{
       const card=e.target.closest('[data-open-product]'); if(!card) return;
       const name=card.dataset.name,imageSrc=card.dataset.image;
       image.src=imageSrc; image.alt=name; title.textContent=name;
-      link.href=`https://wa.me/${PHONE}?text=${encodeURIComponent(`Olá! Vim pelo Cardápio Premium e quero saber tamanhos, valores e disponibilidade de: ${name}.`)}`;
+      price.textContent=card.dataset.price||FALLBACK_PRICE;
+      description.textContent=card.dataset.description||FALLBACK_DESCRIPTION;
       dialog.showModal(); document.body.classList.add('no-scroll');
     });
     const close=()=>{dialog.close();document.body.classList.remove('no-scroll');image.src='';};
@@ -109,7 +113,8 @@
       if(/pizza|sabor/.test(s)) return 'A seção <a href="#pizzas">Pizzas</a> reúne todos os sabores disponíveis nesta vitrine. Toque em qualquer produto para vê-lo de perto.';
       if(/vinho|chopp/.test(s)) return 'A seleção de <a href="#vinhos-chopp">Vinhos & chopp</a> inclui vinho italiano, opções nacionais e importadas, chopp e chopp de vinho.';
       if(/suco|tapereb|cupua|muruci|acerola|graviola/.test(s)) return 'Os sabores de frutas estão em <a href="#sucos">Sucos</a>, com opções em copo, jarra e integrais.';
-      if(/pedido|whatsapp|comprar|valor|preço|preco/.test(s)) return `Para tamanhos, valores e pedido, <a href="https://wa.me/${PHONE}?text=${encodeURIComponent('Olá! Vim pelo Cardápio Premium Pai D\'Égua e quero fazer um pedido.')}" target="_blank" rel="noopener">abra o WhatsApp</a>.`;
+      if(/pedido|comprar|valor|preço|preco/.test(s)) return 'Abra a seção <a href="#pedido">Pedido oficial</a>, escolha a unidade e veja os valores atualizados no Anota Aí.';
+      if(/whatsapp|dúvida|duvida|falar/.test(s)) return `Para falar com a equipe, <a href="https://wa.me/${PHONE}?text=${encodeURIComponent('Olá! Vim pelo Cardápio Premium Pai D\'Égua e preciso de ajuda.')}" target="_blank" rel="noopener">abra o WhatsApp</a>.`;
       return 'Posso ajudar com pizzas, burgers, sucos, vinhos, promoções, eventos, unidades e pedidos. Escolha um desses assuntos ou escreva sua dúvida de outra forma.';
     };
     const send=q=>{q=q.trim();if(!q)return;add(q,'user');setTimeout(()=>add(answer(q),'bot'),260);};

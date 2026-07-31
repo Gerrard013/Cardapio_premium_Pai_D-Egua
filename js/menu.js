@@ -10,79 +10,117 @@ window.PAIDEGUA_MENU = [
     "items": [
       {
         "name": "Atum",
-        "image": "assets/images/pizza-atum-card-master.webp"
+        "image": "assets/images/pizza-atum-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Calabresa",
-        "image": "assets/images/pizza-calabresa-card-master.webp"
+        "image": "assets/images/pizza-calabresa-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Camarão à Moda da Casa",
-        "image": "assets/images/pizza-camarao-a-moda-da-casa-card-master.webp"
+        "image": "assets/images/pizza-camarao-a-moda-da-casa-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Camarão com Queijo Cuia",
-        "image": "assets/images/pizza-camarao-com-queijo-cuia-card-master.webp"
+        "image": "assets/images/pizza-camarao-com-queijo-cuia-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Filé ao Creme de Gorgonzola",
-        "image": "assets/images/pizza-file-ao-creme-de-gorgonzola-card-master.webp"
+        "image": "assets/images/pizza-file-ao-creme-de-gorgonzola-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Filé com Cream Cheese",
-        "image": "assets/images/pizza-file-com-cream-cheese-card-master.webp"
+        "image": "assets/images/pizza-file-com-cream-cheese-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Frango Cremoso",
-        "image": "assets/images/pizza-frango-cremoso-card-master.webp"
+        "image": "assets/images/pizza-frango-cremoso-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Havaiana",
-        "image": "assets/images/pizza-havaiana-card-master.webp"
+        "image": "assets/images/pizza-havaiana-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Lombo Canadense",
-        "image": "assets/images/pizza-lombo-canadense-card-master.webp"
+        "image": "assets/images/pizza-lombo-canadense-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Margherita",
-        "image": "assets/images/pizza-margherita-card-master.webp"
+        "image": "assets/images/pizza-margherita-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Metade Favorita",
-        "image": "assets/images/pizza-metade-favorita-card-master.webp"
+        "image": "assets/images/pizza-metade-favorita-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Metade Pavulagem",
-        "image": "assets/images/pizza-metade-pavulagem-card-master.webp"
+        "image": "assets/images/pizza-metade-pavulagem-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Mista",
-        "image": "assets/images/pizza-mista-card-master.webp"
+        "image": "assets/images/pizza-mista-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Muçarela",
-        "image": "assets/images/pizza-mucarela-card-master.webp"
+        "image": "assets/images/pizza-mucarela-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Paraense",
-        "image": "assets/images/pizza-paraense-card-master.webp"
+        "image": "assets/images/pizza-paraense-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Portuguesa",
-        "image": "assets/images/pizza-portuguesa-card-master.webp"
+        "image": "assets/images/pizza-portuguesa-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Quatro Queijos",
-        "image": "assets/images/pizza-quatro-queijos-cardapio-premium-pai-degua-final-4x5.webp"
+        "image": "assets/images/pizza-quatro-queijos-cardapio-premium-pai-degua-final-4x5.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Sabor de Boteco",
-        "image": "assets/images/pizza-sabor-de-boteco-card-master.webp"
+        "image": "assets/images/pizza-sabor-de-boteco-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Só o Filé",
-        "image": "assets/images/pizza-so-o-file-card-master.webp"
+        "image": "assets/images/pizza-so-o-file-card-master.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       }
     ]
   },
@@ -97,55 +135,81 @@ window.PAIDEGUA_MENU = [
     "items": [
       {
         "name": "Burger Jambu",
-        "image": "assets/images/burger-jambu-card-3d-pai-degua.webp"
+        "image": "assets/images/burger-jambu-card-3d-pai-degua.webp",
+        "price": "R$ 34,90",
+        "description": "Jambu fresco sobre blend 160g, dupla fatia de cheddar, bacon crocante, cebola especial e molho da casa, no pão brioche selado na manteiga."
       },
       {
         "name": "Burger Marajoara",
-        "image": "assets/images/burger-marajoara-card-3d-pai-degua.webp"
+        "image": "assets/images/burger-marajoara-card-3d-pai-degua.webp",
+        "price": "R$ 38,90",
+        "description": "Queijo do Marajó e jambu sobre blend 160g, ovo, bacon crocante, cebola especial e molho da casa, no pão brioche selado na manteiga."
       },
       {
         "name": "Burger Paraense",
-        "image": "assets/images/burger-paraense-card-3d-pai-degua.webp"
+        "image": "assets/images/burger-paraense-card-3d-pai-degua.webp",
+        "price": "R$ 49,90",
+        "description": "Camarão na chapa e jambu no tucupi, queijo do Marajó, blend 160g e maionese de tucupi, no pão brioche selado na manteiga."
       },
       {
         "name": "Burger Pulled",
-        "image": "assets/images/burger-pulled-card-3d-pai-degua.webp"
+        "image": "assets/images/burger-pulled-card-3d-pai-degua.webp",
+        "price": "R$ 47,90",
+        "description": "Carne suína defumada desfiada com geleia de abacaxi, queijo provolone derretido, blend 160g e molho barbecue, no pão brioche selado na manteiga."
       },
       {
         "name": "Artesanal Clássico",
-        "image": "assets/images/burguer-artesanal-classico.webp"
+        "image": "assets/images/burguer-artesanal-classico.webp",
+        "price": "R$ 29,90",
+        "description": "Blend 160g suculento na chapa, dupla fatia de queijo cheddar derretido, cebola especial e molho da casa, no pão brioche selado na manteiga."
       },
       {
         "name": "Artesanal Bacon",
-        "image": "assets/images/burguer-artesanal-bacon.webp"
+        "image": "assets/images/burguer-artesanal-bacon.webp",
+        "price": "R$ 31,90",
+        "description": "Bacon crocante sobre blend 160g suculento na chapa, dupla fatia de cheddar derretido, cebola especial e molho da casa, no pão brioche selado na manteiga."
       },
       {
         "name": "X Pai D’Égua",
-        "image": "assets/images/burguer-artesanal-x-pai-degua.webp"
+        "image": "assets/images/burguer-artesanal-x-pai-degua.webp",
+        "price": "R$ 37,90",
+        "description": "Blend 160g suculento, dupla fatia de cheddar, bacon crocante, ovo, salada, cebola especial e molho da casa, no pão brioche selado na manteiga."
       },
       {
         "name": "Smash Burger",
-        "image": "assets/images/smash-burguer.webp"
+        "image": "assets/images/smash-burguer-final-00.webp",
+        "price": "R$ 21,90",
+        "description": "Blend 90g smash na chapa com crostinha, queijo cheddar derretido, cebola especial e molho da casa, no pão brioche selado na manteiga."
       },
       {
         "name": "Smash Bacon",
-        "image": "assets/images/smash-burguer-bacon.webp"
+        "image": "assets/images/smash-burguer-bacon.webp",
+        "price": "R$ 25,90",
+        "description": "Bacon crocante sobre blend 90g smash na chapa, queijo cheddar derretido, cebola especial e molho da casa, no pão brioche selado na manteiga."
       },
       {
         "name": "Smash Eggs",
-        "image": "assets/images/smash-burguer-eggs.webp"
+        "image": "assets/images/smash-burguer-eggs.webp",
+        "price": "R$ 24,90",
+        "description": "Ovo na chapa sobre blend 90g smash, dupla fatia de cheddar, alface, tomate, cebola especial e molho da casa, no pão brioche selado na manteiga."
       },
       {
         "name": "Smash Salad",
-        "image": "assets/images/samash-burguer-salad.webp"
+        "image": "assets/images/samash-burguer-salad.webp",
+        "price": "R$ 23,90",
+        "description": "Alface fresca e tomate sobre blend 90g smash na chapa, queijo cheddar, cebola especial e molho da casa, no pão brioche selado na manteiga."
       },
       {
         "name": "Pai D’Égua Açaí",
-        "image": "assets/images/paidegua-acai.webp"
+        "image": "assets/images/paidegua-acai.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Charque de primeira desfiado, queijo do Marajó derretido e geleia de açaí sobre blend 160g na chapa, no pão brioche selado na manteiga."
       },
       {
         "name": "Pai D’Égua Pulled",
-        "image": "assets/images/paidegua-pullet.webp"
+        "image": "assets/images/paidegua-pullet.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       }
     ]
   },
@@ -160,15 +224,21 @@ window.PAIDEGUA_MENU = [
     "items": [
       {
         "name": "Batata Média",
-        "image": "assets/images/batata-media.webp"
+        "image": "assets/images/batata-media.webp",
+        "price": "R$ 12,90",
+        "description": "Batata média."
       },
       {
         "name": "Batata Grande",
-        "image": "assets/images/batata-grande.webp"
+        "image": "assets/images/batata-grande.webp",
+        "price": "R$ 18,90",
+        "description": "Batata grande."
       },
       {
         "name": "Batata Especial",
-        "image": "assets/images/batata-especial.webp"
+        "image": "assets/images/batata-especial.webp",
+        "price": "R$ 27,90",
+        "description": "Batata grande com maionese de bacon e bacon crocante."
       }
     ]
   },
@@ -183,7 +253,9 @@ window.PAIDEGUA_MENU = [
     "items": [
       {
         "name": "Monte sua Salada",
-        "image": "assets/images/monte-sua-salada.webp"
+        "image": "assets/images/monte-sua-salada.webp",
+        "price": "R$ 19,90",
+        "description": "Base com mix de folhas de alface crespa, roxa e americana, com molho e finalizadores à escolha."
       }
     ]
   },
@@ -198,47 +270,69 @@ window.PAIDEGUA_MENU = [
     "items": [
       {
         "name": "Água Mineral sem Gás 500 ml",
-        "image": "assets/images/bebida-agua-mineral-sem-gas-500ml-cardapio-premium-pai-degua.webp"
+        "image": "assets/images/bebida-agua-mineral-sem-gas-500ml-cardapio-premium-pai-degua.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "H2OH! Limoneto",
-        "image": "assets/images/h2oh-limoneto.webp"
+        "image": "assets/images/h2oh-limoneto.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Fanta Laranja 350 ml",
-        "image": "assets/images/bebida-fanta-laranja-lata-hero-transparent.webp"
+        "image": "assets/images/bebida-fanta-laranja-lata-hero-transparent.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Fanta Uva 350 ml",
-        "image": "assets/images/bebida-fanta-uva-lata-hero-transparent.webp"
+        "image": "assets/images/bebida-fanta-uva-lata-hero-transparent.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Guaraná 350 ml",
-        "image": "assets/images/bebida-guarana-lata-hero-transparent.webp"
+        "image": "assets/images/bebida-guarana-lata-hero-transparent.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Guaraná Tuchaua 350 ml",
-        "image": "assets/images/bebida-guarana-tuchaua-lata-350ml-cardapio-premium-pai-degua.webp"
+        "image": "assets/images/bebida-guarana-tuchaua-lata-350ml-cardapio-premium-pai-degua.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Guaraná Zero 350 ml",
-        "image": "assets/images/bebida-guarana-zero-lata-350ml-cardapio-premium-pai-degua.webp"
+        "image": "assets/images/bebida-guarana-zero-lata-350ml-cardapio-premium-pai-degua.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Sprite 350 ml",
-        "image": "assets/images/bebida-sprite-lata-350ml-cardapio-premium-pai-degua.webp"
+        "image": "assets/images/bebida-sprite-lata-350ml-cardapio-premium-pai-degua.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Heineken Long Neck",
-        "image": "assets/images/bebida-heineken-long-neck-hero-transparent.webp"
+        "image": "assets/images/bebida-heineken-long-neck-hero-transparent.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Smirnoff Ice",
-        "image": "assets/images/ice-site.webp"
+        "image": "assets/images/ice-site.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Red Bull",
-        "image": "assets/images/redbull-site.webp"
+        "image": "assets/images/redbull-site.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       }
     ]
   },
@@ -253,67 +347,99 @@ window.PAIDEGUA_MENU = [
     "items": [
       {
         "name": "Suco de Acerola — copo",
-        "image": "assets/images/suco-acerola.webp"
+        "image": "assets/images/suco-acerola.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Suco de Cupuaçu — copo",
-        "image": "assets/images/suco-cupuacu.webp"
+        "image": "assets/images/suco-cupuacu.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Suco de Goiaba — copo",
-        "image": "assets/images/bebida-suco-natural-goiaba-copo-cardapio-premium-pai-degua.webp"
+        "image": "assets/images/bebida-suco-natural-goiaba-copo-cardapio-premium-pai-degua.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Suco de Graviola — copo",
-        "image": "assets/images/bebida-suco-natural-graviola-copo-cardapio-premium-pai-degua.webp"
+        "image": "assets/images/bebida-suco-natural-graviola-copo-cardapio-premium-pai-degua.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Suco de Muruci — copo",
-        "image": "assets/images/bebida-suco-natural-muruci-copo-cardapio-premium-pai-degua.webp"
+        "image": "assets/images/bebida-suco-natural-muruci-copo-cardapio-premium-pai-degua.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Suco de Taperebá — copo",
-        "image": "assets/images/bebida-suco-natural-tapereba-copo-cardapio-premium-pai-degua.webp"
+        "image": "assets/images/bebida-suco-natural-tapereba-copo-cardapio-premium-pai-degua.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Suco de Maracujá — copo",
-        "image": "assets/images/suco-maracuja-site.webp"
+        "image": "assets/images/suco-maracuja-site.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Suco de Acerola — jarra 1 L",
-        "image": "assets/images/bebida-suco-natural-acerola-jarra-1l-cardapio-premium-pai-degua.webp"
+        "image": "assets/images/bebida-suco-natural-acerola-jarra-1l-cardapio-premium-pai-degua.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Suco de Cupuaçu — jarra 1 L",
-        "image": "assets/images/bebida-suco-natural-cupuacu-jarra-1l-cardapio-premium-pai-degua.webp"
+        "image": "assets/images/bebida-suco-natural-cupuacu-jarra-1l-cardapio-premium-pai-degua.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Suco de Goiaba — jarra 1 L",
-        "image": "assets/images/bebida-suco-natural-goiaba-jarra-1l-cardapio-premium-pai-degua.webp"
+        "image": "assets/images/bebida-suco-natural-goiaba-jarra-1l-cardapio-premium-pai-degua.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Suco de Graviola — jarra 1 L",
-        "image": "assets/images/bebida-suco-natural-graviola-jarra-1l-cardapio-premium-pai-degua.webp"
+        "image": "assets/images/bebida-suco-natural-graviola-jarra-1l-cardapio-premium-pai-degua.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Suco de Maracujá — jarra 1 L",
-        "image": "assets/images/bebida-suco-natural-maracuja-jarra-1l-cardapio-premium-pai-degua.webp"
+        "image": "assets/images/bebida-suco-natural-maracuja-jarra-1l-cardapio-premium-pai-degua.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Suco de Muruci — jarra 1 L",
-        "image": "assets/images/bebida-suco-natural-muruci-jarra-1l-cardapio-premium-pai-degua.webp"
+        "image": "assets/images/bebida-suco-natural-muruci-jarra-1l-cardapio-premium-pai-degua.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Suco de Taperebá — jarra 1 L",
-        "image": "assets/images/bebida-suco-natural-tapereba-jarra-1l-cardapio-premium-pai-degua.webp"
+        "image": "assets/images/bebida-suco-natural-tapereba-jarra-1l-cardapio-premium-pai-degua.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Suco Integral de Laranja 1,7 L",
-        "image": "assets/images/bebida-suco-integral-laranja-the-natural-one-1-7l-cardapio-premium-pai-degua.webp"
+        "image": "assets/images/bebida-suco-integral-laranja-the-natural-one-1-7l-cardapio-premium-pai-degua.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Suco Integral de Uva Aurora",
-        "image": "assets/images/suco-uva-integral.webp"
+        "image": "assets/images/suco-uva-integral.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       }
     ]
   },
@@ -328,39 +454,57 @@ window.PAIDEGUA_MENU = [
     "items": [
       {
         "name": "Chopp",
-        "image": "assets/images/bebida-chopp-hero-premium-transparent.webp"
+        "image": "assets/images/bebida-chopp-hero-premium-transparent.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Chopp de Vinho — taça",
-        "image": "assets/images/bebida-chopp-de-vinho-taca-hero-premium-transparent.webp"
+        "image": "assets/images/bebida-chopp-de-vinho-taca-hero-premium-transparent.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Chopp de Vinho — long neck",
-        "image": "assets/images/bebida-chopp-de-vinho-long-neck-hero-transparent.webp"
+        "image": "assets/images/bebida-chopp-de-vinho-long-neck-hero-transparent.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Vinho Nacional Tinto Suave",
-        "image": "assets/images/bebida-vinho-nacional-tinto-suave-hero-transparent.webp"
+        "image": "assets/images/bebida-vinho-nacional-tinto-suave-hero-transparent.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Vinho Tinto Seco",
-        "image": "assets/images/vinho-tinto-seco.webp"
+        "image": "assets/images/vinho-tinto-seco.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Vinho Argentino",
-        "image": "assets/images/bebida-vinho-argentino-hero-transparent.webp"
+        "image": "assets/images/bebida-vinho-argentino-hero-transparent.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Vinho Chileno Rosé",
-        "image": "assets/images/bebida-vinho-chileno-rose-santa-ema-hero-transparent.webp"
+        "image": "assets/images/bebida-vinho-chileno-rose-santa-ema-hero-transparent.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Vinho Italiano",
-        "image": "assets/images/bebida-vinho-italiano-hero-transparent.webp"
+        "image": "assets/images/bebida-vinho-italiano-hero-transparent.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       },
       {
         "name": "Vinho Português",
-        "image": "assets/images/bebida-vinho-portugues-hero-transparent.webp"
+        "image": "assets/images/bebida-vinho-portugues-hero-transparent.webp",
+        "price": "Consulte no pedido oficial",
+        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
       }
     ]
   }
