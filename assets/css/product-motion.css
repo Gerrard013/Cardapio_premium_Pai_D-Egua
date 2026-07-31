@@ -1,8 +1,0 @@
-.product-card,.featured-card,.unit-card,.quick-action-card{opacity:.94;transform:translateY(12px);transition:opacity .42s ease,transform .42s ease,box-shadow .28s ease}
-.product-card.motion-active,.featured-card.motion-active,.unit-card.motion-active,.quick-action-card.motion-active{opacity:1;transform:none}
-@media(max-width:760px){
-  .product-card,.featured-card,.unit-card,.quick-action-card{opacity:1;transform:none}
-}
-@media(prefers-reduced-motion:reduce){
-  .product-card,.featured-card,.unit-card,.quick-action-card{opacity:1!important;transform:none!important}
-}
