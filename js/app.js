@@ -42,7 +42,7 @@
     if(sessionStorage.getItem('paidegua-intro-seen') || matchMedia('(prefers-reduced-motion: reduce)').matches){intro.remove();return;}
     sessionStorage.setItem('paidegua-intro-seen','1');
     $('[data-skip-intro]',intro)?.addEventListener('click',hide);
-    intro.classList.add('is-primed'); setTimeout(()=>intro.classList.add('is-breaking'), 860); setTimeout(hide,2850);
+    intro.classList.add('is-primed'); setTimeout(()=>intro.classList.add('is-breaking'), 1050); setTimeout(hide,3600);
   }
 
   function initNav(){
@@ -142,19 +142,19 @@
     const add=(text,type)=>{const div=document.createElement('div');div.className=`assistant-message assistant-message--${type}`;div.innerHTML=text;messages.append(div);messages.scrollTop=messages.scrollHeight;};
     const answer=q=>{
       const s=q.toLowerCase();
-      if(/delivery|retirada normal|tempo de preparo|fila/.test(s)) return 'No delivery e na retirada normal, você encontra o cardápio completo e as promoções exclusivas. A retirada normal tem preparo médio de 20 a 30 minutos e entra na fila de produção. Vá para <a href="#pedido">Pedido oficial</a>.';
-      if(/promo|segunda|terça|terca|quarta|quinta|sexta|happy hour/.test(s)) return 'As promoções de delivery e retirada e o Happy Hour exclusivo do salão estão na seção <a href="#promocoes">Promoções</a>. Confirme unidade, disponibilidade e regras antes de finalizar.';
+      if(/delivery|retirada normal|tempo de preparo|fila|quero pedir agora/.test(s)) return 'Perfeito! No delivery e na retirada normal você encontra o cardápio completo e as promoções exclusivas. A retirada normal tem preparo médio de 20 a 30 minutos e entra na fila de produção. Vá direto para <a href="#pedido">Pedido oficial</a> e escolha sua unidade.';
+      if(/promo|segunda|terça|terca|quarta|quinta|sexta|happy hour|promoções de hoje/.test(s)) return 'Tem promoção boa te esperando! Veja a seção <a href="#promocoes">Promoções</a> para conferir as ofertas do delivery e retirada, além do Happy Hour exclusivo do salão. Antes de finalizar, confirme a disponibilidade na sua unidade.';
       if(/unidade|onde|endereço|endereco|mapa|coqueiro|batista/.test(s)) return 'Temos as unidades Coqueiro e Batista Campos. Abra a seção <a href="#unidades">Unidades</a> para iniciar a rota no Google Maps.';
-      if(/pizza express|express|rápida|rapida/.test(s)) return 'A Pizza Express é a retirada em 5 minutos, com um sabor exclusivo por dia. Consulte o sabor e a disponibilidade com a equipe pelo WhatsApp antes de sair.';
-      if(/evento|anivers|confratern|família|familia/.test(s)) return 'Há opções para encontros em família, confraternizações e celebrações premium. Veja <a href="#eventos">Eventos</a> ou fale com a equipe para planejar.';
-      if(/burger|hamb|smash/.test(s)) return 'Veja a vitrine de <a href="#burgers">Burgers</a>: assinaturas paraenses, artesanais e smash.';
-      if(/pizza|sabor/.test(s)) return 'A seção <a href="#pizzas">Pizzas</a> reúne todos os sabores disponíveis nesta vitrine. Toque em qualquer produto para vê-lo de perto.';
+      if(/pizza express|express|rápida|rapida/.test(s)) return 'A Pizza Express é ideal para quem quer praticidade: retirada em 5 minutos, com um sabor exclusivo por dia. Consulte o sabor do dia e a disponibilidade com a equipe antes de sair.';
+      if(/evento|anivers|confratern|família|familia|fazer evento/.test(s)) return 'Ótima escolha! A Pai D’Égua também é o lugar certo para aniversários, encontros em família e confraternizações. Veja a seção <a href="#eventos">Eventos</a> e fale com a equipe para montar a melhor opção.';
+      if(/burger|hamb|smash|quero um burger/.test(s)) return 'Se você quer um burger de respeito, vá para a seção <a href="#burgers">Burgers</a>. Lá estão as assinaturas paraenses, os artesanais e os smash mais desejados.';
+      if(/pizza|sabor/.test(s)) return 'A seção <a href="#pizzas">Pizzas</a> reúne os sabores em destaque da Pai D’Égua. Toque em qualquer produto para ver melhor e comparar antes de pedir.';
       if(/vinho|chopp/.test(s)) return 'A seleção de <a href="#vinhos-chopp">Vinhos & chopp</a> inclui vinho italiano, opções nacionais e importadas, chopp e chopp de vinho.';
       if(/suco|tapereb|cupua|muruci|acerola|graviola/.test(s)) return 'Os sabores de frutas estão em <a href="#sucos">Sucos</a>, com opções em copo, jarra e integrais.';
-      if(/pedido|comprar|valor|preço|preco/.test(s)) return 'Abra a seção <a href="#pedido">Pedido oficial</a>, escolha a unidade e veja os valores atualizados no Anota Aí.';
-      if(/instagram|insta|rede social|gtech|burger/.test(s)) return 'Veja a seção <a href="#instagram">Instagram</a> para acessar @pizzariapaidegua16, @paidegua.burger e @gtech_brasil.';
+      if(/pedido|comprar|valor|preço|preco/.test(s)) return 'Para ver valores atualizados e finalizar com segurança, abra a seção <a href="#pedido">Pedido oficial</a>, escolha sua unidade e continue pelo Anota Aí.';
+      if(/instagram|insta|rede social|gtech|burger/.test(s)) return 'Acesse a seção <a href="#instagram">Instagram</a> para acompanhar @pizzariapaidegua16, @paidegua.burger e @gtech_brasil.';
       if(/whatsapp|dúvida|duvida|falar/.test(s)) return `Para falar com a equipe, <a href="https://wa.me/${PHONE}?text=${encodeURIComponent('Olá! Vim pelo Cardápio Premium Pai D\'Égua e preciso de ajuda.')}" target="_blank" rel="noopener">abra o WhatsApp</a>.`;
-      return 'Posso ajudar com pizzas, burgers, sucos, vinhos, promoções, eventos, unidades e pedidos. Escolha um desses assuntos ou escreva sua dúvida de outra forma.';
+      return 'Posso te ajudar com pizzas, burgers, bebidas, promoções, eventos, unidades e pedido oficial. É só tocar em uma opção ou escrever sua dúvida.';
     };
     const send=q=>{q=q.trim();if(!q)return;add(q,'user');setTimeout(()=>add(answer(q),'bot'),260);};
     form.addEventListener('submit',e=>{e.preventDefault();const q=input.value;input.value='';send(q);});

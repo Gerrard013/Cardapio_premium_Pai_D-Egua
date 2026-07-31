@@ -3,7 +3,7 @@ window.PAIDEGUA_MENU = [
     "id": "pizzas",
     "eyebrow": "Forno & tradição",
     "title": "Pizzas que ocupam a cena",
-    "subtitle": "Sabores apresentados como peças de uma vitrine artesanal.",
+    "subtitle": "Sabores artesanais com foco em decisão rápida, visual premium e preços destacados nos sabores confirmados.",
     "theme": "wine",
     "initial": 4,
     "contain": false,
@@ -263,16 +263,16 @@ window.PAIDEGUA_MENU = [
     "id": "bebidas",
     "eyebrow": "Refresque o momento",
     "title": "Bebidas",
-    "subtitle": "Clássicos gelados e escolhas para acompanhar cada pedido.",
+    "subtitle": "Refrigerantes, energéticos, cerveja long neck e águas para completar o pedido.",
     "theme": "night",
-    "initial": 4,
+    "initial": 6,
     "contain": true,
     "items": [
       {
         "name": "Água Mineral sem Gás 500 ml",
         "image": "assets/images/bebida-agua-mineral-sem-gas-500ml-cardapio-premium-pai-degua.webp",
         "price": "R$ 6,90",
-        "description": "Água mineral 500 ml."
+        "description": "Água gelada para acompanhar sua refeição."
       },
       {
         "name": "H2OH! Limoneto",
@@ -284,37 +284,37 @@ window.PAIDEGUA_MENU = [
         "name": "Fanta Laranja 350 ml",
         "image": "assets/images/bebida-fanta-laranja-lata-hero-transparent.webp",
         "price": "R$ 7,50",
-        "description": "Refrigerante em lata. Valor informado pela unidade no material de bebidas."
+        "description": "Refrigerante em lata, gelado e perfeito para acompanhar o pedido."
       },
       {
         "name": "Fanta Uva 350 ml",
         "image": "assets/images/bebida-fanta-uva-lata-hero-transparent.webp",
         "price": "R$ 7,50",
-        "description": "Refrigerante em lata. Valor informado pela unidade no material de bebidas."
+        "description": "Refrigerante em lata, gelado e perfeito para acompanhar o pedido."
       },
       {
         "name": "Guaraná 350 ml",
         "image": "assets/images/bebida-guarana-lata-hero-transparent.webp",
         "price": "R$ 7,50",
-        "description": "Refrigerante em lata. Valor informado pela unidade no material de bebidas."
+        "description": "Refrigerante em lata, gelado e perfeito para acompanhar o pedido."
       },
       {
         "name": "Guaraná Tuchaua 350 ml",
         "image": "assets/images/bebida-guarana-tuchaua-lata-350ml-cardapio-premium-pai-degua.webp",
         "price": "R$ 7,50",
-        "description": "Refrigerante em lata. Valor informado pela unidade no material de bebidas."
+        "description": "Refrigerante em lata, gelado e perfeito para acompanhar o pedido."
       },
       {
         "name": "Guaraná Zero 350 ml",
         "image": "assets/images/bebida-guarana-zero-lata-350ml-cardapio-premium-pai-degua.webp",
         "price": "R$ 7,50",
-        "description": "Refrigerante em lata. Valor informado pela unidade no material de bebidas."
+        "description": "Refrigerante em lata, gelado e perfeito para acompanhar o pedido."
       },
       {
         "name": "Sprite 350 ml",
         "image": "assets/images/bebida-sprite-lata-350ml-cardapio-premium-pai-degua.webp",
         "price": "R$ 7,50",
-        "description": "Refrigerante em lata. Valor informado pela unidade no material de bebidas."
+        "description": "Refrigerante em lata, gelado e perfeito para acompanhar o pedido."
       },
       {
         "name": "Heineken Long Neck",
@@ -333,6 +333,24 @@ window.PAIDEGUA_MENU = [
         "image": "assets/images/redbull-site.webp",
         "price": "R$ 12,90",
         "description": "Energético."
+      },
+      {
+        "name": "Coca-Cola 350 ml",
+        "image": "assets/images/bebida-coca-cola-card.webp",
+        "price": "R$ 7,50",
+        "description": "Refrigerante em lata, gelado e perfeito para acompanhar o pedido."
+      },
+      {
+        "name": "Coca-Cola Zero 350 ml",
+        "image": "assets/images/bebida-coca-zero-card.webp",
+        "price": "R$ 7,50",
+        "description": "Refrigerante em lata, gelado e perfeito para acompanhar o pedido."
+      },
+      {
+        "name": "Água com Gás 500 ml",
+        "image": "assets/images/bebida-agua-mineral-sem-gas-500ml-cardapio-premium-pai-degua.webp",
+        "price": "R$ 7,50",
+        "description": "Água gelada para acompanhar sua refeição."
       }
     ]
   },
@@ -340,9 +358,9 @@ window.PAIDEGUA_MENU = [
     "id": "sucos",
     "eyebrow": "Frutas da nossa terra",
     "title": "Sucos",
-    "subtitle": "Copos e jarras com sabores marcantes da Amazônia.",
+    "subtitle": "Sabores da Amazônia em copos e jarras, além de integrais selecionados.",
     "theme": "fruit",
-    "initial": 4,
+    "initial": 6,
     "contain": false,
     "items": [
       {
@@ -447,9 +465,9 @@ window.PAIDEGUA_MENU = [
     "id": "vinhos-chopp",
     "eyebrow": "Seleção da casa",
     "title": "Vinhos & chopp",
-    "subtitle": "Uma curadoria elegante — incluindo o vinho italiano — para brindar no salão.",
+    "subtitle": "Chopp, chopp de vinho e uma seleção de vinhos com preços para facilitar a escolha.",
     "theme": "wine",
-    "initial": 4,
+    "initial": 6,
     "contain": true,
     "items": [
       {
