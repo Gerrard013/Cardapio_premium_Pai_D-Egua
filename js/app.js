@@ -42,7 +42,7 @@
     if(sessionStorage.getItem('paidegua-intro-seen') || matchMedia('(prefers-reduced-motion: reduce)').matches){intro.remove();return;}
     sessionStorage.setItem('paidegua-intro-seen','1');
     $('[data-skip-intro]',intro)?.addEventListener('click',hide);
-    intro.classList.add('is-primed'); setTimeout(()=>intro.classList.add('is-breaking'), 1050); setTimeout(hide,3600);
+    intro.classList.add('is-primed'); setTimeout(()=>intro.classList.add('is-breaking'), 1300); setTimeout(hide,3300);
   }
 
   function initNav(){
