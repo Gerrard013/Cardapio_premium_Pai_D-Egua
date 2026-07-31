@@ -336,13 +336,13 @@ window.PAIDEGUA_MENU = [
       },
       {
         "name": "Coca-Cola 350 ml",
-        "image": "assets/images/bebida-coca-cola-card.webp",
+        "image": "assets/images/coca-cola.png?v=final-20260731",
         "price": "R$ 7,50",
         "description": "Refrigerante em lata, gelado e perfeito para acompanhar o pedido."
       },
       {
         "name": "Coca-Cola Zero 350 ml",
-        "image": "assets/images/bebida-coca-zero-card.webp",
+        "image": "assets/images/coca-zero.png?v=final-20260731",
         "price": "R$ 7,50",
         "description": "Refrigerante em lata, gelado e perfeito para acompanhar o pedido."
       },
