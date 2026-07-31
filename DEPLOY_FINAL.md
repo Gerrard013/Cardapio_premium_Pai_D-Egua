@@ -7,3 +7,6 @@
 
 Build command: vazio  
 Publish directory: `.`
+
+
+Atualização ULTRA FINAL: intro refeita com efeito de quebra da logo, motion premium nos cards, preços preenchidos em bebidas/sucos/vinhos e seção de Instagram refinada.

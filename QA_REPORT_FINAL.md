@@ -15,3 +15,6 @@ Validado em 31/07/2026:
 - Logo oficial, Anota Aí, WhatsApp, Maps, Instagram Pai D’Égua e G Tech preservados.
 
 Observação: a lista das “10 mais pedidas” e sabores diários da Pizza Express não foram inventados porque a cliente ainda não enviou a relação final.
+
+
+Atualização ULTRA FINAL: intro refeita com efeito de quebra da logo, motion premium nos cards, preços preenchidos em bebidas/sucos/vinhos e seção de Instagram refinada.

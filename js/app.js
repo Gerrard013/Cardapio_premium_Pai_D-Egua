@@ -42,7 +42,7 @@
     if(sessionStorage.getItem('paidegua-intro-seen') || matchMedia('(prefers-reduced-motion: reduce)').matches){intro.remove();return;}
     sessionStorage.setItem('paidegua-intro-seen','1');
     $('[data-skip-intro]',intro)?.addEventListener('click',hide);
-    setTimeout(hide,2350);
+    intro.classList.add('is-primed'); setTimeout(()=>intro.classList.add('is-breaking'), 860); setTimeout(hide,2850);
   }
 
   function initNav(){
@@ -55,6 +55,43 @@
     const sections=anchors.map(a=>$(a.getAttribute('href'))).filter(Boolean);
     const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){anchors.forEach(a=>a.classList.toggle('is-active',a.getAttribute('href')==='#'+entry.target.id));}})},{rootMargin:'-38% 0px -56% 0px',threshold:0});
     sections.forEach(s=>observer.observe(s));
+  }
+
+  function initCardMotion(){
+    const cards=$$('.product-card,.highlight-card,.service-card,.event-card,.order-card,.social-card,.unit-card,.promo-card');
+    const active = matchMedia('(hover:hover)').matches;
+    cards.forEach(card=>{
+      if(active){
+        card.addEventListener('pointermove',e=>{
+          const r=card.getBoundingClientRect();
+          const px=(e.clientX-r.left)/r.width-.5;
+          const py=(e.clientY-r.top)/r.height-.5;
+          card.style.setProperty('--rx', `${(-py*10).toFixed(2)}deg`);
+          card.style.setProperty('--ry', `${(px*12).toFixed(2)}deg`);
+          card.style.setProperty('--mx', `${(px*18).toFixed(1)}px`);
+          card.style.setProperty('--my', `${(py*18).toFixed(1)}px`);
+        });
+        card.addEventListener('pointerleave',()=>{
+          card.style.setProperty('--rx','0deg');
+          card.style.setProperty('--ry','0deg');
+          card.style.setProperty('--mx','0px');
+          card.style.setProperty('--my','0px');
+        });
+      }
+    });
+    const onScroll=()=>{
+      const vh=window.innerHeight||1;
+      cards.forEach(card=>{
+        const r=card.getBoundingClientRect();
+        const center = r.top + r.height/2;
+        const diff = (center - vh/2)/(vh/2);
+        const clamp = Math.max(-1, Math.min(1, diff));
+        card.style.setProperty('--scroll-shift', `${(-clamp*16).toFixed(2)}px`);
+      });
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, {passive:true});
+    window.addEventListener('resize', onScroll);
   }
 
   function initReveal(){
@@ -115,6 +152,7 @@
       if(/vinho|chopp/.test(s)) return 'A seleção de <a href="#vinhos-chopp">Vinhos & chopp</a> inclui vinho italiano, opções nacionais e importadas, chopp e chopp de vinho.';
       if(/suco|tapereb|cupua|muruci|acerola|graviola/.test(s)) return 'Os sabores de frutas estão em <a href="#sucos">Sucos</a>, com opções em copo, jarra e integrais.';
       if(/pedido|comprar|valor|preço|preco/.test(s)) return 'Abra a seção <a href="#pedido">Pedido oficial</a>, escolha a unidade e veja os valores atualizados no Anota Aí.';
+      if(/instagram|insta|rede social|gtech|burger/.test(s)) return 'Veja a seção <a href="#instagram">Instagram</a> para acessar @pizzariapaidegua16, @paidegua.burger e @gtech_brasil.';
       if(/whatsapp|dúvida|duvida|falar/.test(s)) return `Para falar com a equipe, <a href="https://wa.me/${PHONE}?text=${encodeURIComponent('Olá! Vim pelo Cardápio Premium Pai D\'Égua e preciso de ajuda.')}" target="_blank" rel="noopener">abra o WhatsApp</a>.`;
       return 'Posso ajudar com pizzas, burgers, sucos, vinhos, promoções, eventos, unidades e pedidos. Escolha um desses assuntos ou escreva sua dúvida de outra forma.';
     };
@@ -135,6 +173,6 @@
   document.addEventListener('DOMContentLoaded',()=>{
     renderMenuSections();
     initIntro();initNav();initSmoothAnchors();
-    const io=initReveal();initExpand(io);initProductDialog();initAssistant();
+    const io=initReveal();initExpand(io);initProductDialog();initAssistant();initCardMotion();
   });
 })();

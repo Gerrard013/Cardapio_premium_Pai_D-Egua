@@ -28,3 +28,6 @@ Projeto estático mobile-first, pronto para GitHub e deploy automático no Netli
 ## Publicação
 
 O Netlify está conectado ao repositório GitHub. Após substituir os arquivos no clone local e executar `git push origin main`, o deploy de produção é iniciado automaticamente.
+
+
+Atualização ULTRA FINAL: intro refeita com efeito de quebra da logo, motion premium nos cards, preços preenchidos em bebidas/sucos/vinhos e seção de Instagram refinada.

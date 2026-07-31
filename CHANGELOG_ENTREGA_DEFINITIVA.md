@@ -10,3 +10,6 @@
 - Identidade, produtos, responsividade, navegação, Anota Aí, WhatsApp, Maps e rodapé preservados.
 
 Não foram inventados preços, endereços, sabores do dia ou ranking das 10 mais pedidas sem confirmação da cliente.
+
+
+Atualização ULTRA FINAL: intro refeita com efeito de quebra da logo, motion premium nos cards, preços preenchidos em bebidas/sucos/vinhos e seção de Instagram refinada.

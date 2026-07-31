@@ -17,8 +17,8 @@ window.PAIDEGUA_MENU = [
       {
         "name": "Calabresa",
         "image": "assets/images/pizza-calabresa-card-master.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "P: R$ 49,90 • M: R$ 64,90 • G: R$ 69,90",
+        "description": "Muçarela, calabresa, creme de alho-poró, cebola roxa e cebolinha. Uma versão pai d’égua com mais personalidade."
       },
       {
         "name": "Camarão à Moda da Casa",
@@ -47,8 +47,8 @@ window.PAIDEGUA_MENU = [
       {
         "name": "Frango Cremoso",
         "image": "assets/images/pizza-frango-cremoso-card-master.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "P: R$ 49,90 • M: R$ 64,90 • G: R$ 69,90",
+        "description": "Muçarela, creme de frango, ervilha e milho verde. Cremosa, saborosa e com o toque especial da casa."
       },
       {
         "name": "Havaiana",
@@ -59,20 +59,20 @@ window.PAIDEGUA_MENU = [
       {
         "name": "Lombo Canadense",
         "image": "assets/images/pizza-lombo-canadense-card-master.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "P: R$ 49,90 • M: R$ 64,90 • G: R$ 69,90",
+        "description": "Muçarela, lombo canadense e cebola roxa. Defumado suave com frescor equilibrado."
       },
       {
         "name": "Margherita",
         "image": "assets/images/pizza-margherita-card-master.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "P: R$ 49,90 • M: R$ 64,90 • G: R$ 69,90",
+        "description": "Muçarela, provolone, parmesão, tomate e manjericão. Leve, aromática e clássica."
       },
       {
         "name": "Metade Favorita",
         "image": "assets/images/pizza-metade-favorita-card-master.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "Carro-chefe • Consulte tamanhos no pedido oficial",
+        "description": "A carro-chefe da Pai D’Égua. Toque para ver e finalize pelo pedido oficial da unidade."
       },
       {
         "name": "Metade Pavulagem",
@@ -101,14 +101,14 @@ window.PAIDEGUA_MENU = [
       {
         "name": "Portuguesa",
         "image": "assets/images/pizza-portuguesa-card-master.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "P: R$ 49,90 • M: R$ 64,90 • G: R$ 69,90",
+        "description": "Muçarela, presunto, palmito de açaí, milho, ervilha, mix de pimentões, tomate, cebola roxa, ovos cozidos e orégano."
       },
       {
         "name": "Quatro Queijos",
         "image": "assets/images/pizza-quatro-queijos-cardapio-premium-pai-degua-final-4x5.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "P: R$ 54,90 • M: R$ 67,90 • G: R$ 72,90",
+        "description": "Muçarela, parmesão, provolone e catupiry. Cremosa, intensa e irresistível, com equilíbrio entre os quatro queijos."
       },
       {
         "name": "Sabor de Boteco",
@@ -271,68 +271,68 @@ window.PAIDEGUA_MENU = [
       {
         "name": "Água Mineral sem Gás 500 ml",
         "image": "assets/images/bebida-agua-mineral-sem-gas-500ml-cardapio-premium-pai-degua.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 6,90",
+        "description": "Água mineral 500 ml."
       },
       {
         "name": "H2OH! Limoneto",
         "image": "assets/images/h2oh-limoneto.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 8,90",
+        "description": "H2OH! Limoneto."
       },
       {
         "name": "Fanta Laranja 350 ml",
         "image": "assets/images/bebida-fanta-laranja-lata-hero-transparent.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 7,50",
+        "description": "Refrigerante em lata. Valor informado pela unidade no material de bebidas."
       },
       {
         "name": "Fanta Uva 350 ml",
         "image": "assets/images/bebida-fanta-uva-lata-hero-transparent.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 7,50",
+        "description": "Refrigerante em lata. Valor informado pela unidade no material de bebidas."
       },
       {
         "name": "Guaraná 350 ml",
         "image": "assets/images/bebida-guarana-lata-hero-transparent.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 7,50",
+        "description": "Refrigerante em lata. Valor informado pela unidade no material de bebidas."
       },
       {
         "name": "Guaraná Tuchaua 350 ml",
         "image": "assets/images/bebida-guarana-tuchaua-lata-350ml-cardapio-premium-pai-degua.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 7,50",
+        "description": "Refrigerante em lata. Valor informado pela unidade no material de bebidas."
       },
       {
         "name": "Guaraná Zero 350 ml",
         "image": "assets/images/bebida-guarana-zero-lata-350ml-cardapio-premium-pai-degua.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 7,50",
+        "description": "Refrigerante em lata. Valor informado pela unidade no material de bebidas."
       },
       {
         "name": "Sprite 350 ml",
         "image": "assets/images/bebida-sprite-lata-350ml-cardapio-premium-pai-degua.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 7,50",
+        "description": "Refrigerante em lata. Valor informado pela unidade no material de bebidas."
       },
       {
         "name": "Heineken Long Neck",
         "image": "assets/images/bebida-heineken-long-neck-hero-transparent.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 12,99",
+        "description": "Cerveja Heineken Long Neck."
       },
       {
         "name": "Smirnoff Ice",
         "image": "assets/images/ice-site.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 9,90",
+        "description": "Ice gelada para acompanhar."
       },
       {
         "name": "Red Bull",
         "image": "assets/images/redbull-site.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 12,90",
+        "description": "Energético."
       }
     ]
   },
@@ -348,98 +348,98 @@ window.PAIDEGUA_MENU = [
       {
         "name": "Suco de Acerola — copo",
         "image": "assets/images/suco-acerola.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 8,90",
+        "description": "Suco natural no copo. Consulte disponibilidade do sabor."
       },
       {
         "name": "Suco de Cupuaçu — copo",
         "image": "assets/images/suco-cupuacu.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 8,90",
+        "description": "Suco natural no copo. Consulte disponibilidade do sabor."
       },
       {
         "name": "Suco de Goiaba — copo",
         "image": "assets/images/bebida-suco-natural-goiaba-copo-cardapio-premium-pai-degua.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 8,90",
+        "description": "Suco natural no copo. Consulte disponibilidade do sabor."
       },
       {
         "name": "Suco de Graviola — copo",
         "image": "assets/images/bebida-suco-natural-graviola-copo-cardapio-premium-pai-degua.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 8,90",
+        "description": "Suco natural no copo. Consulte disponibilidade do sabor."
       },
       {
         "name": "Suco de Muruci — copo",
         "image": "assets/images/bebida-suco-natural-muruci-copo-cardapio-premium-pai-degua.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 8,90",
+        "description": "Suco natural no copo. Consulte disponibilidade do sabor."
       },
       {
         "name": "Suco de Taperebá — copo",
         "image": "assets/images/bebida-suco-natural-tapereba-copo-cardapio-premium-pai-degua.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 8,90",
+        "description": "Suco natural no copo. Consulte disponibilidade do sabor."
       },
       {
         "name": "Suco de Maracujá — copo",
         "image": "assets/images/suco-maracuja-site.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 8,90",
+        "description": "Suco natural no copo. Consulte disponibilidade do sabor."
       },
       {
         "name": "Suco de Acerola — jarra 1 L",
         "image": "assets/images/bebida-suco-natural-acerola-jarra-1l-cardapio-premium-pai-degua.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 34,90",
+        "description": "Suco natural na jarra. Consulte disponibilidade do sabor."
       },
       {
         "name": "Suco de Cupuaçu — jarra 1 L",
         "image": "assets/images/bebida-suco-natural-cupuacu-jarra-1l-cardapio-premium-pai-degua.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 34,90",
+        "description": "Suco natural na jarra. Consulte disponibilidade do sabor."
       },
       {
         "name": "Suco de Goiaba — jarra 1 L",
         "image": "assets/images/bebida-suco-natural-goiaba-jarra-1l-cardapio-premium-pai-degua.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 34,90",
+        "description": "Suco natural na jarra. Consulte disponibilidade do sabor."
       },
       {
         "name": "Suco de Graviola — jarra 1 L",
         "image": "assets/images/bebida-suco-natural-graviola-jarra-1l-cardapio-premium-pai-degua.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 34,90",
+        "description": "Suco natural na jarra. Consulte disponibilidade do sabor."
       },
       {
         "name": "Suco de Maracujá — jarra 1 L",
         "image": "assets/images/bebida-suco-natural-maracuja-jarra-1l-cardapio-premium-pai-degua.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 34,90",
+        "description": "Suco natural na jarra. Consulte disponibilidade do sabor."
       },
       {
         "name": "Suco de Muruci — jarra 1 L",
         "image": "assets/images/bebida-suco-natural-muruci-jarra-1l-cardapio-premium-pai-degua.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 34,90",
+        "description": "Suco natural na jarra. Consulte disponibilidade do sabor."
       },
       {
         "name": "Suco de Taperebá — jarra 1 L",
         "image": "assets/images/bebida-suco-natural-tapereba-jarra-1l-cardapio-premium-pai-degua.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 34,90",
+        "description": "Suco natural na jarra. Consulte disponibilidade do sabor."
       },
       {
         "name": "Suco Integral de Laranja 1,7 L",
         "image": "assets/images/bebida-suco-integral-laranja-the-natural-one-1-7l-cardapio-premium-pai-degua.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 12,80",
+        "description": "Suco integral de laranja."
       },
       {
         "name": "Suco Integral de Uva Aurora",
         "image": "assets/images/suco-uva-integral.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 12,80",
+        "description": "Suco integral de uva."
       }
     ]
   },
@@ -455,56 +455,56 @@ window.PAIDEGUA_MENU = [
       {
         "name": "Chopp",
         "image": "assets/images/bebida-chopp-hero-premium-transparent.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 12,90",
+        "description": "Chopp da casa."
       },
       {
         "name": "Chopp de Vinho — taça",
         "image": "assets/images/bebida-chopp-de-vinho-taca-hero-premium-transparent.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 18,90",
+        "description": "Chopp de vinho servido na taça."
       },
       {
         "name": "Chopp de Vinho — long neck",
         "image": "assets/images/bebida-chopp-de-vinho-long-neck-hero-transparent.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 18,90",
+        "description": "Chopp de vinho em long neck."
       },
       {
         "name": "Vinho Nacional Tinto Suave",
         "image": "assets/images/bebida-vinho-nacional-tinto-suave-hero-transparent.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 39,90",
+        "description": "Vinho nacional tinto suave."
       },
       {
         "name": "Vinho Tinto Seco",
         "image": "assets/images/vinho-tinto-seco.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 43,90",
+        "description": "Vinho nacional tinto seco."
       },
       {
         "name": "Vinho Argentino",
         "image": "assets/images/bebida-vinho-argentino-hero-transparent.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 89,90",
+        "description": "Vinho argentino — tinto, rosé e branco."
       },
       {
         "name": "Vinho Chileno Rosé",
         "image": "assets/images/bebida-vinho-chileno-rose-santa-ema-hero-transparent.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 75,90",
+        "description": "Vinho chileno — tinto, rosé e branco."
       },
       {
         "name": "Vinho Italiano",
         "image": "assets/images/bebida-vinho-italiano-hero-transparent.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 99,90",
+        "description": "Vinho italiano — tinto, rosé e branco."
       },
       {
         "name": "Vinho Português",
         "image": "assets/images/bebida-vinho-portugues-hero-transparent.webp",
-        "price": "Consulte no pedido oficial",
-        "description": "Confira os detalhes e a disponibilidade no pedido oficial."
+        "price": "R$ 89,90",
+        "description": "Vinho português — tinto, rosé e branco."
       }
     ]
   }

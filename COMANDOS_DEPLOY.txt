@@ -27,3 +27,6 @@ open "https://app.netlify.com/projects/paidegua-cardapio-oficial/deploys"
 
 4) Abra o site:
 open "https://paidegua-cardapio-oficial.netlify.app/?v=entrega-definitiva"
+
+
+Atualização ULTRA FINAL: intro refeita com efeito de quebra da logo, motion premium nos cards, preços preenchidos em bebidas/sucos/vinhos e seção de Instagram refinada.
