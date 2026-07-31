@@ -1,0 +1,259 @@
+{
+  "version": "2026-07-31-ultra-final-v1",
+  "brand": {
+    "name": "Pizzaria Pai D’Égua",
+    "tagline": "Pizzas artesanais, encontros e celebrações",
+    "instagram": "https://www.instagram.com/pizzariapaidegua16/",
+    "burgerInstagram": "https://www.instagram.com/paidegua.burger/",
+    "bio": "https://bio.site/paidegua",
+    "orderGeneral": "https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=",
+    "productLinkProvided": "https://pedido.anota.ai/product/63d96e925b52008112c710d8/0/paideguapizzasartesanais?o=a"
+  },
+  "units": [
+    {
+      "id": "coqueiro",
+      "name": "Unidade Coqueiro",
+      "address": "Coqueiro, Belém – PA",
+      "phoneDisplay": "(91) 98846-7024",
+      "phone": "5591988467024",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Pizzaria+Pai+D%27%C3%89gua+Coqueiro+Bel%C3%A9m+PA",
+      "services": [
+        "Delivery",
+        "Retirada normal",
+        "Pizza Express"
+      ],
+      "confirmedAddress": false
+    },
+    {
+      "id": "batista-campos",
+      "name": "Unidade Batista Campos",
+      "address": "Rua dos Mundurucus, 1427 – Batista Campos, Belém – PA",
+      "phoneDisplay": "(91) 98842-4249",
+      "phone": "5591988424249",
+      "maps": "https://www.google.com/maps/search/?api=1&query=Rua+dos+Mundurucus+1427+Batista+Campos+Bel%C3%A9m+PA",
+      "services": [
+        "Salão",
+        "Delivery",
+        "Retirada",
+        "Eventos",
+        "Burger"
+      ],
+      "confirmedAddress": true
+    }
+  ],
+  "burgerUnits": [
+    {
+      "name": "Burger – Batista Campos",
+      "address": "Rua dos Mundurucus, 1427 – Batista Campos, Belém – PA",
+      "asset": "assets/img/burger/burger-batista-campos.png"
+    },
+    {
+      "name": "Burger – Conjunto Satélite",
+      "address": "Conjunto Satélite, SN 4, esquina com WE-6 – Belém – PA",
+      "asset": "assets/img/burger/burger-satelite.png",
+      "addressReview": true
+    }
+  ],
+  "promotions": [
+    {
+      "day": 1,
+      "weekday": "Segunda",
+      "title": "Segunda PLUS",
+      "description": "Pague M e leve G.",
+      "note": "Exclusiva do delivery e retirada."
+    },
+    {
+      "day": 2,
+      "weekday": "Terça",
+      "title": "Terça Favorita",
+      "description": "Compre uma pizza Favorita e ganhe uma broto doce.",
+      "note": "Exclusiva do delivery e retirada."
+    },
+    {
+      "day": 3,
+      "weekday": "Quarta",
+      "title": "Quarta em Dobro",
+      "description": "1 pizza G + 1 pizza pequena doce.",
+      "note": "Condição em atualização pela equipe; confirme no canal oficial."
+    },
+    {
+      "day": 4,
+      "weekday": "Quinta",
+      "title": "Quinta da Borda Grátis",
+      "description": "Na compra de uma pizza salgada G, a borda é grátis.",
+      "note": "Exclusiva do delivery e retirada."
+    },
+    {
+      "day": 5,
+      "weekday": "Sexta",
+      "title": "Sexta do Boteco",
+      "description": "Pizza Sabor de Boteco + bebida grátis.",
+      "note": "2 Eisenbahn 350 ml, ou Coca-Cola 1 L, ou suco 1 L. Confirme disponibilidade."
+    }
+  ],
+  "highlights": [
+    {
+      "id": "metade-favorita",
+      "name": "Metade Favorita",
+      "label": "Carro-chefe",
+      "description": "O destaque mais lembrado da casa, confirmado pela equipe.",
+      "image": "assets/img/optimized/pizza-metade-favorita-1200.webp",
+      "category": "pizza",
+      "price": "Consulte no pedido oficial",
+      "order": "general"
+    },
+    {
+      "id": "sabor-boteco",
+      "name": "Sabor de Boteco",
+      "label": "Identidade paraense",
+      "description": "Charque desfiado, macaxeira frita e cebola roxa.",
+      "image": "assets/img/optimized/pizza-sabor-boteco-1200.webp",
+      "category": "pizza",
+      "price": "Consulte no pedido oficial",
+      "order": "general"
+    },
+    {
+      "id": "calabresa",
+      "name": "Calabresa",
+      "label": "Clássica",
+      "description": "Um dos sabores tradicionais apresentados no cardápio oficial.",
+      "image": "assets/img/optimized/pizza-calabresa-1200.webp",
+      "category": "pizza",
+      "price": "a partir de R$ 39,90",
+      "order": "general"
+    },
+    {
+      "id": "quatro-queijos",
+      "name": "4 Queijos",
+      "label": "Especial",
+      "description": "Muçarela, parmesão, provolone e catupiry.",
+      "image": "assets/img/optimized/pizza-quatro-queijos-1200.webp",
+      "category": "pizza",
+      "price": "a partir de R$ 54,90",
+      "order": "general"
+    },
+    {
+      "id": "penne",
+      "name": "Penne ao molho calabresa e bacon",
+      "label": "Massa",
+      "description": "Penne com molho, calabresa, bacon e queijo parmesão.",
+      "image": "assets/img/optimized/massa-penne-1200.webp",
+      "category": "massa",
+      "price": "R$ 39,90",
+      "order": "general"
+    },
+    {
+      "id": "salada",
+      "name": "Monte sua salada",
+      "label": "Leve e personalizável",
+      "description": "Escolha base, molho, proteína e finalizadores.",
+      "image": "assets/img/optimized/salada-1200.webp",
+      "category": "salada",
+      "price": "base R$ 19,90",
+      "order": "general"
+    },
+    {
+      "id": "combo-evento",
+      "name": "Combos e kits para compartilhar",
+      "label": "Para grupos",
+      "description": "Opções do cardápio oficial para reunir pessoas e celebrar.",
+      "image": "assets/img/optimized/combo-evento-1200.webp",
+      "category": "combo",
+      "price": "Consulte as opções",
+      "order": "general"
+    }
+  ],
+  "menuPages": [
+    {
+      "id": "capa",
+      "title": "Capa oficial",
+      "src": "assets/img/menu/01-capa.webp",
+      "thumb": "assets/img/menu/01-capa-thumb.webp"
+    },
+    {
+      "id": "entradas",
+      "title": "Entradas",
+      "src": "assets/img/menu/02-entradas.webp",
+      "thumb": "assets/img/menu/02-entradas-thumb.webp"
+    },
+    {
+      "id": "tradicionais",
+      "title": "Pizzas tradicionais",
+      "src": "assets/img/menu/03-pizzas-tradicionais.webp",
+      "thumb": "assets/img/menu/03-pizzas-tradicionais-thumb.webp"
+    },
+    {
+      "id": "sabores",
+      "title": "Sabores especiais",
+      "src": "assets/img/menu/04-sabores-especiais.webp",
+      "thumb": "assets/img/menu/04-sabores-especiais-thumb.webp"
+    },
+    {
+      "id": "paidegua",
+      "title": "Pizzas Pai D’Égua",
+      "src": "assets/img/menu/05-pizzas-pai-dagua.webp",
+      "thumb": "assets/img/menu/05-pizzas-pai-dagua-thumb.webp"
+    },
+    {
+      "id": "especiais",
+      "title": "Pizzas especiais",
+      "src": "assets/img/menu/06-pizzas-especiais.webp",
+      "thumb": "assets/img/menu/06-pizzas-especiais-thumb.webp"
+    },
+    {
+      "id": "adicionais",
+      "title": "Adicionais e bordas",
+      "src": "assets/img/menu/07-adicionais-e-bordas.webp",
+      "thumb": "assets/img/menu/07-adicionais-e-bordas-thumb.webp"
+    },
+    {
+      "id": "combos",
+      "title": "Combos promocionais",
+      "src": "assets/img/menu/08-combos-promocionais.webp",
+      "thumb": "assets/img/menu/08-combos-promocionais-thumb.webp"
+    },
+    {
+      "id": "doces",
+      "title": "Pizzas doces e sobremesas",
+      "src": "assets/img/menu/09-pizzas-doces-e-sobremesas.webp",
+      "thumb": "assets/img/menu/09-pizzas-doces-e-sobremesas-thumb.webp"
+    },
+    {
+      "id": "bebidas",
+      "title": "Bebidas e vinhos",
+      "src": "assets/img/menu/10-bebidas-e-vinhos.webp",
+      "thumb": "assets/img/menu/10-bebidas-e-vinhos-thumb.webp"
+    },
+    {
+      "id": "massas",
+      "title": "Massas",
+      "src": "assets/img/menu/11-massas.webp",
+      "thumb": "assets/img/menu/11-massas-thumb.webp"
+    },
+    {
+      "id": "saladas",
+      "title": "Saladas",
+      "src": "assets/img/menu/12-saladas.webp",
+      "thumb": "assets/img/menu/12-saladas-thumb.webp"
+    }
+  ],
+  "research": {
+    "occasion": {
+      "celebration": 48.8,
+      "couple": 25.1,
+      "other": 12.2,
+      "newPlaces": 5.9,
+      "quickMeal": 5.2,
+      "business": 2.9,
+      "sample": 443
+    },
+    "source": {
+      "instagram": 30,
+      "other": 30,
+      "walkBy": 20,
+      "referral": 10,
+      "google": 10,
+      "sample": 20
+    }
+  }
+}

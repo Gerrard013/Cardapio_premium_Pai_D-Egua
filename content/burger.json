@@ -1,0 +1,13 @@
+[
+  {
+    "name": "Burger – Batista Campos",
+    "address": "Rua dos Mundurucus, 1427 – Batista Campos, Belém – PA",
+    "asset": "assets/img/burger/burger-batista-campos.png"
+  },
+  {
+    "name": "Burger – Conjunto Satélite",
+    "address": "Conjunto Satélite, SN 4, esquina com WE-6 – Belém – PA",
+    "asset": "assets/img/burger/burger-satelite.png",
+    "addressReview": true
+  }
+]

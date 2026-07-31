@@ -1,0 +1,2856 @@
+{
+  "generatedAt": "2026-07-31T01:44:00-03:00",
+  "hero": {
+    "hero-desktop": {
+      "master": "assets/img/hero/masters/hero-desktop.png",
+      "variants": [
+        {
+          "width": 480,
+          "height": 270,
+          "path": "assets/img/optimized/hero/hero-desktop-480.webp",
+          "bytes": 27772
+        },
+        {
+          "width": 768,
+          "height": 432,
+          "path": "assets/img/optimized/hero/hero-desktop-768.webp",
+          "bytes": 61930
+        },
+        {
+          "width": 1200,
+          "height": 675,
+          "path": "assets/img/optimized/hero/hero-desktop-1200.webp",
+          "bytes": 135332
+        },
+        {
+          "width": 1600,
+          "height": 900,
+          "path": "assets/img/optimized/hero/hero-desktop-1600.webp",
+          "bytes": 209420
+        }
+      ],
+      "image": "assets/img/optimized/hero/hero-desktop-1600.webp",
+      "width": 1672,
+      "height": 941
+    },
+    "hero-mobile": {
+      "master": "assets/img/hero/masters/hero-mobile.png",
+      "variants": [
+        {
+          "width": 480,
+          "height": 853,
+          "path": "assets/img/optimized/hero/hero-mobile-480.webp",
+          "bytes": 82542
+        },
+        {
+          "width": 768,
+          "height": 1365,
+          "path": "assets/img/optimized/hero/hero-mobile-768.webp",
+          "bytes": 170524
+        },
+        {
+          "width": 941,
+          "height": 1672,
+          "path": "assets/img/optimized/hero/hero-mobile-941.webp",
+          "bytes": 227992
+        }
+      ],
+      "image": "assets/img/optimized/hero/hero-mobile-941.webp",
+      "width": 941,
+      "height": 1672
+    }
+  },
+  "products": [
+    {
+      "id": "pizza-atum",
+      "name": "Atum",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Atum da Pai D’Égua",
+      "order": 10,
+      "featured": false,
+      "master": "assets/img/products/pizzas/masters/pizza-atum.png",
+      "image": "assets/img/optimized/pizzas/pizza-atum-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-atum-480.webp",
+          "bytes": 80850,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-atum-768.webp",
+          "bytes": 178204,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-atum-1122.webp",
+          "bytes": 320564,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-atum-480.webp 480w, assets/img/optimized/pizzas/pizza-atum-768.webp 768w, assets/img/optimized/pizzas/pizza-atum-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-calabresa",
+      "name": "Calabresa",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Calabresa da Pai D’Égua",
+      "order": 10,
+      "featured": false,
+      "master": "assets/img/products/pizzas/masters/pizza-calabresa.png",
+      "image": "assets/img/optimized/pizzas/pizza-calabresa-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-calabresa-480.webp",
+          "bytes": 69900,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-calabresa-768.webp",
+          "bytes": 155896,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-calabresa-1122.webp",
+          "bytes": 281274,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-calabresa-480.webp 480w, assets/img/optimized/pizzas/pizza-calabresa-768.webp 768w, assets/img/optimized/pizzas/pizza-calabresa-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-camarao-a-moda-da-casa",
+      "name": "Camarão à Moda da Casa",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Camarão à Moda da Casa da Pai D’Égua",
+      "order": 10,
+      "featured": false,
+      "master": "assets/img/products/pizzas/masters/pizza-camarao-a-moda-da-casa.png",
+      "image": "assets/img/optimized/pizzas/pizza-camarao-a-moda-da-casa-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-camarao-a-moda-da-casa-480.webp",
+          "bytes": 77106,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-camarao-a-moda-da-casa-768.webp",
+          "bytes": 193580,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-camarao-a-moda-da-casa-1122.webp",
+          "bytes": 366296,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-camarao-a-moda-da-casa-480.webp 480w, assets/img/optimized/pizzas/pizza-camarao-a-moda-da-casa-768.webp 768w, assets/img/optimized/pizzas/pizza-camarao-a-moda-da-casa-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-camarao-com-queijo-cuia",
+      "name": "Camarão com Queijo Cuia",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Camarão com Queijo Cuia da Pai D’Égua",
+      "order": 10,
+      "featured": false,
+      "master": "assets/img/products/pizzas/masters/pizza-camarao-com-queijo-cuia.png",
+      "image": "assets/img/optimized/pizzas/pizza-camarao-com-queijo-cuia-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-camarao-com-queijo-cuia-480.webp",
+          "bytes": 66310,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-camarao-com-queijo-cuia-768.webp",
+          "bytes": 141512,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-camarao-com-queijo-cuia-1122.webp",
+          "bytes": 239960,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-camarao-com-queijo-cuia-480.webp 480w, assets/img/optimized/pizzas/pizza-camarao-com-queijo-cuia-768.webp 768w, assets/img/optimized/pizzas/pizza-camarao-com-queijo-cuia-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-file-ao-creme-de-gorgonzola",
+      "name": "Filé ao Creme de Gorgonzola",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Filé ao Creme de Gorgonzola da Pai D’Égua",
+      "order": 10,
+      "featured": false,
+      "master": "assets/img/products/pizzas/masters/pizza-file-ao-creme-de-gorgonzola.png",
+      "image": "assets/img/optimized/pizzas/pizza-file-ao-creme-de-gorgonzola-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-file-ao-creme-de-gorgonzola-480.webp",
+          "bytes": 70324,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-file-ao-creme-de-gorgonzola-768.webp",
+          "bytes": 167670,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-file-ao-creme-de-gorgonzola-1122.webp",
+          "bytes": 316012,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-file-ao-creme-de-gorgonzola-480.webp 480w, assets/img/optimized/pizzas/pizza-file-ao-creme-de-gorgonzola-768.webp 768w, assets/img/optimized/pizzas/pizza-file-ao-creme-de-gorgonzola-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-file-com-cream-cheese",
+      "name": "Filé com Cream Cheese",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Filé com Cream Cheese da Pai D’Égua",
+      "order": 10,
+      "featured": false,
+      "master": "assets/img/products/pizzas/masters/pizza-file-com-cream-cheese.png",
+      "image": "assets/img/optimized/pizzas/pizza-file-com-cream-cheese-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-file-com-cream-cheese-480.webp",
+          "bytes": 65122,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-file-com-cream-cheese-768.webp",
+          "bytes": 159410,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-file-com-cream-cheese-1122.webp",
+          "bytes": 297332,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-file-com-cream-cheese-480.webp 480w, assets/img/optimized/pizzas/pizza-file-com-cream-cheese-768.webp 768w, assets/img/optimized/pizzas/pizza-file-com-cream-cheese-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-frango-cremoso",
+      "name": "Frango Cremoso",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Frango Cremoso da Pai D’Égua",
+      "order": 10,
+      "featured": false,
+      "master": "assets/img/products/pizzas/masters/pizza-frango-cremoso.png",
+      "image": "assets/img/optimized/pizzas/pizza-frango-cremoso-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-frango-cremoso-480.webp",
+          "bytes": 77684,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-frango-cremoso-768.webp",
+          "bytes": 172534,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-frango-cremoso-1122.webp",
+          "bytes": 319590,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-frango-cremoso-480.webp 480w, assets/img/optimized/pizzas/pizza-frango-cremoso-768.webp 768w, assets/img/optimized/pizzas/pizza-frango-cremoso-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-havaiana",
+      "name": "Havaiana",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Havaiana da Pai D’Égua",
+      "order": 10,
+      "featured": false,
+      "master": "assets/img/products/pizzas/masters/pizza-havaiana.png",
+      "image": "assets/img/optimized/pizzas/pizza-havaiana-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-havaiana-480.webp",
+          "bytes": 74686,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-havaiana-768.webp",
+          "bytes": 174908,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-havaiana-1122.webp",
+          "bytes": 319956,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-havaiana-480.webp 480w, assets/img/optimized/pizzas/pizza-havaiana-768.webp 768w, assets/img/optimized/pizzas/pizza-havaiana-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-lombo-canadense",
+      "name": "Lombo Canadense",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Lombo Canadense da Pai D’Égua",
+      "order": 10,
+      "featured": false,
+      "master": "assets/img/products/pizzas/masters/pizza-lombo-canadense.png",
+      "image": "assets/img/optimized/pizzas/pizza-lombo-canadense-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-lombo-canadense-480.webp",
+          "bytes": 74742,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-lombo-canadense-768.webp",
+          "bytes": 168204,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-lombo-canadense-1122.webp",
+          "bytes": 317176,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-lombo-canadense-480.webp 480w, assets/img/optimized/pizzas/pizza-lombo-canadense-768.webp 768w, assets/img/optimized/pizzas/pizza-lombo-canadense-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-margherita",
+      "name": "Margherita",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Margherita da Pai D’Égua",
+      "order": 10,
+      "featured": false,
+      "master": "assets/img/products/pizzas/masters/pizza-margherita.png",
+      "image": "assets/img/optimized/pizzas/pizza-margherita-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-margherita-480.webp",
+          "bytes": 90066,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-margherita-768.webp",
+          "bytes": 210812,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-margherita-1122.webp",
+          "bytes": 393766,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-margherita-480.webp 480w, assets/img/optimized/pizzas/pizza-margherita-768.webp 768w, assets/img/optimized/pizzas/pizza-margherita-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-metade-favorita",
+      "name": "Metade Favorita",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Metade Favorita da Pai D’Égua",
+      "order": 10,
+      "featured": true,
+      "master": "assets/img/products/pizzas/masters/pizza-metade-favorita.png",
+      "image": "assets/img/optimized/pizzas/pizza-metade-favorita-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-metade-favorita-480.webp",
+          "bytes": 74476,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-metade-favorita-768.webp",
+          "bytes": 165750,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-metade-favorita-1122.webp",
+          "bytes": 298274,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-metade-favorita-480.webp 480w, assets/img/optimized/pizzas/pizza-metade-favorita-768.webp 768w, assets/img/optimized/pizzas/pizza-metade-favorita-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-metade-pavulagem",
+      "name": "Metade Pavulagem",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Metade Pavulagem da Pai D’Égua",
+      "order": 10,
+      "featured": false,
+      "master": "assets/img/products/pizzas/masters/pizza-metade-pavulagem.png",
+      "image": "assets/img/optimized/pizzas/pizza-metade-pavulagem-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-metade-pavulagem-480.webp",
+          "bytes": 75632,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-metade-pavulagem-768.webp",
+          "bytes": 165506,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-metade-pavulagem-1122.webp",
+          "bytes": 297118,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-metade-pavulagem-480.webp 480w, assets/img/optimized/pizzas/pizza-metade-pavulagem-768.webp 768w, assets/img/optimized/pizzas/pizza-metade-pavulagem-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-mista",
+      "name": "Mista",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Mista da Pai D’Égua",
+      "order": 10,
+      "featured": false,
+      "master": "assets/img/products/pizzas/masters/pizza-mista.png",
+      "image": "assets/img/optimized/pizzas/pizza-mista-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-mista-480.webp",
+          "bytes": 68874,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-mista-768.webp",
+          "bytes": 143774,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-mista-1122.webp",
+          "bytes": 253592,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-mista-480.webp 480w, assets/img/optimized/pizzas/pizza-mista-768.webp 768w, assets/img/optimized/pizzas/pizza-mista-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-mucarela",
+      "name": "Muçarela",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Muçarela da Pai D’Égua",
+      "order": 10,
+      "featured": false,
+      "master": "assets/img/products/pizzas/masters/pizza-mucarela.png",
+      "image": "assets/img/optimized/pizzas/pizza-mucarela-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-mucarela-480.webp",
+          "bytes": 58976,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-mucarela-768.webp",
+          "bytes": 134104,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-mucarela-1122.webp",
+          "bytes": 241194,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-mucarela-480.webp 480w, assets/img/optimized/pizzas/pizza-mucarela-768.webp 768w, assets/img/optimized/pizzas/pizza-mucarela-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-paraense",
+      "name": "Paraense",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Paraense da Pai D’Égua",
+      "order": 10,
+      "featured": false,
+      "master": "assets/img/products/pizzas/masters/pizza-paraense.png",
+      "image": "assets/img/optimized/pizzas/pizza-paraense-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-paraense-480.webp",
+          "bytes": 70458,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-paraense-768.webp",
+          "bytes": 172048,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-paraense-1122.webp",
+          "bytes": 320516,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-paraense-480.webp 480w, assets/img/optimized/pizzas/pizza-paraense-768.webp 768w, assets/img/optimized/pizzas/pizza-paraense-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-portuguesa",
+      "name": "Portuguesa",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Portuguesa da Pai D’Égua",
+      "order": 10,
+      "featured": false,
+      "master": "assets/img/products/pizzas/masters/pizza-portuguesa.png",
+      "image": "assets/img/optimized/pizzas/pizza-portuguesa-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-portuguesa-480.webp",
+          "bytes": 69054,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-portuguesa-768.webp",
+          "bytes": 164960,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-portuguesa-1122.webp",
+          "bytes": 306660,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-portuguesa-480.webp 480w, assets/img/optimized/pizzas/pizza-portuguesa-768.webp 768w, assets/img/optimized/pizzas/pizza-portuguesa-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-quatro-queijos",
+      "name": "Quatro Queijos",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Quatro Queijos da Pai D’Égua",
+      "order": 10,
+      "featured": false,
+      "master": "assets/img/products/pizzas/masters/pizza-quatro-queijos.png",
+      "image": "assets/img/optimized/pizzas/pizza-quatro-queijos-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-quatro-queijos-480.webp",
+          "bytes": 73410,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-quatro-queijos-768.webp",
+          "bytes": 171100,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-quatro-queijos-1122.webp",
+          "bytes": 322442,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-quatro-queijos-480.webp 480w, assets/img/optimized/pizzas/pizza-quatro-queijos-768.webp 768w, assets/img/optimized/pizzas/pizza-quatro-queijos-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-sabor-de-boteco",
+      "name": "Sabor de Boteco",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Sabor de Boteco da Pai D’Égua",
+      "order": 10,
+      "featured": true,
+      "master": "assets/img/products/pizzas/masters/pizza-sabor-de-boteco.png",
+      "image": "assets/img/optimized/pizzas/pizza-sabor-de-boteco-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-sabor-de-boteco-480.webp",
+          "bytes": 85952,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-sabor-de-boteco-768.webp",
+          "bytes": 193774,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/pizzas/pizza-sabor-de-boteco-1122.webp",
+          "bytes": 356084,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/pizzas/pizza-sabor-de-boteco-480.webp 480w, assets/img/optimized/pizzas/pizza-sabor-de-boteco-768.webp 768w, assets/img/optimized/pizzas/pizza-sabor-de-boteco-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "pizza-so-o-file",
+      "name": "Só o Filé",
+      "section": "pizzas",
+      "category": "pizza",
+      "label": "Pizza artesanal",
+      "description": "Confira os ingredientes, tamanhos e disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Pizza Só o Filé da Pai D’Égua",
+      "order": 10,
+      "featured": false,
+      "master": "assets/img/products/pizzas/masters/pizza-so-o-file.png",
+      "image": "assets/img/optimized/pizzas/pizza-so-o-file-1123.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/pizzas/pizza-so-o-file-480.webp",
+          "bytes": 69116,
+          "height": 599
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/pizzas/pizza-so-o-file-768.webp",
+          "bytes": 160788,
+          "height": 958
+        },
+        {
+          "width": 1123,
+          "path": "assets/img/optimized/pizzas/pizza-so-o-file-1123.webp",
+          "bytes": 299218,
+          "height": 1401
+        }
+      ],
+      "width": 1123,
+      "height": 1401,
+      "srcset": "assets/img/optimized/pizzas/pizza-so-o-file-480.webp 480w, assets/img/optimized/pizzas/pizza-so-o-file-768.webp 768w, assets/img/optimized/pizzas/pizza-so-o-file-1123.webp 1123w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "burger-jambu",
+      "name": "Burger Pai D’Égua: Jambú",
+      "section": "burger-paidegua",
+      "category": "burger-paidegua",
+      "label": "Burger artesanal",
+      "description": "Jambu fresco sobre blend 160g, dupla fatia de cheddar, bacon crocante, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+      "ingredients": [
+        "Jambu fresco sobre blend 160g",
+        "dupla fatia de cheddar",
+        "bacon crocante",
+        "cebola especial",
+        "molho da casa",
+        "no pão brioche selado na manteiga"
+      ],
+      "price": "R$ 34,90",
+      "alt": "Burger Pai D’Égua: Jambú da Pai D’Égua",
+      "order": 20,
+      "featured": false,
+      "master": "assets/img/products/burgers/masters/burger-jambu.png",
+      "image": "assets/img/optimized/burgers/burger-jambu-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/burgers/burger-jambu-480.webp",
+          "bytes": 63276,
+          "height": 480
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/burgers/burger-jambu-768.webp",
+          "bytes": 142584,
+          "height": 768
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/burgers/burger-jambu-1200.webp",
+          "bytes": 281528,
+          "height": 1200
+        }
+      ],
+      "width": 1200,
+      "height": 1200,
+      "srcset": "assets/img/optimized/burgers/burger-jambu-480.webp 480w, assets/img/optimized/burgers/burger-jambu-768.webp 768w, assets/img/optimized/burgers/burger-jambu-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "burger-marajoara",
+      "name": "Burger Pai D’Égua: Marajoara",
+      "section": "burger-paidegua",
+      "category": "burger-paidegua",
+      "label": "Burger artesanal",
+      "description": "Queijo do Marajó e jambu sobre blend 160g, ovo, bacon crocante, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+      "ingredients": [
+        "Queijo do Marajó",
+        "jambu sobre blend 160g",
+        "ovo",
+        "bacon crocante",
+        "cebola especial",
+        "molho da casa",
+        "no pão brioche selado na manteiga"
+      ],
+      "price": "R$ 38,90",
+      "alt": "Burger Pai D’Égua: Marajoara da Pai D’Égua",
+      "order": 20,
+      "featured": true,
+      "master": "assets/img/products/burgers/masters/burger-marajoara.png",
+      "image": "assets/img/optimized/burgers/burger-marajoara-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/burgers/burger-marajoara-480.webp",
+          "bytes": 58684,
+          "height": 480
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/burgers/burger-marajoara-768.webp",
+          "bytes": 133398,
+          "height": 768
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/burgers/burger-marajoara-1200.webp",
+          "bytes": 272076,
+          "height": 1200
+        }
+      ],
+      "width": 1200,
+      "height": 1200,
+      "srcset": "assets/img/optimized/burgers/burger-marajoara-480.webp 480w, assets/img/optimized/burgers/burger-marajoara-768.webp 768w, assets/img/optimized/burgers/burger-marajoara-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "burger-paraense",
+      "name": "Burger Pai D’Égua: Paraense",
+      "section": "burger-paidegua",
+      "category": "burger-paidegua",
+      "label": "Burger artesanal",
+      "description": "Camarão na chapa e jambu no tucupi, queijo do Marajó, blend 160g e maionese de tucupi, no pão brioche selado na manteiga.",
+      "ingredients": [
+        "Camarão na chapa",
+        "jambu no tucupi",
+        "queijo do Marajó",
+        "blend 160g",
+        "maionese de tucupi",
+        "no pão brioche selado na manteiga"
+      ],
+      "price": "R$ 49,90",
+      "alt": "Burger Pai D’Égua: Paraense da Pai D’Égua",
+      "order": 20,
+      "featured": true,
+      "master": "assets/img/products/burgers/masters/burger-paraense.png",
+      "image": "assets/img/optimized/burgers/burger-paraense-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/burgers/burger-paraense-480.webp",
+          "bytes": 60162,
+          "height": 480
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/burgers/burger-paraense-768.webp",
+          "bytes": 130984,
+          "height": 768
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/burgers/burger-paraense-1200.webp",
+          "bytes": 261792,
+          "height": 1200
+        }
+      ],
+      "width": 1200,
+      "height": 1200,
+      "srcset": "assets/img/optimized/burgers/burger-paraense-480.webp 480w, assets/img/optimized/burgers/burger-paraense-768.webp 768w, assets/img/optimized/burgers/burger-paraense-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "burger-pulled",
+      "name": "Burger Pai D’Égua: Pulled",
+      "section": "burger-paidegua",
+      "category": "burger-paidegua",
+      "label": "Burger artesanal",
+      "description": "Carne suína defumada desfiada (pulled) com geleia de abacaxi, queijo provolone derretido, blend 160g e molho barbecue, no pão brioche selado na manteiga.",
+      "ingredients": [
+        "Carne suína defumada desfiada (pulled) com geleia de abacaxi",
+        "queijo provolone derretido",
+        "blend 160g",
+        "molho barbecue",
+        "no pão brioche selado na manteiga"
+      ],
+      "price": "R$ 47,90",
+      "alt": "Burger Pai D’Égua: Pulled da Pai D’Égua",
+      "order": 20,
+      "featured": false,
+      "master": "assets/img/products/burgers/masters/burger-pulled.png",
+      "image": "assets/img/optimized/burgers/burger-pulled-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/burgers/burger-pulled-480.webp",
+          "bytes": 49622,
+          "height": 480
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/burgers/burger-pulled-768.webp",
+          "bytes": 105434,
+          "height": 768
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/burgers/burger-pulled-1200.webp",
+          "bytes": 206542,
+          "height": 1200
+        }
+      ],
+      "width": 1200,
+      "height": 1200,
+      "srcset": "assets/img/optimized/burgers/burger-pulled-480.webp 480w, assets/img/optimized/burgers/burger-pulled-768.webp 768w, assets/img/optimized/burgers/burger-pulled-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "burger-acai",
+      "name": "Burger Pai D’Égua: Açaí",
+      "section": "burger-paidegua",
+      "category": "burger-paidegua",
+      "label": "Burger artesanal",
+      "description": "Charque de primeira desfiado, queijo do Marajó derretido e geleia de açaí sobre blend 160g na chapa, no pão brioche selado na manteiga.",
+      "ingredients": [
+        "Charque de primeira desfiado",
+        "queijo do Marajó derretido",
+        "geleia de açaí sobre blend 160g na chapa",
+        "no pão brioche selado na manteiga"
+      ],
+      "price": "Consulte no pedido oficial",
+      "alt": "Burger Pai D’Égua: Açaí da Pai D’Égua",
+      "order": 20,
+      "featured": false,
+      "master": "assets/img/products/burgers/masters/burger-acai.png",
+      "image": "assets/img/optimized/burgers/burger-acai-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/burgers/burger-acai-480.webp",
+          "bytes": 75394,
+          "height": 480
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/burgers/burger-acai-768.webp",
+          "bytes": 167016,
+          "height": 768
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/burgers/burger-acai-1200.webp",
+          "bytes": 329046,
+          "height": 1200
+        }
+      ],
+      "width": 1200,
+      "height": 1200,
+      "srcset": "assets/img/optimized/burgers/burger-acai-480.webp 480w, assets/img/optimized/burgers/burger-acai-768.webp 768w, assets/img/optimized/burgers/burger-acai-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "smash-pai-degua",
+      "name": "Smash Burger — Pai D’Égua",
+      "section": "smash",
+      "category": "smash",
+      "label": "Burger artesanal",
+      "description": "Blend 90g smash na chapa com aquela crostinha, queijo cheddar derretido, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+      "ingredients": [
+        "Blend 90g smash na chapa com aquela crostinha",
+        "queijo cheddar derretido",
+        "cebola especial",
+        "molho da casa",
+        "no pão brioche selado na manteiga"
+      ],
+      "price": "R$ 21,90",
+      "alt": "Smash Burger — Pai D’Égua da Pai D’Égua",
+      "order": 20,
+      "featured": false,
+      "master": "assets/img/products/burgers/masters/smash-pai-degua.png",
+      "image": "assets/img/optimized/burgers/smash-pai-degua-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/burgers/smash-pai-degua-480.webp",
+          "bytes": 41172,
+          "height": 340
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/burgers/smash-pai-degua-768.webp",
+          "bytes": 89290,
+          "height": 543
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/burgers/smash-pai-degua-1200.webp",
+          "bytes": 163172,
+          "height": 849
+        }
+      ],
+      "width": 1200,
+      "height": 849,
+      "srcset": "assets/img/optimized/burgers/smash-pai-degua-480.webp 480w, assets/img/optimized/burgers/smash-pai-degua-768.webp 768w, assets/img/optimized/burgers/smash-pai-degua-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "smash-bacon",
+      "name": "Smash Burger — Bacon",
+      "section": "smash",
+      "category": "smash",
+      "label": "Burger artesanal",
+      "description": "Bacon crocante sobre blend 90g smashed na chapa, queijo cheddar derretido, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+      "ingredients": [
+        "Bacon crocante sobre blend 90g smashed na chapa",
+        "queijo cheddar derretido",
+        "cebola especial",
+        "molho da casa",
+        "no pão brioche selado na manteiga"
+      ],
+      "price": "R$ 25,90",
+      "alt": "Smash Burger — Bacon da Pai D’Égua",
+      "order": 20,
+      "featured": false,
+      "master": "assets/img/products/burgers/masters/smash-bacon.png",
+      "image": "assets/img/optimized/burgers/smash-bacon-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/burgers/smash-bacon-480.webp",
+          "bytes": 53250,
+          "height": 320
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/burgers/smash-bacon-768.webp",
+          "bytes": 120956,
+          "height": 512
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/burgers/smash-bacon-1200.webp",
+          "bytes": 285020,
+          "height": 800
+        }
+      ],
+      "width": 1200,
+      "height": 800,
+      "srcset": "assets/img/optimized/burgers/smash-bacon-480.webp 480w, assets/img/optimized/burgers/smash-bacon-768.webp 768w, assets/img/optimized/burgers/smash-bacon-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "smash-salad",
+      "name": "Smash Burger — Salad",
+      "section": "smash",
+      "category": "smash",
+      "label": "Burger artesanal",
+      "description": "Alface fresca e tomate sobre blend 90g smashed na chapa, queijo cheddar, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+      "ingredients": [
+        "Alface fresca",
+        "tomate sobre blend 90g smashed na chapa",
+        "queijo cheddar",
+        "cebola especial",
+        "molho da casa",
+        "no pão brioche selado na manteiga"
+      ],
+      "price": "R$ 23,90",
+      "alt": "Smash Burger — Salad da Pai D’Égua",
+      "order": 20,
+      "featured": false,
+      "master": "assets/img/products/burgers/masters/smash-salad.png",
+      "image": "assets/img/optimized/burgers/smash-salad-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/burgers/smash-salad-480.webp",
+          "bytes": 53180,
+          "height": 320
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/burgers/smash-salad-768.webp",
+          "bytes": 117072,
+          "height": 512
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/burgers/smash-salad-1200.webp",
+          "bytes": 277454,
+          "height": 800
+        }
+      ],
+      "width": 1200,
+      "height": 800,
+      "srcset": "assets/img/optimized/burgers/smash-salad-480.webp 480w, assets/img/optimized/burgers/smash-salad-768.webp 768w, assets/img/optimized/burgers/smash-salad-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "smash-eggs",
+      "name": "Smash Burger — Eggs",
+      "section": "smash",
+      "category": "smash",
+      "label": "Burger artesanal",
+      "description": "Ovo na chapa sobre blend 90g smashed, dupla fatia de cheddar, alface, tomate, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+      "ingredients": [
+        "Ovo na chapa sobre blend 90g smashed",
+        "dupla fatia de cheddar",
+        "alface",
+        "tomate",
+        "cebola especial",
+        "molho da casa",
+        "no pão brioche selado na manteiga"
+      ],
+      "price": "R$ 24,90",
+      "alt": "Smash Burger — Eggs da Pai D’Égua",
+      "order": 20,
+      "featured": false,
+      "master": "assets/img/products/burgers/masters/smash-eggs.png",
+      "image": "assets/img/optimized/burgers/smash-eggs-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/burgers/smash-eggs-480.webp",
+          "bytes": 100884,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/burgers/smash-eggs-768.webp",
+          "bytes": 247924,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/burgers/smash-eggs-1024.webp",
+          "bytes": 476870,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/burgers/smash-eggs-480.webp 480w, assets/img/optimized/burgers/smash-eggs-768.webp 768w, assets/img/optimized/burgers/smash-eggs-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "burger-artesanal-classico",
+      "name": "Burger Artesanal — Clássico",
+      "section": "artesanal",
+      "category": "artesanal",
+      "label": "Burger artesanal",
+      "description": "Blend 160g suculento na chapa, dupla fatia de queijo cheddar derretido, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+      "ingredients": [
+        "Blend 160g suculento na chapa",
+        "dupla fatia de queijo cheddar derretido",
+        "cebola especial",
+        "molho da casa",
+        "no pão brioche selado na manteiga"
+      ],
+      "price": "R$ 29,90",
+      "alt": "Burger Artesanal — Clássico da Pai D’Égua",
+      "order": 20,
+      "featured": false,
+      "master": "assets/img/products/burgers/masters/burger-artesanal-classico.png",
+      "image": "assets/img/optimized/burgers/burger-artesanal-classico-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/burgers/burger-artesanal-classico-480.webp",
+          "bytes": 55322,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/burgers/burger-artesanal-classico-768.webp",
+          "bytes": 112128,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/burgers/burger-artesanal-classico-1122.webp",
+          "bytes": 199316,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/burgers/burger-artesanal-classico-480.webp 480w, assets/img/optimized/burgers/burger-artesanal-classico-768.webp 768w, assets/img/optimized/burgers/burger-artesanal-classico-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "burger-artesanal-bacon",
+      "name": "Burger Artesanal — Bacon",
+      "section": "artesanal",
+      "category": "artesanal",
+      "label": "Burger artesanal",
+      "description": "Bacon crocante sobre blend 160g suculento na chapa, dupla fatia de cheddar derretido, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+      "ingredients": [
+        "Bacon crocante sobre blend 160g suculento na chapa",
+        "dupla fatia de cheddar derretido",
+        "cebola especial",
+        "molho da casa",
+        "no pão brioche selado na manteiga"
+      ],
+      "price": "R$ 31,90",
+      "alt": "Burger Artesanal — Bacon da Pai D’Égua",
+      "order": 20,
+      "featured": false,
+      "master": "assets/img/products/burgers/masters/burger-artesanal-bacon.png",
+      "image": "assets/img/optimized/burgers/burger-artesanal-bacon-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/burgers/burger-artesanal-bacon-480.webp",
+          "bytes": 66012,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/burgers/burger-artesanal-bacon-768.webp",
+          "bytes": 134736,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/burgers/burger-artesanal-bacon-1122.webp",
+          "bytes": 231946,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/burgers/burger-artesanal-bacon-480.webp 480w, assets/img/optimized/burgers/burger-artesanal-bacon-768.webp 768w, assets/img/optimized/burgers/burger-artesanal-bacon-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "burger-artesanal-x-pai-degua",
+      "name": "Burger Artesanal — X Pai D’Égua",
+      "section": "artesanal",
+      "category": "artesanal",
+      "label": "Burger artesanal",
+      "description": "Blend 160g suculento, dupla fatia de cheddar, bacon crocante, ovo, salada, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+      "ingredients": [
+        "Blend 160g suculento",
+        "dupla fatia de cheddar",
+        "bacon crocante",
+        "ovo",
+        "salada",
+        "cebola especial",
+        "molho da casa",
+        "no pão brioche selado na manteiga"
+      ],
+      "price": "R$ 37,90",
+      "alt": "Burger Artesanal — X Pai D’Égua da Pai D’Égua",
+      "order": 20,
+      "featured": false,
+      "master": "assets/img/products/burgers/masters/burger-artesanal-x-pai-degua.png",
+      "image": "assets/img/optimized/burgers/burger-artesanal-x-pai-degua-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/burgers/burger-artesanal-x-pai-degua-480.webp",
+          "bytes": 50310,
+          "height": 320
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/burgers/burger-artesanal-x-pai-degua-768.webp",
+          "bytes": 111548,
+          "height": 512
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/burgers/burger-artesanal-x-pai-degua-1200.webp",
+          "bytes": 256852,
+          "height": 800
+        }
+      ],
+      "width": 1200,
+      "height": 800,
+      "srcset": "assets/img/optimized/burgers/burger-artesanal-x-pai-degua-480.webp 480w, assets/img/optimized/burgers/burger-artesanal-x-pai-degua-768.webp 768w, assets/img/optimized/burgers/burger-artesanal-x-pai-degua-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "batata-media",
+      "name": "Batata Média",
+      "section": "acompanhamento",
+      "category": "acompanhamento",
+      "label": "Acompanhamento",
+      "description": "Batata média.",
+      "price": "R$ 12,90",
+      "alt": "Batata Média da Pai D’Égua",
+      "order": 30,
+      "featured": false,
+      "master": "assets/img/products/acompanhamentos/masters/batata-media.png",
+      "image": "assets/img/optimized/acompanhamentos/batata-media-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/acompanhamentos/batata-media-480.webp",
+          "bytes": 39260,
+          "height": 480
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/acompanhamentos/batata-media-768.webp",
+          "bytes": 83214,
+          "height": 768
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/acompanhamentos/batata-media-1200.webp",
+          "bytes": 164926,
+          "height": 1200
+        }
+      ],
+      "width": 1200,
+      "height": 1200,
+      "srcset": "assets/img/optimized/acompanhamentos/batata-media-480.webp 480w, assets/img/optimized/acompanhamentos/batata-media-768.webp 768w, assets/img/optimized/acompanhamentos/batata-media-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "batata-grande",
+      "name": "Batata Grande",
+      "section": "acompanhamento",
+      "category": "acompanhamento",
+      "label": "Acompanhamento",
+      "description": "Batata grande.",
+      "price": "R$ 18,90",
+      "alt": "Batata Grande da Pai D’Égua",
+      "order": 30,
+      "featured": false,
+      "master": "assets/img/products/acompanhamentos/masters/batata-grande.png",
+      "image": "assets/img/optimized/acompanhamentos/batata-grande-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/acompanhamentos/batata-grande-480.webp",
+          "bytes": 41928,
+          "height": 480
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/acompanhamentos/batata-grande-768.webp",
+          "bytes": 84200,
+          "height": 768
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/acompanhamentos/batata-grande-1200.webp",
+          "bytes": 153022,
+          "height": 1200
+        }
+      ],
+      "width": 1200,
+      "height": 1200,
+      "srcset": "assets/img/optimized/acompanhamentos/batata-grande-480.webp 480w, assets/img/optimized/acompanhamentos/batata-grande-768.webp 768w, assets/img/optimized/acompanhamentos/batata-grande-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "batata-especial",
+      "name": "Batata Especial",
+      "section": "acompanhamento",
+      "category": "acompanhamento",
+      "label": "Acompanhamento",
+      "description": "Batata grande com maionese de bacon e bacon crocante.",
+      "price": "R$ 27,90",
+      "alt": "Batata Especial da Pai D’Égua",
+      "order": 30,
+      "featured": false,
+      "master": "assets/img/products/acompanhamentos/masters/batata-especial.png",
+      "image": "assets/img/optimized/acompanhamentos/batata-especial-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/acompanhamentos/batata-especial-480.webp",
+          "bytes": 55968,
+          "height": 480
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/acompanhamentos/batata-especial-768.webp",
+          "bytes": 120948,
+          "height": 768
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/acompanhamentos/batata-especial-1200.webp",
+          "bytes": 231390,
+          "height": 1200
+        }
+      ],
+      "width": 1200,
+      "height": 1200,
+      "srcset": "assets/img/optimized/acompanhamentos/batata-especial-480.webp 480w, assets/img/optimized/acompanhamentos/batata-especial-768.webp 768w, assets/img/optimized/acompanhamentos/batata-especial-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "monte-sua-salada",
+      "name": "Monte sua Salada",
+      "section": "salada",
+      "category": "salada",
+      "label": "Monte do seu jeito",
+      "description": "Base com mix de folhas de alface crespa, roxa e americana, com molho e finalizadores à escolha.",
+      "price": "R$ 19,90",
+      "alt": "Monte sua Salada da Pai D’Égua",
+      "order": 30,
+      "featured": false,
+      "master": "assets/img/products/acompanhamentos/masters/monte-sua-salada.png",
+      "image": "assets/img/optimized/acompanhamentos/monte-sua-salada-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/acompanhamentos/monte-sua-salada-480.webp",
+          "bytes": 86656,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/acompanhamentos/monte-sua-salada-768.webp",
+          "bytes": 246040,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/acompanhamentos/monte-sua-salada-1024.webp",
+          "bytes": 456126,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/acompanhamentos/monte-sua-salada-480.webp 480w, assets/img/optimized/acompanhamentos/monte-sua-salada-768.webp 768w, assets/img/optimized/acompanhamentos/monte-sua-salada-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "bebida-h2oh-limoneto",
+      "name": "H2OH! Limoneto",
+      "section": "bebidas",
+      "category": "bebida",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "H2OH! Limoneto disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/bebidas/masters/bebida-h2oh-limoneto.png",
+      "image": "assets/img/optimized/bebidas/bebida-h2oh-limoneto-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/bebidas/bebida-h2oh-limoneto-480.webp",
+          "bytes": 54386,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/bebidas/bebida-h2oh-limoneto-768.webp",
+          "bytes": 134402,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/bebidas/bebida-h2oh-limoneto-1024.webp",
+          "bytes": 273440,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/bebidas/bebida-h2oh-limoneto-480.webp 480w, assets/img/optimized/bebidas/bebida-h2oh-limoneto-768.webp 768w, assets/img/optimized/bebidas/bebida-h2oh-limoneto-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "suco-acerola",
+      "name": "Suco de Acerola",
+      "section": "sucos",
+      "category": "suco",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Suco de Acerola disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/sucos/masters/suco-acerola.png",
+      "image": "assets/img/optimized/sucos/suco-acerola-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/sucos/suco-acerola-480.webp",
+          "bytes": 83224,
+          "height": 480
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/sucos/suco-acerola-768.webp",
+          "bytes": 208534,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/sucos/suco-acerola-1024.webp",
+          "bytes": 412642,
+          "height": 1024
+        }
+      ],
+      "width": 1024,
+      "height": 1024,
+      "srcset": "assets/img/optimized/sucos/suco-acerola-480.webp 480w, assets/img/optimized/sucos/suco-acerola-768.webp 768w, assets/img/optimized/sucos/suco-acerola-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "suco-cupuacu",
+      "name": "Suco de Cupuaçu",
+      "section": "sucos",
+      "category": "suco",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Suco de Cupuaçu disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/sucos/masters/suco-cupuacu.png",
+      "image": "assets/img/optimized/sucos/suco-cupuacu-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/sucos/suco-cupuacu-480.webp",
+          "bytes": 39386,
+          "height": 480
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/sucos/suco-cupuacu-768.webp",
+          "bytes": 93436,
+          "height": 768
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/sucos/suco-cupuacu-1200.webp",
+          "bytes": 190298,
+          "height": 1200
+        }
+      ],
+      "width": 1200,
+      "height": 1200,
+      "srcset": "assets/img/optimized/sucos/suco-cupuacu-480.webp 480w, assets/img/optimized/sucos/suco-cupuacu-768.webp 768w, assets/img/optimized/sucos/suco-cupuacu-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "bebida-agua-mineral-sem-gas-500ml",
+      "name": "Água mineral sem gás 500 ml",
+      "section": "bebidas",
+      "category": "bebida",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Água mineral sem gás 500 ml disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/bebidas/masters/bebida-agua-mineral-sem-gas-500ml.png",
+      "image": "assets/img/optimized/bebidas/bebida-agua-mineral-sem-gas-500ml-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/bebidas/bebida-agua-mineral-sem-gas-500ml-480.webp",
+          "bytes": 61206,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/bebidas/bebida-agua-mineral-sem-gas-500ml-768.webp",
+          "bytes": 150814,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/bebidas/bebida-agua-mineral-sem-gas-500ml-1024.webp",
+          "bytes": 293048,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/bebidas/bebida-agua-mineral-sem-gas-500ml-480.webp 480w, assets/img/optimized/bebidas/bebida-agua-mineral-sem-gas-500ml-768.webp 768w, assets/img/optimized/bebidas/bebida-agua-mineral-sem-gas-500ml-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "chopp-de-vinho-long-neck-hero-transparent",
+      "name": "Chopp de Vinho Long Neck",
+      "section": "vinhos",
+      "category": "vinho-chopp",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Chopp de Vinho Long Neck disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/vinhos/masters/chopp-de-vinho-long-neck-hero-transparent.png",
+      "image": "assets/img/optimized/vinhos/chopp-de-vinho-long-neck-hero-transparent-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/vinhos/chopp-de-vinho-long-neck-hero-transparent-480.webp",
+          "bytes": 57104,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/vinhos/chopp-de-vinho-long-neck-hero-transparent-768.webp",
+          "bytes": 143850,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/vinhos/chopp-de-vinho-long-neck-hero-transparent-1024.webp",
+          "bytes": 289208,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/vinhos/chopp-de-vinho-long-neck-hero-transparent-480.webp 480w, assets/img/optimized/vinhos/chopp-de-vinho-long-neck-hero-transparent-768.webp 768w, assets/img/optimized/vinhos/chopp-de-vinho-long-neck-hero-transparent-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "chopp-de-vinho-taca-hero-premium-transparent",
+      "name": "Chopp de Vinho em Taça",
+      "section": "vinhos",
+      "category": "vinho-chopp",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Chopp de Vinho em Taça disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/vinhos/masters/chopp-de-vinho-taca-hero-premium-transparent.png",
+      "image": "assets/img/optimized/vinhos/chopp-de-vinho-taca-hero-premium-transparent-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/vinhos/chopp-de-vinho-taca-hero-premium-transparent-480.webp",
+          "bytes": 78494,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/vinhos/chopp-de-vinho-taca-hero-premium-transparent-768.webp",
+          "bytes": 204732,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/vinhos/chopp-de-vinho-taca-hero-premium-transparent-1024.webp",
+          "bytes": 434676,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/vinhos/chopp-de-vinho-taca-hero-premium-transparent-480.webp 480w, assets/img/optimized/vinhos/chopp-de-vinho-taca-hero-premium-transparent-768.webp 768w, assets/img/optimized/vinhos/chopp-de-vinho-taca-hero-premium-transparent-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "chopp-hero-premium-transparent",
+      "name": "Chopp",
+      "section": "vinhos",
+      "category": "vinho-chopp",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Chopp disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/vinhos/masters/chopp-hero-premium-transparent.png",
+      "image": "assets/img/optimized/vinhos/chopp-hero-premium-transparent-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/vinhos/chopp-hero-premium-transparent-480.webp",
+          "bytes": 20084,
+          "height": 320
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/vinhos/chopp-hero-premium-transparent-768.webp",
+          "bytes": 45490,
+          "height": 512
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/vinhos/chopp-hero-premium-transparent-1200.webp",
+          "bytes": 100504,
+          "height": 800
+        }
+      ],
+      "width": 1200,
+      "height": 800,
+      "srcset": "assets/img/optimized/vinhos/chopp-hero-premium-transparent-480.webp 480w, assets/img/optimized/vinhos/chopp-hero-premium-transparent-768.webp 768w, assets/img/optimized/vinhos/chopp-hero-premium-transparent-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "bebida-fanta-laranja-lata-hero-transparent",
+      "name": "Fanta Laranja lata",
+      "section": "bebidas",
+      "category": "bebida",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Fanta Laranja lata disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/bebidas/masters/bebida-fanta-laranja-lata-hero-transparent.png",
+      "image": "assets/img/optimized/bebidas/bebida-fanta-laranja-lata-hero-transparent-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/bebidas/bebida-fanta-laranja-lata-hero-transparent-480.webp",
+          "bytes": 70192,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/bebidas/bebida-fanta-laranja-lata-hero-transparent-768.webp",
+          "bytes": 167068,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/bebidas/bebida-fanta-laranja-lata-hero-transparent-1024.webp",
+          "bytes": 314512,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/bebidas/bebida-fanta-laranja-lata-hero-transparent-480.webp 480w, assets/img/optimized/bebidas/bebida-fanta-laranja-lata-hero-transparent-768.webp 768w, assets/img/optimized/bebidas/bebida-fanta-laranja-lata-hero-transparent-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "bebida-fanta-uva-lata-hero-transparent",
+      "name": "Fanta Uva lata",
+      "section": "bebidas",
+      "category": "bebida",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Fanta Uva lata disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/bebidas/masters/bebida-fanta-uva-lata-hero-transparent.png",
+      "image": "assets/img/optimized/bebidas/bebida-fanta-uva-lata-hero-transparent-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/bebidas/bebida-fanta-uva-lata-hero-transparent-480.webp",
+          "bytes": 81344,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/bebidas/bebida-fanta-uva-lata-hero-transparent-768.webp",
+          "bytes": 211390,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/bebidas/bebida-fanta-uva-lata-hero-transparent-1024.webp",
+          "bytes": 417936,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/bebidas/bebida-fanta-uva-lata-hero-transparent-480.webp 480w, assets/img/optimized/bebidas/bebida-fanta-uva-lata-hero-transparent-768.webp 768w, assets/img/optimized/bebidas/bebida-fanta-uva-lata-hero-transparent-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "bebida-guarana-lata-hero-transparent",
+      "name": "Guaraná lata",
+      "section": "bebidas",
+      "category": "bebida",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Guaraná lata disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/bebidas/masters/bebida-guarana-lata-hero-transparent.png",
+      "image": "assets/img/optimized/bebidas/bebida-guarana-lata-hero-transparent-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/bebidas/bebida-guarana-lata-hero-transparent-480.webp",
+          "bytes": 72840,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/bebidas/bebida-guarana-lata-hero-transparent-768.webp",
+          "bytes": 177106,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/bebidas/bebida-guarana-lata-hero-transparent-1024.webp",
+          "bytes": 326810,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/bebidas/bebida-guarana-lata-hero-transparent-480.webp 480w, assets/img/optimized/bebidas/bebida-guarana-lata-hero-transparent-768.webp 768w, assets/img/optimized/bebidas/bebida-guarana-lata-hero-transparent-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "bebida-guarana-tuchaua-lata-350ml",
+      "name": "Guaraná Tuchaua lata 350 ml",
+      "section": "bebidas",
+      "category": "bebida",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Guaraná Tuchaua lata 350 ml disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/bebidas/masters/bebida-guarana-tuchaua-lata-350ml.png",
+      "image": "assets/img/optimized/bebidas/bebida-guarana-tuchaua-lata-350ml-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/bebidas/bebida-guarana-tuchaua-lata-350ml-480.webp",
+          "bytes": 68412,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/bebidas/bebida-guarana-tuchaua-lata-350ml-768.webp",
+          "bytes": 137108,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/bebidas/bebida-guarana-tuchaua-lata-350ml-1024.webp",
+          "bytes": 240880,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/bebidas/bebida-guarana-tuchaua-lata-350ml-480.webp 480w, assets/img/optimized/bebidas/bebida-guarana-tuchaua-lata-350ml-768.webp 768w, assets/img/optimized/bebidas/bebida-guarana-tuchaua-lata-350ml-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "bebida-guarana-zero-lata-350ml",
+      "name": "Guaraná Zero lata 350 ml",
+      "section": "bebidas",
+      "category": "bebida",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Guaraná Zero lata 350 ml disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/bebidas/masters/bebida-guarana-zero-lata-350ml.png",
+      "image": "assets/img/optimized/bebidas/bebida-guarana-zero-lata-350ml-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/bebidas/bebida-guarana-zero-lata-350ml-480.webp",
+          "bytes": 65176,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/bebidas/bebida-guarana-zero-lata-350ml-768.webp",
+          "bytes": 163506,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/bebidas/bebida-guarana-zero-lata-350ml-1024.webp",
+          "bytes": 308752,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/bebidas/bebida-guarana-zero-lata-350ml-480.webp 480w, assets/img/optimized/bebidas/bebida-guarana-zero-lata-350ml-768.webp 768w, assets/img/optimized/bebidas/bebida-guarana-zero-lata-350ml-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "bebida-heineken-long-neck-hero-transparent",
+      "name": "Heineken Long Neck",
+      "section": "bebidas",
+      "category": "bebida",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Heineken Long Neck disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/bebidas/masters/bebida-heineken-long-neck-hero-transparent.png",
+      "image": "assets/img/optimized/bebidas/bebida-heineken-long-neck-hero-transparent-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/bebidas/bebida-heineken-long-neck-hero-transparent-480.webp",
+          "bytes": 56814,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/bebidas/bebida-heineken-long-neck-hero-transparent-768.webp",
+          "bytes": 135886,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/bebidas/bebida-heineken-long-neck-hero-transparent-1024.webp",
+          "bytes": 272912,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/bebidas/bebida-heineken-long-neck-hero-transparent-480.webp 480w, assets/img/optimized/bebidas/bebida-heineken-long-neck-hero-transparent-768.webp 768w, assets/img/optimized/bebidas/bebida-heineken-long-neck-hero-transparent-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "bebida-sprite-lata-350ml",
+      "name": "Sprite lata 350 ml",
+      "section": "bebidas",
+      "category": "bebida",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Sprite lata 350 ml disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/bebidas/masters/bebida-sprite-lata-350ml.png",
+      "image": "assets/img/optimized/bebidas/bebida-sprite-lata-350ml-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/bebidas/bebida-sprite-lata-350ml-480.webp",
+          "bytes": 78780,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/bebidas/bebida-sprite-lata-350ml-768.webp",
+          "bytes": 195792,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/bebidas/bebida-sprite-lata-350ml-1024.webp",
+          "bytes": 396306,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/bebidas/bebida-sprite-lata-350ml-480.webp 480w, assets/img/optimized/bebidas/bebida-sprite-lata-350ml-768.webp 768w, assets/img/optimized/bebidas/bebida-sprite-lata-350ml-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "suco-integral-laranja-the-natural-one-1-7l",
+      "name": "Suco Integral de Laranja The Natural One 1,7 L",
+      "section": "sucos",
+      "category": "suco",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Suco Integral de Laranja The Natural One 1,7 L disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/sucos/masters/suco-integral-laranja-the-natural-one-1-7l.png",
+      "image": "assets/img/optimized/sucos/suco-integral-laranja-the-natural-one-1-7l-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/sucos/suco-integral-laranja-the-natural-one-1-7l-480.webp",
+          "bytes": 59336,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/sucos/suco-integral-laranja-the-natural-one-1-7l-768.webp",
+          "bytes": 140164,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/sucos/suco-integral-laranja-the-natural-one-1-7l-1024.webp",
+          "bytes": 282856,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/sucos/suco-integral-laranja-the-natural-one-1-7l-480.webp 480w, assets/img/optimized/sucos/suco-integral-laranja-the-natural-one-1-7l-768.webp 768w, assets/img/optimized/sucos/suco-integral-laranja-the-natural-one-1-7l-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "suco-natural-acerola-jarra-1l",
+      "name": "Suco Natural de Acerola — Jarra 1 L",
+      "section": "sucos",
+      "category": "suco",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Suco Natural de Acerola — Jarra 1 L disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/sucos/masters/suco-natural-acerola-jarra-1l.png",
+      "image": "assets/img/optimized/sucos/suco-natural-acerola-jarra-1l-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/sucos/suco-natural-acerola-jarra-1l-480.webp",
+          "bytes": 40170,
+          "height": 480
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/sucos/suco-natural-acerola-jarra-1l-768.webp",
+          "bytes": 94636,
+          "height": 768
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/sucos/suco-natural-acerola-jarra-1l-1200.webp",
+          "bytes": 198146,
+          "height": 1200
+        }
+      ],
+      "width": 1200,
+      "height": 1200,
+      "srcset": "assets/img/optimized/sucos/suco-natural-acerola-jarra-1l-480.webp 480w, assets/img/optimized/sucos/suco-natural-acerola-jarra-1l-768.webp 768w, assets/img/optimized/sucos/suco-natural-acerola-jarra-1l-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "suco-natural-cupuacu-jarra-1l",
+      "name": "Suco Natural de Cupuaçu — Jarra 1 L",
+      "section": "sucos",
+      "category": "suco",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Suco Natural de Cupuaçu — Jarra 1 L disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/sucos/masters/suco-natural-cupuacu-jarra-1l.png",
+      "image": "assets/img/optimized/sucos/suco-natural-cupuacu-jarra-1l-1086.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/sucos/suco-natural-cupuacu-jarra-1l-480.webp",
+          "bytes": 56766,
+          "height": 640
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/sucos/suco-natural-cupuacu-jarra-1l-768.webp",
+          "bytes": 129310,
+          "height": 1024
+        },
+        {
+          "width": 1086,
+          "path": "assets/img/optimized/sucos/suco-natural-cupuacu-jarra-1l-1086.webp",
+          "bytes": 217548,
+          "height": 1448
+        }
+      ],
+      "width": 1086,
+      "height": 1448,
+      "srcset": "assets/img/optimized/sucos/suco-natural-cupuacu-jarra-1l-480.webp 480w, assets/img/optimized/sucos/suco-natural-cupuacu-jarra-1l-768.webp 768w, assets/img/optimized/sucos/suco-natural-cupuacu-jarra-1l-1086.webp 1086w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "suco-natural-goiaba-copo",
+      "name": "Suco Natural de Goiaba — Copo",
+      "section": "sucos",
+      "category": "suco",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Suco Natural de Goiaba — Copo disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/sucos/masters/suco-natural-goiaba-copo.png",
+      "image": "assets/img/optimized/sucos/suco-natural-goiaba-copo-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/sucos/suco-natural-goiaba-copo-480.webp",
+          "bytes": 69002,
+          "height": 480
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/sucos/suco-natural-goiaba-copo-768.webp",
+          "bytes": 180448,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/sucos/suco-natural-goiaba-copo-1024.webp",
+          "bytes": 361702,
+          "height": 1024
+        }
+      ],
+      "width": 1024,
+      "height": 1024,
+      "srcset": "assets/img/optimized/sucos/suco-natural-goiaba-copo-480.webp 480w, assets/img/optimized/sucos/suco-natural-goiaba-copo-768.webp 768w, assets/img/optimized/sucos/suco-natural-goiaba-copo-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "suco-natural-goiaba-jarra-1l",
+      "name": "Suco Natural de Goiaba — Jarra 1 L",
+      "section": "sucos",
+      "category": "suco",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Suco Natural de Goiaba — Jarra 1 L disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/sucos/masters/suco-natural-goiaba-jarra-1l.png",
+      "image": "assets/img/optimized/sucos/suco-natural-goiaba-jarra-1l-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/sucos/suco-natural-goiaba-jarra-1l-480.webp",
+          "bytes": 41674,
+          "height": 480
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/sucos/suco-natural-goiaba-jarra-1l-768.webp",
+          "bytes": 100092,
+          "height": 768
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/sucos/suco-natural-goiaba-jarra-1l-1200.webp",
+          "bytes": 202680,
+          "height": 1200
+        }
+      ],
+      "width": 1200,
+      "height": 1200,
+      "srcset": "assets/img/optimized/sucos/suco-natural-goiaba-jarra-1l-480.webp 480w, assets/img/optimized/sucos/suco-natural-goiaba-jarra-1l-768.webp 768w, assets/img/optimized/sucos/suco-natural-goiaba-jarra-1l-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "suco-natural-graviola-copo",
+      "name": "Suco Natural de Graviola — Copo",
+      "section": "sucos",
+      "category": "suco",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Suco Natural de Graviola — Copo disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/sucos/masters/suco-natural-graviola-copo.png",
+      "image": "assets/img/optimized/sucos/suco-natural-graviola-copo-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/sucos/suco-natural-graviola-copo-480.webp",
+          "bytes": 36030,
+          "height": 480
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/sucos/suco-natural-graviola-copo-768.webp",
+          "bytes": 83478,
+          "height": 768
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/sucos/suco-natural-graviola-copo-1200.webp",
+          "bytes": 169530,
+          "height": 1200
+        }
+      ],
+      "width": 1200,
+      "height": 1200,
+      "srcset": "assets/img/optimized/sucos/suco-natural-graviola-copo-480.webp 480w, assets/img/optimized/sucos/suco-natural-graviola-copo-768.webp 768w, assets/img/optimized/sucos/suco-natural-graviola-copo-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "suco-natural-graviola-jarra-1l",
+      "name": "Suco Natural de Graviola — Jarra 1 L",
+      "section": "sucos",
+      "category": "suco",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Suco Natural de Graviola — Jarra 1 L disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/sucos/masters/suco-natural-graviola-jarra-1l.png",
+      "image": "assets/img/optimized/sucos/suco-natural-graviola-jarra-1l-1099.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/sucos/suco-natural-graviola-jarra-1l-480.webp",
+          "bytes": 46892,
+          "height": 625
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/sucos/suco-natural-graviola-jarra-1l-768.webp",
+          "bytes": 101708,
+          "height": 1000
+        },
+        {
+          "width": 1099,
+          "path": "assets/img/optimized/sucos/suco-natural-graviola-jarra-1l-1099.webp",
+          "bytes": 173924,
+          "height": 1431
+        }
+      ],
+      "width": 1099,
+      "height": 1431,
+      "srcset": "assets/img/optimized/sucos/suco-natural-graviola-jarra-1l-480.webp 480w, assets/img/optimized/sucos/suco-natural-graviola-jarra-1l-768.webp 768w, assets/img/optimized/sucos/suco-natural-graviola-jarra-1l-1099.webp 1099w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "suco-natural-maracuja-jarra-1l",
+      "name": "Suco Natural de Maracujá — Jarra 1 L",
+      "section": "sucos",
+      "category": "suco",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Suco Natural de Maracujá — Jarra 1 L disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/sucos/masters/suco-natural-maracuja-jarra-1l.png",
+      "image": "assets/img/optimized/sucos/suco-natural-maracuja-jarra-1l-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/sucos/suco-natural-maracuja-jarra-1l-480.webp",
+          "bytes": 37770,
+          "height": 480
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/sucos/suco-natural-maracuja-jarra-1l-768.webp",
+          "bytes": 87622,
+          "height": 768
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/sucos/suco-natural-maracuja-jarra-1l-1200.webp",
+          "bytes": 184160,
+          "height": 1200
+        }
+      ],
+      "width": 1200,
+      "height": 1200,
+      "srcset": "assets/img/optimized/sucos/suco-natural-maracuja-jarra-1l-480.webp 480w, assets/img/optimized/sucos/suco-natural-maracuja-jarra-1l-768.webp 768w, assets/img/optimized/sucos/suco-natural-maracuja-jarra-1l-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "suco-natural-muruci-copo",
+      "name": "Suco Natural de Muruci — Copo",
+      "section": "sucos",
+      "category": "suco",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Suco Natural de Muruci — Copo disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/sucos/masters/suco-natural-muruci-copo.png",
+      "image": "assets/img/optimized/sucos/suco-natural-muruci-copo-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/sucos/suco-natural-muruci-copo-480.webp",
+          "bytes": 37440,
+          "height": 480
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/sucos/suco-natural-muruci-copo-768.webp",
+          "bytes": 89128,
+          "height": 768
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/sucos/suco-natural-muruci-copo-1200.webp",
+          "bytes": 184310,
+          "height": 1200
+        }
+      ],
+      "width": 1200,
+      "height": 1200,
+      "srcset": "assets/img/optimized/sucos/suco-natural-muruci-copo-480.webp 480w, assets/img/optimized/sucos/suco-natural-muruci-copo-768.webp 768w, assets/img/optimized/sucos/suco-natural-muruci-copo-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "suco-natural-muruci-jarra-1l",
+      "name": "Suco Natural de Muruci — Jarra 1 L",
+      "section": "sucos",
+      "category": "suco",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Suco Natural de Muruci — Jarra 1 L disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/sucos/masters/suco-natural-muruci-jarra-1l.png",
+      "image": "assets/img/optimized/sucos/suco-natural-muruci-jarra-1l-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/sucos/suco-natural-muruci-jarra-1l-480.webp",
+          "bytes": 50108,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/sucos/suco-natural-muruci-jarra-1l-768.webp",
+          "bytes": 105174,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/sucos/suco-natural-muruci-jarra-1l-1122.webp",
+          "bytes": 186202,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/sucos/suco-natural-muruci-jarra-1l-480.webp 480w, assets/img/optimized/sucos/suco-natural-muruci-jarra-1l-768.webp 768w, assets/img/optimized/sucos/suco-natural-muruci-jarra-1l-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "suco-natural-tapereba-copo",
+      "name": "Suco Natural de Taperebá — Copo",
+      "section": "sucos",
+      "category": "suco",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Suco Natural de Taperebá — Copo disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/sucos/masters/suco-natural-tapereba-copo.png",
+      "image": "assets/img/optimized/sucos/suco-natural-tapereba-copo-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/sucos/suco-natural-tapereba-copo-480.webp",
+          "bytes": 40262,
+          "height": 480
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/sucos/suco-natural-tapereba-copo-768.webp",
+          "bytes": 94388,
+          "height": 768
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/sucos/suco-natural-tapereba-copo-1200.webp",
+          "bytes": 195856,
+          "height": 1200
+        }
+      ],
+      "width": 1200,
+      "height": 1200,
+      "srcset": "assets/img/optimized/sucos/suco-natural-tapereba-copo-480.webp 480w, assets/img/optimized/sucos/suco-natural-tapereba-copo-768.webp 768w, assets/img/optimized/sucos/suco-natural-tapereba-copo-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "suco-natural-tapereba-jarra-1l",
+      "name": "Suco Natural de Taperebá — Jarra 1 L",
+      "section": "sucos",
+      "category": "suco",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Suco Natural de Taperebá — Jarra 1 L disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/sucos/masters/suco-natural-tapereba-jarra-1l.png",
+      "image": "assets/img/optimized/sucos/suco-natural-tapereba-jarra-1l-1122.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/sucos/suco-natural-tapereba-jarra-1l-480.webp",
+          "bytes": 43008,
+          "height": 600
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/sucos/suco-natural-tapereba-jarra-1l-768.webp",
+          "bytes": 97744,
+          "height": 960
+        },
+        {
+          "width": 1122,
+          "path": "assets/img/optimized/sucos/suco-natural-tapereba-jarra-1l-1122.webp",
+          "bytes": 178064,
+          "height": 1402
+        }
+      ],
+      "width": 1122,
+      "height": 1402,
+      "srcset": "assets/img/optimized/sucos/suco-natural-tapereba-jarra-1l-480.webp 480w, assets/img/optimized/sucos/suco-natural-tapereba-jarra-1l-768.webp 768w, assets/img/optimized/sucos/suco-natural-tapereba-jarra-1l-1122.webp 1122w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "vinho-argentino-hero-transparent",
+      "name": "Vinho Argentino Tinto",
+      "section": "vinhos",
+      "category": "vinho-chopp",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Vinho Argentino Tinto disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/vinhos/masters/vinho-argentino-hero-transparent.png",
+      "image": "assets/img/optimized/vinhos/vinho-argentino-hero-transparent-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/vinhos/vinho-argentino-hero-transparent-480.webp",
+          "bytes": 44440,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/vinhos/vinho-argentino-hero-transparent-768.webp",
+          "bytes": 111448,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/vinhos/vinho-argentino-hero-transparent-1024.webp",
+          "bytes": 223150,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/vinhos/vinho-argentino-hero-transparent-480.webp 480w, assets/img/optimized/vinhos/vinho-argentino-hero-transparent-768.webp 768w, assets/img/optimized/vinhos/vinho-argentino-hero-transparent-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "vinho-chileno-rose-santa-ema-hero-transparent",
+      "name": "Vinho Chileno Rosé Santa Ema",
+      "section": "vinhos",
+      "category": "vinho-chopp",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Vinho Chileno Rosé Santa Ema disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/vinhos/masters/vinho-chileno-rose-santa-ema-hero-transparent.png",
+      "image": "assets/img/optimized/vinhos/vinho-chileno-rose-santa-ema-hero-transparent-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/vinhos/vinho-chileno-rose-santa-ema-hero-transparent-480.webp",
+          "bytes": 46856,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/vinhos/vinho-chileno-rose-santa-ema-hero-transparent-768.webp",
+          "bytes": 115818,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/vinhos/vinho-chileno-rose-santa-ema-hero-transparent-1024.webp",
+          "bytes": 232668,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/vinhos/vinho-chileno-rose-santa-ema-hero-transparent-480.webp 480w, assets/img/optimized/vinhos/vinho-chileno-rose-santa-ema-hero-transparent-768.webp 768w, assets/img/optimized/vinhos/vinho-chileno-rose-santa-ema-hero-transparent-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "vinho-italiano-hero-transparent",
+      "name": "Vinho Italiano Tinto",
+      "section": "vinhos",
+      "category": "vinho-chopp",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Vinho Italiano Tinto disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/vinhos/masters/vinho-italiano-hero-transparent.png",
+      "image": "assets/img/optimized/vinhos/vinho-italiano-hero-transparent-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/vinhos/vinho-italiano-hero-transparent-480.webp",
+          "bytes": 40522,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/vinhos/vinho-italiano-hero-transparent-768.webp",
+          "bytes": 99406,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/vinhos/vinho-italiano-hero-transparent-1024.webp",
+          "bytes": 0,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/vinhos/vinho-italiano-hero-transparent-480.webp 480w, assets/img/optimized/vinhos/vinho-italiano-hero-transparent-768.webp 768w, assets/img/optimized/vinhos/vinho-italiano-hero-transparent-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "vinho-nacional-tinto-suave-hero-transparent",
+      "name": "Vinho Nacional Tinto Suave",
+      "section": "vinhos",
+      "category": "vinho-chopp",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Vinho Nacional Tinto Suave disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/vinhos/masters/vinho-nacional-tinto-suave-hero-transparent.png",
+      "image": "assets/img/optimized/vinhos/vinho-nacional-tinto-suave-hero-transparent-1200.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/vinhos/vinho-nacional-tinto-suave-hero-transparent-480.webp",
+          "bytes": 41414,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/vinhos/vinho-nacional-tinto-suave-hero-transparent-768.webp",
+          "bytes": 104956,
+          "height": 1152
+        },
+        {
+          "width": 1200,
+          "path": "assets/img/optimized/vinhos/vinho-nacional-tinto-suave-hero-transparent-1200.webp",
+          "bytes": 239448,
+          "height": 1800
+        }
+      ],
+      "width": 1200,
+      "height": 1800,
+      "srcset": "assets/img/optimized/vinhos/vinho-nacional-tinto-suave-hero-transparent-480.webp 480w, assets/img/optimized/vinhos/vinho-nacional-tinto-suave-hero-transparent-768.webp 768w, assets/img/optimized/vinhos/vinho-nacional-tinto-suave-hero-transparent-1200.webp 1200w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "vinho-portugues-hero-transparent",
+      "name": "Vinho Português Tinto",
+      "section": "vinhos",
+      "category": "vinho-chopp",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Vinho Português Tinto disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/vinhos/masters/vinho-portugues-hero-transparent.png",
+      "image": "assets/img/optimized/vinhos/vinho-portugues-hero-transparent-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/vinhos/vinho-portugues-hero-transparent-480.webp",
+          "bytes": 45208,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/vinhos/vinho-portugues-hero-transparent-768.webp",
+          "bytes": 111460,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/vinhos/vinho-portugues-hero-transparent-1024.webp",
+          "bytes": 210190,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/vinhos/vinho-portugues-hero-transparent-480.webp 480w, assets/img/optimized/vinhos/vinho-portugues-hero-transparent-768.webp 768w, assets/img/optimized/vinhos/vinho-portugues-hero-transparent-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "bebida-ice-site",
+      "name": "Ice",
+      "section": "bebidas",
+      "category": "bebida",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Ice disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/bebidas/masters/bebida-ice-site.png",
+      "image": "assets/img/optimized/bebidas/bebida-ice-site-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/bebidas/bebida-ice-site-480.webp",
+          "bytes": 54226,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/bebidas/bebida-ice-site-768.webp",
+          "bytes": 129178,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/bebidas/bebida-ice-site-1024.webp",
+          "bytes": 265958,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/bebidas/bebida-ice-site-480.webp 480w, assets/img/optimized/bebidas/bebida-ice-site-768.webp 768w, assets/img/optimized/bebidas/bebida-ice-site-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "bebida-redbull-site",
+      "name": "Red Bull",
+      "section": "bebidas",
+      "category": "bebida",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Red Bull disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/bebidas/masters/bebida-redbull-site.png",
+      "image": "assets/img/optimized/bebidas/bebida-redbull-site-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/bebidas/bebida-redbull-site-480.webp",
+          "bytes": 71484,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/bebidas/bebida-redbull-site-768.webp",
+          "bytes": 178426,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/bebidas/bebida-redbull-site-1024.webp",
+          "bytes": 373920,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/bebidas/bebida-redbull-site-480.webp 480w, assets/img/optimized/bebidas/bebida-redbull-site-768.webp 768w, assets/img/optimized/bebidas/bebida-redbull-site-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "suco-maracuja-site",
+      "name": "Suco de Maracujá",
+      "section": "sucos",
+      "category": "suco",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Suco de Maracujá disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/sucos/masters/suco-maracuja-site.png",
+      "image": "assets/img/optimized/sucos/suco-maracuja-site-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/sucos/suco-maracuja-site-480.webp",
+          "bytes": 86566,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/sucos/suco-maracuja-site-768.webp",
+          "bytes": 224880,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/sucos/suco-maracuja-site-1024.webp",
+          "bytes": 432472,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/sucos/suco-maracuja-site-480.webp 480w, assets/img/optimized/sucos/suco-maracuja-site-768.webp 768w, assets/img/optimized/sucos/suco-maracuja-site-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "suco-uva-integral",
+      "name": "Suco Integral de Uva",
+      "section": "sucos",
+      "category": "suco",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Suco Integral de Uva disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/sucos/masters/suco-uva-integral.png",
+      "image": "assets/img/optimized/sucos/suco-uva-integral-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/sucos/suco-uva-integral-480.webp",
+          "bytes": 46126,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/sucos/suco-uva-integral-768.webp",
+          "bytes": 113114,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/sucos/suco-uva-integral-1024.webp",
+          "bytes": 232686,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/sucos/suco-uva-integral-480.webp 480w, assets/img/optimized/sucos/suco-uva-integral-768.webp 768w, assets/img/optimized/sucos/suco-uva-integral-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    },
+    {
+      "id": "vinho-tinto-seco",
+      "name": "Vinho Nacional Tinto Seco",
+      "section": "vinhos",
+      "category": "vinho-chopp",
+      "label": "Bebida",
+      "description": "Confira os detalhes e a disponibilidade no pedido oficial.",
+      "price": "Consulte no pedido oficial",
+      "alt": "Vinho Nacional Tinto Seco disponível na Pai D’Égua",
+      "order": 40,
+      "featured": false,
+      "master": "assets/img/products/vinhos/masters/vinho-tinto-seco.png",
+      "image": "assets/img/optimized/vinhos/vinho-tinto-seco-1024.webp",
+      "variants": [
+        {
+          "width": 480,
+          "path": "assets/img/optimized/vinhos/vinho-tinto-seco-480.webp",
+          "bytes": 44296,
+          "height": 720
+        },
+        {
+          "width": 768,
+          "path": "assets/img/optimized/vinhos/vinho-tinto-seco-768.webp",
+          "bytes": 108864,
+          "height": 1152
+        },
+        {
+          "width": 1024,
+          "path": "assets/img/optimized/vinhos/vinho-tinto-seco-1024.webp",
+          "bytes": 217242,
+          "height": 1536
+        }
+      ],
+      "width": 1024,
+      "height": 1536,
+      "srcset": "assets/img/optimized/vinhos/vinho-tinto-seco-480.webp 480w, assets/img/optimized/vinhos/vinho-tinto-seco-768.webp 768w, assets/img/optimized/vinhos/vinho-tinto-seco-1024.webp 1024w",
+      "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+    }
+  ]
+}

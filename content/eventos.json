@@ -1,0 +1,13 @@
+{
+  "focus": "Eventos na pizzaria",
+  "types": [
+    "Aniversário",
+    "Confraternização",
+    "Encontro com amigos",
+    "Reunião em família",
+    "Comemoração de casal",
+    "Evento corporativo",
+    "Rodízio em casa"
+  ],
+  "whatsappLeadPrefix": "Vim pelo site da Pai D’Égua"
+}

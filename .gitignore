@@ -1,7 +1,6 @@
-.env
-.env.*
-!.env.example
-.netlify/
-node_modules/
 .DS_Store
 .env
+node_modules/
+.netlify/
+__pycache__/
+*.log

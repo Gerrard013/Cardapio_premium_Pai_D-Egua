@@ -1,0 +1,72 @@
+[
+  {
+    "id": "metade-favorita",
+    "name": "Metade Favorita",
+    "label": "Carro-chefe",
+    "description": "O destaque mais lembrado da casa, confirmado pela equipe.",
+    "image": "assets/img/optimized/pizza-metade-favorita-1200.webp",
+    "category": "pizza",
+    "price": "Consulte no pedido oficial",
+    "order": "general"
+  },
+  {
+    "id": "sabor-boteco",
+    "name": "Sabor de Boteco",
+    "label": "Identidade paraense",
+    "description": "Charque desfiado, macaxeira frita e cebola roxa.",
+    "image": "assets/img/optimized/pizza-sabor-boteco-1200.webp",
+    "category": "pizza",
+    "price": "Consulte no pedido oficial",
+    "order": "general"
+  },
+  {
+    "id": "calabresa",
+    "name": "Calabresa",
+    "label": "Clássica",
+    "description": "Um dos sabores tradicionais apresentados no cardápio oficial.",
+    "image": "assets/img/optimized/pizza-calabresa-1200.webp",
+    "category": "pizza",
+    "price": "a partir de R$ 39,90",
+    "order": "general"
+  },
+  {
+    "id": "quatro-queijos",
+    "name": "4 Queijos",
+    "label": "Especial",
+    "description": "Muçarela, parmesão, provolone e catupiry.",
+    "image": "assets/img/optimized/pizza-quatro-queijos-1200.webp",
+    "category": "pizza",
+    "price": "a partir de R$ 54,90",
+    "order": "general"
+  },
+  {
+    "id": "penne",
+    "name": "Penne ao molho calabresa e bacon",
+    "label": "Massa",
+    "description": "Penne com molho, calabresa, bacon e queijo parmesão.",
+    "image": "assets/img/optimized/massa-penne-1200.webp",
+    "category": "massa",
+    "price": "R$ 39,90",
+    "order": "general"
+  },
+  {
+    "id": "salada",
+    "name": "Monte sua salada",
+    "label": "Leve e personalizável",
+    "description": "Escolha base, molho, proteína e finalizadores.",
+    "image": "assets/img/optimized/salada-1200.webp",
+    "category": "salada",
+    "price": "base R$ 19,90",
+    "order": "general"
+  },
+  {
+    "id": "combo-evento",
+    "name": "Combos e kits para compartilhar",
+    "label": "Para grupos",
+    "description": "Opções do cardápio oficial para reunir pessoas e celebrar.",
+    "image": "assets/img/optimized/combo-evento-1200.webp",
+    "category": "combo",
+    "price": "Consulte as opções",
+    "order": "general"
+  }
+]

@@ -1,0 +1,551 @@
+[
+  {
+    "id": "burger-jambu",
+    "name": "Burger Pai D’Égua: Jambú",
+    "section": "burger-paidegua",
+    "category": "burger-paidegua",
+    "label": "Burger artesanal",
+    "description": "Jambu fresco sobre blend 160g, dupla fatia de cheddar, bacon crocante, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+    "ingredients": [
+      "Jambu fresco sobre blend 160g",
+      "dupla fatia de cheddar",
+      "bacon crocante",
+      "cebola especial",
+      "molho da casa",
+      "no pão brioche selado na manteiga"
+    ],
+    "price": "R$ 34,90",
+    "alt": "Burger Pai D’Égua: Jambú da Pai D’Égua",
+    "order": 20,
+    "featured": false,
+    "master": "assets/img/products/burgers/masters/burger-jambu.png",
+    "image": "assets/img/optimized/burgers/burger-jambu-1200.webp",
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/img/optimized/burgers/burger-jambu-480.webp",
+        "bytes": 63276,
+        "height": 480
+      },
+      {
+        "width": 768,
+        "path": "assets/img/optimized/burgers/burger-jambu-768.webp",
+        "bytes": 142584,
+        "height": 768
+      },
+      {
+        "width": 1200,
+        "path": "assets/img/optimized/burgers/burger-jambu-1200.webp",
+        "bytes": 281528,
+        "height": 1200
+      }
+    ],
+    "width": 1200,
+    "height": 1200,
+    "srcset": "assets/img/optimized/burgers/burger-jambu-480.webp 480w, assets/img/optimized/burgers/burger-jambu-768.webp 768w, assets/img/optimized/burgers/burger-jambu-1200.webp 1200w",
+    "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+  },
+  {
+    "id": "burger-marajoara",
+    "name": "Burger Pai D’Égua: Marajoara",
+    "section": "burger-paidegua",
+    "category": "burger-paidegua",
+    "label": "Burger artesanal",
+    "description": "Queijo do Marajó e jambu sobre blend 160g, ovo, bacon crocante, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+    "ingredients": [
+      "Queijo do Marajó",
+      "jambu sobre blend 160g",
+      "ovo",
+      "bacon crocante",
+      "cebola especial",
+      "molho da casa",
+      "no pão brioche selado na manteiga"
+    ],
+    "price": "R$ 38,90",
+    "alt": "Burger Pai D’Égua: Marajoara da Pai D’Égua",
+    "order": 20,
+    "featured": true,
+    "master": "assets/img/products/burgers/masters/burger-marajoara.png",
+    "image": "assets/img/optimized/burgers/burger-marajoara-1200.webp",
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/img/optimized/burgers/burger-marajoara-480.webp",
+        "bytes": 58684,
+        "height": 480
+      },
+      {
+        "width": 768,
+        "path": "assets/img/optimized/burgers/burger-marajoara-768.webp",
+        "bytes": 133398,
+        "height": 768
+      },
+      {
+        "width": 1200,
+        "path": "assets/img/optimized/burgers/burger-marajoara-1200.webp",
+        "bytes": 272076,
+        "height": 1200
+      }
+    ],
+    "width": 1200,
+    "height": 1200,
+    "srcset": "assets/img/optimized/burgers/burger-marajoara-480.webp 480w, assets/img/optimized/burgers/burger-marajoara-768.webp 768w, assets/img/optimized/burgers/burger-marajoara-1200.webp 1200w",
+    "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+  },
+  {
+    "id": "burger-paraense",
+    "name": "Burger Pai D’Égua: Paraense",
+    "section": "burger-paidegua",
+    "category": "burger-paidegua",
+    "label": "Burger artesanal",
+    "description": "Camarão na chapa e jambu no tucupi, queijo do Marajó, blend 160g e maionese de tucupi, no pão brioche selado na manteiga.",
+    "ingredients": [
+      "Camarão na chapa",
+      "jambu no tucupi",
+      "queijo do Marajó",
+      "blend 160g",
+      "maionese de tucupi",
+      "no pão brioche selado na manteiga"
+    ],
+    "price": "R$ 49,90",
+    "alt": "Burger Pai D’Égua: Paraense da Pai D’Égua",
+    "order": 20,
+    "featured": true,
+    "master": "assets/img/products/burgers/masters/burger-paraense.png",
+    "image": "assets/img/optimized/burgers/burger-paraense-1200.webp",
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/img/optimized/burgers/burger-paraense-480.webp",
+        "bytes": 60162,
+        "height": 480
+      },
+      {
+        "width": 768,
+        "path": "assets/img/optimized/burgers/burger-paraense-768.webp",
+        "bytes": 130984,
+        "height": 768
+      },
+      {
+        "width": 1200,
+        "path": "assets/img/optimized/burgers/burger-paraense-1200.webp",
+        "bytes": 261792,
+        "height": 1200
+      }
+    ],
+    "width": 1200,
+    "height": 1200,
+    "srcset": "assets/img/optimized/burgers/burger-paraense-480.webp 480w, assets/img/optimized/burgers/burger-paraense-768.webp 768w, assets/img/optimized/burgers/burger-paraense-1200.webp 1200w",
+    "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+  },
+  {
+    "id": "burger-pulled",
+    "name": "Burger Pai D’Égua: Pulled",
+    "section": "burger-paidegua",
+    "category": "burger-paidegua",
+    "label": "Burger artesanal",
+    "description": "Carne suína defumada desfiada (pulled) com geleia de abacaxi, queijo provolone derretido, blend 160g e molho barbecue, no pão brioche selado na manteiga.",
+    "ingredients": [
+      "Carne suína defumada desfiada (pulled) com geleia de abacaxi",
+      "queijo provolone derretido",
+      "blend 160g",
+      "molho barbecue",
+      "no pão brioche selado na manteiga"
+    ],
+    "price": "R$ 47,90",
+    "alt": "Burger Pai D’Égua: Pulled da Pai D’Égua",
+    "order": 20,
+    "featured": false,
+    "master": "assets/img/products/burgers/masters/burger-pulled.png",
+    "image": "assets/img/optimized/burgers/burger-pulled-1200.webp",
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/img/optimized/burgers/burger-pulled-480.webp",
+        "bytes": 49622,
+        "height": 480
+      },
+      {
+        "width": 768,
+        "path": "assets/img/optimized/burgers/burger-pulled-768.webp",
+        "bytes": 105434,
+        "height": 768
+      },
+      {
+        "width": 1200,
+        "path": "assets/img/optimized/burgers/burger-pulled-1200.webp",
+        "bytes": 206542,
+        "height": 1200
+      }
+    ],
+    "width": 1200,
+    "height": 1200,
+    "srcset": "assets/img/optimized/burgers/burger-pulled-480.webp 480w, assets/img/optimized/burgers/burger-pulled-768.webp 768w, assets/img/optimized/burgers/burger-pulled-1200.webp 1200w",
+    "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+  },
+  {
+    "id": "burger-acai",
+    "name": "Burger Pai D’Égua: Açaí",
+    "section": "burger-paidegua",
+    "category": "burger-paidegua",
+    "label": "Burger artesanal",
+    "description": "Charque de primeira desfiado, queijo do Marajó derretido e geleia de açaí sobre blend 160g na chapa, no pão brioche selado na manteiga.",
+    "ingredients": [
+      "Charque de primeira desfiado",
+      "queijo do Marajó derretido",
+      "geleia de açaí sobre blend 160g na chapa",
+      "no pão brioche selado na manteiga"
+    ],
+    "price": "Consulte no pedido oficial",
+    "alt": "Burger Pai D’Égua: Açaí da Pai D’Égua",
+    "order": 20,
+    "featured": false,
+    "master": "assets/img/products/burgers/masters/burger-acai.png",
+    "image": "assets/img/optimized/burgers/burger-acai-1200.webp",
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/img/optimized/burgers/burger-acai-480.webp",
+        "bytes": 75394,
+        "height": 480
+      },
+      {
+        "width": 768,
+        "path": "assets/img/optimized/burgers/burger-acai-768.webp",
+        "bytes": 167016,
+        "height": 768
+      },
+      {
+        "width": 1200,
+        "path": "assets/img/optimized/burgers/burger-acai-1200.webp",
+        "bytes": 329046,
+        "height": 1200
+      }
+    ],
+    "width": 1200,
+    "height": 1200,
+    "srcset": "assets/img/optimized/burgers/burger-acai-480.webp 480w, assets/img/optimized/burgers/burger-acai-768.webp 768w, assets/img/optimized/burgers/burger-acai-1200.webp 1200w",
+    "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+  },
+  {
+    "id": "smash-pai-degua",
+    "name": "Smash Burger — Pai D’Égua",
+    "section": "smash",
+    "category": "smash",
+    "label": "Burger artesanal",
+    "description": "Blend 90g smash na chapa com aquela crostinha, queijo cheddar derretido, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+    "ingredients": [
+      "Blend 90g smash na chapa com aquela crostinha",
+      "queijo cheddar derretido",
+      "cebola especial",
+      "molho da casa",
+      "no pão brioche selado na manteiga"
+    ],
+    "price": "R$ 21,90",
+    "alt": "Smash Burger — Pai D’Égua da Pai D’Égua",
+    "order": 20,
+    "featured": false,
+    "master": "assets/img/products/burgers/masters/smash-pai-degua.png",
+    "image": "assets/img/optimized/burgers/smash-pai-degua-1200.webp",
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/img/optimized/burgers/smash-pai-degua-480.webp",
+        "bytes": 41172,
+        "height": 340
+      },
+      {
+        "width": 768,
+        "path": "assets/img/optimized/burgers/smash-pai-degua-768.webp",
+        "bytes": 89290,
+        "height": 543
+      },
+      {
+        "width": 1200,
+        "path": "assets/img/optimized/burgers/smash-pai-degua-1200.webp",
+        "bytes": 163172,
+        "height": 849
+      }
+    ],
+    "width": 1200,
+    "height": 849,
+    "srcset": "assets/img/optimized/burgers/smash-pai-degua-480.webp 480w, assets/img/optimized/burgers/smash-pai-degua-768.webp 768w, assets/img/optimized/burgers/smash-pai-degua-1200.webp 1200w",
+    "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+  },
+  {
+    "id": "smash-bacon",
+    "name": "Smash Burger — Bacon",
+    "section": "smash",
+    "category": "smash",
+    "label": "Burger artesanal",
+    "description": "Bacon crocante sobre blend 90g smashed na chapa, queijo cheddar derretido, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+    "ingredients": [
+      "Bacon crocante sobre blend 90g smashed na chapa",
+      "queijo cheddar derretido",
+      "cebola especial",
+      "molho da casa",
+      "no pão brioche selado na manteiga"
+    ],
+    "price": "R$ 25,90",
+    "alt": "Smash Burger — Bacon da Pai D’Égua",
+    "order": 20,
+    "featured": false,
+    "master": "assets/img/products/burgers/masters/smash-bacon.png",
+    "image": "assets/img/optimized/burgers/smash-bacon-1200.webp",
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/img/optimized/burgers/smash-bacon-480.webp",
+        "bytes": 53250,
+        "height": 320
+      },
+      {
+        "width": 768,
+        "path": "assets/img/optimized/burgers/smash-bacon-768.webp",
+        "bytes": 120956,
+        "height": 512
+      },
+      {
+        "width": 1200,
+        "path": "assets/img/optimized/burgers/smash-bacon-1200.webp",
+        "bytes": 285020,
+        "height": 800
+      }
+    ],
+    "width": 1200,
+    "height": 800,
+    "srcset": "assets/img/optimized/burgers/smash-bacon-480.webp 480w, assets/img/optimized/burgers/smash-bacon-768.webp 768w, assets/img/optimized/burgers/smash-bacon-1200.webp 1200w",
+    "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+  },
+  {
+    "id": "smash-salad",
+    "name": "Smash Burger — Salad",
+    "section": "smash",
+    "category": "smash",
+    "label": "Burger artesanal",
+    "description": "Alface fresca e tomate sobre blend 90g smashed na chapa, queijo cheddar, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+    "ingredients": [
+      "Alface fresca",
+      "tomate sobre blend 90g smashed na chapa",
+      "queijo cheddar",
+      "cebola especial",
+      "molho da casa",
+      "no pão brioche selado na manteiga"
+    ],
+    "price": "R$ 23,90",
+    "alt": "Smash Burger — Salad da Pai D’Égua",
+    "order": 20,
+    "featured": false,
+    "master": "assets/img/products/burgers/masters/smash-salad.png",
+    "image": "assets/img/optimized/burgers/smash-salad-1200.webp",
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/img/optimized/burgers/smash-salad-480.webp",
+        "bytes": 53180,
+        "height": 320
+      },
+      {
+        "width": 768,
+        "path": "assets/img/optimized/burgers/smash-salad-768.webp",
+        "bytes": 117072,
+        "height": 512
+      },
+      {
+        "width": 1200,
+        "path": "assets/img/optimized/burgers/smash-salad-1200.webp",
+        "bytes": 277454,
+        "height": 800
+      }
+    ],
+    "width": 1200,
+    "height": 800,
+    "srcset": "assets/img/optimized/burgers/smash-salad-480.webp 480w, assets/img/optimized/burgers/smash-salad-768.webp 768w, assets/img/optimized/burgers/smash-salad-1200.webp 1200w",
+    "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+  },
+  {
+    "id": "smash-eggs",
+    "name": "Smash Burger — Eggs",
+    "section": "smash",
+    "category": "smash",
+    "label": "Burger artesanal",
+    "description": "Ovo na chapa sobre blend 90g smashed, dupla fatia de cheddar, alface, tomate, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+    "ingredients": [
+      "Ovo na chapa sobre blend 90g smashed",
+      "dupla fatia de cheddar",
+      "alface",
+      "tomate",
+      "cebola especial",
+      "molho da casa",
+      "no pão brioche selado na manteiga"
+    ],
+    "price": "R$ 24,90",
+    "alt": "Smash Burger — Eggs da Pai D’Égua",
+    "order": 20,
+    "featured": false,
+    "master": "assets/img/products/burgers/masters/smash-eggs.png",
+    "image": "assets/img/optimized/burgers/smash-eggs-1024.webp",
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/img/optimized/burgers/smash-eggs-480.webp",
+        "bytes": 100884,
+        "height": 720
+      },
+      {
+        "width": 768,
+        "path": "assets/img/optimized/burgers/smash-eggs-768.webp",
+        "bytes": 247924,
+        "height": 1152
+      },
+      {
+        "width": 1024,
+        "path": "assets/img/optimized/burgers/smash-eggs-1024.webp",
+        "bytes": 476870,
+        "height": 1536
+      }
+    ],
+    "width": 1024,
+    "height": 1536,
+    "srcset": "assets/img/optimized/burgers/smash-eggs-480.webp 480w, assets/img/optimized/burgers/smash-eggs-768.webp 768w, assets/img/optimized/burgers/smash-eggs-1024.webp 1024w",
+    "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+  },
+  {
+    "id": "burger-artesanal-classico",
+    "name": "Burger Artesanal — Clássico",
+    "section": "artesanal",
+    "category": "artesanal",
+    "label": "Burger artesanal",
+    "description": "Blend 160g suculento na chapa, dupla fatia de queijo cheddar derretido, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+    "ingredients": [
+      "Blend 160g suculento na chapa",
+      "dupla fatia de queijo cheddar derretido",
+      "cebola especial",
+      "molho da casa",
+      "no pão brioche selado na manteiga"
+    ],
+    "price": "R$ 29,90",
+    "alt": "Burger Artesanal — Clássico da Pai D’Égua",
+    "order": 20,
+    "featured": false,
+    "master": "assets/img/products/burgers/masters/burger-artesanal-classico.png",
+    "image": "assets/img/optimized/burgers/burger-artesanal-classico-1122.webp",
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/img/optimized/burgers/burger-artesanal-classico-480.webp",
+        "bytes": 55322,
+        "height": 600
+      },
+      {
+        "width": 768,
+        "path": "assets/img/optimized/burgers/burger-artesanal-classico-768.webp",
+        "bytes": 112128,
+        "height": 960
+      },
+      {
+        "width": 1122,
+        "path": "assets/img/optimized/burgers/burger-artesanal-classico-1122.webp",
+        "bytes": 199316,
+        "height": 1402
+      }
+    ],
+    "width": 1122,
+    "height": 1402,
+    "srcset": "assets/img/optimized/burgers/burger-artesanal-classico-480.webp 480w, assets/img/optimized/burgers/burger-artesanal-classico-768.webp 768w, assets/img/optimized/burgers/burger-artesanal-classico-1122.webp 1122w",
+    "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+  },
+  {
+    "id": "burger-artesanal-bacon",
+    "name": "Burger Artesanal — Bacon",
+    "section": "artesanal",
+    "category": "artesanal",
+    "label": "Burger artesanal",
+    "description": "Bacon crocante sobre blend 160g suculento na chapa, dupla fatia de cheddar derretido, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+    "ingredients": [
+      "Bacon crocante sobre blend 160g suculento na chapa",
+      "dupla fatia de cheddar derretido",
+      "cebola especial",
+      "molho da casa",
+      "no pão brioche selado na manteiga"
+    ],
+    "price": "R$ 31,90",
+    "alt": "Burger Artesanal — Bacon da Pai D’Égua",
+    "order": 20,
+    "featured": false,
+    "master": "assets/img/products/burgers/masters/burger-artesanal-bacon.png",
+    "image": "assets/img/optimized/burgers/burger-artesanal-bacon-1122.webp",
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/img/optimized/burgers/burger-artesanal-bacon-480.webp",
+        "bytes": 66012,
+        "height": 600
+      },
+      {
+        "width": 768,
+        "path": "assets/img/optimized/burgers/burger-artesanal-bacon-768.webp",
+        "bytes": 134736,
+        "height": 960
+      },
+      {
+        "width": 1122,
+        "path": "assets/img/optimized/burgers/burger-artesanal-bacon-1122.webp",
+        "bytes": 231946,
+        "height": 1402
+      }
+    ],
+    "width": 1122,
+    "height": 1402,
+    "srcset": "assets/img/optimized/burgers/burger-artesanal-bacon-480.webp 480w, assets/img/optimized/burgers/burger-artesanal-bacon-768.webp 768w, assets/img/optimized/burgers/burger-artesanal-bacon-1122.webp 1122w",
+    "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+  },
+  {
+    "id": "burger-artesanal-x-pai-degua",
+    "name": "Burger Artesanal — X Pai D’Égua",
+    "section": "artesanal",
+    "category": "artesanal",
+    "label": "Burger artesanal",
+    "description": "Blend 160g suculento, dupla fatia de cheddar, bacon crocante, ovo, salada, cebola especial e molho da casa, no pão brioche selado na manteiga.",
+    "ingredients": [
+      "Blend 160g suculento",
+      "dupla fatia de cheddar",
+      "bacon crocante",
+      "ovo",
+      "salada",
+      "cebola especial",
+      "molho da casa",
+      "no pão brioche selado na manteiga"
+    ],
+    "price": "R$ 37,90",
+    "alt": "Burger Artesanal — X Pai D’Égua da Pai D’Égua",
+    "order": 20,
+    "featured": false,
+    "master": "assets/img/products/burgers/masters/burger-artesanal-x-pai-degua.png",
+    "image": "assets/img/optimized/burgers/burger-artesanal-x-pai-degua-1200.webp",
+    "variants": [
+      {
+        "width": 480,
+        "path": "assets/img/optimized/burgers/burger-artesanal-x-pai-degua-480.webp",
+        "bytes": 50310,
+        "height": 320
+      },
+      {
+        "width": 768,
+        "path": "assets/img/optimized/burgers/burger-artesanal-x-pai-degua-768.webp",
+        "bytes": 111548,
+        "height": 512
+      },
+      {
+        "width": 1200,
+        "path": "assets/img/optimized/burgers/burger-artesanal-x-pai-degua-1200.webp",
+        "bytes": 256852,
+        "height": 800
+      }
+    ],
+    "width": 1200,
+    "height": 800,
+    "srcset": "assets/img/optimized/burgers/burger-artesanal-x-pai-degua-480.webp 480w, assets/img/optimized/burgers/burger-artesanal-x-pai-degua-768.webp 768w, assets/img/optimized/burgers/burger-artesanal-x-pai-degua-1200.webp 1200w",
+    "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
+  }
+]

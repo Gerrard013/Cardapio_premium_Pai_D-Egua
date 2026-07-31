@@ -1,0 +1,21 @@
+# Checklist final
+
+- [x] Logo oficial usada nos elementos do site.
+- [x] Introdução 3D limitada a menos de 3 segundos.
+- [x] Botão “Pular introdução”.
+- [x] `prefers-reduced-motion` implementado.
+- [x] Hero desktop e mobile aprovados.
+- [x] 19 pizzas integradas.
+- [x] 12 burgers integrados.
+- [x] 4 acompanhamentos/salada integrados.
+- [x] Bebidas, sucos, vinhos e chopp integrados.
+- [x] Produtos sem preço confirmado direcionam ao pedido oficial.
+- [x] Promoções preservadas.
+- [x] Unidades preservadas, com aviso em endereço não confirmado.
+- [x] Chave Groq ausente do frontend e do ZIP.
+- [x] Service worker atualizado.
+- [x] JSONs validados.
+- [x] Arquivos ocultos do macOS removidos.
+- [x] ZIP abre com `index.html` na raiz.
+- [ ] Confirmar preços futuros e disponibilidade diretamente com a cliente.
+- [ ] Validar o deploy final no celular usando 4G e QR Code definitivo.

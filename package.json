@@ -1,15 +1,11 @@
 {
-  "name": "paidegua-cardapio-premium-groq",
-  "version": "7.0.0",
+  "name": "paidegua-cardapio-premium-final",
+  "version": "2.0.0",
   "private": true,
-  "description": "Cardápio Premium Pai D'Égua com Ajuda Inteligente via Groq e Netlify Functions.",
-  "engines": {
-    "node": ">=20"
-  },
   "scripts": {
+    "serve": "npx serve . -l 8000",
     "dev": "npx netlify dev",
-    "deploy:prod": "npx netlify deploy --build --prod",
-    "test:function": "node scripts/test-ai-function.js",
-    "test:function:mock": "node scripts/test-ai-function-mock.js"
-  }
+    "validate": "node --check assets/js/app.js && node --check assets/js/intro-3d.js && node --check assets/js/product-motion.js && node --check netlify/functions/assistant.js && node --check sw.js"
+  },
+  "description": "Cardápio Premium Pai D’Égua — versão ultra final 2026-07-31"
 }

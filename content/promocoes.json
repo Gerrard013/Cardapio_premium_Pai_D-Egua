@@ -1,0 +1,37 @@
+[
+  {
+    "day": 1,
+    "weekday": "Segunda",
+    "title": "Segunda PLUS",
+    "description": "Pague M e leve G.",
+    "note": "Exclusiva do delivery e retirada."
+  },
+  {
+    "day": 2,
+    "weekday": "Terça",
+    "title": "Terça Favorita",
+    "description": "Compre uma pizza Favorita e ganhe uma broto doce.",
+    "note": "Exclusiva do delivery e retirada."
+  },
+  {
+    "day": 3,
+    "weekday": "Quarta",
+    "title": "Quarta em Dobro",
+    "description": "1 pizza G + 1 pizza pequena doce.",
+    "note": "Condição em atualização pela equipe; confirme no canal oficial."
+  },
+  {
+    "day": 4,
+    "weekday": "Quinta",
+    "title": "Quinta da Borda Grátis",
+    "description": "Na compra de uma pizza salgada G, a borda é grátis.",
+    "note": "Exclusiva do delivery e retirada."
+  },
+  {
+    "day": 5,
+    "weekday": "Sexta",
+    "title": "Sexta do Boteco",
+    "description": "Pizza Sabor de Boteco + bebida grátis.",
+    "note": "2 Eisenbahn 350 ml, ou Coca-Cola 1 L, ou suco 1 L. Confirme disponibilidade."
+  }
+]
