@@ -28,7 +28,7 @@ Configure `GROQ_API_KEY` somente no painel do Netlify: **Site configuration → 
 - `assets/img/optimized/`: WebP responsivos.
 - `assets/js/intro-3d.js`: abertura cinematográfica.
 - `assets/js/product-motion.js`: movimento e profundidade dos cards.
-- `sw.js`: PWA e cache versão `paidegua-ultra-final-2026-07-31-v1`.
+- `sw.js`: PWA e cache versão `paidegua-ultra-final-2026-07-31-v2`.
 
 ## Deploy pelo GitHub
 

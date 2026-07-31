@@ -1,9 +1,54 @@
-(()=>{'use strict';
-const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;
-function initCards(){const cards=[...document.querySelectorAll('.product-card')];if(!cards.length)return;if(reduced){cards.forEach(c=>c.classList.add('motion-active'));return}
-const observer=new IntersectionObserver(entries=>{entries.forEach(e=>e.target.classList.toggle('motion-active',e.isIntersecting))},{rootMargin:'-12% 0px -18%',threshold:[.12,.45]});cards.forEach(card=>{observer.observe(card);if(matchMedia('(hover:hover) and (pointer:fine)').matches){card.addEventListener('pointermove',e=>{const r=card.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;card.style.setProperty('--ry',`${x*6}deg`);card.style.setProperty('--rx',`${y*-5}deg`);card.style.setProperty('--lift','-5px')});card.addEventListener('pointerleave',()=>{card.style.setProperty('--ry','0deg');card.style.setProperty('--rx','0deg');card.style.setProperty('--lift','0px')})}})}
-function initReveal(){const els=[...document.querySelectorAll('.reveal')];if(reduced){els.forEach(e=>e.classList.add('visible'));return}const o=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');o.unobserve(e.target)}}),{threshold:.1});els.forEach(e=>o.observe(e))}
-function initNav(){const links=[...document.querySelectorAll('.category-rail a,.desktop-nav a')],sections=[...document.querySelectorAll('[data-nav-section]')];if(!sections.length)return;const o=new IntersectionObserver(es=>{const visible=es.filter(e=>e.isIntersecting).sort((a,b)=>b.intersectionRatio-a.intersectionRatio)[0];if(!visible)return;const id=visible.target.id;links.forEach(a=>{const active=a.getAttribute('href')==='#'+id;a.toggleAttribute('aria-current',active);if(active&&a.closest('.category-rail'))a.scrollIntoView({behavior:reduced?'auto':'smooth',inline:'center',block:'nearest'})})},{rootMargin:'-36% 0px -52%',threshold:[.02,.2,.5]});sections.forEach(s=>o.observe(s))}
-window.PaiDeguaMotion={refresh(){initCards();initReveal();initNav()}};
-addEventListener('DOMContentLoaded',()=>{initReveal();initNav()});
+(()=>{
+'use strict';
+const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function revealOnce(selector){
+  const elements = [...document.querySelectorAll(selector)];
+  if(reduced){elements.forEach(el=>el.classList.add('visible','motion-active'));return;}
+  const observer = new IntersectionObserver(entries=>{
+    entries.forEach(entry=>{
+      if(!entry.isIntersecting) return;
+      entry.target.classList.add('visible','motion-active');
+      observer.unobserve(entry.target);
+    });
+  },{rootMargin:'0px 0px -8%',threshold:.08});
+  elements.forEach(el=>observer.observe(el));
+}
+
+function navigationGroup(id){
+  if(['burger-paidegua','smash','artesanal'].includes(id)) return 'burger-paidegua';
+  if(['bebidas','sucos','vinhos'].includes(id)) return 'bebidas';
+  if(id==='salada') return 'acompanhamentos';
+  return id;
+}
+
+function initNav(){
+  const links = [...document.querySelectorAll('.category-rail a,.desktop-nav a')];
+  const sections = [...document.querySelectorAll('[data-nav-section]')];
+  if(!links.length || !sections.length) return;
+  const observer = new IntersectionObserver(entries=>{
+    const visible = entries.filter(e=>e.isIntersecting).sort((a,b)=>b.intersectionRatio-a.intersectionRatio)[0];
+    if(!visible) return;
+    const group = navigationGroup(visible.target.id);
+    links.forEach(link=>{
+      const active = link.getAttribute('href')===`#${group}`;
+      link.toggleAttribute('aria-current',active);
+      if(active && link.closest('.category-rail') && innerWidth<=760){
+        link.scrollIntoView({behavior:'smooth',inline:'center',block:'nearest'});
+      }
+    });
+  },{rootMargin:'-22% 0px -64%',threshold:[.05,.2,.45]});
+  sections.forEach(section=>observer.observe(section));
+}
+
+function refresh(){
+  revealOnce('.reveal,.product-card,.featured-card,.unit-card,.quick-action-card');
+  initNav();
+}
+
+window.PaiDeguaMotion={refresh};
+addEventListener('DOMContentLoaded',()=>{
+  revealOnce('.reveal');
+  initNav();
+});
 })();

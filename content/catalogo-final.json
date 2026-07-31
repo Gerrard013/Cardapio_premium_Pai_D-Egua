@@ -2560,30 +2560,30 @@
       "order": 40,
       "featured": false,
       "master": "assets/img/products/vinhos/masters/vinho-italiano-hero-transparent.png",
-      "image": "assets/img/optimized/vinhos/vinho-italiano-hero-transparent-1024.webp",
+      "image": "assets/img/optimized/vinhos/vinho-italiano-importado-20260731-768.webp",
       "variants": [
         {
           "width": 480,
-          "path": "assets/img/optimized/vinhos/vinho-italiano-hero-transparent-480.webp",
-          "bytes": 40522,
+          "path": "assets/img/optimized/vinhos/vinho-italiano-importado-20260731-480.webp",
+          "bytes": 27334,
           "height": 720
         },
         {
           "width": 768,
-          "path": "assets/img/optimized/vinhos/vinho-italiano-hero-transparent-768.webp",
-          "bytes": 99406,
+          "path": "assets/img/optimized/vinhos/vinho-italiano-importado-20260731-768.webp",
+          "bytes": 69596,
           "height": 1152
         },
         {
           "width": 1024,
-          "path": "assets/img/optimized/vinhos/vinho-italiano-hero-transparent-1024.webp",
-          "bytes": 0,
+          "path": "assets/img/optimized/vinhos/vinho-italiano-importado-20260731-1024.webp",
+          "bytes": 152844,
           "height": 1536
         }
       ],
       "width": 1024,
       "height": 1536,
-      "srcset": "assets/img/optimized/vinhos/vinho-italiano-hero-transparent-480.webp 480w, assets/img/optimized/vinhos/vinho-italiano-hero-transparent-768.webp 768w, assets/img/optimized/vinhos/vinho-italiano-hero-transparent-1024.webp 1024w",
+      "srcset": "assets/img/optimized/vinhos/vinho-italiano-importado-20260731-480.webp 480w, assets/img/optimized/vinhos/vinho-italiano-importado-20260731-768.webp 768w, assets/img/optimized/vinhos/vinho-italiano-importado-20260731-1024.webp 1024w",
       "sizes": "(max-width: 680px) 88vw, (max-width: 1100px) 44vw, 30vw"
     },
     {

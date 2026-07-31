@@ -1648,28 +1648,28 @@
       "width": 1024,
       "height": 1536,
       "mode": "RGBA",
-      "bytes": 2205566,
-      "sha256": "b4f407d0d40ce3be863bae4761fcef98491e80ee8290c5da9f2c834fd5001a98",
+      "bytes": 762047,
+      "sha256": "199e2620cbb61765a5a82c9d1c86a2f26450f33af4defe0c3a4372a277eba145",
       "classification": "vinho-chopp",
       "status": "included",
       "destination": "assets/img/products/vinhos/masters/vinho-italiano-hero-transparent.png",
       "optimized": [
         {
           "width": 480,
-          "path": "assets/img/optimized/vinhos/vinho-italiano-hero-transparent-480.webp",
-          "bytes": 40522,
+          "path": "assets/img/optimized/vinhos/vinho-italiano-importado-20260731-480.webp",
+          "bytes": 27334,
           "height": 720
         },
         {
           "width": 768,
-          "path": "assets/img/optimized/vinhos/vinho-italiano-hero-transparent-768.webp",
-          "bytes": 99406,
+          "path": "assets/img/optimized/vinhos/vinho-italiano-importado-20260731-768.webp",
+          "bytes": 69596,
           "height": 1152
         },
         {
           "width": 1024,
-          "path": "assets/img/optimized/vinhos/vinho-italiano-hero-transparent-1024.webp",
-          "bytes": 0,
+          "path": "assets/img/optimized/vinhos/vinho-italiano-importado-20260731-1024.webp",
+          "bytes": 152844,
           "height": 1536
         }
       ]

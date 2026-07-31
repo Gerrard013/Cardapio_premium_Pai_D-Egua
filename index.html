@@ -23,9 +23,9 @@
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="preload" as="image" href="assets/img/optimized/hero/hero-desktop-1600.webp" media="(min-width: 721px)" fetchpriority="high">
   <link rel="preload" as="image" href="assets/img/optimized/hero/hero-mobile-941.webp" media="(max-width: 720px)" fetchpriority="high">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="stylesheet" href="assets/css/intro-3d.css">
-  <link rel="stylesheet" href="assets/css/product-motion.css">
+  <link rel="stylesheet" href="assets/css/styles.css?v=20260731-final4">
+  <link rel="stylesheet" href="assets/css/intro-3d.css?v=20260731-final4">
+  <link rel="stylesheet" href="assets/css/product-motion.css?v=20260731-final4">
   <script type="application/ld+json">
   {
     "@context":"https://schema.org",
@@ -60,12 +60,12 @@
       </a>
       <nav class="desktop-nav" aria-label="Navegação principal">
         <a href="#pizzas">Pizzas</a>
-        <a href="#burger-paidegua">Burger</a>
+        <a href="#burger-paidegua">Burgers</a>
         <a href="#acompanhamentos">Acompanhamentos</a>
         <a href="#bebidas">Bebidas</a>
         <a href="#promocoes">Promoções</a>
-        <a href="#eventos">Eventos</a>
         <a href="#unidades">Unidades</a>
+        <a href="#pedido">Pedido</a>
       </nav>
       <div class="header-actions">
         <button id="shareButton" class="icon-button" type="button" aria-label="Compartilhar cardápio">↗</button>
@@ -73,7 +73,7 @@
       </div>
     </div>
     <nav class="category-rail" id="categoryRail" aria-label="Categorias do cardápio">
-      <a href="#inicio">Início</a><a href="#pizzas">Pizzas</a><a href="#burger-paidegua">Burger</a><a href="#smash">Smash</a><a href="#artesanal">Artesanais</a><a href="#acompanhamentos">Acompanhamentos</a><a href="#bebidas">Bebidas</a><a href="#sucos">Sucos</a><a href="#vinhos">Vinhos & Chopp</a><a href="#promocoes">Promoções</a><a href="#eventos">Eventos</a><a href="#unidades">Unidades</a>
+      <a href="#inicio">Início</a><a href="#pizzas">Pizzas</a><a href="#burger-paidegua">Burgers</a><a href="#acompanhamentos">Acompanhamentos</a><a href="#bebidas">Bebidas</a><a href="#promocoes">Promoções</a><a href="#unidades">Unidades</a><a href="#pedido">Pedido</a>
     </nav>
   </header>
 
@@ -87,15 +87,15 @@
       <div class="container hero-content">
         <div class="hero-copy reveal">
           <span class="eyebrow light">Pai D’Égua • Belém do Pará</span>
-          <h1>O sabor da casa em uma experiência que <em>salta da tela</em></h1>
-          <p>Pizzas artesanais, Burger Pai D’Égua, bebidas e momentos especiais — explore, escolha e peça pelo atendimento da casa ou pelo canal oficial.</p>
+          <h1>Seu próximo sabor começa <em>aqui</em></h1>
+          <p>Explore cada categoria, escolha o que deu vontade e peça pelo canal oficial ou fale com a unidade.</p>
           <div class="hero-actions">
             <a class="button button-gold" href="#pizzas">Ver pizzas</a>
             <a class="button button-ghost" href="#burger-paidegua">Ver hambúrgueres</a>
-            <a class="button button-ghost" href="#bebidas">Ver bebidas</a>
+            
             <a class="button button-primary" data-order-link href="#">Fazer pedido</a>
           </div>
-          <div class="hero-trust"><span>✓ Uso no salão</span><span>✓ Delivery e retirada</span><span>✓ Experiência responsiva</span></div>
+          <div class="hero-trust"><span>✓ Salão</span><span>✓ Delivery e retirada</span><span>✓ Fotos reais dos produtos</span></div>
         </div>
         <aside class="hero-card reveal" aria-label="Destaque da casa">
           <span>Carro-chefe</span>
@@ -111,47 +111,72 @@
       <div class="container"><strong>Cardápio Premium Pai D’Égua</strong><span>Explore, escolha e peça pelo atendimento da casa ou pelo canal oficial.</span></div>
     </section>
 
+    <section class="quick-actions section-compact" aria-label="Ações rápidas">
+      <div class="container quick-actions-grid">
+        <a class="quick-action-card" data-order-link href="#">
+          <span>Pedido oficial</span>
+          <strong>Escolher produtos</strong>
+          <small>Abra o canal oficial com preços e disponibilidade.</small>
+        </a>
+        <a class="quick-action-card" data-whatsapp-link href="#">
+          <span>WhatsApp</span>
+          <strong>Falar com a unidade</strong>
+          <small>Atendimento rápido para dúvidas, retirada e eventos.</small>
+        </a>
+        <a class="quick-action-card" data-maps-link href="#">
+          <span>Como chegar</span>
+          <strong>Ir para o salão</strong>
+          <small>Abra o mapa e encontre a unidade com salão.</small>
+        </a>
+        <button class="quick-action-card" type="button" data-open-assistant>
+          <span>Ajuda com IA</span>
+          <strong>Tirar uma dúvida</strong>
+          <small>Receba ajuda sobre seções, promoções e unidades.</small>
+        </button>
+      </div>
+    </section>
+
     <section class="section highlights" id="destaques">
       <div class="container">
-        <header class="section-heading reveal"><span class="eyebrow">Destaques da casa</span><h2>Sabores que representam a Pai D’Égua</h2><p>Uma seleção inicial para abrir o apetite antes de explorar cada categoria.</p></header>
+        <header class="section-heading reveal"><span class="eyebrow">Destaques da casa</span><h2>Sabores que representam a Pai D’Égua</h2><p>Comece pelos favoritos da casa ou vá direto para a categoria que você quer.</p></header>
         <div id="featuredGrid" class="featured-grid"></div>
       </div>
     </section>
 
     <section class="catalog-section section" id="pizzas" data-section="pizzas" data-nav-section>
-      <div class="container"><header class="section-heading reveal"><span class="eyebrow">Pizzas artesanais</span><h2>Da tradição paraense aos clássicos da casa</h2><p>Cards exclusivos, imagens aprovadas e acesso direto ao pedido oficial.</p></header><div class="product-grid" data-product-grid="pizzas"></div></div>
+      <div class="container"><header class="section-heading reveal"><span class="eyebrow">Pizzas artesanais</span><h2>Pizzas para todos os momentos</h2><p>Deslize pelos sabores, abra os detalhes e faça seu pedido.</p></header><div class="product-grid" data-product-grid="pizzas"></div></div>
     </section>
 
     <section class="catalog-section section dark-section" id="burger-paidegua" data-section="burger-paidegua" data-nav-section>
-      <div class="container"><header class="section-heading reveal light"><span class="eyebrow light">Burger Pai D’Égua</span><h2>Artesanal, marcante e feito para matar a fome de verdade</h2><p>Sabores regionais, ingredientes confirmados e profundidade visual em cada card.</p></header><div class="product-grid" data-product-grid="burger-paidegua"></div></div>
+      <div class="container"><header class="section-heading reveal light"><span class="eyebrow light">Burger Pai D’Égua</span><h2>Sabores regionais que falam por si</h2><p>Escolha um burger e veja os detalhes antes de pedir.</p></header><div class="product-grid" data-product-grid="burger-paidegua"></div></div>
     </section>
 
     <section class="catalog-section section" id="smash" data-section="smash" data-nav-section>
-      <div class="container"><header class="section-heading reveal"><span class="eyebrow">Smash Burgers</span><h2>Crostinha, cheddar e muita personalidade</h2></header><div class="product-grid" data-product-grid="smash"></div></div>
+      <div class="container"><header class="section-heading reveal"><span class="eyebrow">Smash Burgers</span><h2>Smash no ponto, queijo derretido e crostinha</h2></header><div class="product-grid" data-product-grid="smash"></div></div>
     </section>
 
     <section class="catalog-section section warm-section" id="artesanal" data-section="artesanal" data-nav-section>
-      <div class="container"><header class="section-heading reveal"><span class="eyebrow">Burgers artesanais</span><h2>Blend 160g em versões para todos os apetites</h2></header><div class="product-grid" data-product-grid="artesanal"></div></div>
+      <div class="container"><header class="section-heading reveal"><span class="eyebrow">Burgers artesanais</span><h2>Burgers artesanais para cada fome</h2></header><div class="product-grid" data-product-grid="artesanal"></div></div>
     </section>
 
     <section class="catalog-section section" id="acompanhamentos" data-section="acompanhamento" data-nav-section>
-      <div class="container"><header class="section-heading reveal"><span class="eyebrow">Acompanhamentos</span><h2>O complemento certo para o seu pedido</h2></header><div class="product-grid product-grid-compact" data-product-grid="acompanhamento"></div></div>
+      <div class="container"><header class="section-heading reveal"><span class="eyebrow">Acompanhamentos</span><h2>Complete seu pedido</h2></header><div class="product-grid product-grid-compact" data-product-grid="acompanhamento"></div></div>
     </section>
 
-    <section class="catalog-section section salad-section" id="salada" data-section="salada">
-      <div class="container"><header class="section-heading reveal"><span class="eyebrow">Monte sua Salada</span><h2>Frescor, textura e escolhas do seu jeito</h2></header><div class="product-grid product-grid-single" data-product-grid="salada"></div></div>
+    <section class="catalog-section section salad-section" id="salada" data-section="salada" data-nav-section>
+      <div class="container"><header class="section-heading reveal"><span class="eyebrow">Monte sua Salada</span><h2>Monte do seu jeito</h2></header><div class="product-grid product-grid-single" data-product-grid="salada"></div></div>
     </section>
 
     <section class="catalog-section section dark-section" id="bebidas" data-section="bebidas" data-nav-section>
-      <div class="container"><header class="section-heading reveal light"><span class="eyebrow light">Bebidas</span><h2>Geladas, refrescantes e prontas para acompanhar</h2></header><div class="product-grid product-grid-drinks" data-product-grid="bebidas"></div></div>
+      <div class="container"><header class="section-heading reveal light"><span class="eyebrow light">Bebidas</span><h2>A bebida certa para acompanhar</h2></header><div class="product-grid product-grid-drinks" data-product-grid="bebidas"></div></div>
     </section>
 
     <section class="catalog-section section" id="sucos" data-section="sucos" data-nav-section>
-      <div class="container"><header class="section-heading reveal"><span class="eyebrow">Sucos naturais</span><h2>Sabores da Amazônia no copo e na jarra</h2></header><div class="product-grid product-grid-drinks" data-product-grid="sucos"></div></div>
+      <div class="container"><header class="section-heading reveal"><span class="eyebrow">Sucos naturais</span><h2>Sabores da Amazônia</h2></header><div class="product-grid product-grid-drinks" data-product-grid="sucos"></div></div>
     </section>
 
     <section class="catalog-section section wine-section" id="vinhos" data-section="vinhos" data-nav-section>
-      <div class="container"><header class="section-heading reveal light"><span class="eyebrow light">Vinhos & Chopp</span><h2>Escolhas para brindar o seu momento</h2></header><div class="product-grid product-grid-drinks" data-product-grid="vinhos"></div></div>
+      <div class="container"><header class="section-heading reveal light"><span class="eyebrow light">Vinhos & Chopp</span><h2>Para brindar o momento</h2></header><div class="product-grid product-grid-drinks" data-product-grid="vinhos"></div></div>
     </section>
 
     <section class="section promotions" id="promocoes" data-nav-section>
@@ -161,7 +186,7 @@
     <section class="section events" id="eventos" data-nav-section>
       <div class="container events-layout">
         <div class="events-copy reveal"><span class="eyebrow light">Celebre na Pai D’Égua</span><h2>Momentos especiais merecem sabor e cuidado</h2><p>Aniversários, confraternizações, encontros, reuniões em família e eventos corporativos podem começar por aqui.</p><ul><li>Atendimento direto com a unidade</li><li>Informações claras para grupos</li><li>Experiência no salão sob consulta</li></ul><button class="button button-gold" type="button" data-open-event>Planejar meu evento</button></div>
-        <div class="event-panel reveal"><strong>48,8%</strong><p>dos participantes da pesquisa interna indicaram comemorar ou encontrar amigos e familiares como principal ocasião.</p><a href="#unidades">Escolher unidade →</a></div>
+        <div class="event-panel reveal"><strong>Seu momento</strong><p>Aniversário, encontro ou comemoração? Escolha a unidade e fale diretamente com a equipe para organizar.</p><a href="#unidades">Escolher unidade →</a></div>
       </div>
     </section>
 
@@ -169,14 +194,14 @@
       <div class="container"><header class="section-heading reveal"><span class="eyebrow">Unidades</span><h2>Escolha onde viver a experiência Pai D’Égua</h2></header><div id="unitGrid" class="unit-grid"></div></div>
     </section>
 
-    <section class="final-cta">
-      <div class="container final-cta-inner"><div><span class="eyebrow light">Pronto para escolher?</span><h2>Abra o pedido oficial ou chame a unidade</h2><p>Preços e disponibilidade podem mudar. Confirme tudo antes de concluir.</p></div><div class="final-actions"><a class="button button-gold" data-order-link href="#">Fazer pedido</a><button class="button button-ghost" id="assistantOpen" type="button">Tirar uma dúvida</button></div></div>
+    <section class="final-cta" id="pedido">
+      <div class="container final-cta-inner"><div><span class="eyebrow light">Pronto para escolher?</span><h2>Abra o pedido oficial ou chame a unidade</h2><p>Preços e disponibilidade podem mudar. Confirme tudo antes de concluir.</p></div><div class="final-actions"><a class="button button-gold" data-order-link href="#">Fazer pedido</a><a class="button button-primary" data-whatsapp-link href="#">Chamar no WhatsApp</a><a class="button button-ghost" data-maps-link href="#">Ver no mapa</a><button class="button button-ghost" id="assistantOpen" type="button">Tirar uma dúvida</button></div></div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-grid">
-      <div><button class="footer-logo" id="footerLogo" type="button" aria-label="Logo Pai D’Égua"><img src="assets/img/brand/logo-light.png" alt="Pai D’Égua — Pizzas Artesanais" width="220" height="110"></button><p>Cardápio Premium criado para valorizar cada produto da casa.</p></div>
+      <div><button class="footer-logo" id="footerLogo" type="button" aria-label="Logo Pai D’Égua"><img src="assets/img/brand/logo-light.png" alt="Pai D’Égua — Pizzas Artesanais" width="220" height="110"></button><p>Sabores da casa apresentados de forma simples, bonita e fácil de escolher.</p></div>
       <div><h3>Explorar</h3><a href="#pizzas">Pizzas</a><a href="#burger-paidegua">Burger</a><a href="#bebidas">Bebidas</a><a href="#promocoes">Promoções</a></div>
       <div><h3>Oficial</h3><a data-instagram target="_blank" rel="noopener">Instagram</a><a data-burger-instagram target="_blank" rel="noopener">Instagram Burger</a><a data-bio target="_blank" rel="noopener">Links da marca</a></div>
       <div><h3>Atendimento</h3><a data-order-link target="_blank" rel="noopener">Pedido oficial</a><a href="#unidades">Unidades</a><a href="#eventos">Eventos</a></div>
@@ -184,9 +209,13 @@
     <div class="container footer-bottom"><span>© 2026 Pai D’Égua</span><span>Experiência por G Tech | Innovation & Solutions</span></div>
   </footer>
 
-  <div class="mobile-bottom-bar"><a href="#pizzas">Cardápio</a><a href="#burger-paidegua">Burger</a><a class="primary" data-order-link href="#">Pedir</a></div>
+  <div class="mobile-bottom-bar">
+    <a href="#pizzas"><span>Menu</span></a>
+    <a data-whatsapp-link href="#"><span>WhatsApp</span></a>
+    <a class="primary" data-order-link href="#"><span>Pedir agora</span></a>
+  </div>
 
-  <button class="assistant-fab" id="assistantFab" type="button" aria-label="Abrir ajuda">✦</button>
+  <button class="assistant-fab" id="assistantFab" type="button" aria-label="Abrir ajuda com inteligência artificial"><span>✦</span> Ajuda IA</button>
   <section class="assistant-panel" id="assistantPanel" hidden aria-label="Ajuda Pai D’Égua">
     <header><div><strong>Ajuda Pai D’Égua</strong><small>Informações do cardápio</small></div><button id="assistantClose" type="button" aria-label="Fechar ajuda">×</button></header>
     <div class="assistant-messages" id="assistantMessages"><div class="assistant-message bot">Olá! Posso ajudar com pedidos, promoções, Pizza Express, eventos, unidades e produtos.</div></div>
@@ -200,8 +229,8 @@
   <div class="easter-egg" id="easterEgg" hidden><canvas id="easterCanvas" aria-hidden="true"></canvas><p>Experiência criada pela G Tech</p></div>
   <div id="toastRegion" class="toast-region" aria-live="polite"></div>
 
-  <script src="assets/js/intro-3d.js" defer></script>
-  <script src="assets/js/product-motion.js" defer></script>
-  <script src="assets/js/app.js" defer></script>
+  <script src="assets/js/intro-3d.js?v=20260731-final4" defer></script>
+  <script src="assets/js/product-motion.js?v=20260731-final4" defer></script>
+  <script src="assets/js/app.js?v=20260731-final4" defer></script>
 </body>
 </html>
