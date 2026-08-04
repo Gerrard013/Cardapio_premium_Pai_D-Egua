@@ -1,4 +1,0 @@
-Correção final aplicada:
-- assets/images/coca-cola.png = Coca-Cola original 350 ml
-- assets/images/coca-zero.png = Coca-Cola Zero 350 ml
-- js/menu.js aponta para esses dois arquivos.
