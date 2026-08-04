@@ -1,0 +1,22 @@
+ALTERAÇÕES FINAIS — PAI D’ÉGUA
+
+1. Catálogo atualizado para 31 pizzas oficiais.
+2. Atum removido do catálogo e arquivo antigo excluído.
+3. Margherita corrigida sem ovos e sem cebola.
+4. Havaiana corrigida com carne suína defumada e abacaxi caramelizado.
+5. Treze pizzas novas integradas com imagens otimizadas.
+6. Cinco massas integradas com preços confirmados.
+7. Cinco entradas integradas; preços não confirmados permanecem como consulta oficial.
+8. Burger Pai D’Égua: Açaí corrigido para maionese de açaí e marcado como carro-chefe.
+9. Modal de pedido separa atendimento no salão de delivery/retirada.
+10. Seção grande de Instagram/G Tech substituída por Rute e Cley.
+11. Crédito G Tech movido para o rodapé, discreto e com ícone do Instagram.
+12. Fallback de imagem escuro para impedir cards brancos ou ícones quebrados.
+13. Service worker seguro, versão de cache nova e remoção de caches antigos.
+14. Favicon e Apple Touch Icon adicionados.
+15. Netlify preservado com publish = "." e cache seguro para HTML, JS, CSS e sw.js.
+16. Script automático de validação incluído.
+17. Deploy e rollback seguros documentados sem push automático.
+
+PENDÊNCIA NÃO INVENTADA
+- Novo URL específico do Multi Loja Coqueiro não estava nos arquivos recebidos. Foi preservado o link funcional da versão restaurada.

@@ -1,0 +1,15 @@
+QA EXECUTION — PAI D’ÉGUA
+
+Base local: http://127.0.0.1:17777/
+Pasta de publicação: .
+Index na raiz: SIM
+Categorias: 9
+Pizzas: 31
+Massas: 5
+Entradas: 5
+Produtos totais: 97
+Imagens válidas verificadas: 111
+Rotas HTTP locais com status 200: 114
+Erros críticos: 0
+
+RESULTADO: APROVADO — nenhum erro crítico detectado.

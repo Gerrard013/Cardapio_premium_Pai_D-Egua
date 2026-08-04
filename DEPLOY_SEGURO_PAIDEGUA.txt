@@ -1,0 +1,44 @@
+DEPLOY SEGURO — PAI D’ÉGUA
+
+IMPORTANTE: não execute sobre a pasta antiga. O script cria clone novo, backup e valida antes do commit.
+
+1) Deixe PAIDEGUA_FINAL_VALIDADO.zip em ~/Downloads.
+2) Cole o bloco abaixo no Terminal.
+
+cd ~/Downloads
+rm -rf PAIDEGUA_DEPLOY_SEGURO PAIDEGUA_FINAL_VALIDADO
+unzip -q -o PAIDEGUA_FINAL_VALIDADO.zip -d PAIDEGUA_FINAL_VALIDADO
+git clone https://github.com/Gerrard013/Cardapio_premium_Pai_D-Egua.git PAIDEGUA_DEPLOY_SEGURO
+cd PAIDEGUA_DEPLOY_SEGURO
+git checkout main
+git pull --ff-only origin main
+BACKUP_COMMIT="$(git rev-parse HEAD)"
+echo "$BACKUP_COMMIT" > ~/Downloads/PAIDEGUA_COMMIT_ANTES_DO_FINAL.txt
+find . -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+ditto ~/Downloads/PAIDEGUA_FINAL_VALIDADO/ ./
+rm -rf __MACOSX .DS_Store
+
+[ -f index.html ] || { echo 'ERRO: index.html não está na raiz'; exit 1; }
+[ -d assets ] || { echo 'ERRO: pasta assets ausente'; exit 1; }
+node --check js/menu.js
+node --check js/app.js
+node scripts/verify-project.mjs
+
+echo 'ATENÇÃO:'
+echo '- index.html encontrado na raiz'
+echo '- assets encontrados'
+echo '- validação concluída'
+echo '- nenhuma rota crítica ausente'
+echo "- backup do commit disponível: $BACKUP_COMMIT"
+git status --short
+git diff --stat
+printf 'Digite PUBLICAR para criar o commit e enviar ao GitHub: '
+read CONFIRMA
+[ "$CONFIRMA" = 'PUBLICAR' ] || { echo 'Publicação cancelada. Nenhum push foi feito.'; exit 0; }
+git add -A
+git commit -m 'feat: final seguro Pai Degua com 31 pizzas, massas, entradas e historia'
+git push origin main
+open 'https://app.netlify.com/projects/paidegua-cardapio-oficial/deploys'
+
+Depois que o Netlify mostrar Published, teste:
+https://paidegua-cardapio-oficial.netlify.app/?v=20260804-final-seguro

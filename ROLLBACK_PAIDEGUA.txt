@@ -1,0 +1,12 @@
+ROLLBACK PAI D’ÉGUA
+
+Opção 1 — Netlify: abra Deploys, selecione o deploy funcional anterior e clique em Publish deploy.
+
+Opção 2 — Git seguro:
+cd ~/Downloads/PAIDEGUA_DEPLOY_SEGURO
+BACKUP_COMMIT="$(cat ~/Downloads/PAIDEGUA_COMMIT_ANTES_DO_FINAL.txt)"
+git revert --no-edit HEAD
+git push origin main
+
+Caso seja necessário restaurar exatamente o commit salvo em um branch de segurança:
+git branch "backup-paidegua-$BACKUP_COMMIT" "$BACKUP_COMMIT"
