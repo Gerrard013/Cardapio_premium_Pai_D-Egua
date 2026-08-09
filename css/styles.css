@@ -261,7 +261,7 @@
 @media(prefers-reduced-motion:reduce){.story-card,.order-option{transform:none!important;animation:none!important}}
 
 
-/* CATEGORIAS FINAIS 20260804-categorias-final-v1 — entradas primeiro e movimento imersivo */
+/* CATEGORIAS FINAIS 20260809-categorias-final-v2 — entradas primeiro e movimento imersivo */
 .menu-section__meta{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:0 0 18px;padding:10px 14px;border:1px solid rgba(255,255,255,.09);border-radius:999px;background:rgba(255,255,255,.025);color:var(--muted);font-size:10px;font-weight:850;letter-spacing:.12em;text-transform:uppercase}
 .menu-section__meta span{color:var(--gold-soft)}
 .menu-section__meta strong{font-size:10px;color:#f3e8dc}

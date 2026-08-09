@@ -1,0 +1,14 @@
+PAI D'ÉGUA — FECHAMENTO FINAL
+
+ORDEM DO CARDÁPIO APÓS A ABERTURA:
+1. Entradas — 5 produtos
+2. Pizzas Tradicionais — 4 produtos
+3. Pizzas Especiais — 11 produtos
+4. Pizzas Pai D'Égua — 6 produtos
+5. Pizzas Autorais da Casa — 10 produtos
+
+Total de pizzas: 31 em 4 categorias.
+
+Depois seguem as demais seções do cardápio (Burgers, Massas, acompanhamentos/saladas, bebidas, sucos, vinhos/chopps), conforme a estrutura já aprovada.
+
+O cache/service worker foi versionado novamente para evitar que celulares continuem exibindo uma versão anterior do menu.

@@ -17,12 +17,18 @@ const massas=data.find(s=>s.id==='massas'); if(!massas||massas.items.length!==5)
 const entradas=data.find(s=>s.id==='entradas'); if(!entradas||entradas.items.length!==5)fail.push(`Entradas: esperado 5, encontrado ${entradas?.items.length??0}`);
 if(data[0]?.id!=='entradas')fail.push('Entradas não estão em primeiro lugar');
 if(data[1]?.id!=='pizzas')fail.push('Pizzas Tradicionais não vêm logo após Entradas');
+const expectedPrimaryOrder=['entradas','pizzas','pizzas-especiais','pizzas-pai-degua','pizzas-da-casa'];
+for(let i=0;i<expectedPrimaryOrder.length;i++){if(data[i]?.id!==expectedPrimaryOrder[i])fail.push(`Ordem primária incorreta na posição ${i+1}: esperado ${expectedPrimaryOrder[i]}, encontrado ${data[i]?.id??'ausente'}`);if(data[i]?.placement!=='primary')fail.push(`Seção ${data[i]?.id??expectedPrimaryOrder[i]} não está marcada como primary`);} 
 const names=data.flatMap(s=>s.items.map(i=>i.name.toLowerCase())); if(names.some(n=>n==='atum'))fail.push('Atum ainda está no catálogo');
 const productNames=data.flatMap(s=>s.items.map(i=>i.name)); if(new Set(productNames).size!==productNames.length)fail.push('Produtos duplicados pelo nome');
 for(const section of data)for(const item of section.items){const p=item.image.split('?')[0];req(p);if(!item.price)fail.push(`Preço vazio: ${item.name}`);if(!item.description)fail.push(`Descrição vazia: ${item.name}`);}
 const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 for(const m of html.matchAll(/(?:src|href)=["']([^"'#]+)["']/g)){const ref=m[1].split('?')[0];if(/^(https?:|mailto:|tel:)/.test(ref))continue;if(ref.startsWith('/'))req(ref.slice(1));else if(!ref.includes('{{'))req(ref);}
 if(!html.includes('id="menu-sections-primary"'))fail.push('Host primário de Entradas e Pizzas ausente');
+if(!html.includes('href="#entradas"'))fail.push('Link para Entradas ausente');
+if(!html.includes('href="#pizzas"'))fail.push('Link para Pizzas ausente');
+if(!html.includes('Começar pelas entradas'))fail.push('CTA inicial não começa pelas Entradas');
+if(!html.includes('Ver pizzas por categoria'))fail.push('CTA de Pizzas por categoria ausente');
 if(!html.includes('id="menu-sections-secondary"'))fail.push('Host secundário do cardápio ausente');
 if(/href=["']#["']/.test(html))fail.push('href="#" encontrado');
 if(/social-showcase|social-card--gtech/.test(html))fail.push('Seção grande antiga da G Tech ainda existe');

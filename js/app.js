@@ -141,7 +141,7 @@
   }
 
   function initSmoothAnchors(){document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(!a)return;const href=a.getAttribute('href');if(href==='#')return;const target=$(href);if(!target)return;e.preventDefault();target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});history.replaceState(null,'',href);});}
-  function initServiceWorker(){if('serviceWorker' in navigator && location.protocol!=='file:')window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js?v=20260804-categorias-final-v1').catch(err=>console.warn('Service worker não registrado:',err)));}
+  function initServiceWorker(){if('serviceWorker' in navigator && location.protocol!=='file:')window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js?v=20260809-categorias-final-v2').catch(err=>console.warn('Service worker não registrado:',err)));}
 
   document.addEventListener('DOMContentLoaded',()=>{renderMenuSections();initImageFallbacks();initIntro();initNav();initSmoothAnchors();const io=initReveal();initExpand(io);initProductDialog();initOrderChoice();initAssistant();initCardMotion();initServiceWorker();});
 })();

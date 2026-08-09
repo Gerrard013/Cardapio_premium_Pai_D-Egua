@@ -8,4 +8,4 @@ PAI D'ÉGUA — VERSÃO FINAL CATEGORIZADA
 - Todos os cards possuem movimento ambiente e interação 3D leve.
 - Movimento reduzido automaticamente para usuários que preferem menos animação.
 - index.html permanece na raiz e netlify.toml continua publicando ".".
-- Cache atualizado para 20260804-categorias-final-v1.
+- Cache atualizado para 20260809-categorias-final-v2.
