@@ -1,0 +1,136 @@
+# QA FINAL — Cardápio Premium Pai D’Égua
+
+## Estrutura
+- `index.html` na raiz: **OK**
+- Pasta publicada pelo Netlify: `.`
+- Entradas logo abaixo do início: **OK**
+- Pizzas separadas em quatro categorias: **OK**
+
+## Categorias de pizza
+- Pizzas Tradicionais: 4
+- Pizzas Especiais: 11
+- Pizzas Pai D’Égua: 6
+- Pizzas Autorais da Casa: 10
+- Total: **31**
+
+## Outros produtos
+- Entradas: 5
+- Massas: 5
+- Burgers: 13
+- Produtos totais: 96
+
+## Imagens
+- Todas as rotas do catálogo foram verificadas.
+- O item Água com Gás foi retirado porque o pacote final não possui uma imagem própria; assim nenhuma bebida usa foto incorreta ou duplicada.
+- As imagens de produtos foram reconstruídas a partir de `FOTOS_FINAL_PAIDEGUA 2(2).zip`.
+- Bebidas, cerveja, taça de chopp de vinho e vinhos usam os arquivos do pacote mais recente.
+- Fundo dos cards permanece escuro; imagens transparentes usam `object-fit: contain`.
+- O fundo quadriculado do Smash Burger foi removido e convertido em transparência real.
+- Movimento leve e contínuo aplicado em desktop e mobile, respeitando `prefers-reduced-motion`.
+
+## Histórico e crédito
+- Seção Rute e Cley preservada.
+- Crédito G Tech permanece discreto no rodapé.
+
+## Origem das imagens usadas
+- `batata-especial.webp` ← `batata_especial.png`
+- `batata-grande.webp` ← `batata_grande.png`
+- `batata-media.webp` ← `batata_media.png`
+- `bebida-agua-mineral-sem-gas-500ml-cardapio-premium-pai-degua.webp` ← `bebida-agua-mineral-sem-gas-500ml-cardapio-premium-pai-degua.png`
+- `bebida-chopp-de-vinho-long-neck-hero-transparent.webp` ← `bebida-chopp-de-vinho-long-neck-hero-transparent.png`
+- `bebida-chopp-de-vinho-taca-hero-premium-transparent.webp` ← `bebida-chopp-de-vinho-taca-hero-premium-transparent.png`
+- `bebida-chopp-hero-premium-transparent.webp` ← `bebida-chopp-hero-premium-transparent.png`
+- `bebida-fanta-laranja-lata-hero-transparent.webp` ← `bebida-fanta-laranja-lata-hero-transparent.png`
+- `bebida-fanta-uva-lata-hero-transparent.webp` ← `bebida-fanta-uva-lata-hero-transparent.png`
+- `bebida-guarana-lata-hero-transparent.webp` ← `bebida-guarana-lata-hero-transparent.png`
+- `bebida-guarana-tuchaua-lata-350ml-cardapio-premium-pai-degua.webp` ← `bebida-guarana-tuchaua-lata-350ml-cardapio-premium-pai-degua.png`
+- `bebida-guarana-zero-lata-350ml-cardapio-premium-pai-degua.webp` ← `bebida-guarana-zero-lata-350ml-cardapio-premium-pai-degua.png`
+- `bebida-heineken-long-neck-hero-transparent.webp` ← `bebida-heineken-long-neck-hero-transparent.png`
+- `bebida-sprite-lata-350ml-cardapio-premium-pai-degua.webp` ← `bebida-sprite-lata-350ml-cardapio-premium-pai-degua.png`
+- `bebida-suco-integral-laranja-the-natural-one-1-7l-cardapio-premium-pai-degua.webp` ← `bebida-suco-integral-laranja-the-natural-one-1-7l-cardapio-premium-pai-degua.png`
+- `bebida-suco-natural-acerola-jarra-1l-cardapio-premium-pai-degua.webp` ← `bebida-suco-natural-acerola-jarra-1l-cardapio-premium-pai-degua.png`
+- `bebida-suco-natural-cupuacu-jarra-1l-cardapio-premium-pai-degua.webp` ← `bebida-suco-natural-cupuacu-jarra-1l-cardapio-premium-pai-degua.png`
+- `bebida-suco-natural-goiaba-copo-cardapio-premium-pai-degua.webp` ← `bebida-suco-natural-goiaba-copo-cardapio-premium-pai-degua.png`
+- `bebida-suco-natural-goiaba-jarra-1l-cardapio-premium-pai-degua.webp` ← `bebida-suco-natural-goiaba-jarra-1l-cardapio-premium-pai-degua.png`
+- `bebida-suco-natural-graviola-copo-cardapio-premium-pai-degua.webp` ← `bebida-suco-natural-graviola-copo-cardapio-premium-pai-degua.png`
+- `bebida-suco-natural-graviola-jarra-1l-cardapio-premium-pai-degua.webp` ← `bebida-suco-natural-graviola-jarra-1l-cardapio-premium-pai-degua.png`
+- `bebida-suco-natural-maracuja-jarra-1l-cardapio-premium-pai-degua.webp` ← `bebida-suco-natural-maracuja-jarra-1l-cardapio-premium-pai-degua.png`
+- `bebida-suco-natural-muruci-copo-cardapio-premium-pai-degua.webp` ← `bebida-suco-natural-muruci-copo-cardapio-premium-pai-degua.png`
+- `bebida-suco-natural-muruci-jarra-1l-cardapio-premium-pai-degua.webp` ← `bebida-suco-natural-muruci-jarra-1l-cardapio-premium-pai-degua.png`
+- `bebida-suco-natural-tapereba-copo-cardapio-premium-pai-degua.webp` ← `bebida-suco-natural-tapereba-copo-cardapio-premium-pai-degua.png`
+- `bebida-suco-natural-tapereba-jarra-1l-cardapio-premium-pai-degua.webp` ← `bebida-suco-natural-tapereba-jarra-1l-cardapio-premium-pai-degua.png`
+- `bebida-vinho-argentino-hero-transparent.webp` ← `bebida-vinho-argentino-hero-transparent.png`
+- `bebida-vinho-chileno-rose-santa-ema-hero-transparent.webp` ← `bebida-vinho-chileno-rose-santa-ema-hero-transparent.png`
+- `bebida-vinho-italiano-hero-transparent.webp` ← `bebida-vinho-italiano-hero-transparent.png`
+- `bebida-vinho-nacional-tinto-suave-hero-transparent.webp` ← `bebida-vinho-nacional-tinto-suave-hero-transparent.png`
+- `bebida-vinho-portugues-hero-transparent.webp` ← `bebida-vinho-portugues-hero-transparent.png`
+- `burger-jambu-card-3d-pai-degua.webp` ← `burger-jambu-card-3d-pai-degua.png`
+- `burger-marajoara-card-3d-pai-degua.webp` ← `burger-marajoara-card-3d-pai-degua.png`
+- `burger-paraense-card-3d-pai-degua.webp` ← `burger-paraense-card-3d-pai-degua.png`
+- `burger-pulled-card-3d-pai-degua.webp` ← `burger-pulled-card-3d-pai-degua.png`
+- `burguer-artesanal-bacon.webp` ← `burguer artesanal bacon.png`
+- `burguer-artesanal-classico.webp` ← `burguer artesanal classico.png`
+- `burguer-artesanal-x-pai-degua.webp` ← `burguer artesanal x pai degua .png`
+- `camarao-empanado-molho-abacaxi.webp` ← `camarao-empanado-molho-abacaxi.png`
+- `coca-cola.png` ← `coca-cola.png`
+- `coca-zero.png` ← `coca-zero.png`
+- `entrada-batata-frita.webp` ← `entrada-batata-frita.png`
+- `entrada-bolinho-frito-molho-branco.webp` ← `entrada-bolinho-frito-molho-branco.png`
+- `entrada-macaxeira-frita.webp` ← `entrada-macaxeira-frita.png`
+- `entrada-pasteizinhos-fritos-molho-especial.webp` ← `entrada-pasteizinhos-fritos-molho-especial.png`
+- `h2oh-limoneto.webp` ← `H2OH! Limoneto.png`
+- `hero-desktop-ofc-22-07-2026.webp` ← `hero_desktop_ofc_22_07_2026.png`
+- `hero-metade-favorita-mobile-master.webp` ← `hero-metade-favorita-mobile-master.png`
+- `ice-site.webp` ← `ice_site .png`
+- `massa-bavette-a-parisiense-card-master.webp` ← `massa-bavette-a-parisiense-card-master.png`
+- `massa-farfalle-de-camarao-ao-molho-branco-card-master.webp` ← `massa-farfalle-de-camarao-ao-molho-branco-card-master.png`
+- `massa-mignon-ao-penne-card-master.webp` ← `massa-mignon-ao-penne-card-master.png`
+- `massa-monte-sua-massa-card-master.webp` ← `massa-monte-sua-massa-card-master.png`
+- `massa-penne-ao-molho-de-calabresa-e-bacon-card-master.webp` ← `massa-penne-ao-molho-de-calabresa-e-bacon-card-master.png`
+- `monte-sua-salada.webp` ← `monte_sua_salada.png`
+- `paidegua-acai.webp` ← `paidegua_açai.png`
+- `paidegua-pullet.webp` ← `paidegua_pullet.png`
+- `pizza-brasileirinha-card-master.webp` ← `pizza-brasileirinha-card-master.png`
+- `pizza-calabacon-card-master.webp` ← `pizza-calabacon-card-master.png`
+- `pizza-calabresa-card-master.webp` ← `pizza-calabresa-card-master.png`
+- `pizza-calabresa-com-alho-frito-card-master.webp` ← `pizza-calabresa-com-alho-frito-card-master.png`
+- `pizza-calabresa-pai-degua-card-master.webp` ← `pizza-calabresa-pai-degua-card-master.png`
+- `pizza-camarao-a-moda-da-casa-card-master.webp` ← `pizza-camarao-a-moda-da-casa-card-master.png`
+- `pizza-camarao-com-cream-cheese-card-master.webp` ← `pizza-camarao-com-cream-cheese-card-master.png`
+- `pizza-camarao-com-queijo-cuia-card-master.webp` ← `pizza-camarao-com-queijo-cuia-card-master.png`
+- `pizza-file-ao-creme-de-gorgonzola-card-master.webp` ← `pizza-file-ao-creme-de-gorgonzola-card-master.png`
+- `pizza-file-com-bacon-card-master.webp` ← `pizza-file-com-bacon-card-master.png`
+- `pizza-file-com-cream-cheese-card-master.webp` ← `pizza-file-com-cream-cheese-card-master.png`
+- `pizza-frango-card-master.webp` ← `pizza-frango-card-master.png`
+- `pizza-frango-com-catupiry-card-master.webp` ← `pizza-frango-com-catupiry-card-master.png`
+- `pizza-frango-cremoso-card-master.webp` ← `pizza-frango-cremoso-card-master.png`
+- `pizza-havaiana-card-master.webp` ← `pizza-havaiana-card-master.png`
+- `pizza-lombo-canadense-card-master.webp` ← `pizza-lombo-canadense-card-master.png`
+- `pizza-margherita-card-master.webp` ← `pizza-margherita-card-master.png`
+- `pizza-metade-favorita-card-master.webp` ← `pizza-metade-favorita-card-master.png`
+- `pizza-metade-pavulagem-card-master.webp` ← `pizza-metade-pavulagem-card-master.png`
+- `pizza-mista-card-master.webp` ← `pizza-mista-card-master.png`
+- `pizza-mucarela-card-master.webp` ← `pizza-mucarela-card-master.png`
+- `pizza-papa-chibe-card-master.webp` ← `pizza-papa-chibe-card-master.png`
+- `pizza-paraense-card-master.webp` ← `pizza-paraense-card-master.png`
+- `pizza-peito-de-peru-card-master.webp` ← `pizza-peito-de-peru-card-master.png`
+- `pizza-peito-de-peru-com-cream-cheese-card-master.webp` ← `pizza-peito-de-peru-com-cream-cheese-card-master.png`
+- `pizza-peperoni-card-master.webp` ← `pizza-peperoni-card-master.png`
+- `pizza-portuguesa-card-master.webp` ← `pizza-portuguesa-card-master.png`
+- `pizza-pulled-pork-card-master.webp` ← `pizza-pulled-pork-card-master.png`
+- `pizza-quatro-queijos-cardapio-premium-pai-degua-final-4x5.webp` ← `pizza-quatro-queijos-cardapio-premium-pai-degua-final-4x5.png`
+- `pizza-sabor-de-boteco-card-master.webp` ← `pizza-sabor-de-boteco-card-master.png`
+- `pizza-so-o-file-card-master.webp` ← `pizza-so-o-file-card-master.png`
+- `promocao-happy-hour-1080.webp` ← `happy hour pai degua .png`
+- `promocao-happy-hour-4k.webp` ← `happy hour pai degua .png`
+- `promocao-happy-hour-720.webp` ← `happy hour pai degua .png`
+- `redbull-site.webp` ← `redbull_site.png`
+- `samash-burguer-salad.webp` ← `samash burguer salad.png`
+- `smash-burguer-bacon.webp` ← `smash burguer bacon.png`
+- `smash-burguer-eggs.webp` ← `smash burguer eggs.png`
+- `smash-burguer-final-00.webp` ← `smash burguer .png`
+- `suco-acerola.webp` ← `SUCO_ACEROLA.png`
+- `suco-cupuacu.webp` ← `SUCO_CUPUAÇU .png`
+- `suco-maracuja-site.webp` ← `suco_maracuja_site.png`
+- `suco-uva-integral.webp` ← `suco_uva_integral.png`
+- `vinho-tinto-seco.webp` ← `vinho_tinto_seco.png`

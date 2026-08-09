@@ -1,0 +1,5 @@
+AUDITORIA DE FUNDOS
+
+Imagens verificadas: 96
+Fundos brancos opacos detectados: 0
+Nenhum fundo branco opaco detectado nos cantos das imagens do catálogo.

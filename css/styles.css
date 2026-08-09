@@ -256,6 +256,27 @@
 .menu-panel button.button{font-family:inherit;cursor:pointer}.hero__actions button.button{font-family:inherit;cursor:pointer}
 .product-dialog__stage img{object-fit:contain;background:#080808}
 @media(min-width:780px){.story-card{grid-template-columns:minmax(300px,.78fr) minmax(0,1.22fr);padding:24px}.story-card__content{padding:28px}.story-card__media{min-height:620px}}
-@media(max-width:779px){.story-card{padding:10px;border-radius:25px}.story-card__media{min-height:0;aspect-ratio:287/525}.story-card__media img{object-fit:contain}.story-card__content{padding:16px 10px 20px}.story-card__links{display:grid}.story-card__links .button{width:100%}.product-card{min-height:500px}.product-card img{transform:none!important;animation:none!important}.product-card.is-visible img{transform:scale(1.01)!important}.product-card__content{left:18px;right:18px;bottom:18px}.product-card h3{font-size:27px}.product-card__price{font-size:13px}.menu-section{padding-inline:14px}.order-choice-dialog__content{padding:30px 18px 22px}}
+@media(max-width:779px){.story-card{padding:10px;border-radius:25px}.story-card__media{min-height:0;aspect-ratio:287/525}.story-card__media img{object-fit:contain}.story-card__content{padding:16px 10px 20px}.story-card__links{display:grid}.story-card__links .button{width:100%}.product-card{min-height:500px}.product-card img{animation:productFloatMobile var(--float-duration,6.2s) ease-in-out infinite var(--float-delay,0s)!important;transform-origin:center center}.product-card.is-visible img{opacity:1}.product-card__content{left:18px;right:18px;bottom:18px}.product-card h3{font-size:27px}.product-card__price{font-size:13px}.menu-section{padding-inline:14px}.order-choice-dialog__content{padding:30px 18px 22px}}
 @media(max-width:380px){.hero__actions{display:grid}.hero__actions .button{width:100%}.product-card{min-height:470px}.story-card__content h2{font-size:44px}}
 @media(prefers-reduced-motion:reduce){.story-card,.order-option{transform:none!important;animation:none!important}}
+
+
+/* CATEGORIAS FINAIS 20260804-categorias-final-v1 — entradas primeiro e movimento imersivo */
+.menu-section__meta{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:0 0 18px;padding:10px 14px;border:1px solid rgba(255,255,255,.09);border-radius:999px;background:rgba(255,255,255,.025);color:var(--muted);font-size:10px;font-weight:850;letter-spacing:.12em;text-transform:uppercase}
+.menu-section__meta span{color:var(--gold-soft)}
+.menu-section__meta strong{font-size:10px;color:#f3e8dc}
+.menu-section[data-theme="traditional"]{background:radial-gradient(circle at 100% 0,rgba(198,114,47,.16),transparent 36%),#160d09}
+.menu-section[data-theme="special"]{background:radial-gradient(circle at 0 0,rgba(214,170,87,.18),transparent 38%),linear-gradient(180deg,#1b100d,#12090a)}
+.menu-section[data-theme="amazon"]{background:radial-gradient(circle at 100% 10%,rgba(165,28,42,.3),transparent 42%),linear-gradient(180deg,#23090e,#12070a)}
+.menu-section[data-theme="signature"]{background:radial-gradient(circle at 8% 10%,rgba(214,170,87,.18),transparent 38%),radial-gradient(circle at 95% 95%,rgba(110,14,31,.24),transparent 42%),#100708}
+.menu-section--entradas{border-top:1px solid rgba(214,170,87,.16)}
+.product-card__media img{will-change:transform;animation-duration:var(--float-duration,6.2s);animation-delay:var(--float-delay,0s)}
+.product-card:hover .product-card__media img{animation-play-state:paused}
+@keyframes productFloatMobile{0%,100%{transform:translate3d(0,1px,0) scale(1.018) rotate(-.12deg)}50%{transform:translate3d(0,-9px,0) scale(1.04) rotate(.12deg)}}
+@media(max-width:779px){
+  .product-card__media{inset:-3px}
+  .product-card img{animation:productFloatMobile var(--float-duration,6.2s) ease-in-out infinite var(--float-delay,0s)!important}
+  .product-card--contain img{animation-name:productFloatContain!important}
+}
+@keyframes productFloatContain{0%,100%{transform:translate3d(0,2px,0) scale(.94)}50%{transform:translate3d(0,-8px,0) scale(.98)}}
+@media(prefers-reduced-motion:reduce){.product-card img{animation:none!important}}

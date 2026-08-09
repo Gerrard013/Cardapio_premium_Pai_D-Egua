@@ -8,26 +8,34 @@
   const escapeHTML = value => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
 
   function renderMenuSections(){
-    const host=$('#menu-sections');
-    if(!host || !Array.isArray(window.PAIDEGUA_MENU)) return;
-    const frag=document.createDocumentFragment();
-    window.PAIDEGUA_MENU.forEach(section=>{
+    const primary=$('#menu-sections-primary');
+    const secondary=$('#menu-sections-secondary');
+    if((!primary && !secondary) || !Array.isArray(window.PAIDEGUA_MENU)) return;
+    const primaryFrag=document.createDocumentFragment();
+    const secondaryFrag=document.createDocumentFragment();
+    window.PAIDEGUA_MENU.forEach((section,sectionIndex)=>{
       const el=document.createElement('section');
-      el.className='menu-section'; el.id=section.id; el.dataset.theme=section.theme;
-      el.innerHTML=`<div class="menu-section__inner"><div class="section-heading reveal"><p class="eyebrow">${escapeHTML(section.eyebrow)}</p><h2>${escapeHTML(section.title)}</h2><p>${escapeHTML(section.subtitle)}</p></div><div class="product-grid" data-grid></div>${section.items.length>section.initial?`<button class="button button--glass expand-button" type="button" data-expand aria-expanded="false">Ver todos</button>`:''}</div>`;
+      el.className=`menu-section menu-section--${escapeHTML(section.id)}`;
+      el.id=section.id;
+      el.dataset.theme=section.theme;
+      const categoryLabel=section.categoryLabel||`${section.items.length} opções`;
+      el.innerHTML=`<div class="menu-section__inner"><div class="menu-section__meta reveal"><span>${escapeHTML(categoryLabel)}</span><strong>${section.items.length} ${section.items.length===1?'opção':'opções'}</strong></div><div class="section-heading reveal"><p class="eyebrow">${escapeHTML(section.eyebrow)}</p><h2>${escapeHTML(section.title)}</h2><p>${escapeHTML(section.subtitle)}</p></div><div class="product-grid" data-grid></div>${section.items.length>section.initial?`<button class="button button--glass expand-button" type="button" data-expand aria-expanded="false">Ver todos</button>`:''}</div>`;
       const grid=$('[data-grid]',el);
       section.items.forEach((item,index)=>{
         const card=document.createElement('article');
         const isContain=section.contain || /vinho|chopp|água|fanta|guaraná|sprite|heineken|red bull|h2oh|ice/i.test(item.name);
         card.className=`product-card reveal${isContain?' product-card--contain':''}`;
+        card.style.setProperty('--float-duration',`${(5.6+((index+sectionIndex)%5)*.45).toFixed(2)}s`);
+        card.style.setProperty('--float-delay',`${(-((index+sectionIndex)%7)*.62).toFixed(2)}s`);
         Object.assign(card.dataset,{openProduct:'',name:item.name,image:item.image,price:item.price||FALLBACK_PRICE,description:item.description||FALLBACK_DESCRIPTION});
         if(index>=section.initial) card.hidden=true;
         card.innerHTML=`<div class="product-card__media"><img src="${escapeHTML(item.image)}" alt="${escapeHTML(item.name)}" loading="lazy" decoding="async"></div><div class="product-card__content">${item.badge?`<span class="product-card__badge">${escapeHTML(item.badge)}</span>`:''}<small>${escapeHTML(section.title)}</small><h3>${escapeHTML(item.name)}</h3><strong class="product-card__price">${escapeHTML(item.price||FALLBACK_PRICE)}</strong><span class="product-card__action">Ver detalhes</span></div>`;
         grid.append(card);
       });
-      frag.append(el);
+      (section.placement==='primary'?primaryFrag:secondaryFrag).append(el);
     });
-    host.replaceChildren(frag);
+    primary?.replaceChildren(primaryFrag);
+    secondary?.replaceChildren(secondaryFrag);
   }
 
   function initImageFallbacks(){
@@ -121,7 +129,7 @@
       if(/pizza express|express|rápida|rapida/.test(s))return 'A Pizza Express tem retirada rápida e sabor do dia. Consulte a equipe antes de sair.';
       if(/evento|anivers|confratern|família|familia/.test(s))return 'Veja <a href="#eventos">Eventos</a> e fale com a equipe para organizar sua celebração.';
       if(/burger|hamb|smash/.test(s))return 'Conheça as assinaturas paraenses, artesanais e smash em <a href="#burgers">Burgers</a>.';
-      if(/pizza|sabor/.test(s))return 'A seção <a href="#pizzas">Pizzas</a> reúne 31 sabores oficiais. Toque em um card para ver ingredientes e preço confirmado.';
+      if(/pizza|sabor/.test(s))return 'As pizzas estão separadas em quatro categorias a partir de <a href="#pizzas">Pizzas Tradicionais</a>, com 31 sabores oficiais. Toque em um card para ver ingredientes e preço confirmado.';
       if(/vinho|chopp/.test(s))return 'Veja as opções em <a href="#vinhos-chopp">Vinhos & chopp</a>.';
       if(/suco|tapereb|cupua|muruci|acerola|graviola/.test(s))return 'Os sabores de frutas estão em <a href="#sucos">Sucos</a>.';
       if(/pedido|comprar|valor|preço|preco/.test(s))return 'Os valores atualizados ficam no <a href="#pedido">Pedido oficial</a>. Quando o preço não está confirmado no material, o card orienta consultar a unidade.';
@@ -133,7 +141,7 @@
   }
 
   function initSmoothAnchors(){document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(!a)return;const href=a.getAttribute('href');if(href==='#')return;const target=$(href);if(!target)return;e.preventDefault();target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});history.replaceState(null,'',href);});}
-  function initServiceWorker(){if('serviceWorker' in navigator && location.protocol!=='file:')window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js?v=20260804-final-seguro').catch(err=>console.warn('Service worker não registrado:',err)));}
+  function initServiceWorker(){if('serviceWorker' in navigator && location.protocol!=='file:')window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js?v=20260804-categorias-final-v1').catch(err=>console.warn('Service worker não registrado:',err)));}
 
   document.addEventListener('DOMContentLoaded',()=>{renderMenuSections();initImageFallbacks();initIntro();initNav();initSmoothAnchors();const io=initReveal();initExpand(io);initProductDialog();initOrderChoice();initAssistant();initCardMotion();initServiceWorker();});
 })();

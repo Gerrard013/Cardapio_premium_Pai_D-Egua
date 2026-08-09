@@ -4,15 +4,15 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
 <meta content="#17090b" name="theme-color"/>
-<meta content="Cardápio Premium da Pai D'Égua — 31 pizzas, burgers, entradas, massas, bebidas, promoções, eventos e unidades." name="description"/>
+<meta content="Cardápio Premium da Pai D'Égua — entradas primeiro e 31 pizzas organizadas por categorias, além de burgers, massas, bebidas, promoções, eventos e unidades." name="description"/>
 <title>Pai D'Égua — Cardápio Premium</title>
 <link href="assets/brand/icon-256.png" rel="icon" type="image/png"/>
 <link href="manifest.webmanifest" rel="manifest"/>
 <link as="image" href="assets/images/hero-metade-favorita-mobile-master.webp" media="(max-width: 720px)" rel="preload"/>
 <link as="image" href="assets/images/hero-desktop-ofc-22-07-2026.webp" media="(min-width: 721px)" rel="preload"/>
-<link href="css/styles.css?v=20260804-final-seguro" rel="stylesheet"/>
-<script defer="" src="js/menu.js?v=20260804-final-seguro"></script>
-<script defer="" src="js/app.js?v=20260804-final-seguro"></script>
+<link href="css/styles.css?v=20260804-categorias-final-v1" rel="stylesheet"/>
+<script defer="" src="js/menu.js?v=20260804-categorias-final-v1"></script>
+<script defer="" src="js/app.js?v=20260804-categorias-final-v1"></script>
 <link href="favicon.ico" rel="icon" type="image/x-icon"/><link href="apple-touch-icon.png" rel="apple-touch-icon"/></head>
 <body>
 <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -42,7 +42,7 @@
 <span></span><span></span>
 </button>
 <div class="menu-panel" id="menu-panel">
-<nav aria-label="Navegação principal" class="main-nav"><a href="#inicio">Início</a><a href="#pizzas">Pizzas</a><a href="#burgers">Burgers</a><a href="#entradas">Entradas</a><a href="#massas">Massas</a><a href="#bebidas">Bebidas</a><a href="#unidades">Unidades</a></nav>
+<nav aria-label="Navegação principal" class="main-nav"><a href="#inicio">Início</a><a href="#entradas">Entradas</a><a href="#pizzas">Pizzas</a><a href="#burgers">Burgers</a><a href="#massas">Massas</a><a href="#bebidas">Bebidas</a><a href="#unidades">Unidades</a></nav>
 <button class="button button--gold button--compact" data-order-choice="" type="button">Pedir agora</button>
 </div>
 </header>
@@ -57,10 +57,11 @@
 <p class="eyebrow">Pai D’Égua • Belém do Pará</p>
 <h1 id="hero-title">Seu próximo sabor começa aqui.</h1>
 <p>Escolha como quer viver a Pai D’Égua: no salão, no delivery ou na retirada. Veja os produtos e finalize no canal oficial da sua unidade.</p>
-<div class="hero__actions"><a class="button button--gold" href="#pizzas">Ver pizzas</a><a class="button button--glass" href="#burgers">Ver burgers</a><button class="button button--red" data-order-choice="" type="button">Fazer pedido</button></div>
+<div class="hero__actions"><a class="button button--gold" href="#entradas">Começar pelas entradas</a><a class="button button--glass" href="#pizzas">Ver pizzas por categoria</a><button class="button button--red" data-order-choice="" type="button">Fazer pedido</button></div>
 </div>
-<a aria-label="Continuar para os destaques" class="hero__scroll" href="#destaques"><span></span>Descobrir</a>
+<a aria-label="Continuar para as entradas" class="hero__scroll" href="#entradas"><span></span>Começar</a>
 </section>
+<div id="menu-sections-primary"></div>
 <section aria-labelledby="highlights-title" class="highlights section-shell" id="destaques">
 <div class="section-heading reveal">
 <p class="eyebrow">Escolhas da casa</p>
@@ -94,7 +95,7 @@
 <article class="service-card service-card--salon reveal"><span>03</span><p class="eyebrow">Experiência no salão</p><h3>Reúna quem importa</h3><p>Conheça as unidades, aproveite o Happy Hour e fale com a equipe para organizar aniversários, encontros e confraternizações.</p><a class="button button--red" href="#eventos">Planejar no salão</a></article>
 </div>
 </section>
-<div id="menu-sections"></div>
+<div id="menu-sections-secondary"></div>
 <section aria-labelledby="promos-title" class="promos section-shell" id="promocoes">
 <div class="section-heading reveal">
 <p class="eyebrow">Cada canal, uma oportunidade</p>
@@ -156,7 +157,7 @@
 <section aria-labelledby="historia-title" class="story-showcase section-shell" id="historia">
 <div class="story-card reveal">
 <div class="story-card__media">
-<img alt="Rute e Cley, responsáveis pela história da Pai D’Égua" decoding="async" loading="lazy" src="assets/images/responsaveis-pai-degua.webp?v=20260804-final-seguro"/>
+<img alt="Rute e Cley, responsáveis pela história da Pai D’Égua" decoding="async" loading="lazy" src="assets/images/responsaveis-pai-degua.webp?v=20260804-categorias-final-v1"/>
 </div>
 <div class="story-card__content" id="historia-detalhes">
 <p class="eyebrow">Responsáveis por essa história</p>

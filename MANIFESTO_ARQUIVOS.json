@@ -1,0 +1,667 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 32,
+    "sha256": "8cb9017ed748b1f0072c5b864ab2c9f099b6489aac269e1689f610faa0e53f51"
+  },
+  {
+    "path": "ALTERACOES_CATEGORIAS_FINAL.txt",
+    "bytes": 626,
+    "sha256": "812b7d2742d72805ec649a4343f57c835985b31566e47337eee0c31d6b4f651b"
+  },
+  {
+    "path": "ALTERACOES_FINAL.txt",
+    "bytes": 1340,
+    "sha256": "72cf2cbbd3ac5b240c8ab8911e83cde843302edff75a2b737de81b7aeb18ce98"
+  },
+  {
+    "path": "COMANDOS_GIT_NETLIFY_FINAL.txt",
+    "bytes": 2498,
+    "sha256": "bc0b00c9b4b0370e8995b56f999c201f674c4cddc0b9b7fdeb208fd0ddfceebe"
+  },
+  {
+    "path": "DEPLOY_SEGURO_PAIDEGUA.txt",
+    "bytes": 1740,
+    "sha256": "28bfa7e4f2e7bda0602f8098aeab3e5ccf8afed137f8041f8c4d8e6863304bd0"
+  },
+  {
+    "path": "LISTA_ARQUIVOS_FINAL.txt",
+    "bytes": 6547,
+    "sha256": "dc8b5a85d500c4aad480c3b086f9ae00541966ce8dabdf9aa7f702565cee5edf"
+  },
+  {
+    "path": "QA_EXECUTION.txt",
+    "bytes": 327,
+    "sha256": "51fb9c9e59f728e88b8142d81557aa75e5f8afb7eaacf5d97a59bea012b9613c"
+  },
+  {
+    "path": "QA_FINAL_CATEGORIAS.md",
+    "bytes": 10380,
+    "sha256": "89de8d171d73bcdb3bd2eec61d1d00ea638a3bcd8be106c2c60201f9cd8c34a9"
+  },
+  {
+    "path": "QA_FINAL_PAIDEGUA.md",
+    "bytes": 1142,
+    "sha256": "3b3d785e851a4a80d28cd1d388a7cd958578a5aca3c58d70a0807be2cfe99a6d"
+  },
+  {
+    "path": "QA_FUNDOS_IMAGENS.txt",
+    "bytes": 154,
+    "sha256": "9cb59bbd1dedb492c538ff80edda056aeb5a64abdcf4645d6034bb48abb69bf5"
+  },
+  {
+    "path": "README_FINAL.md",
+    "bytes": 327,
+    "sha256": "462eefbae2865de67c1f6f0e0eb35435f956f953ab683af8f23e3179c133aa44"
+  },
+  {
+    "path": "ROLLBACK_PAIDEGUA.txt",
+    "bytes": 457,
+    "sha256": "61738605cea0bd53eff4917be49d2919875fc28b8fceaa632df93555d8124a6c"
+  },
+  {
+    "path": "_redirects",
+    "bytes": 19,
+    "sha256": "6036983e5fc00f0169c9e939b1816ed771eee00e27f2fcc517b819041460b9ef"
+  },
+  {
+    "path": "apple-touch-icon.png",
+    "bytes": 13844,
+    "sha256": "42164a41fe8f5e345d77b979f43cc2b69433642a096ada6e9458824e3b9741aa"
+  },
+  {
+    "path": "assets/brand/favicon.svg",
+    "bytes": 266,
+    "sha256": "75a9e80e8897ed8b7e668dfe162bbd5833034521dca8d083ddb95dab970a8e0b"
+  },
+  {
+    "path": "assets/brand/icon-256.png",
+    "bytes": 19214,
+    "sha256": "cb1e697f561bdeded30e582e594045e107d8c8c25fb6adbe4c529e519dd75324"
+  },
+  {
+    "path": "assets/brand/logo-burger-official.jpg",
+    "bytes": 20212,
+    "sha256": "f2d5351faaca56ed55fc7a0cb5e88d7c0f5a3741847bf8f22572dd3c98fcda9c"
+  },
+  {
+    "path": "assets/brand/logo-color.png",
+    "bytes": 45085,
+    "sha256": "f89c10fa0436aa5fffd5a341dc6d41475b6132446dafdfdb2e1523ac81c8b8e3"
+  },
+  {
+    "path": "assets/brand/logo-gtech-official.jpg",
+    "bytes": 344398,
+    "sha256": "5a186aef2539480b141cdc454d8d9ece1bed1c746d48da59bcd7789416f33299"
+  },
+  {
+    "path": "assets/brand/logo-light.png",
+    "bytes": 27530,
+    "sha256": "89c8f4f1f6db50d291fbd0c01a676000ab755c8b4a879762dca29688e00db532"
+  },
+  {
+    "path": "assets/brand/logo-pizza-official.png",
+    "bytes": 68004,
+    "sha256": "2391a0ad0df9a690552f47f3deac3da7a0d8ce32ad19374b2cdf2a4ea883f27e"
+  },
+  {
+    "path": "assets/images/batata-especial.webp",
+    "bytes": 255352,
+    "sha256": "ab48c825145ac86b525cc55d619d572f087ddf03078d10c8049090dd7c9b271b"
+  },
+  {
+    "path": "assets/images/batata-grande.webp",
+    "bytes": 273388,
+    "sha256": "247c3f2f8eedbac5825cee18d0744177136e87de7c68bd850ad4ef5980562e11"
+  },
+  {
+    "path": "assets/images/batata-media.webp",
+    "bytes": 183970,
+    "sha256": "51fbf3359e0809dbabdc23a8185ae112147bcccca7abfca6ea7409b6418031ce"
+  },
+  {
+    "path": "assets/images/bebida-agua-mineral-sem-gas-500ml-cardapio-premium-pai-degua.webp",
+    "bytes": 217896,
+    "sha256": "7f9a9093894b483320e7bbcb4c64e7b354762c1733f79f7ba103ad0efd59b9a7"
+  },
+  {
+    "path": "assets/images/bebida-chopp-de-vinho-long-neck-hero-transparent.webp",
+    "bytes": 262842,
+    "sha256": "09bd36a2ba74bab99ef9f9d197b94f01eb3e9a8fa18e3fafd457e1a827b931bc"
+  },
+  {
+    "path": "assets/images/bebida-chopp-de-vinho-taca-hero-premium-transparent.webp",
+    "bytes": 286308,
+    "sha256": "c68ad361c0635fe57397de9374322ce8e6edaf94d49fa97d43a10b0675428b0b"
+  },
+  {
+    "path": "assets/images/bebida-chopp-hero-premium-transparent.webp",
+    "bytes": 325590,
+    "sha256": "115ebff0bf1d19de22144cc42cd34635499deec964af62653cfdfecf64b2d4b7"
+  },
+  {
+    "path": "assets/images/bebida-fanta-laranja-lata-hero-transparent.webp",
+    "bytes": 245508,
+    "sha256": "88809e9df1d5fa19c4a7b2549ad333dddf435f2b91f09f3cdbde9e4fdf4794df"
+  },
+  {
+    "path": "assets/images/bebida-fanta-uva-lata-hero-transparent.webp",
+    "bytes": 371484,
+    "sha256": "937e5c8395f85a18d8f0b408e0df65f771f661ad5dec068e5e41fad09325c38a"
+  },
+  {
+    "path": "assets/images/bebida-guarana-lata-hero-transparent.webp",
+    "bytes": 210016,
+    "sha256": "6e65829f923d22985a81cc7256fb2f1ecdf080758fc5d9dc8163a4d02bec2886"
+  },
+  {
+    "path": "assets/images/bebida-guarana-tuchaua-lata-350ml-cardapio-premium-pai-degua.webp",
+    "bytes": 171834,
+    "sha256": "6134d3b403bf2114d28de946087cc43dcb58d3239b8901729debc9938452921b"
+  },
+  {
+    "path": "assets/images/bebida-guarana-zero-lata-350ml-cardapio-premium-pai-degua.webp",
+    "bytes": 211896,
+    "sha256": "b3cd3d152a5b41dfa23c6ac2b4d9d30d628f83dde674089dd2cce7e13a66d1b3"
+  },
+  {
+    "path": "assets/images/bebida-heineken-long-neck-hero-transparent.webp",
+    "bytes": 229084,
+    "sha256": "34adeb32a8dd8ffc44e0a54a180fbdcc0c46a06bcb3ccec07666756748db101a"
+  },
+  {
+    "path": "assets/images/bebida-sprite-lata-350ml-cardapio-premium-pai-degua.webp",
+    "bytes": 341286,
+    "sha256": "46d8af95ae7e93889d9e7caa37de14fc12745496aefc52d9f195e9c64c32a3c3"
+  },
+  {
+    "path": "assets/images/bebida-suco-integral-laranja-the-natural-one-1-7l-cardapio-premium-pai-degua.webp",
+    "bytes": 213462,
+    "sha256": "7341b42377ea4463f5427a01a5601e184376f141f9da24c2b60222d59b704278"
+  },
+  {
+    "path": "assets/images/bebida-suco-natural-acerola-jarra-1l-cardapio-premium-pai-degua.webp",
+    "bytes": 222252,
+    "sha256": "bc1986611d04eb4959dabc97526c69c2e2c0dd4161e931b13f48964ae7761857"
+  },
+  {
+    "path": "assets/images/bebida-suco-natural-cupuacu-jarra-1l-cardapio-premium-pai-degua.webp",
+    "bytes": 228870,
+    "sha256": "329bdd652583e5a88abb91cf6e9702068dead1e7351829b5f64263e74efc0e05"
+  },
+  {
+    "path": "assets/images/bebida-suco-natural-goiaba-copo-cardapio-premium-pai-degua.webp",
+    "bytes": 359338,
+    "sha256": "9014930d592bbec8251a82e0f6621d0804d491c53e9ae2539e37b43177555a20"
+  },
+  {
+    "path": "assets/images/bebida-suco-natural-goiaba-jarra-1l-cardapio-premium-pai-degua.webp",
+    "bytes": 232072,
+    "sha256": "2eaae006d6642319048cb966c8511fdf3f67cc17f1c2569afab383106256992c"
+  },
+  {
+    "path": "assets/images/bebida-suco-natural-graviola-copo-cardapio-premium-pai-degua.webp",
+    "bytes": 192750,
+    "sha256": "82b9a4588ab03b87135df2bee39125ac66f2271dc37bda609f5a214ef8c88b0b"
+  },
+  {
+    "path": "assets/images/bebida-suco-natural-graviola-jarra-1l-cardapio-premium-pai-degua.webp",
+    "bytes": 178696,
+    "sha256": "ceb8298e08196e8072b9285bd89d9127a96caa99e8951df531c6dc08ca60a3fc"
+  },
+  {
+    "path": "assets/images/bebida-suco-natural-maracuja-jarra-1l-cardapio-premium-pai-degua.webp",
+    "bytes": 199110,
+    "sha256": "364451b89df633be4a6bbdf7bd0354263841bde795ccdcce2607723d94a919c9"
+  },
+  {
+    "path": "assets/images/bebida-suco-natural-muruci-copo-cardapio-premium-pai-degua.webp",
+    "bytes": 206392,
+    "sha256": "bead16d121444a061ed228c9e82753dadbd07eaefad8644686fc62513948cad5"
+  },
+  {
+    "path": "assets/images/bebida-suco-natural-muruci-jarra-1l-cardapio-premium-pai-degua.webp",
+    "bytes": 189760,
+    "sha256": "6377126dba801ebfdfdee0407c8517ce515b68c2423a7d35f9e96e87b01e75dd"
+  },
+  {
+    "path": "assets/images/bebida-suco-natural-tapereba-copo-cardapio-premium-pai-degua.webp",
+    "bytes": 221642,
+    "sha256": "df581c944e4125c9a8ec149b5dd1238d178b030a09d76933d24363f1d1bf5c69"
+  },
+  {
+    "path": "assets/images/bebida-suco-natural-tapereba-jarra-1l-cardapio-premium-pai-degua.webp",
+    "bytes": 179904,
+    "sha256": "3540f221d15f4ae3d4f4aeae4017837289019d1d85ff05b173ce832058d6570c"
+  },
+  {
+    "path": "assets/images/bebida-vinho-argentino-hero-transparent.webp",
+    "bytes": 179914,
+    "sha256": "076b90d29bef18be955d1e1d89370ca584fd1092ce0b8118643811cd20a74104"
+  },
+  {
+    "path": "assets/images/bebida-vinho-chileno-rose-santa-ema-hero-transparent.webp",
+    "bytes": 176642,
+    "sha256": "d847679a9a016b7e30b26633576f70c26e3cfe6fec1a49bc1e71b288fd23d626"
+  },
+  {
+    "path": "assets/images/bebida-vinho-italiano-hero-transparent.webp",
+    "bytes": 163544,
+    "sha256": "901874967e05a17293f8f80a55da58818de76ae7da7e0e6847c7b1960efe124f"
+  },
+  {
+    "path": "assets/images/bebida-vinho-nacional-tinto-suave-hero-transparent.webp",
+    "bytes": 161048,
+    "sha256": "83e086c80e5de9d7e0f69c5f1c60cb207e03a8d677eb2e550ebada48e138479d"
+  },
+  {
+    "path": "assets/images/bebida-vinho-portugues-hero-transparent.webp",
+    "bytes": 167702,
+    "sha256": "67f19fdecdba4d4d1aa7f4116755e4e61e443096a5c89faf2036b9c409a4d11b"
+  },
+  {
+    "path": "assets/images/burger-jambu-card-3d-pai-degua.webp",
+    "bytes": 303252,
+    "sha256": "09dd52c557f4106cc4a725fbd1b5e981c71e616a2701b8a660cd8a4e86467912"
+  },
+  {
+    "path": "assets/images/burger-marajoara-card-3d-pai-degua.webp",
+    "bytes": 299652,
+    "sha256": "7702687ac4df9986d4319dd24baee5a5547ad332f6a910cde1dd0c06a856b7b5"
+  },
+  {
+    "path": "assets/images/burger-paraense-card-3d-pai-degua.webp",
+    "bytes": 284598,
+    "sha256": "40639f1e2a2f4c79eb4724f8531fb3a1a0489fd3c99c1808b219152b38464145"
+  },
+  {
+    "path": "assets/images/burger-pulled-card-3d-pai-degua.webp",
+    "bytes": 218238,
+    "sha256": "7006dc8ea1316776f7d0b18194b58706131ebfdadfb8fceae5de6f13bd5b9294"
+  },
+  {
+    "path": "assets/images/burguer-artesanal-bacon.webp",
+    "bytes": 215384,
+    "sha256": "4fec3da89c803d4fe301c8707d37b506da1c3e3d6597b79a576ec0c17f43b7f4"
+  },
+  {
+    "path": "assets/images/burguer-artesanal-classico.webp",
+    "bytes": 180662,
+    "sha256": "193b8151021631f432e88a164dc8f5968bc152f0be6704bfa77d98452436a0a6"
+  },
+  {
+    "path": "assets/images/burguer-artesanal-x-pai-degua.webp",
+    "bytes": 356244,
+    "sha256": "a8e0fb6d94112011064c5bfb5a6bd6aed22b1c817bf001f00e91b67384dd2f3b"
+  },
+  {
+    "path": "assets/images/camarao-empanado-molho-abacaxi.webp",
+    "bytes": 294628,
+    "sha256": "f0deff56778c76625cfb5446ae8ce7ec35f61466151bbd3b63bccdf17b08aa73"
+  },
+  {
+    "path": "assets/images/coca-cola.png",
+    "bytes": 3392638,
+    "sha256": "2098c23d18bb0f6c957d756d892c385c0b16e163b0779f244cea12a1de423b59"
+  },
+  {
+    "path": "assets/images/coca-zero.png",
+    "bytes": 1812244,
+    "sha256": "3f6ac12a2677797866399d39f43f6782e418afca891a8adfe9ba566d47923e9a"
+  },
+  {
+    "path": "assets/images/entrada-batata-frita.webp",
+    "bytes": 381458,
+    "sha256": "55439edaa5421f7d999c564028f2f3448219c94d2a31dc1b81b9b1e9ef51dc80"
+  },
+  {
+    "path": "assets/images/entrada-bolinho-frito-molho-branco.webp",
+    "bytes": 313666,
+    "sha256": "a3c0242d12a0d210d61255bba1cf0161844fab430101c3cde7285e6e97debd9c"
+  },
+  {
+    "path": "assets/images/entrada-macaxeira-frita.webp",
+    "bytes": 269846,
+    "sha256": "0d42de05fb3c8d62343519593864b0173cea05f2b7beae78fe8060cb0cce391f"
+  },
+  {
+    "path": "assets/images/entrada-pasteizinhos-fritos-molho-especial.webp",
+    "bytes": 287764,
+    "sha256": "3b19838f9c3d2bfe771b700121a4f77c276c1bee09c8086255d8c2e7e1b7a0ca"
+  },
+  {
+    "path": "assets/images/h2oh-limoneto.webp",
+    "bytes": 214310,
+    "sha256": "b5f9a719ae2c546cce81f997dffce8ceacb3ba19058a62f99457b73f39275c14"
+  },
+  {
+    "path": "assets/images/hero-desktop-ofc-22-07-2026.webp",
+    "bytes": 231974,
+    "sha256": "f9a8207a0b1a5ca2b7f62b73b5f1d1eace4fedf8b5a085f054bb55785a385172"
+  },
+  {
+    "path": "assets/images/hero-metade-favorita-mobile-master.webp",
+    "bytes": 216986,
+    "sha256": "5ea35b70345aaeacd9e617a7015f56817c0aa04ee8f595dccbbd2ce05ccb5197"
+  },
+  {
+    "path": "assets/images/ice-site.webp",
+    "bytes": 211704,
+    "sha256": "9be09f6d49ea913d917005de984b95e6d8d165fe27f10e6fd5ba667f323615d2"
+  },
+  {
+    "path": "assets/images/massa-bavette-a-parisiense-card-master.webp",
+    "bytes": 280968,
+    "sha256": "bbb9fa0eab1db49cbbe790d88a4cf8c9bf742b1ff9f8ec2601a0e77013be9d8a"
+  },
+  {
+    "path": "assets/images/massa-farfalle-de-camarao-ao-molho-branco-card-master.webp",
+    "bytes": 257988,
+    "sha256": "474b556ad2cc358665ebeb9df5cac98355a508f8d9c925fd75087fa9d3845166"
+  },
+  {
+    "path": "assets/images/massa-mignon-ao-penne-card-master.webp",
+    "bytes": 336048,
+    "sha256": "ebe1c723f14d810a57276d2b434db51449c695414d2d4871fcd551529c0a2aeb"
+  },
+  {
+    "path": "assets/images/massa-monte-sua-massa-card-master.webp",
+    "bytes": 239586,
+    "sha256": "26b1a53302bf63725099f27b015b486a1ff0b886b5e48621606a609d2dfb7907"
+  },
+  {
+    "path": "assets/images/massa-penne-ao-molho-de-calabresa-e-bacon-card-master.webp",
+    "bytes": 298796,
+    "sha256": "b873fff32a9851be9535df981231e8c9aac23b1bf9af8d0f81584d3995941bbb"
+  },
+  {
+    "path": "assets/images/monte-sua-salada.webp",
+    "bytes": 338398,
+    "sha256": "c956e0267959e9c0a8456a51379027b10f63cc96dd18c7b4a0ee771ad89ed218"
+  },
+  {
+    "path": "assets/images/paidegua-acai.webp",
+    "bytes": 349166,
+    "sha256": "27e2a385987d7f683bdbafe7d975d766436d7fd6c588bfabb8cd939235bc0e45"
+  },
+  {
+    "path": "assets/images/paidegua-pullet.webp",
+    "bytes": 364970,
+    "sha256": "6535cfa965c4cb3e02ed535f11d031d7351e6bbfaf8b9f6ba664e12267c2cd81"
+  },
+  {
+    "path": "assets/images/pizza-brasileirinha-card-master.webp",
+    "bytes": 416588,
+    "sha256": "80557427b073bb609259a0025a1eb863555d161663b089573b26f67bf4116d08"
+  },
+  {
+    "path": "assets/images/pizza-calabacon-card-master.webp",
+    "bytes": 425412,
+    "sha256": "9364dd22c4e64d00e510242f8c73d8b5b76d5170de08ea009eaee188839a3196"
+  },
+  {
+    "path": "assets/images/pizza-calabresa-card-master.webp",
+    "bytes": 294574,
+    "sha256": "0c20e991912a2a80ee2875cb67724d009d99daa8159d24aaadf25b32139fe90b"
+  },
+  {
+    "path": "assets/images/pizza-calabresa-com-alho-frito-card-master.webp",
+    "bytes": 486228,
+    "sha256": "a525b7bf90d4a9ea798eb34dbd6e85c9831f04a1130006664a9932f3f9891d7b"
+  },
+  {
+    "path": "assets/images/pizza-calabresa-pai-degua-card-master.webp",
+    "bytes": 415610,
+    "sha256": "0879b42829680db16f669327866014879e709713d44115119656fd5aa8ac5d4b"
+  },
+  {
+    "path": "assets/images/pizza-camarao-a-moda-da-casa-card-master.webp",
+    "bytes": 412642,
+    "sha256": "f2f1d06a3b659f929a0e4dcac5adbb0472cc92d8fae171b079ca0af246dc6da9"
+  },
+  {
+    "path": "assets/images/pizza-camarao-com-cream-cheese-card-master.webp",
+    "bytes": 445798,
+    "sha256": "26d9bb465449c1c8e58a6dc895e7a85641f4f0c4b9e05b6a60bcee27c9f39fab"
+  },
+  {
+    "path": "assets/images/pizza-camarao-com-queijo-cuia-card-master.webp",
+    "bytes": 255052,
+    "sha256": "8387c3251753886df3155d8847dff5098bd0a7507ea62394e327d2a62b6935f0"
+  },
+  {
+    "path": "assets/images/pizza-file-ao-creme-de-gorgonzola-card-master.webp",
+    "bytes": 358852,
+    "sha256": "0eac54ff218bda23ccae58a1ee0ad747bbde9b3edeb1b04f6ce2ed08e38bed59"
+  },
+  {
+    "path": "assets/images/pizza-file-com-bacon-card-master.webp",
+    "bytes": 476000,
+    "sha256": "434c1cc75f925d285c021dd21dd7c9658ab9be7bbdf6356fa676084093f0039d"
+  },
+  {
+    "path": "assets/images/pizza-file-com-cream-cheese-card-master.webp",
+    "bytes": 319460,
+    "sha256": "4022e9019748dd0fa20e000d354805f01585cf91afc2ec3f5684140d706aaaa1"
+  },
+  {
+    "path": "assets/images/pizza-frango-card-master.webp",
+    "bytes": 499662,
+    "sha256": "1de9cfa8612f61503203d2177eee656770ca390b298326dc58a635fcc2f5b640"
+  },
+  {
+    "path": "assets/images/pizza-frango-com-catupiry-card-master.webp",
+    "bytes": 398802,
+    "sha256": "b32cd68f9df515b00bb711780a7a05ef9eea30adea4a2b7f72fc2d8f61072f66"
+  },
+  {
+    "path": "assets/images/pizza-frango-cremoso-card-master.webp",
+    "bytes": 351352,
+    "sha256": "121dafe7ed140057f294416d5462057e7b74ca0c21cb44425d5ec1a8d31deb82"
+  },
+  {
+    "path": "assets/images/pizza-havaiana-card-master.webp",
+    "bytes": 356818,
+    "sha256": "942e15ef46c85819f90f5f0e7b6a4e128b57da321a6df7de31cc61b2e8942cb7"
+  },
+  {
+    "path": "assets/images/pizza-lombo-canadense-card-master.webp",
+    "bytes": 335964,
+    "sha256": "9e41678c8142fcfc29f8102e889273677d6dd89c94dbc8ff1ff179962fe32f5b"
+  },
+  {
+    "path": "assets/images/pizza-margherita-card-master.webp",
+    "bytes": 429924,
+    "sha256": "ea768421cf7e2211ed2befb913316ef8d802ad65d46c35879f837c373918759c"
+  },
+  {
+    "path": "assets/images/pizza-metade-favorita-card-master.webp",
+    "bytes": 315400,
+    "sha256": "a258cbb892cc3d7ab6bfd850f945ea19e1b523c2461316feb6a060fc6c5cd08e"
+  },
+  {
+    "path": "assets/images/pizza-metade-pavulagem-card-master.webp",
+    "bytes": 324270,
+    "sha256": "febfd7bf504f2dd95f19c0816e9257ac0c0998012ec4cb8805061ec921d60ab9"
+  },
+  {
+    "path": "assets/images/pizza-mista-card-master.webp",
+    "bytes": 259808,
+    "sha256": "283929bce9fd3eb33833949fb72e3b79ba8853eca03aa360f791b39fb08accb6"
+  },
+  {
+    "path": "assets/images/pizza-mucarela-card-master.webp",
+    "bytes": 251050,
+    "sha256": "8d354606dccde64868be230144688832ae5555cde07152b94c41a2644abe4eeb"
+  },
+  {
+    "path": "assets/images/pizza-papa-chibe-card-master.webp",
+    "bytes": 359994,
+    "sha256": "a097a48fa6be03d27c59ddb0ef9f4e5320b22be20f41a46136da56dcfe945fc8"
+  },
+  {
+    "path": "assets/images/pizza-paraense-card-master.webp",
+    "bytes": 342466,
+    "sha256": "3db7be6cb264d4da6eceeeab5faf9f1b70be00b013280f5257d63468a4bc5f2e"
+  },
+  {
+    "path": "assets/images/pizza-peito-de-peru-card-master.webp",
+    "bytes": 478040,
+    "sha256": "7597ff7309af99e493dae4a81bd6e0b04e8613cec56f6b156a3b0065fb5e2370"
+  },
+  {
+    "path": "assets/images/pizza-peito-de-peru-com-cream-cheese-card-master.webp",
+    "bytes": 354458,
+    "sha256": "798e2bdcd8a594e5a6654248f54f5a42c6dd891292a88df73f15147ef9437cef"
+  },
+  {
+    "path": "assets/images/pizza-peperoni-card-master.webp",
+    "bytes": 446848,
+    "sha256": "758e6d69240300e6de08bb2659ce703a205c1167bf5e0fb756e3cc994cdcb684"
+  },
+  {
+    "path": "assets/images/pizza-portuguesa-card-master.webp",
+    "bytes": 329984,
+    "sha256": "9e3c1cf31434706a7833788e663510afe2f98c6a49f12f5f6cf281f829511447"
+  },
+  {
+    "path": "assets/images/pizza-pulled-pork-card-master.webp",
+    "bytes": 444098,
+    "sha256": "ee484122f1be534427cf2bf541240c5a254f7d28b9067c5c4d1438fed52e5afb"
+  },
+  {
+    "path": "assets/images/pizza-quatro-queijos-cardapio-premium-pai-degua-final-4x5.webp",
+    "bytes": 354858,
+    "sha256": "cbed59ee828f27789f280861a73648b1bbc1a68b367728b3341865d9e65e0efb"
+  },
+  {
+    "path": "assets/images/pizza-sabor-de-boteco-card-master.webp",
+    "bytes": 402648,
+    "sha256": "9920de7fff924497630e666fc347e5e4f7d4a2f2efd0e3432a06c5b737d2b343"
+  },
+  {
+    "path": "assets/images/pizza-so-o-file-card-master.webp",
+    "bytes": 318044,
+    "sha256": "6d35a3f760847ab170859fb9232f32a1ada5b98ad2f38dae17882139484597db"
+  },
+  {
+    "path": "assets/images/promocao-happy-hour-1080.webp",
+    "bytes": 283210,
+    "sha256": "9ed013897106e077de7745b3cb6e631d457c64d9c0aae33e831f9e1b175b8c57"
+  },
+  {
+    "path": "assets/images/promocao-happy-hour-4k.webp",
+    "bytes": 283210,
+    "sha256": "9ed013897106e077de7745b3cb6e631d457c64d9c0aae33e831f9e1b175b8c57"
+  },
+  {
+    "path": "assets/images/promocao-happy-hour-720.webp",
+    "bytes": 190312,
+    "sha256": "c5dd5428c21a05926e2e7e53d657e7467916eb8bcf075ce9eef62bdb29b611fa"
+  },
+  {
+    "path": "assets/images/redbull-site.webp",
+    "bytes": 322730,
+    "sha256": "8a0d5905a4b7002350ab485e708d92f43e2e76cc128077808c6b2b48387e8be9"
+  },
+  {
+    "path": "assets/images/responsaveis-pai-degua.webp",
+    "bytes": 298768,
+    "sha256": "e16aa254afa785b3fc9060e6904942366bcb722b4f17a3ac23195f075e19d170"
+  },
+  {
+    "path": "assets/images/samash-burguer-salad.webp",
+    "bytes": 392686,
+    "sha256": "1dc44ff0ca1d6d41fb443d610c6d0ff27002232773dc955d4b55f60c00295090"
+  },
+  {
+    "path": "assets/images/smash-burguer-bacon.webp",
+    "bytes": 402720,
+    "sha256": "9f1ceacee504e7e76ff330ea979b0e9c37c4ee1e58ccd1b26be28693c5fa7269"
+  },
+  {
+    "path": "assets/images/smash-burguer-eggs.webp",
+    "bytes": 388370,
+    "sha256": "4b9a5ea52627883b35387537ab74868de66fb18838b4d705a73afa9cf74de2d4"
+  },
+  {
+    "path": "assets/images/smash-burguer-final-00.webp",
+    "bytes": 263852,
+    "sha256": "667ed9661e4cc5ba8f95c578b3c497baba8ba7c7f83789f6a932fa085fbca04b"
+  },
+  {
+    "path": "assets/images/smash-salad-card-3d-pai-degua.webp",
+    "bytes": 131932,
+    "sha256": "c482d36a497b78498629d4eae205a89bcbe86ac59390753936901830978ffedc"
+  },
+  {
+    "path": "assets/images/suco-acerola.webp",
+    "bytes": 386650,
+    "sha256": "eaa64d506bb7b6477fd545d03ccdaa9748c778e369bd1786b8ce3a49a9e5ee45"
+  },
+  {
+    "path": "assets/images/suco-cupuacu.webp",
+    "bytes": 216084,
+    "sha256": "036b22586a1753a97953f8aec319e52221ed2d4f2ebfc3d596ddb9533bb3d96c"
+  },
+  {
+    "path": "assets/images/suco-maracuja-site.webp",
+    "bytes": 335008,
+    "sha256": "36402cba1034a93241d930dbfba325cb8e4d7c2a3f8c23d9cae1452418a87f66"
+  },
+  {
+    "path": "assets/images/suco-uva-integral.webp",
+    "bytes": 210880,
+    "sha256": "078d4ad74124ce97246f72c70b1fadaaabeb58ba06ae6ad428755ac2fba5aba5"
+  },
+  {
+    "path": "assets/images/vinho-tinto-seco.webp",
+    "bytes": 159882,
+    "sha256": "93ee667fd2f73962d505da542d35228bb56984b91524b526ca1d69ee9fbf0f5a"
+  },
+  {
+    "path": "css/styles.css",
+    "bytes": 51780,
+    "sha256": "c5ef40bfcc8dacc164643488cef90defcd38eddd893308b150612ecd5e8e3263"
+  },
+  {
+    "path": "favicon.ico",
+    "bytes": 4905,
+    "sha256": "7e4e457ea4e22cb461e1a0438d5809366538837ed34ed0621f2b728cbd9c19d6"
+  },
+  {
+    "path": "index.html",
+    "bytes": 21972,
+    "sha256": "4de4f6af470fa21312d4bb0396f860578d2e1353d59434c0fa24946e0ad5373b"
+  },
+  {
+    "path": "js/app.js",
+    "bytes": 15442,
+    "sha256": "8a2186f482dbc23062652c5a108b35742dd4250b21bf83770acc83f900357e0d"
+  },
+  {
+    "path": "js/menu.js",
+    "bytes": 31839,
+    "sha256": "dd133b71a903092960d389f5a66df6e59d6e595fe0e8c2d959dce9ffe1a993dc"
+  },
+  {
+    "path": "manifest.webmanifest",
+    "bytes": 347,
+    "sha256": "d4a0821976e52946510abe24774f59c770e21a596a83c6b944a4eba3d1819983"
+  },
+  {
+    "path": "netlify.toml",
+    "bytes": 871,
+    "sha256": "6e69057b49b3b70ed3dee1d949d067b2460c4bcc76a52df8b97aaf2b2a1a587b"
+  },
+  {
+    "path": "scripts/verify-project.mjs",
+    "bytes": 3657,
+    "sha256": "aea1a23076059a3afd6ad59c32409e521d4a548f3387133909e86232786b0474"
+  },
+  {
+    "path": "sw.js",
+    "bytes": 1510,
+    "sha256": "63c60394d20a0ce4b89ebe8fcc7803ebe28ff0306d20603ec6d0582a12bf0fde"
+  }
+]
