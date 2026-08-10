@@ -16,7 +16,7 @@ window.PAIDEGUA_MENU = [
       },
       {
         "name": "Batata Frita",
-        "image": "assets/images/entrada-batata-frita.webp?v=20260809-categorias-final-v2",
+        "image": "assets/images/entrada-batata-frita.webp?v=20260809-imagens-final-185513",
         "price": "Consulte no pedido oficial",
         "description": "Consulte tamanho, composição e disponibilidade no pedido oficial."
       },
