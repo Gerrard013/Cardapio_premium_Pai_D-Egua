@@ -81,7 +81,7 @@ css=(ROOT/'css/styles.css').read_text(encoding='utf-8')
 if 'productFloatMobile' not in css: fail.append('Movimento mobile dos produtos ausente')
 
 # Cache-busting final obrigatório para evitar imagens antigas no navegador/service worker
-version='20260812-final100-v4'
+version='20260813-final-cley-rute-v1'
 for rel in ['index.html','js/menu.js','sw.js']:
     text=(ROOT/rel).read_text(encoding='utf-8')
     if version not in text: fail.append(f'Versão final de cache ausente em {rel}')
@@ -107,7 +107,7 @@ for needle,msg in [
     ('5591988424248','WhatsApp Batista Campos oficial ausente'),
     ('Tv. We 6 Cj Satélite, 454 - Coqueiro, Belém - PA, 66670-420, Brasil','Endereço Coqueiro ausente'),
     ('R. dos Mundurucus, 1427 - Batista Campos, Belém - PA, 66033-716','Endereço Batista Campos ausente'),
-    ('https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=','Pedido oficial Coqueiro ausente'),
+    ('https://pedido.anota.ai/loja/paideguapizzasartesanais?f=msa','Pedido oficial Coqueiro ausente'),
     ('https://pedido.anota.ai/loja/pai-degua-pizzas-artesanais-1?f=msa','Pedido oficial Batista Campos ausente'),
 ]:
     if needle not in html: fail.append(msg)
@@ -115,7 +115,14 @@ if '5591982064743' in html or '5591982064743' in (ROOT/'js/app.js').read_text(en
     fail.append('Número genérico antigo ainda presente')
 if 'entrada-batata-frita-final100.webp' in menu_text:
     fail.append('Menu ainda referencia nome temporário da batata')
-if 'assets/images/entrada-batata-frita.webp?v=20260812-final100-v4' not in menu_text:
+if 'Terça da Sobremesa' not in html: fail.append('Promoção final Terça da Sobremesa ausente')
+if 'Quinta das Bordas' not in html: fail.append('Promoção final Quinta das Bordas ausente')
+if 'Sexta do Buteco' not in html: fail.append('Promoção final Sexta do Buteco ausente')
+if 'Em dezembro, a Pai D’Égua completa 10 anos' not in html: fail.append('História final de Rute e Cley não atualizada')
+if 'https://pedido.anota.ai/loja/paideguapizzasartesanais?f=msa' not in html: fail.append('Link Mult Loja do Coqueiro ausente')
+if 'https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=' in html: fail.append('Link antigo do Coqueiro ainda presente')
+
+if 'assets/images/entrada-batata-frita.webp?v=20260813-final-cley-rute-v1' not in menu_text:
     fail.append('Batata final não está referenciada com cache-busting novo')
 
 if fail:

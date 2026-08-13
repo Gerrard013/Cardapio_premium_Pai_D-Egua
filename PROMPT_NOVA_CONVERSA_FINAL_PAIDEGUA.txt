@@ -1,0 +1,137 @@
+PROMPT MESTRE — FINALIZAÇÃO DEFINITIVA DO CARDÁPIO PREMIUM PAI D’ÉGUA
+
+Estou finalizando hoje o projeto Cardápio Premium Pai D’Égua da G Tech. Quero que você trate esta tarefa como QA + correção final de produção. Não recrie o projeto do zero e não remova nada que já funciona.
+
+ARQUIVOS QUE VOU ANEXAR NA NOVA CONVERSA
+1. O ZIP completo mais recente: PAIDEGUA_FINAL_CLEY_RUTE_2026-08-13.zip
+2. O PDF: “Conversa final cley e Rute . (1).pdf”
+3. As capturas de tela finais que mostram o erro do pedido e o visual atual.
+
+REGRA PRINCIPAL
+O ZIP é a base técnica autoritativa. O PDF e as capturas são a fonte de verdade para os últimos ajustes pedidos por Cley e Rute. Preserve layout, produtos, preços já confirmados, IA, PWA, mobile, menu, categorias, imagens aprovadas, WhatsApp, Maps, Netlify e tudo que já funciona. Faça somente correções comprovadas e otimizações seguras.
+
+1. ERRO CRÍTICO — PEDIR NO COQUEIRO
+No modal de produto existem “Pedir no Coqueiro” e “Pedir em Batista Campos”.
+Hoje “Pedir no Coqueiro” está abrindo a página do Pai D’Égua Burger, o que está errado.
+Cley confirmou que Coqueiro deve abrir o CARDÁPIO MULT LOJA / cardápio principal da pizzaria.
+Use para Coqueiro:
+https://pedido.anota.ai/loja/paideguapizzasartesanais?f=msa
+Não usar mais:
+https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=
+Batista Campos continua:
+https://pedido.anota.ai/loja/pai-degua-pizzas-artesanais-1?f=msa
+
+A correção precisa valer em TODOS os CTAs de Coqueiro: modal de produto, card da unidade, seção final de pedido, rodapé e qualquer outro link duplicado. Não deixar nenhum CTA de pizza apontar para o Burger.
+
+2. PROMOÇÕES — USAR O MATERIAL FINAL DE CLEY/RUTE
+Atualizar a seção de promoções para:
+- SEGUNDA: Pague M, Leve G — pizza grande pelo preço da média, nos sabores participantes.
+- TERÇA DA SOBREMESA: na compra de uma pizza participante, escolher Pizza Broto de Chocolate R$ 9,99, Pudim Individual R$ 4,99 ou Taça de Cupuaçu 300 ml R$ 7,99.
+- QUARTA / COMBO FAMÍLIA: na compra de uma pizza G, adicionar 1 pizza P de Muçarela + refrigerante de 1 L por R$ 19,90.
+- QUINTA DAS BORDAS: Cheddar R$ 5,99; Creme de alho-poró R$ 7,99; Frango cremoso R$ 7,99; Catupiry Original R$ 9,99; Chocolate R$ 9,99; Doce de leite R$ 9,99.
+- SEXTA DO BUTECO: na compra da Pizza Sabor de Boteco, ganhar 1 refrigerante de 1,5 L OU 2 cervejas em lata.
+Não voltar para textos antigos como “Terça Favorita”, “Quarta em Dobro” ou “Quinta Borda Grátis”.
+
+3. EVENTOS / SALÃO
+Usar os parâmetros visíveis no material final:
+- salão climatizado;
+- pode trazer bolo;
+- espaço para famílias e grupos;
+- Combo Solteiro: 1 pizza média + 1 lata de refrigerante;
+- Combo Família: 1 pizza grande + Coca-Cola 1,5 L + Batata Frita G;
+- Combo da Galera: 2 pizzas grandes + Coca-Cola 2 L;
+- Mesa do Bolo: segunda a quinta, mesa + decoração especial por R$ 49,90;
+- aniversariantes: avaliação + roleta, conforme regras da unidade.
+Não inventar valores que não aparecem no material final.
+
+4. RUTE E CLEY
+Manter a imagem correta já aprovada:
+assets/images/responsaveis-pai-degua.webp
+Não gerar pessoas novas, não trocar rostos e não voltar para imagem antiga.
+A seção deve continuar com “Rute e Cley”.
+Atualizar a história: em dezembro a Pai D’Égua completa 10 anos. Não deixar o texto antigo dizendo que a Pai D’Égua nasceu há 2 anos.
+
+5. PERFORMANCE — PRIORIDADE MOBILE
+O site está demorando para carregar imagens. Corrigir sem destruir qualidade:
+- imagens abaixo da dobra com loading="lazy" e decoding="async";
+- cards inicialmente ocultos NÃO devem baixar suas imagens até “Ver todos”;
+- manter hero com prioridade alta;
+- converter PNGs muito pesados para WebP quando seguro, preservando transparência;
+- não baixar dezenas de imagens invisíveis no carregamento inicial;
+- reduzir/retirar atraso artificial da animação de abertura;
+- manter imagens aprovadas com boa qualidade;
+- atualizar cache do service worker para não exibir versões antigas;
+- eliminar caches antigos no activate;
+- HTML/CSS/JS devem continuar leves;
+- sem frameworks novos e sem dependências pesadas.
+
+6. CACHE E DEPLOY
+Criar uma versão de cache nova. Confirmar que HTML, menu.js, app.js e sw.js usam a mesma versão.
+Não permitir que a batata antiga, a imagem antiga de Rute/Cley ou links antigos reapareçam por cache.
+
+7. DADOS QUE DEVEM SER PRESERVADOS
+Coqueiro:
+- endereço: Tv. We 6 Cj Satélite, 454 - Coqueiro, Belém - PA, 66670-420, Brasil
+- WhatsApp: +55 91 98248-6925
+
+Batista Campos:
+- endereço: R. dos Mundurucus, 1427 - Batista Campos, Belém - PA, 66033-716
+- WhatsApp: +55 91 98842-4248
+
+Instagram Pizzaria:
+https://www.instagram.com/pizzariapaidegua16/
+
+Instagram Burger:
+https://www.instagram.com/paidegua.burger/
+
+8. NÃO REGREDIR
+Preservar:
+- Entradas primeiro;
+- 31 pizzas e suas categorias;
+- burgers;
+- 5 massas;
+- bebidas/sucos/vinhos/chopp;
+- imagens corrigidas;
+- batata correta;
+- Metade Favorita como destaque;
+- menu responsivo;
+- modal de produtos;
+- seletor/fluxo por unidade;
+- WhatsApp por unidade;
+- Maps;
+- experiência salão x delivery;
+- assistente Pai D’Égua;
+- PWA;
+- assinatura G Tech no rodapé;
+- responsividade iPhone/Android.
+
+9. QA OBRIGATÓRIO ANTES DE ME ENTREGAR
+Executar validação automática e conferir:
+- arquivos referenciados existem;
+- nenhum erro de sintaxe JS;
+- nenhuma rota de imagem quebrada;
+- Coqueiro não contém o link antigo;
+- “Pedir no Coqueiro” usa o Mult Loja;
+- Batista Campos usa o link correto;
+- WhatsApps corretos por unidade;
+- endereços corretos;
+- promoções finais corretas;
+- imagem Rute/Cley correta;
+- história dos 10 anos correta;
+- nenhuma ocorrência visual de “poi degua”;
+- mobile e desktop;
+- cache/PWA atualizado;
+- não baixar imagens ocultas no carregamento inicial.
+
+10. ENTREGA
+Não me entregue patch parcial. Quero:
+- ZIP COMPLETO do projeto final;
+- arquivo QA/checklist;
+- comandos simples de git push;
+- sem rm -rf;
+- sem script que encerre meu Terminal;
+- sem rsync complexo;
+- sem mandar fazer commit se git status estiver vazio.
+
+OBJETIVO FINAL
+Deixar o projeto pronto para substituir o deploy atual da Netlify, testar em aba anônima e entregar imediatamente para Rute e Cley.

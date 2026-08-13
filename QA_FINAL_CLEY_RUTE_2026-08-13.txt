@@ -1,0 +1,33 @@
+PAI D'ÉGUA — QA FINAL CLEY E RUTE
+Data: 13/08/2026
+Versão: 20260813-final-cley-rute-v1
+
+CORREÇÕES APLICADAS
+- Pedido Coqueiro -> Mult Loja:
+  https://pedido.anota.ai/loja/paideguapizzasartesanais?f=msa
+- Pedido Batista Campos mantido:
+  https://pedido.anota.ai/loja/pai-degua-pizzas-artesanais-1?f=msa
+- Promoções atualizadas conforme material final de Cley/Rute.
+- História de Rute e Cley atualizada: Pai D'Égua completa 10 anos em dezembro.
+- Imagem final de Rute e Cley preservada e referenciada:
+  assets/images/responsaveis-pai-degua.webp
+  SHA-256: e16aa254afa785b3fc9060e6904942366bcb722b4f17a3ac23195f075e19d170
+- Batata final preservada:
+  assets/images/entrada-batata-frita.webp
+  SHA-256: 5c8bc0bfe3248556f4b9859bb378fb48e6796eb1a1b064999338c7e61556312b
+
+PERFORMANCE
+- Cards ocultos não baixam imagem até o usuário tocar em “Ver todos”.
+- Introdução reduzida e ignorada em Save-Data/2G.
+- Coca-Cola e Coca Zero convertidas para WebP otimizado.
+- Cache do service worker atualizado e revalidação em segundo plano.
+- Nova versão de cache em HTML, menu, app e service worker.
+
+VALIDAÇÃO OBRIGATÓRIA
+1. Abrir o modal Batata Frita.
+2. Tocar “Pedir no Coqueiro”.
+3. Confirmar abertura do Mult Loja da Pizzaria, e não da página Pai D'Égua Burger.
+4. Tocar “Pedir em Batista Campos”.
+5. Conferir promoções de segunda a sexta.
+6. Conferir Rute e Cley no final.
+7. Testar mobile em aba anônima.

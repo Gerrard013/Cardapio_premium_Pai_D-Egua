@@ -1,0 +1,12 @@
+# PAI D'ÉGUA — PUSH FINAL SIMPLES
+# Abra o Terminal DENTRO da pasta extraída deste ZIP.
+
+git rev-parse --show-toplevel
+python3 scripts/verify_project.py
+git status --short
+git add -A
+git commit -m "fix: finaliza ajustes Cley e Rute Pai Degua"
+git push origin main
+
+# Depois do deploy do Netlify:
+open "https://paidegua-cardapio-oficial.netlify.app/?v=20260813-final-cley-rute-v1"
