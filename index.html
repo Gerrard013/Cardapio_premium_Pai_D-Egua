@@ -10,9 +10,9 @@
 <link href="manifest.webmanifest" rel="manifest"/>
 <link as="image" href="assets/images/hero-metade-favorita-mobile-master.webp" media="(max-width: 720px)" rel="preload"/>
 <link as="image" href="assets/images/hero-desktop-ofc-22-07-2026.webp" media="(min-width: 721px)" rel="preload"/>
-<link href="css/styles.css?v=20260809-categorias-final-v2" rel="stylesheet"/>
-<script defer="" src="js/menu.js?v=20260809-categorias-final-v2"></script>
-<script defer="" src="js/app.js?v=20260809-categorias-final-v2"></script>
+<link href="css/styles.css?v=20260812-final100-v4" rel="stylesheet"/>
+<script defer="" src="js/menu.js?v=20260812-final100-v4"></script>
+<script defer="" src="js/app.js?v=20260812-final100-v4"></script>
 <link href="favicon.ico" rel="icon" type="image/x-icon"/><link href="apple-touch-icon.png" rel="apple-touch-icon"/></head>
 <body>
 <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -91,7 +91,7 @@
 </div>
 <div class="service-grid">
 <article class="service-card service-card--delivery reveal"><span>01</span><p class="eyebrow">Delivery e retirada</p><h3>Cardápio completo</h3><p>Todos os sabores e as promoções exclusivas do delivery. Na retirada normal, o preparo médio é de 20 a 30 minutos e o pedido entra na fila de produção.</p><a class="button button--gold" href="#pedido">Ver delivery e retirada</a></article>
-<article class="service-card service-card--express reveal"><span>02</span><p class="eyebrow">Pizza Express</p><h3>Retire em 5 minutos</h3><p>Um sabor exclusivo por dia, preparado para retirada rápida. Consulte o sabor e a disponibilidade com a equipe antes de sair.</p><a class="button button--glass" href="https://wa.me/5591982064743?text=Olá!%20Vim%20pelo%20Cardápio%20Premium%20e%20quero%20consultar%20o%20sabor%20da%20Pizza%20Express%20de%20hoje." rel="noopener noreferrer" target="_blank">Consultar sabor do dia</a></article>
+<article class="service-card service-card--express reveal"><span>02</span><p class="eyebrow">Pizza Express</p><h3>Retire em 5 minutos</h3><p>Um sabor exclusivo por dia, preparado para retirada rápida. Consulte o sabor e a disponibilidade com a equipe antes de sair.</p><a class="button button--glass" href="#unidades">Escolher unidade para consultar</a></article>
 <article class="service-card service-card--salon reveal"><span>03</span><p class="eyebrow">Experiência no salão</p><h3>Reúna quem importa</h3><p>Conheça as unidades, aproveite o Happy Hour e fale com a equipe para organizar aniversários, encontros e confraternizações.</p><a class="button button--red" href="#eventos">Planejar no salão</a></article>
 </div>
 </section>
@@ -110,7 +110,7 @@
 <img alt="Happy Hour Pai D’Égua: chopp com 50% OFF todos os dias, das 17h às 20h" decoding="async" height="3840" loading="lazy" src="assets/images/promocao-happy-hour-4k.webp" width="2160"/>
 </picture>
 </div>
-<div class="happy-hour__content"><span class="channel-badge">Exclusivo do salão</span><p class="eyebrow">Happy Hour Pai D’Égua</p><h3>Chopp com 50% OFF</h3><p>Todos os dias, das 17h às 20h. Chegue, reúna sua turma e aproveite o momento no salão.</p><div class="happy-hour__actions"><a class="button button--gold" href="#unidades">Escolher unidade</a><a class="button button--glass" href="https://wa.me/5591982064743?text=Olá!%20Vim%20pelo%20Cardápio%20Premium%20e%20quero%20confirmar%20o%20Happy%20Hour%20de%20hoje." rel="noopener noreferrer" target="_blank">Confirmar no WhatsApp</a></div></div>
+<div class="happy-hour__content"><span class="channel-badge">Exclusivo do salão</span><p class="eyebrow">Happy Hour Pai D’Égua</p><h3>Chopp com 50% OFF</h3><p>Todos os dias, das 17h às 20h. Chegue, reúna sua turma e aproveite o momento no salão.</p><div class="happy-hour__actions"><a class="button button--gold" href="#unidades">Escolher unidade</a><a class="button button--glass" href="#unidades">Confirmar com a unidade</a></div></div>
 </article>
 <div class="promo-subheading reveal"><p class="eyebrow">Exclusivas do delivery e retirada</p><h3>Uma vantagem diferente a cada dia</h3><p>Escolha a promoção, selecione sua unidade e confira sabores, horários e disponibilidade no pedido oficial.</p></div>
 <div class="promo-stack">
@@ -127,7 +127,7 @@
 <p class="eyebrow">Sua mesa, seu momento</p>
 <h2 id="events-title">Celebrações que já chegam organizadas.</h2>
 <p>Faça da Pai D’Égua o cenário do seu próximo aniversário, encontro ou confraternização.</p>
-<a class="button button--gold" href="https://wa.me/5591982064743?text=Olá!%20Quero%20saber%20mais%20sobre%20os%20combos%20para%20eventos%20da%20Pai%20D'Égua." rel="noopener noreferrer" target="_blank">Quero planejar meu evento</a>
+<a class="button button--gold" href="#unidades">Escolher unidade e planejar</a>
 </div>
 <div class="event-list">
 <article class="event-card reveal"><span>01</span><h3>Encontro em Família</h3><p>3 pizzas grandes + bebidas, para até 8 pessoas.</p><strong>A partir de R$ 32 por pessoa</strong></article>
@@ -143,21 +143,25 @@
 </div>
 <div class="unit-grid">
 <article class="unit-card reveal">
-<span class="unit-card__index">01</span><p>Unidade</p><h3>Coqueiro</h3><div class="unit-card__actions"><a class="button button--gold button--small" href="https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=" rel="noopener noreferrer" target="_blank">Abrir cardápio multiloja</a><a class="button button--glass" href="https://www.google.com/maps/search/?api=1&amp;query=Pizzaria+Pai+D%27Égua+Coqueiro+Belém+PA" rel="noopener noreferrer" target="_blank">Como chegar</a><a href="https://wa.me/5591982064743?text=Olá!%20Quero%20informações%20sobre%20a%20unidade%20Coqueiro." rel="noopener noreferrer" target="_blank">Falar com a unidade</a></div>
+<span class="unit-card__index">01</span><p>Unidade</p><h3>Coqueiro</h3>
+<div class="unit-card__details"><span><strong>Endereço</strong>Tv. We 6 Cj Satélite, 454 - Coqueiro, Belém - PA, 66670-420, Brasil</span><span><strong>WhatsApp</strong>+55 91 98248-6925</span></div>
+<div class="unit-card__actions"><a class="button button--gold button--small" href="https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=" rel="noopener noreferrer" target="_blank">Abrir pedido oficial</a><a class="button button--glass" href="https://www.google.com/maps/search/?api=1&amp;query=Tv.%20We%206%20Cj%20Sat%C3%A9lite%2C%20454%20-%20Coqueiro%2C%20Bel%C3%A9m%20-%20PA%2C%2066670-420%2C%20Brasil" rel="noopener noreferrer" target="_blank">Como chegar</a><a href="https://wa.me/5591982486925?text=Olá!%20Vim%20pelo%20Cardápio%20Premium%20e%20quero%20informações%20sobre%20a%20unidade%20Coqueiro." rel="noopener noreferrer" target="_blank">WhatsApp · +55 91 98248-6925</a></div>
 </article>
 <article class="unit-card reveal">
-<span class="unit-card__index">02</span><p>Unidade</p><h3>Batista Campos</h3><div class="unit-card__actions"><a class="button button--gold button--small" href="https://pedido.anota.ai/loja/pai-degua-pizzas-artesanais-1?f=msa" rel="noopener noreferrer" target="_blank">Pedir nesta unidade</a><a class="button button--glass" href="https://www.google.com/maps/search/?api=1&amp;query=Pizzaria+Pai+D%27Égua+Batista+Campos+Belém+PA" rel="noopener noreferrer" target="_blank">Como chegar</a><a href="https://wa.me/5591982064743?text=Olá!%20Quero%20informações%20sobre%20a%20unidade%20Batista%20Campos." rel="noopener noreferrer" target="_blank">Falar com a unidade</a></div>
+<span class="unit-card__index">02</span><p>Unidade</p><h3>Batista Campos</h3>
+<div class="unit-card__details"><span><strong>Endereço</strong>R. dos Mundurucus, 1427 - Batista Campos, Belém - PA, 66033-716</span><span><strong>WhatsApp</strong>+55 91 98842-4248</span></div>
+<div class="unit-card__actions"><a class="button button--gold button--small" href="https://pedido.anota.ai/loja/pai-degua-pizzas-artesanais-1?f=msa" rel="noopener noreferrer" target="_blank">Abrir pedido oficial</a><a class="button button--glass" href="https://www.google.com/maps/search/?api=1&amp;query=R.%20dos%20Mundurucus%2C%201427%20-%20Batista%20Campos%2C%20Bel%C3%A9m%20-%20PA%2C%2066033-716" rel="noopener noreferrer" target="_blank">Como chegar</a><a href="https://wa.me/5591988424248?text=Olá!%20Vim%20pelo%20Cardápio%20Premium%20e%20quero%20informações%20sobre%20a%20unidade%20Batista%20Campos." rel="noopener noreferrer" target="_blank">WhatsApp · +55 91 98842-4248</a></div>
 </article>
 </div>
 </section>
 <section aria-labelledby="closing-title" class="closing" id="pedido">
-<div class="closing__content reveal"><p class="eyebrow">Pedido oficial Pai D’Égua</p><h2 id="closing-title">Escolha sua unidade e peça.</h2><p>Os preços e a disponibilidade atualizados ficam no canal oficial de cada unidade.</p><div class="order-grid"><a class="order-card" href="https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=" rel="noopener noreferrer" target="_blank"><small>Pedido online</small><strong>Coqueiro</strong><span>Abrir cardápio multiloja →</span></a><a class="order-card" href="https://pedido.anota.ai/loja/pai-degua-pizzas-artesanais-1?f=msa" rel="noopener noreferrer" target="_blank"><small>Pedido online</small><strong>Batista Campos</strong><span>Abrir no Anota Aí →</span></a></div><a class="button button--glass button--large" href="https://wa.me/5591982064743?text=Olá!%20Vim%20pelo%20Cardápio%20Premium%20Pai%20D'Égua." rel="noopener noreferrer" target="_blank">Precisa de ajuda? Fale no WhatsApp</a></div>
+<div class="closing__content reveal"><p class="eyebrow">Pedido oficial Pai D’Égua</p><h2 id="closing-title">Escolha sua unidade e peça.</h2><p>Os preços e a disponibilidade atualizados ficam no canal oficial de cada unidade.</p><div class="order-grid"><a class="order-card" href="https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=" rel="noopener noreferrer" target="_blank"><small>Pedido online</small><strong>Coqueiro</strong><span>Abrir cardápio multiloja →</span></a><a class="order-card" href="https://pedido.anota.ai/loja/pai-degua-pizzas-artesanais-1?f=msa" rel="noopener noreferrer" target="_blank"><small>Pedido online</small><strong>Batista Campos</strong><span>Abrir no Anota Aí →</span></a></div><a class="button button--glass button--large" href="#unidades">Precisa de ajuda? Escolha a unidade</a></div>
 </section>
 </main>
 <section aria-labelledby="historia-title" class="story-showcase section-shell" id="historia">
 <div class="story-card reveal">
 <div class="story-card__media">
-<img alt="Rute e Cley, responsáveis pela história da Pai D’Égua" decoding="async" loading="lazy" src="assets/images/responsaveis-pai-degua.webp?v=20260809-imagens-final-185513"/>
+<img alt="Rute e Cley, responsáveis pela história da Pai D’Égua" decoding="async" loading="lazy" src="assets/images/responsaveis-pai-degua.webp?v=20260812-final100-v4"/>
 </div>
 <div class="story-card__content" id="historia-detalhes">
 <p class="eyebrow">Responsáveis por essa história</p>
@@ -201,7 +205,7 @@
 </dialog><dialog aria-labelledby="product-dialog-title" class="product-dialog" id="product-dialog">
 <button aria-label="Fechar" class="product-dialog__close" type="button">×</button>
 <div class="product-dialog__stage"><img alt="" src=""/></div>
-<div class="product-dialog__content"><p class="eyebrow">Vitrine Pai D’Égua</p><h2 id="product-dialog-title"></h2><p class="product-dialog__price" data-dialog-price=""></p><p class="product-dialog__description" data-dialog-description=""></p><p class="product-dialog__helper">Escolha a unidade para ver valores atualizados e concluir o pedido.</p><div class="product-dialog__orders"><a class="button button--gold" href="https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=" rel="noopener noreferrer" target="_blank">Pedir no Coqueiro</a><a class="button button--gold" href="https://pedido.anota.ai/loja/pai-degua-pizzas-artesanais-1?f=msa" rel="noopener noreferrer" target="_blank">Pedir em Batista Campos</a></div><a class="button button--glass" href="https://wa.me/5591982064743?text=Olá!%20Vim%20pelo%20Cardápio%20Premium%20Pai%20D'Égua." rel="noopener noreferrer" target="_blank">Tirar dúvida no WhatsApp</a></div>
+<div class="product-dialog__content"><p class="eyebrow">Vitrine Pai D’Égua</p><h2 id="product-dialog-title"></h2><p class="product-dialog__price" data-dialog-price=""></p><p class="product-dialog__description" data-dialog-description=""></p><p class="product-dialog__helper">Escolha a unidade para ver valores atualizados e concluir o pedido.</p><div class="product-dialog__orders"><a class="button button--gold" href="https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=" rel="noopener noreferrer" target="_blank">Pedir no Coqueiro</a><a class="button button--gold" href="https://pedido.anota.ai/loja/pai-degua-pizzas-artesanais-1?f=msa" rel="noopener noreferrer" target="_blank">Pedir em Batista Campos</a></div><div class="product-dialog__orders product-dialog__contacts"><a class="button button--glass" href="https://wa.me/5591982486925?text=Olá!%20Vim%20pelo%20Cardápio%20Premium%20Pai%20D%27Égua%20e%20preciso%20de%20ajuda." rel="noopener noreferrer" target="_blank">WhatsApp Coqueiro</a><a class="button button--glass" href="https://wa.me/5591988424248?text=Olá!%20Vim%20pelo%20Cardápio%20Premium%20Pai%20D%27Égua%20e%20preciso%20de%20ajuda." rel="noopener noreferrer" target="_blank">WhatsApp Batista Campos</a></div></div>
 </dialog>
 </body>
 </html>

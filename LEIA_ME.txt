@@ -1,0 +1,7 @@
+PATCH FINAL PAI D'EGUA
+Inclui somente:
+- 5 entradas corrigidas
+- 5 massas corrigidas
+- index/js/css/sw validados para contatos, enderecos e cache
+- verificador final
+Extraia este ZIP DIRETAMENTE na raiz do repositorio Git.

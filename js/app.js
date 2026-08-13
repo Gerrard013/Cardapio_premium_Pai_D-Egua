@@ -2,7 +2,6 @@
   'use strict';
   const $ = (sel, root=document) => root.querySelector(sel);
   const $$ = (sel, root=document) => [...root.querySelectorAll(sel)];
-  const PHONE = '5591982064743';
   const FALLBACK_PRICE = 'Consulte no pedido oficial';
   const FALLBACK_DESCRIPTION = 'Confira os detalhes e a disponibilidade no pedido oficial.';
   const escapeHTML = value => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
@@ -125,7 +124,7 @@
       if(/entrada|camarão empanado|bolinho|pastel|macaxeira|batata/.test(s))return 'Veja as porções na seção <a href="#entradas">Entradas</a>. Valores não confirmados aparecem como “Consulte no pedido oficial”.';
       if(/delivery|retirada normal|tempo de preparo|fila|quero pedir agora/.test(s))return 'No delivery e na retirada você encontra o cardápio completo. Vá para <a href="#pedido">Pedido oficial</a> e escolha sua unidade.';
       if(/promo|segunda|terça|terca|quarta|quinta|sexta|happy hour/.test(s))return 'Confira a seção <a href="#promocoes">Promoções</a> e confirme as condições no canal oficial.';
-      if(/unidade|onde|endereço|endereco|mapa|coqueiro|batista/.test(s))return 'Temos Coqueiro e Batista Campos. Abra <a href="#unidades">Unidades</a> para pedido, rota e WhatsApp.';
+      if(/unidade|onde|endereço|endereco|mapa|coqueiro|batista/.test(s))return 'Coqueiro: Tv. We 6 Cj Satélite, 454 - Coqueiro, Belém - PA, 66670-420, Brasil. Batista Campos: R. dos Mundurucus, 1427 - Batista Campos, Belém - PA, 66033-716. Abra <a href="#unidades">Unidades</a> para rota, pedido e WhatsApp correto.';
       if(/pizza express|express|rápida|rapida/.test(s))return 'A Pizza Express tem retirada rápida e sabor do dia. Consulte a equipe antes de sair.';
       if(/evento|anivers|confratern|família|familia/.test(s))return 'Veja <a href="#eventos">Eventos</a> e fale com a equipe para organizar sua celebração.';
       if(/burger|hamb|smash/.test(s))return 'Conheça as assinaturas paraenses, artesanais e smash em <a href="#burgers">Burgers</a>.';
@@ -134,14 +133,14 @@
       if(/suco|tapereb|cupua|muruci|acerola|graviola/.test(s))return 'Os sabores de frutas estão em <a href="#sucos">Sucos</a>.';
       if(/pedido|comprar|valor|preço|preco/.test(s))return 'Os valores atualizados ficam no <a href="#pedido">Pedido oficial</a>. Quando o preço não está confirmado no material, o card orienta consultar a unidade.';
       if(/instagram|insta|rede social|gtech/.test(s))return 'A história de Rute e Cley e os perfis oficiais estão em <a href="#historia">Responsáveis por essa história</a>. O crédito da G Tech fica discretamente no rodapé.';
-      if(/whatsapp|dúvida|duvida|falar/.test(s))return `<a href="https://wa.me/${PHONE}?text=${encodeURIComponent("Olá! Vim pelo Cardápio Premium Pai D'Égua e preciso de ajuda.")}" target="_blank" rel="noopener noreferrer">Abra o WhatsApp</a> para falar com a equipe.`;
+      if(/whatsapp|dúvida|duvida|falar/.test(s))return 'Abra <a href="#unidades">Unidades</a> e escolha Coqueiro ou Batista Campos para falar no WhatsApp correto.';
       return 'Posso ajudar com pizzas, burgers, entradas, massas, bebidas, promoções, eventos, unidades e pedido oficial.';};
     const send=q=>{q=q.trim();if(!q)return;add(escapeHTML(q),'user');setTimeout(()=>add(answer(q),'bot'),220);};
     form?.addEventListener('submit',e=>{e.preventDefault();const q=input.value;input.value='';send(q);});$$('.assistant-chips button').forEach(btn=>btn.addEventListener('click',()=>send(btn.textContent)));messages?.addEventListener('click',e=>{if(e.target.matches('a[href^="#"]'))setOpen(false);});
   }
 
   function initSmoothAnchors(){document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(!a)return;const href=a.getAttribute('href');if(href==='#')return;const target=$(href);if(!target)return;e.preventDefault();target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});history.replaceState(null,'',href);});}
-  function initServiceWorker(){if('serviceWorker' in navigator && location.protocol!=='file:')window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js?v=20260809-categorias-final-v2').catch(err=>console.warn('Service worker não registrado:',err)));}
+  function initServiceWorker(){if('serviceWorker' in navigator && location.protocol!=='file:')window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js?v=20260812-final100-v4').catch(err=>console.warn('Service worker não registrado:',err)));}
 
   document.addEventListener('DOMContentLoaded',()=>{renderMenuSections();initImageFallbacks();initIntro();initNav();initSmoothAnchors();const io=initReveal();initExpand(io);initProductDialog();initOrderChoice();initAssistant();initCardMotion();initServiceWorker();});
 })();
