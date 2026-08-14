@@ -81,7 +81,7 @@ css=(ROOT/'css/styles.css').read_text(encoding='utf-8')
 if 'productFloatMobile' not in css: fail.append('Movimento mobile dos produtos ausente')
 
 # Cache-busting final obrigatório para evitar imagens antigas no navegador/service worker
-version='20260814-final-entrega-v7'
+version='20260814-final-entrega-v8'
 for rel in ['index.html','js/menu.js','sw.js']:
     text=(ROOT/rel).read_text(encoding='utf-8')
     if version not in text: fail.append(f'Versão final de cache ausente em {rel}')
@@ -90,7 +90,7 @@ for rel in ['index.html','js/menu.js','sw.js']:
 final_images=[
 'assets/images/camarao-empanado-molho-abacaxi.webp',
 'assets/images/entrada-batata-frita.webp',
-'assets/images/entrada-bolinho-charque-v7.webp',
+'assets/images/entrada-bolinho-frito-molho-branco.png',
 'assets/images/entrada-macaxeira-frita.webp',
 'assets/images/entrada-pasteizinhos-fritos-molho-especial.webp',
 'assets/images/massa-farfalle-de-camarao-ao-molho-branco-card-master.webp',
@@ -122,8 +122,23 @@ if 'Em dezembro, a Pai D’Égua completa 10 anos' not in html: fail.append('His
 if 'https://pedido.anota.ai/loja/paideguapizzasartesanais?f=msa' not in html: fail.append('Link Mult Loja do Coqueiro ausente')
 if 'https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=' in html: fail.append('Link antigo do Coqueiro ainda presente')
 
-if 'assets/images/entrada-batata-frita.webp?v=20260814-final-entrega-v7' not in menu_text:
+if 'assets/images/entrada-batata-frita.webp?v=20260814-final-entrega-v8' not in menu_text:
     fail.append('Batata final não está referenciada com cache-busting novo')
+
+# Ajustes finais V8
+if '"name": "Bolinho de Macaxeira com Charque"' not in menu_text:
+    fail.append('Nome final do bolinho de macaxeira com charque ausente')
+if 'assets/images/entrada-bolinho-frito-molho-branco.png?v=20260814-final-entrega-v8' not in menu_text:
+    fail.append('Imagem final PNG do bolinho não está referenciada')
+if 'assets/images/pizza-havaiana-card-master.png?v=20260814-final-entrega-v8' not in menu_text:
+    fail.append('Imagem final PNG da Havaiana não está referenciada')
+m_bol = re.search(r'"name": "Bolinho de Macaxeira com Charque".*?"description": "([^"]+)"', menu_text, re.S)
+if not m_bol:
+    fail.append('Descrição final do bolinho não encontrada')
+elif 'molho' in m_bol.group(1).lower():
+    fail.append('Descrição do bolinho ainda menciona molho')
+if 'responsaveis-pai-degua-v8.webp?v=20260814-final-entrega-v8' not in html:
+    fail.append('Imagem V8 de Rute e Cley não está referenciada')
 
 if fail:
     print('\nFALHAS:')

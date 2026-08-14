@@ -6,6 +6,7 @@ MANIFESTO_ARQUIVOS.json
 PROMPT_NOVA_CONVERSA_FINAL_PAIDEGUA.txt
 QA_FINAL_CLEY_RUTE_2026-08-13.txt
 QA_FINAL_V7.txt
+QA_FINAL_V8.txt
 README_FINAL.md
 _redirects
 apple-touch-icon.png
@@ -58,7 +59,7 @@ assets/images/camarao-empanado-molho-abacaxi.webp
 assets/images/coca-cola.webp
 assets/images/coca-zero.webp
 assets/images/entrada-batata-frita.webp
-assets/images/entrada-bolinho-charque-v7.webp
+assets/images/entrada-bolinho-frito-molho-branco.png
 assets/images/entrada-bolinho-frito-molho-branco.webp
 assets/images/entrada-macaxeira-frita.webp
 assets/images/entrada-pasteizinhos-fritos-molho-especial.webp
@@ -88,7 +89,7 @@ assets/images/pizza-file-com-cream-cheese-card-master.webp
 assets/images/pizza-frango-card-master.webp
 assets/images/pizza-frango-com-catupiry-card-master.webp
 assets/images/pizza-frango-cremoso-card-master.webp
-assets/images/pizza-havaiana-card-master.webp
+assets/images/pizza-havaiana-card-master.png
 assets/images/pizza-lombo-canadense-card-master.webp
 assets/images/pizza-margherita-card-master.webp
 assets/images/pizza-metade-favorita-card-master.webp
@@ -109,7 +110,7 @@ assets/images/promocao-happy-hour-1080.webp
 assets/images/promocao-happy-hour-4k.webp
 assets/images/promocao-happy-hour-720.webp
 assets/images/redbull-site.webp
-assets/images/responsaveis-pai-degua-v7.webp
+assets/images/responsaveis-pai-degua-v8.webp
 assets/images/responsaveis-pai-degua.webp
 assets/images/samash-burguer-salad.webp
 assets/images/smash-burguer-bacon.webp

@@ -16,13 +16,13 @@
   },
   {
     "path": "LISTA_ARQUIVOS_FINAL.txt",
-    "size": 6338,
-    "sha256": "219161f11b72ea9a34c075b5178d602afb5e38433ee3eeafa38d1b2f852eef4d"
+    "size": 6360,
+    "sha256": "282a3a7b907cd790f916f633e76e788fb3e76fedccc670138a3175351e0ab33a"
   },
   {
     "path": "MANIFESTO_ARQUIVOS.json",
-    "size": 23346,
-    "sha256": "6abf83e5bfea1c59d3e08843a70f7e4b4671bbda7a3bb830c0021620da2f7218"
+    "size": 22912,
+    "sha256": "053f9d8d3eea4d5fcec48f2c74fb92c821e00b79cd57080526b6189246a150cc"
   },
   {
     "path": "PROMPT_NOVA_CONVERSA_FINAL_PAIDEGUA.txt",
@@ -38,6 +38,11 @@
     "path": "QA_FINAL_V7.txt",
     "size": 974,
     "sha256": "166e2f76b865afb979efbef303d24e58748354418dd7dc2b215edff8c99062ce"
+  },
+  {
+    "path": "QA_FINAL_V8.txt",
+    "size": 1509,
+    "sha256": "da84210f04a36b099ad97ff7510bcf222da13a754964ae629da331bea45aa33f"
   },
   {
     "path": "README_FINAL.md",
@@ -300,9 +305,9 @@
     "sha256": "5c8bc0bfe3248556f4b9859bb378fb48e6796eb1a1b064999338c7e61556312b"
   },
   {
-    "path": "assets/images/entrada-bolinho-charque-v7.webp",
-    "size": 266134,
-    "sha256": "12c39ffaf842a28c1eeebcb65a7fad29d211b13756b22d0d6dbda114e836910b"
+    "path": "assets/images/entrada-bolinho-frito-molho-branco.png",
+    "size": 322658,
+    "sha256": "b0850a439ee7d5cdb216f0d62a545ef34df1ea517a4a0bec802dfbdb614a4894"
   },
   {
     "path": "assets/images/entrada-bolinho-frito-molho-branco.webp",
@@ -450,9 +455,9 @@
     "sha256": "121dafe7ed140057f294416d5462057e7b74ca0c21cb44425d5ec1a8d31deb82"
   },
   {
-    "path": "assets/images/pizza-havaiana-card-master.webp",
-    "size": 356818,
-    "sha256": "942e15ef46c85819f90f5f0e7b6a4e128b57da321a6df7de31cc61b2e8942cb7"
+    "path": "assets/images/pizza-havaiana-card-master.png",
+    "size": 2717476,
+    "sha256": "5afb88417d9f3366b41fda8ade484a77a20b1b17dc01e133b80050d49aa7f6a5"
   },
   {
     "path": "assets/images/pizza-lombo-canadense-card-master.webp",
@@ -555,7 +560,7 @@
     "sha256": "8a0d5905a4b7002350ab485e708d92f43e2e76cc128077808c6b2b48387e8be9"
   },
   {
-    "path": "assets/images/responsaveis-pai-degua-v7.webp",
+    "path": "assets/images/responsaveis-pai-degua-v8.webp",
     "size": 298768,
     "sha256": "e16aa254afa785b3fc9060e6904942366bcb722b4f17a3ac23195f075e19d170"
   },
@@ -627,17 +632,17 @@
   {
     "path": "index.html",
     "size": 22952,
-    "sha256": "99f6d515087dbaac433f80745e056bed9146b2f709c0035542dae8f25354a375"
+    "sha256": "902a06f59fdec8bac374bc6cc68dc3749959b223d56570b10ac5bb9f8dd0a3b3"
   },
   {
     "path": "js/app.js",
     "size": 16122,
-    "sha256": "87a6c4000268478cd664e6f2d2ea0500f08cbf8a2a6f2f00ddd20044d37b185e"
+    "sha256": "c66fbb92fe4777f7246a3baa6d703e94b01590b63f3770aea946617ec50109f6"
   },
   {
     "path": "js/menu.js",
-    "size": 31597,
-    "sha256": "3f71ec36ecb4a4a1a0da57f329f2c40512d7bf439da16801946d1c977ba231d9"
+    "size": 31589,
+    "sha256": "1cf4e8ac9baa4782df8c63dffc08fe2f634844d9486eddb7aaca1fd67d408b43"
   },
   {
     "path": "manifest.webmanifest",
@@ -646,8 +651,8 @@
   },
   {
     "path": "netlify.toml",
-    "size": 871,
-    "sha256": "6e69057b49b3b70ed3dee1d949d067b2460c4bcc76a52df8b97aaf2b2a1a587b"
+    "size": 1312,
+    "sha256": "e36c3eb46d09aef95a0b7706c9021c9b8999d6edaeb0e36e18c38982f0ea9e4e"
   },
   {
     "path": "scripts/verify-project.mjs",
@@ -656,12 +661,12 @@
   },
   {
     "path": "scripts/verify_project.py",
-    "size": 6994,
-    "sha256": "e727dfa530c630554307f5154a3c8898879dbae4839ef637030969ac5bb2c906"
+    "size": 7940,
+    "sha256": "203f690de4520197c8d627b816fe860a60fead79e01b06c3a366d1df618c3b85"
   },
   {
     "path": "sw.js",
     "size": 1752,
-    "sha256": "77329422367a0c829e8b7a7b3b5ad5521f1a1a99a6fc8f71c52b4bc80c4210f5"
+    "sha256": "86f4c9e1bf573d486e6e5c22fec989c201b74384f6f467533188d99909f4b99a"
   }
 ]

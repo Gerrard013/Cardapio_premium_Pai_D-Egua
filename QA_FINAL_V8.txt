@@ -1,0 +1,39 @@
+PAI D'ÉGUA — QA FINAL V8
+Versão: 20260814-final-entrega-v8
+
+AJUSTES FINAIS CONFIRMADOS
+- Havaiana: assets/images/pizza-havaiana-card-master.png
+- SHA256 Havaiana: 5afb88417d9f3366b41fda8ade484a77a20b1b17dc01e133b80050d49aa7f6a5
+- Bolinho: Bolinho de Macaxeira com Charque
+- Arquivo do bolinho: assets/images/entrada-bolinho-frito-molho-branco.png
+- Descrição: Bolinho crocante de macaxeira com recheio de charque. Consulte disponibilidade no pedido oficial.
+- A descrição do bolinho NÃO menciona molho.
+- SHA256 bolinho: b0850a439ee7d5cdb216f0d62a545ef34df1ea517a4a0bec802dfbdb614a4894
+- Rute/Cley preservados na imagem V8.
+- SHA256 Rute/Cley: e16aa254afa785b3fc9060e6904942366bcb722b4f17a3ac23195f075e19d170
+- História: Em dezembro, a Pai D’Égua completa 10 anos.
+- Coqueiro: https://pedido.anota.ai/loja/paideguapizzasartesanais?f=msa
+- Batista Campos: https://pedido.anota.ai/loja/pai-degua-pizzas-artesanais-1?f=msa
+- Cache/PWA: 20260814-final-entrega-v8
+- As duas imagens finais com nome fixo usam Cache-Control must-revalidate.
+
+VERIFICADOR DO PROJETO
+Categorias: 12
+Pizzas: 31 em 4 categorias
+Massas: 5
+Entradas: 5
+Produtos totais: 96
+
+OK — projeto validado. 114 caminhos conferidos sem ausência.
+
+JAVASCRIPT
+- js/app.js: OK
+- js/menu.js: OK
+- sw.js: OK
+
+HTTP LOCAL
+- /index.html: 200 OK
+- /js/menu.js: 200 OK
+- /assets/images/pizza-havaiana-card-master.png: 200 OK
+- /assets/images/entrada-bolinho-frito-molho-branco.png: 200 OK
+- /assets/images/responsaveis-pai-degua-v8.webp: 200 OK

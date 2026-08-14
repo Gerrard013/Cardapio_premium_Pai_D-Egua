@@ -32,3 +32,16 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# Imagens finais que podem ser substituídas mantendo o mesmo nome.
+[[headers]]
+  for = "/assets/images/pizza-havaiana-card-master.png"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/assets/images/entrada-bolinho-frito-molho-branco.png"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    X-Content-Type-Options = "nosn"
