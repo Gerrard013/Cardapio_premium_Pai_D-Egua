@@ -22,7 +22,7 @@ window.PAIDEGUA_MENU = [
       },
       {
         "name": "Bolinho de Macaxeira com Charque",
-        "image": "assets/images/entrada-bolinho-frito-molho-branco.png?v=20260814-final-entrega-v8",
+        "image": "assets/images/entrada-bolinho-frito-molho-branco.png?v=20260814-bolinho-sem-molho-final-v9",
         "price": "Consulte no pedido oficial",
         "description": "Bolinho crocante de macaxeira com recheio de charque. Consulte disponibilidade no pedido oficial."
       },
