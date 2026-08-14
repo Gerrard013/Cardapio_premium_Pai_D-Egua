@@ -1,0 +1,4 @@
+Baixe também ATUALIZAR_DEPLOY_PAIDEGUA_FINAL_V7.sh para Downloads.
+Execute:
+bash "$HOME/Downloads/ATUALIZAR_DEPLOY_PAIDEGUA_FINAL_V7.sh"
+O script não usa exit e mantém o Terminal aberto.

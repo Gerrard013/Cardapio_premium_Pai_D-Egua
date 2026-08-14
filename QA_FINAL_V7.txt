@@ -1,0 +1,28 @@
+PAI D'ÉGUA — QA FINAL V7
+Versão: 20260814-final-entrega-v7
+
+CONFIRMADO:
+- História Rute/Cley: Em dezembro, a Pai D’Égua completa 10 anos.
+- Imagem Rute/Cley: assets/images/responsaveis-pai-degua-v7.webp
+- SHA256 Rute/Cley: e16aa254afa785b3fc9060e6904942366bcb722b4f17a3ac23195f075e19d170
+- Bolinho: Bolinho de Charque com Molho Branco
+- Imagem bolinho: assets/images/entrada-bolinho-charque-v7.webp
+- SHA256 bolinho: 12c39ffaf842a28c1eeebcb65a7fad29d211b13756b22d0d6dbda114e836910b
+- Pedido Coqueiro: https://pedido.anota.ai/loja/paideguapizzasartesanais?f=msa
+- Pedido Batista Campos: https://pedido.anota.ai/loja/pai-degua-pizzas-artesanais-1?f=msa
+- Quarta-feira: Combo Família / adicional de R$ 19,90
+- Cache/PWA: 20260814-final-entrega-v7
+
+VERIFICADOR:
+Categorias: 12
+Pizzas: 31 em 4 categorias
+Massas: 5
+Entradas: 5
+Produtos totais: 96
+
+OK — projeto validado. 114 caminhos conferidos sem ausência.
+
+JavaScript:
+- js/app.js: OK
+- js/menu.js: OK
+- sw.js: OK
