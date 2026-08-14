@@ -1,5 +1,5 @@
-const CACHE_NAME = 'paidegua-cache-20260814-bolinho-sem-molho-final-v9';
-const CORE = ['/', '/index.html', '/css/styles.css?v=20260814-bolinho-sem-molho-final-v9', '/js/menu.js?v=20260814-bolinho-sem-molho-final-v9', '/js/app.js?v=20260814-bolinho-sem-molho-final-v9', '/manifest.webmanifest', '/assets/brand/logo-pizza-official.png', '/assets/brand/icon-256.png'];
+const CACHE_NAME = 'paidegua-cache-20260814-railway-final-v10';
+const CORE = ['/', '/index.html', '/css/styles.css?v=20260814-railway-final-v10', '/js/menu.js?v=20260814-railway-final-v10', '/js/app.js?v=20260814-railway-final-v10', '/manifest.webmanifest', '/assets/brand/logo-pizza-official.png', '/assets/brand/icon-256.png'];
 self.addEventListener('install', event => { event.waitUntil((async()=>{const cache=await caches.open(CACHE_NAME);await Promise.allSettled(CORE.map(url=>cache.add(url)));self.skipWaiting();})()); });
 self.addEventListener('activate', event => { event.waitUntil((async()=>{const keys=await caches.keys();await Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)));await self.clients.claim();})()); });
 self.addEventListener('fetch', event => {

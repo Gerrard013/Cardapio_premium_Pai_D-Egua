@@ -1,0 +1,12 @@
+{
+  "name": "paidegua-cardapio-premium",
+  "version": "10.0.0",
+  "private": true,
+  "description": "Cardápio Premium Pai D'Égua - G Tech",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

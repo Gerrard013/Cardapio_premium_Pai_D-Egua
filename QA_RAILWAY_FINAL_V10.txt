@@ -1,0 +1,30 @@
+PAI D'ÉGUA — QA RAILWAY FINAL V10
+Versão: 20260814-railway-final-v10
+
+CONFIRMADO
+- Havaiana final: assets/images/pizza-havaiana-card-master.png
+- SHA256 Havaiana: 5afb88417d9f3366b41fda8ade484a77a20b1b17dc01e133b80050d49aa7f6a5
+- Bolinho de Macaxeira com Charque, sem molho
+- Arquivo: assets/images/entrada-bolinho-frito-molho-branco.png
+- SHA256 Bolinho: dc3fb9009eeca322be07a592f99188d0671e356c81cc4d37623472a5e80d178a
+- História dos 10 anos preservada
+- Rute/Cley preservados
+- Coqueiro -> Mult Loja preservado
+- Batista Campos preservado
+- Railway: server.js + package.json + Dockerfile
+- Endpoint de saúde: /health
+
+VERIFICADOR
+Categorias: 12
+Pizzas: 31 em 4 categorias
+Massas: 5
+Entradas: 5
+Produtos totais: 96
+
+OK — projeto validado. 117 caminhos conferidos sem ausência.
+
+NODE
+- server.js: OK
+- js/app.js: OK
+- js/menu.js: OK
+- sw.js: OK

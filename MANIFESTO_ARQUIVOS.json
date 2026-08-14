@@ -1,5 +1,10 @@
 [
   {
+    "path": ".dockerignore",
+    "size": 49,
+    "sha256": "e25ce15d65d864e3831e3e7ddc38cb8700cf7edccd08fde34b5d84a0a040606a"
+  },
+  {
     "path": ".gitignore",
     "size": 32,
     "sha256": "8cb9017ed748b1f0072c5b864ab2c9f099b6489aac269e1689f610faa0e53f51"
@@ -15,14 +20,19 @@
     "sha256": "86a6192c5e30e133e7a010afa1b1db9f24218ac2602a534799ea6f6264f9178d"
   },
   {
+    "path": "Dockerfile",
+    "size": 92,
+    "sha256": "5861964c666945dd637f24e666e18e05fd30494170c95f2c33f362f2753b5cb9"
+  },
+  {
     "path": "LISTA_ARQUIVOS_FINAL.txt",
     "size": 6360,
     "sha256": "282a3a7b907cd790f916f633e76e788fb3e76fedccc670138a3175351e0ab33a"
   },
   {
     "path": "MANIFESTO_ARQUIVOS.json",
-    "size": 22912,
-    "sha256": "053f9d8d3eea4d5fcec48f2c74fb92c821e00b79cd57080526b6189246a150cc"
+    "size": 23059,
+    "sha256": "7c7c1935fbc0d889f95752fddeb3e5d5b11f9e7573f08ac9ff5d07f83903ed13"
   },
   {
     "path": "PROMPT_NOVA_CONVERSA_FINAL_PAIDEGUA.txt",
@@ -45,9 +55,24 @@
     "sha256": "da84210f04a36b099ad97ff7510bcf222da13a754964ae629da331bea45aa33f"
   },
   {
+    "path": "QA_FINAL_V9.txt",
+    "size": 611,
+    "sha256": "26e91d46267dcb2134083c70d44420ec70b8cd1d986af696a29f97ee59bc7440"
+  },
+  {
+    "path": "QA_RAILWAY_FINAL_V10.txt",
+    "size": 855,
+    "sha256": "0dcfd2ae17ba23c5c2ed1f1e7cc2c48be1d211e2714338dec5ce4f8b6c0d393e"
+  },
+  {
     "path": "README_FINAL.md",
     "size": 1587,
     "sha256": "39b7306291d6c2735e29f771a8d1af010cc5a27c04875250ac15bc82913ac3bd"
+  },
+  {
+    "path": "README_RAILWAY_V10.md",
+    "size": 423,
+    "sha256": "fb04dc0f329963987a5846b1a1ae73e5ee6058683be1d343a4896a81840057be"
   },
   {
     "path": "_redirects",
@@ -306,8 +331,8 @@
   },
   {
     "path": "assets/images/entrada-bolinho-frito-molho-branco.png",
-    "size": 322658,
-    "sha256": "b0850a439ee7d5cdb216f0d62a545ef34df1ea517a4a0bec802dfbdb614a4894"
+    "size": 320089,
+    "sha256": "dc3fb9009eeca322be07a592f99188d0671e356c81cc4d37623472a5e80d178a"
   },
   {
     "path": "assets/images/entrada-bolinho-frito-molho-branco.webp",
@@ -565,6 +590,11 @@
     "sha256": "e16aa254afa785b3fc9060e6904942366bcb722b4f17a3ac23195f075e19d170"
   },
   {
+    "path": "assets/images/responsaveis-pai-degua-v9.webp",
+    "size": 298768,
+    "sha256": "e16aa254afa785b3fc9060e6904942366bcb722b4f17a3ac23195f075e19d170"
+  },
+  {
     "path": "assets/images/responsaveis-pai-degua.webp",
     "size": 298768,
     "sha256": "e16aa254afa785b3fc9060e6904942366bcb722b4f17a3ac23195f075e19d170"
@@ -631,18 +661,18 @@
   },
   {
     "path": "index.html",
-    "size": 22952,
-    "sha256": "902a06f59fdec8bac374bc6cc68dc3749959b223d56570b10ac5bb9f8dd0a3b3"
+    "size": 23022,
+    "sha256": "22f692a3472c2a76b350ff24f22ce10749ab24569c67b4d52fd2c50ce8397755"
   },
   {
     "path": "js/app.js",
-    "size": 16122,
-    "sha256": "c66fbb92fe4777f7246a3baa6d703e94b01590b63f3770aea946617ec50109f6"
+    "size": 16123,
+    "sha256": "6b0f2e286f98e40591747a98616e709f0b469759ee86d2a8880eda72d1a59cc8"
   },
   {
     "path": "js/menu.js",
-    "size": 31589,
-    "sha256": "1cf4e8ac9baa4782df8c63dffc08fe2f634844d9486eddb7aaca1fd67d408b43"
+    "size": 31685,
+    "sha256": "deda8684b17b11af228d4f343a5896487f4b1a3629fc7bec79da198e07ea512b"
   },
   {
     "path": "manifest.webmanifest",
@@ -655,18 +685,28 @@
     "sha256": "e36c3eb46d09aef95a0b7706c9021c9b8999d6edaeb0e36e18c38982f0ea9e4e"
   },
   {
+    "path": "package.json",
+    "size": 232,
+    "sha256": "49a60d6ce3f2e73e56dae9dda0291a75df5a8f521b46a221b0f4a7a249a59ef7"
+  },
+  {
     "path": "scripts/verify-project.mjs",
     "size": 4463,
     "sha256": "733d6c7d10785679c9e6219a9570d64c337492b1ea3cdcf500c2607a53eb81b1"
   },
   {
     "path": "scripts/verify_project.py",
-    "size": 7940,
-    "sha256": "203f690de4520197c8d627b816fe860a60fead79e01b06c3a366d1df618c3b85"
+    "size": 7985,
+    "sha256": "c79059fcb4e00898cba7cdf230286ce62bd8581a912db408bd9a05270128756a"
+  },
+  {
+    "path": "server.js",
+    "size": 2647,
+    "sha256": "be8f0940b6fa3378530e5f4ea25f3e1e41f987e04cc5c20dfa7d4e1afc21c5f7"
   },
   {
     "path": "sw.js",
-    "size": 1752,
-    "sha256": "86f4c9e1bf573d486e6e5c22fec989c201b74384f6f467533188d99909f4b99a"
+    "size": 1756,
+    "sha256": "847fe87e1c30d398960d64b1d358a47f9668e48d73073287d799885db50e1402"
   }
 ]

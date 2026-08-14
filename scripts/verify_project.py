@@ -10,7 +10,7 @@ def req(rel):
     if p.exists() and p.stat().st_size>0: ok.append(rel)
     else: fail.append(f'AUSENTE/VAZIO: {rel}')
 
-required=['index.html','css/styles.css','js/menu.js','js/app.js','manifest.webmanifest','netlify.toml','_redirects','sw.js','favicon.ico','apple-touch-icon.png']
+required=['index.html','css/styles.css','js/menu.js','js/app.js','manifest.webmanifest','netlify.toml','_redirects','sw.js','favicon.ico','apple-touch-icon.png','server.js','package.json','Dockerfile']
 for p in required: req(p)
 
 menu_text=(ROOT/'js/menu.js').read_text(encoding='utf-8')
@@ -81,7 +81,7 @@ css=(ROOT/'css/styles.css').read_text(encoding='utf-8')
 if 'productFloatMobile' not in css: fail.append('Movimento mobile dos produtos ausente')
 
 # Cache-busting final obrigatório para evitar imagens antigas no navegador/service worker
-version='20260814-final-entrega-v8'
+version='20260814-railway-final-v10'
 for rel in ['index.html','js/menu.js','sw.js']:
     text=(ROOT/rel).read_text(encoding='utf-8')
     if version not in text: fail.append(f'Versão final de cache ausente em {rel}')
@@ -122,23 +122,23 @@ if 'Em dezembro, a Pai D’Égua completa 10 anos' not in html: fail.append('His
 if 'https://pedido.anota.ai/loja/paideguapizzasartesanais?f=msa' not in html: fail.append('Link Mult Loja do Coqueiro ausente')
 if 'https://pedido.anota.ai/loja/paidegua-pizzas-artesanais?qrcode=' in html: fail.append('Link antigo do Coqueiro ainda presente')
 
-if 'assets/images/entrada-batata-frita.webp?v=20260814-final-entrega-v8' not in menu_text:
+if 'assets/images/entrada-batata-frita.webp?v=20260814-railway-final-v10' not in menu_text:
     fail.append('Batata final não está referenciada com cache-busting novo')
 
-# Ajustes finais V8
+# Ajustes finais V9
 if '"name": "Bolinho de Macaxeira com Charque"' not in menu_text:
     fail.append('Nome final do bolinho de macaxeira com charque ausente')
-if 'assets/images/entrada-bolinho-frito-molho-branco.png?v=20260814-final-entrega-v8' not in menu_text:
+if 'assets/images/entrada-bolinho-frito-molho-branco.png?v=20260814-railway-final-v10' not in menu_text:
     fail.append('Imagem final PNG do bolinho não está referenciada')
-if 'assets/images/pizza-havaiana-card-master.png?v=20260814-final-entrega-v8' not in menu_text:
+if 'assets/images/pizza-havaiana-card-master.png?v=20260814-railway-final-v10' not in menu_text:
     fail.append('Imagem final PNG da Havaiana não está referenciada')
 m_bol = re.search(r'"name": "Bolinho de Macaxeira com Charque".*?"description": "([^"]+)"', menu_text, re.S)
 if not m_bol:
     fail.append('Descrição final do bolinho não encontrada')
 elif 'molho' in m_bol.group(1).lower():
     fail.append('Descrição do bolinho ainda menciona molho')
-if 'responsaveis-pai-degua-v8.webp?v=20260814-final-entrega-v8' not in html:
-    fail.append('Imagem V8 de Rute e Cley não está referenciada')
+if 'responsaveis-pai-degua-v9.webp?v=20260814-railway-final-v10' not in html:
+    fail.append('Imagem V9 de Rute e Cley não está referenciada')
 
 if fail:
     print('\nFALHAS:')

@@ -1,0 +1,13 @@
+PAI D'ÉGUA — FINAL V9
+Versão: 20260814-final-entrega-v9
+
+CONFIRMADO:
+- Havaiana correta: assets/images/pizza-havaiana-card-master.png
+  SHA256: 5afb88417d9f3366b41fda8ade484a77a20b1b17dc01e133b80050d49aa7f6a5
+- Bolinho de Macaxeira com Charque SEM molho: assets/images/entrada-bolinho-frito-molho-branco.png
+  SHA256: 874e7b716f5039379ef7a11e7905091bab1ee9aedeea6f798c6fc5b9bd4174f1
+- Rute/Cley preservados. SHA256: e16aa254afa785b3fc9060e6904942366bcb722b4f17a3ac23195f075e19d170
+- História 10 anos preservada.
+- Coqueiro Mult Loja preservado.
+- Batista Campos preservado.
+- Cache/PWA atualizado para V9.
