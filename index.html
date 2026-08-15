@@ -4,16 +4,16 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
 <meta content="#17090b" name="theme-color"/>
-<meta content="20260814-railway-final-v10" name="build-version"/>
+<meta content="20260815-railway-final-v12" name="build-version"/>
 <meta content="Cardápio Premium da Pai D'Égua — entradas primeiro e 31 pizzas organizadas por categorias, além de burgers, massas, bebidas, promoções, eventos e unidades." name="description"/>
 <title>Pai D'Égua — Cardápio Premium</title>
 <link href="assets/brand/icon-256.png" rel="icon" type="image/png"/>
 <link href="manifest.webmanifest" rel="manifest"/>
 <link as="image" href="assets/images/hero-metade-favorita-mobile-master.webp" media="(max-width: 720px)" rel="preload"/>
 <link as="image" href="assets/images/hero-desktop-ofc-22-07-2026.webp" media="(min-width: 721px)" rel="preload"/>
-<link href="css/styles.css?v=20260814-railway-final-v10" rel="stylesheet"/>
-<script defer="" src="js/menu.js?v=20260814-railway-final-v10"></script>
-<script defer="" src="js/app.js?v=20260814-railway-final-v10"></script>
+<link href="css/styles.css?v=20260815-railway-final-v12" rel="stylesheet"/>
+<script defer="" src="js/menu.js?v=20260815-railway-final-v12"></script>
+<script defer="" src="js/app.js?v=20260815-railway-final-v12"></script>
 <link href="favicon.ico" rel="icon" type="image/x-icon"/><link href="apple-touch-icon.png" rel="apple-touch-icon"/></head>
 <body>
 <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
@@ -43,7 +43,7 @@
 <span></span><span></span>
 </button>
 <div class="menu-panel" id="menu-panel">
-<nav aria-label="Navegação principal" class="main-nav"><a href="#inicio">Início</a><a href="#entradas">Entradas</a><a href="#pizzas">Pizzas</a><a href="#burgers">Burgers</a><a href="#massas">Massas</a><a href="#bebidas">Bebidas</a><a href="#unidades">Unidades</a></nav>
+<nav aria-label="Navegação principal" class="main-nav"><a href="#inicio">Início</a><a href="#entradas">Entradas</a><a href="#pizzas">Pizzas</a><a href="#burgers">Burgers</a><a href="#massas">Massas</a><a href="#salada">Saladas</a><a href="#bebidas">Bebidas</a><a href="#unidades">Unidades</a></nav>
 <button class="button button--gold button--compact" data-order-choice="" type="button">Pedir agora</button>
 </div>
 </header>
@@ -164,7 +164,7 @@
 <section aria-labelledby="historia-title" class="story-showcase section-shell" id="historia">
 <div class="story-card reveal">
 <div class="story-card__media">
-<img alt="Rute e Cley, responsáveis pela história da Pai D’Égua" decoding="async" loading="lazy" src="assets/images/responsaveis-pai-degua-v9.webp?v=20260814-railway-final-v10"/>
+<img alt="Rute e Cley, responsáveis pela história da Pai D’Égua" decoding="async" loading="lazy" src="assets/images/responsaveis-pai-degua-v9.webp?v=20260815-railway-final-v12"/>
 </div>
 <div class="story-card__content" id="historia-detalhes">
 <p class="eyebrow">Responsáveis por essa história</p>
@@ -191,9 +191,9 @@
 </a>
 <button aria-controls="assistant-panel" aria-expanded="false" class="assistant-trigger" type="button"><span>✦</span> Assistente</button>
 <section aria-label="Assistente Pai D'Égua" class="assistant-panel" hidden="" id="assistant-panel">
-<header><div><span>✦</span><div><strong>Assistente Pai D'Égua</strong><small>Respostas rápidas para escolher melhor</small></div></div><button aria-label="Fechar assistente" data-close-assistant="" type="button">×</button></header>
-<div aria-live="polite" class="assistant-messages"><div class="assistant-message assistant-message--bot">Olá! Seja bem-vindo à Pai D’Égua. Posso te ajudar a escolher a pizza ideal, um burger especial, a melhor promoção do dia ou a unidade certa para pedir agora.</div></div>
-<div class="assistant-chips"><button type="button">Quero pedir agora</button><button type="button">Promoções de hoje</button><button type="button">Pizza Express</button><button type="button">Quero uma pizza</button><button type="button">Quero um burger</button><button type="button">Quero uma massa</button><button type="button">Ver entradas</button><button type="button">Fazer evento</button></div>
+<header><div><span>✦</span><div><strong>Assistente Pai D'Égua</strong><small data-assistant-status="">Assistente inteligente • pronto para ajudar</small></div></div><button aria-label="Fechar assistente" data-close-assistant="" type="button">×</button></header>
+<div aria-live="polite" class="assistant-messages"><div class="assistant-message assistant-message--bot">Olá! Eu sou o assistente da Pai D’Égua. Me diga o que você está com vontade de comer e eu posso comparar opções, sugerir combinações e ajudar você a escolher melhor.</div></div>
+<div class="assistant-chips"><button type="button">Me indica uma pizza</button><button type="button">Quero algo para 2 pessoas</button><button type="button">Tenho até R$ 70</button><button type="button">Promoções de hoje</button><button type="button">Quero um burger</button><button type="button">Quero uma massa</button><button type="button">Ver entradas</button><button type="button">Fazer evento</button></div>
 <form class="assistant-form"><label class="sr-only" for="assistant-input">Digite sua dúvida</label><input autocomplete="off" id="assistant-input" maxlength="120" placeholder="Ex.: onde fica a unidade?"/><button aria-label="Enviar" type="submit">→</button></form>
 </section>
 <dialog aria-labelledby="order-choice-title" class="order-choice-dialog" id="order-choice-dialog">

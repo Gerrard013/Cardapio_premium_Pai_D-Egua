@@ -1,0 +1,32 @@
+PAI D'ÉGUA — QA IA GROQ FINAL V11
+Versão: 20260815-railway-final-v12
+
+VALIDADO
+- Backend Railway: server.js
+- Endpoint IA: POST /api/assistant
+- Provider: Groq via variável GROQ_API_KEY
+- Modelo configurável via GROQ_MODEL
+- Chave não exposta no frontend
+- Histórico curto de conversa enviado à IA
+- Catálogo do js/menu.js carregado no backend
+- Contexto relevante por categoria/produto
+- Recomendações e comparações orientadas por preferência
+- Proibição explícita de inventar preços/ingredientes/horários
+- Fallback local se Groq falhar ou não estiver configurado
+- Rate limit básico: 30 mensagens / 10 min por IP
+- Timeout da IA: 15 s
+- /health informa apenas se Groq está configurado, sem expor segredo
+- JavaScript: sintaxe OK
+- Teste local sem chave: fallback OK
+
+VERIFICADOR
+Categorias: 12
+Pizzas: 31 em 4 categorias
+Massas: 5
+Entradas: 5
+Produtos totais: 96
+
+OK — projeto validado. 117 caminhos conferidos sem ausência.
+
+HEALTH LOCAL
+{"ok": true, "version": "20260815-railway-final-v12", "ai": {"provider": "groq", "configured": false, "model": "llama-3.3-70b-versatile"}}

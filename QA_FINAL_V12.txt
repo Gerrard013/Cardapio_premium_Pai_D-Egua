@@ -1,0 +1,9 @@
+PAI D'ÉGUA — QA FINAL V12
+Versão: 20260815-railway-final-v12
+
+OK
+- Havaiana nova aplicada
+- SHA256 Havaiana: eea980047c357c61a8a76dc1c4013e910471e5e9c6d718f4a7495078ad5afb20
+- Saladas adicionada ao menu principal/mobile
+- Cache version atualizado
+- Railway pronto para deploy via GitHub

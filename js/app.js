@@ -116,34 +116,85 @@
   }
 
   function initAssistant(){
-    const trigger=$('.assistant-trigger'),panel=$('#assistant-panel'),closeBtn=$('[data-close-assistant]'),form=$('.assistant-form'),input=$('#assistant-input'),messages=$('.assistant-messages'); if(!trigger||!panel)return;
-    const setOpen=open=>{panel.hidden=!open;trigger.setAttribute('aria-expanded',String(open));if(open)setTimeout(()=>input?.focus(),60);};
+    const trigger=$('.assistant-trigger'),panel=$('#assistant-panel'),closeBtn=$('[data-close-assistant]'),form=$('.assistant-form'),input=$('#assistant-input'),messages=$('.assistant-messages'),status=$('[data-assistant-status]'); if(!trigger||!panel)return;
+    const history=[];
+    const setOpen=open=>{panel.hidden=!open;trigger.setAttribute('aria-expanded',String(open));if(open){setTimeout(()=>input?.focus(),60);checkStatus();}};
     trigger.addEventListener('click',()=>setOpen(panel.hidden));closeBtn?.addEventListener('click',()=>setOpen(false));
-    const add=(text,type)=>{const div=document.createElement('div');div.className=`assistant-message assistant-message--${type}`;div.innerHTML=text;messages.append(div);messages.scrollTop=messages.scrollHeight;};
+
+    const add=(text,type,{html=false,temporary=false}={})=>{
+      const div=document.createElement('div');
+      div.className=`assistant-message assistant-message--${type}`;
+      if(temporary)div.dataset.temporary='true';
+      if(html)div.innerHTML=text;else div.textContent=text;
+      messages.append(div);
+      messages.scrollTop=messages.scrollHeight;
+      return div;
+    };
+
     const answer=q=>{const s=q.toLowerCase();
-      if(/atum/.test(s))return 'A pizza de Atum foi retirada do catálogo atual. Veja as <a href="#pizzas">31 pizzas oficiais</a> disponíveis.';
-      if(/açaí|acai/.test(s)&&/burger|hamb/.test(s))return 'O <strong>Burger Pai D’Égua: Açaí</strong> é carro-chefe: pão brioche, blend de 160 g, queijo do Marajó, charque de primeira e maionese de açaí. Veja em <a href="#burgers">Burgers</a>.';
-      if(/massa|penne|farfalle|bavette|mignon/.test(s))return 'Temos cinco opções na seção <a href="#massas">Massas</a>, incluindo Monte sua Massa, Farfalle de Camarão, Mignon ao Penne, Bavette à Parisiense e Penne com Calabresa e Bacon.';
-      if(/entrada|camarão empanado|bolinho|pastel|macaxeira|batata/.test(s))return 'Veja as porções na seção <a href="#entradas">Entradas</a>. Valores não confirmados aparecem como “Consulte no pedido oficial”.';
-      if(/delivery|retirada normal|tempo de preparo|fila|quero pedir agora/.test(s))return 'No delivery e na retirada você encontra o cardápio completo. Vá para <a href="#pedido">Pedido oficial</a> e escolha sua unidade.';
-      if(/promo|segunda|terça|terca|quarta|quinta|sexta|happy hour/.test(s))return 'As promoções atualizadas estão em <a href="#promocoes">Promoções</a>: segunda Pague M, Leve G; terça da Sobremesa; quarta Combo Família; quinta das Bordas; sexta do Buteco. Confirme disponibilidade no canal oficial.';
-      if(/unidade|onde|endereço|endereco|mapa|coqueiro|batista/.test(s))return 'Coqueiro: Tv. We 6 Cj Satélite, 454 - Coqueiro, Belém - PA, 66670-420, Brasil. Batista Campos: R. dos Mundurucus, 1427 - Batista Campos, Belém - PA, 66033-716. Abra <a href="#unidades">Unidades</a> para rota, pedido e WhatsApp correto.';
-      if(/pizza express|express|rápida|rapida/.test(s))return 'A Pizza Express tem retirada rápida e sabor do dia. Consulte a equipe antes de sair.';
-      if(/evento|anivers|confratern|família|familia|bolo|roleta/.test(s))return 'Veja <a href="#eventos">Eventos</a>: há opções para grupos, Mesa do Bolo de segunda a quinta por R$ 49,90 e campanha de aniversariantes com avaliação e roleta. Confirme regras e disponibilidade na unidade.';
-      if(/burger|hamb|smash/.test(s))return 'Conheça as assinaturas paraenses, artesanais e smash em <a href="#burgers">Burgers</a>.';
-      if(/pizza|sabor/.test(s))return 'As pizzas estão separadas em quatro categorias a partir de <a href="#pizzas">Pizzas Tradicionais</a>, com 31 sabores oficiais. Toque em um card para ver ingredientes e preço confirmado.';
-      if(/vinho|chopp/.test(s))return 'Veja as opções em <a href="#vinhos-chopp">Vinhos & chopp</a>.';
-      if(/suco|tapereb|cupua|muruci|acerola|graviola/.test(s))return 'Os sabores de frutas estão em <a href="#sucos">Sucos</a>.';
-      if(/pedido|comprar|valor|preço|preco/.test(s))return 'Os valores atualizados ficam no <a href="#pedido">Pedido oficial</a>. Quando o preço não está confirmado no material, o card orienta consultar a unidade.';
-      if(/instagram|insta|rede social|gtech/.test(s))return 'A história de Rute e Cley e os perfis oficiais estão em <a href="#historia">Responsáveis por essa história</a>. O crédito da G Tech fica discretamente no rodapé.';
-      if(/whatsapp|dúvida|duvida|falar/.test(s))return 'Abra <a href="#unidades">Unidades</a> e escolha Coqueiro ou Batista Campos para falar no WhatsApp correto.';
-      return 'Posso ajudar com pizzas, burgers, entradas, massas, bebidas, promoções, eventos, unidades e pedido oficial.';};
-    const send=q=>{q=q.trim();if(!q)return;add(escapeHTML(q),'user');setTimeout(()=>add(answer(q),'bot'),220);};
-    form?.addEventListener('submit',e=>{e.preventDefault();const q=input.value;input.value='';send(q);});$$('.assistant-chips button').forEach(btn=>btn.addEventListener('click',()=>send(btn.textContent)));messages?.addEventListener('click',e=>{if(e.target.matches('a[href^="#"]'))setOpen(false);});
+      if(/atum/.test(s))return 'A pizza de Atum foi retirada do catálogo atual. Temos 31 pizzas oficiais disponíveis.';
+      if(/açaí|acai/.test(s)&&/burger|hamb/.test(s))return 'O Burger Pai D’Égua: Açaí é uma opção marcante, com pão brioche, blend de 160 g, queijo do Marajó, charque de primeira e maionese de açaí.';
+      if(/massa|penne|farfalle|bavette|mignon/.test(s))return 'Temos cinco massas: Monte sua Massa, Farfalle de Camarão, Mignon ao Penne, Bavette à Parisiense e Penne com Calabresa e Bacon.';
+      if(/entrada|camarão empanado|bolinho|pastel|macaxeira|batata/.test(s))return 'Nas entradas você encontra Camarão Empanado, Batata Frita, Bolinho de Macaxeira com Charque, Pastelzinhos e Macaxeira Frita. Posso te ajudar a escolher entre elas.';
+      if(/promo|segunda|terça|terca|quarta|quinta|sexta/.test(s))return 'As promoções atuais são: segunda Pague M, Leve G; terça da Sobremesa; quarta Combo Família; quinta das Bordas; sexta do Buteco. A disponibilidade deve ser confirmada no pedido oficial.';
+      if(/unidade|onde|endereço|endereco|mapa|coqueiro|batista/.test(s))return 'Coqueiro: Tv. We 6 Cj Satélite, 454. Batista Campos: R. dos Mundurucus, 1427. Para pedido ou WhatsApp, escolha a unidade correta no site.';
+      if(/evento|anivers|confratern|família|familia|bolo|roleta/.test(s))return 'A Pai D’Égua recebe eventos, grupos e aniversários. A Mesa do Bolo funciona de segunda a quinta por R$ 49,90, conforme disponibilidade da unidade.';
+      if(/burger|hamb|smash/.test(s))return 'Temos burgers artesanais, opções paraenses e smash. Me diga se você prefere algo mais clássico, regional ou bem recheado que eu te indico uma opção.';
+      if(/pizza|sabor/.test(s))return 'Temos 31 pizzas em quatro categorias. Me diga se você prefere carne, frango, camarão, calabresa ou algo mais clássico que eu te indico 2 ou 3 opções.';
+      if(/pedido|comprar|valor|preço|preco/.test(s))return 'Posso te ajudar a escolher. Os valores confirmados aparecem no cardápio; quando um valor não está confirmado, consulte o pedido oficial da unidade.';
+      return 'Posso te ajudar a escolher de forma mais certeira. Me diga o que você está com vontade de comer, para quantas pessoas e, se quiser, uma faixa de valor.';
+    };
+
+    const checkStatus=async()=>{
+      try{
+        const r=await fetch('/health',{cache:'no-store'});
+        const data=await r.json();
+        if(status)status.textContent=data?.ai?.configured?'IA Groq ativa • recomendações personalizadas':'Assistente inteligente • modo local disponível';
+      }catch{
+        if(status)status.textContent='Assistente inteligente • pronto para ajudar';
+      }
+    };
+
+    const askAI=async q=>{
+      const r=await fetch('/api/assistant',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({message:q,history:history.slice(-8)})
+      });
+      if(!r.ok)throw new Error('AI_UNAVAILABLE');
+      const data=await r.json();
+      if(!data?.reply)throw new Error('AI_EMPTY');
+      return data.reply;
+    };
+
+    const send=async q=>{
+      q=q.trim();if(!q)return;
+      add(q,'user');
+      history.push({role:'user',content:q});
+      input.disabled=true;
+      const typing=add('Pensando na melhor opção para você…','bot',{temporary:true});
+      try{
+        const reply=await askAI(q);
+        typing.remove();
+        add(reply,'bot');
+        history.push({role:'assistant',content:reply});
+      }catch{
+        typing.remove();
+        const fallback=answer(q);
+        add(fallback,'bot');
+        history.push({role:'assistant',content:fallback});
+      }finally{
+        input.disabled=false;
+        input.focus();
+      }
+    };
+
+    form?.addEventListener('submit',e=>{e.preventDefault();const q=input.value;input.value='';send(q);});
+    $$('.assistant-chips button').forEach(btn=>btn.addEventListener('click',()=>send(btn.textContent)));
   }
 
   function initSmoothAnchors(){document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(!a)return;const href=a.getAttribute('href');if(href==='#')return;const target=$(href);if(!target)return;e.preventDefault();target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});history.replaceState(null,'',href);});}
-  function initServiceWorker(){if('serviceWorker' in navigator && location.protocol!=='file:')window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js?v=20260814-railway-final-v10').catch(err=>console.warn('Service worker não registrado:',err)));}
+  function initServiceWorker(){if('serviceWorker' in navigator && location.protocol!=='file:')window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js?v=20260815-railway-final-v12').catch(err=>console.warn('Service worker não registrado:',err)));}
 
   document.addEventListener('DOMContentLoaded',()=>{renderMenuSections();initImageFallbacks();initIntro();initNav();initSmoothAnchors();const io=initReveal();initExpand(io);initProductDialog();initOrderChoice();initAssistant();initCardMotion();initServiceWorker();});
 })();
