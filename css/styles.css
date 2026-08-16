@@ -292,3 +292,14 @@
 .unit-card__actions>a:last-child{grid-column:1/-1;justify-self:start}
 .product-dialog__contacts{margin-top:10px}
 @media(max-width:699px){.unit-card__actions{left:auto;right:auto;bottom:auto}.unit-card>p{margin-top:40px}.unit-card__actions{grid-template-columns:1fr}.unit-card__actions .button--small,.unit-card__actions>a:last-child{grid-column:1}}
+
+/* Mobile stability V14: less GPU pressure on iOS without lowering image quality. */
+@media (max-width:820px){
+  .topbar{backdrop-filter:none;-webkit-backdrop-filter:none;background:rgba(10,4,5,.96)}
+  .product-dialog::backdrop{backdrop-filter:none}
+  .product-card img{transition:opacity .28s ease;transform:none!important}
+  .product-card.is-visible img{transform:none!important}
+  .highlight-card:hover img,.product-card:hover img{transform:none!important}
+  .product-card--contain img{filter:none}
+  .reveal{transition:opacity .45s ease,transform .45s ease}
+}

@@ -5,7 +5,7 @@ const vm = require("vm");
 
 const ROOT = __dirname;
 const PORT = Number(process.env.PORT || 3000);
-const VERSION = "20260816-railway-performance-final-v13";
+const VERSION = "20260816-railway-mobile-stable-v14";
 const GROQ_API_KEY = String(process.env.GROQ_API_KEY || "").trim();
 const GROQ_MODEL = String(process.env.GROQ_MODEL || "llama-3.3-70b-versatile").trim();
 const GROQ_API_URL = String(
@@ -33,7 +33,9 @@ function cacheHeader(rel) {
     rel === "sw.js" ||
     rel.startsWith("js/") ||
     rel.startsWith("css/") ||
-    rel === "manifest.webmanifest"
+    rel === "manifest.webmanifest" ||
+    rel.endsWith("pizza-havaiana-card-master.png") ||
+    rel.endsWith("entrada-bolinho-frito-molho-branco.png")
   ) {
     return "no-store, max-age=0";
   }

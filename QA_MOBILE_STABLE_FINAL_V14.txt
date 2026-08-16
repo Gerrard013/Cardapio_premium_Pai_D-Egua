@@ -1,0 +1,34 @@
+PAI D'ÉGUA — MOBILE STABLE FINAL V14
+Versão: 20260816-railway-mobile-stable-v14
+
+VALIDADO
+- Projeto completo preservado
+- Assistente IA Groq preservado
+- Saladas preservada no menu
+- Havaiana correta preservada na origem
+- Variantes de card 720 px geradas com qualidade 82
+- Variantes de exibição 1280 px geradas com qualidade 86
+- Cards não carregam os arquivos gigantes originais
+- Modal usa a variante 1280 px de melhor qualidade
+- Service Worker NÃO intercepta /assets/images/ no iOS/Safari
+- Cache das imagens fica por conta do navegador + Railway
+- Blur/zoom GPU reduzidos apenas no mobile <=820 px
+- Desktop mantém comportamento visual
+
+VARIANTES
+- Card 720: 105
+- Display 1280: 105
+- Pasta de imagens total: 65.9 MB (inclui originais + variantes)
+
+HAVAIANA
+- Original preservado: 3202 KB
+- Card 720: 103 KB
+- Display 1280: 302 KB
+
+VERIFICADOR
+Categorias: 12
+Pizzas: 31 em 4 categorias
+Massas: 5
+Entradas: 5
+Produtos totais: 96
+OK — projeto validado. 120 caminhos conferidos sem ausência.
