@@ -1,0 +1,42 @@
+PAI D'ÉGUA — PERFORMANCE FINAL V13
+Versão: 20260816-railway-performance-final-v13
+
+VALIDADO
+- Projeto completo preservado
+- 31 pizzas / 5 entradas / 5 massas / 96 produtos
+- Havaiana correta preservada e convertida para WebP
+- Bolinho de Macaxeira com Charque preservado e convertido para WebP
+- Saladas preservada no menu
+- Assistente IA Groq preservado
+- Railway/Dockerfile/server.js preservados
+- Lazy loading mantido
+- Produtos ocultos continuam sem baixar imagem antes de "Ver todos"
+- Cards agora usam srcset/sizes
+- Variantes mobile de 768 px geradas
+- Modal usa imagem responsiva
+- Hero usa candidato mobile e preload
+- Assets versionados usam cache forte no Railway
+- Service worker usa cache-first para imagens já baixadas
+
+PESO DAS IMAGENS
+Antes: 31.4 MB
+Depois (incluindo variantes mobile extras): 28.4 MB
+Arquivos full reotimizados: 105
+Variantes mobile: 106
+
+HAVAIANA
+Full WebP: 264 KB
+Mobile 768: 78 KB
+
+BOLINHO
+Full WebP: 133 KB
+Mobile 768: 69 KB
+
+VERIFICADOR
+Categorias: 12
+Pizzas: 31 em 4 categorias
+Massas: 5
+Entradas: 5
+Produtos totais: 96
+
+OK — projeto validado. 120 caminhos conferidos sem ausência.

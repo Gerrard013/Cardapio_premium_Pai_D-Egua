@@ -5,6 +5,15 @@
   const FALLBACK_PRICE = 'Consulte no pedido oficial';
   const FALLBACK_DESCRIPTION = 'Confira os detalhes e a disponibilidade no pedido oficial.';
   const escapeHTML = value => String(value ?? '').replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]));
+  const responsiveImage = url => {
+    const raw=String(url||'');
+    const parts=raw.split('?');
+    const base=parts[0];
+    const query=parts[1]?`?${parts[1]}`:'';
+    const dot=base.lastIndexOf('.');
+    const mobile=(dot>-1?base.slice(0,dot):base)+'-768.webp'+query;
+    return {full:raw,mobile};
+  };
 
   function renderMenuSections(){
     const primary=$('#menu-sections-primary');
@@ -29,7 +38,10 @@
         Object.assign(card.dataset,{openProduct:'',name:item.name,image:item.image,price:item.price||FALLBACK_PRICE,description:item.description||FALLBACK_DESCRIPTION});
         const isInitiallyVisible=index<section.initial;
         if(!isInitiallyVisible) card.hidden=true;
-        const imageAttr=isInitiallyVisible?`src="${escapeHTML(item.image)}"`:`data-src="${escapeHTML(item.image)}"`;
+        const responsive=responsiveImage(item.image);
+        const imageAttr=isInitiallyVisible
+          ?`src="${escapeHTML(responsive.mobile)}" srcset="${escapeHTML(responsive.mobile)} 768w, ${escapeHTML(responsive.full)} 1400w" sizes="(max-width: 820px) 94vw, (max-width: 1100px) 46vw, 31vw"`
+          :`data-src="${escapeHTML(responsive.mobile)}" data-full-src="${escapeHTML(responsive.full)}" data-srcset="${escapeHTML(responsive.mobile)} 768w, ${escapeHTML(responsive.full)} 1400w"`;
         card.innerHTML=`<div class="product-card__media"><img ${imageAttr} alt="${escapeHTML(item.name)}" loading="lazy" decoding="async" fetchpriority="low"></div><div class="product-card__content">${item.badge?`<span class="product-card__badge">${escapeHTML(item.badge)}</span>`:''}<small>${escapeHTML(section.title)}</small><h3>${escapeHTML(item.name)}</h3><strong class="product-card__price">${escapeHTML(item.price||FALLBACK_PRICE)}</strong><span class="product-card__action">Ver detalhes</span></div>`;
         grid.append(card);
       });
@@ -92,14 +104,14 @@
   }
 
   function initExpand(io){
-    $$('[data-expand]').forEach(btn=>btn.addEventListener('click',()=>{const section=btn.closest('.menu-section'),expanded=btn.getAttribute('aria-expanded')==='true';if(expanded){const initial=window.PAIDEGUA_MENU.find(s=>s.id===section.id)?.initial||4;$$('.product-card',section).forEach((card,index)=>{if(index>=initial)card.hidden=true;});btn.textContent='Ver todos';btn.setAttribute('aria-expanded','false');section.scrollIntoView({behavior:'smooth',block:'start'});}else{$$('.product-card[hidden]',section).forEach(card=>{const img=$('img[data-src]',card);if(img){img.src=img.dataset.src;img.removeAttribute('data-src');}card.hidden=false;io?.observe(card);requestAnimationFrame(()=>card.classList.add('is-visible'));});btn.textContent='Mostrar menos';btn.setAttribute('aria-expanded','true');}}));
+    $$('[data-expand]').forEach(btn=>btn.addEventListener('click',()=>{const section=btn.closest('.menu-section'),expanded=btn.getAttribute('aria-expanded')==='true';if(expanded){const initial=window.PAIDEGUA_MENU.find(s=>s.id===section.id)?.initial||4;$$('.product-card',section).forEach((card,index)=>{if(index>=initial)card.hidden=true;});btn.textContent='Ver todos';btn.setAttribute('aria-expanded','false');section.scrollIntoView({behavior:'smooth',block:'start'});}else{$$('.product-card[hidden]',section).forEach(card=>{const img=$('img[data-src]',card);if(img){img.src=img.dataset.src;if(img.dataset.srcset)img.srcset=img.dataset.srcset;img.removeAttribute('data-src');img.removeAttribute('data-srcset');}card.hidden=false;io?.observe(card);requestAnimationFrame(()=>card.classList.add('is-visible'));});btn.textContent='Mostrar menos';btn.setAttribute('aria-expanded','true');}}));
   }
 
   function initProductDialog(){
     const dialog=$('#product-dialog'); if(!dialog)return;
     const image=$('img',dialog),title=$('h2',dialog),price=$('[data-dialog-price]',dialog),description=$('[data-dialog-description]',dialog);
-    document.addEventListener('click',e=>{const card=e.target.closest('[data-open-product]');if(!card)return;const stage=image.closest('.product-dialog__stage');stage?.classList.remove('image-fallback');stage?.querySelector('.image-fallback__content')?.remove();image.hidden=false;image.src=card.dataset.image;image.alt=card.dataset.name;title.textContent=card.dataset.name;price.textContent=card.dataset.price||FALLBACK_PRICE;description.textContent=card.dataset.description||FALLBACK_DESCRIPTION;dialog.showModal();document.body.classList.add('no-scroll');});
-    const close=()=>{if(dialog.open)dialog.close();document.body.classList.remove('no-scroll');image.removeAttribute('src');};
+    document.addEventListener('click',e=>{const card=e.target.closest('[data-open-product]');if(!card)return;const stage=image.closest('.product-dialog__stage');stage?.classList.remove('image-fallback');stage?.querySelector('.image-fallback__content')?.remove();image.hidden=false;const responsive=responsiveImage(card.dataset.image);image.src=responsive.mobile;image.srcset=`${responsive.mobile} 768w, ${responsive.full} 1400w`;image.sizes='(max-width: 820px) 94vw, 900px';image.alt=card.dataset.name;title.textContent=card.dataset.name;price.textContent=card.dataset.price||FALLBACK_PRICE;description.textContent=card.dataset.description||FALLBACK_DESCRIPTION;dialog.showModal();document.body.classList.add('no-scroll');});
+    const close=()=>{if(dialog.open)dialog.close();document.body.classList.remove('no-scroll');image.removeAttribute('src');image.removeAttribute('srcset');image.removeAttribute('sizes');};
     $('.product-dialog__close',dialog)?.addEventListener('click',close); dialog.addEventListener('cancel',e=>{e.preventDefault();close();}); dialog.addEventListener('click',e=>{if(e.target===dialog)close();}); dialog.addEventListener('close',()=>document.body.classList.remove('no-scroll'));
   }
 
@@ -194,7 +206,7 @@
   }
 
   function initSmoothAnchors(){document.addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(!a)return;const href=a.getAttribute('href');if(href==='#')return;const target=$(href);if(!target)return;e.preventDefault();target.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});history.replaceState(null,'',href);});}
-  function initServiceWorker(){if('serviceWorker' in navigator && location.protocol!=='file:')window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js?v=20260815-railway-final-v12').catch(err=>console.warn('Service worker não registrado:',err)));}
+  function initServiceWorker(){if('serviceWorker' in navigator && location.protocol!=='file:')window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js?v=20260816-railway-performance-final-v13').catch(err=>console.warn('Service worker não registrado:',err)));}
 
   document.addEventListener('DOMContentLoaded',()=>{renderMenuSections();initImageFallbacks();initIntro();initNav();initSmoothAnchors();const io=initReveal();initExpand(io);initProductDialog();initOrderChoice();initAssistant();initCardMotion();initServiceWorker();});
 })();
